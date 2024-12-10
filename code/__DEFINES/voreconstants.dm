@@ -6,6 +6,7 @@
 #define DM_DRAGON "Dragon"
 #define DM_ABSORB "Absorb"
 #define DM_UNABSORB "Un-absorb"
+#define DM_FATTEN "Fatten" // GS13 Edit - Added Fatten mode
 
 #define DIGESTABLE 		(1<<0)
 #define DEVOURABLE		(1<<1)

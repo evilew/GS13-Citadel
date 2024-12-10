@@ -142,7 +142,7 @@
 				ADD_TRAIT(fatty, TRAIT_NO_JUMPSUIT, HELPLESSNESS_TRAIT)
 
 				var/obj/item/clothing/under/jumpsuit = fatty.w_uniform
-				if(istype(jumpsuit))
+				if(istype(jumpsuit) && jumpsuit.modular_icon_location == null)
 					to_chat(fatty, "<span class='warning'>[jumpsuit] can no longer contain your weight!</span>")
 					fatty.dropItemToGround(jumpsuit)
 

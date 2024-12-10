@@ -172,7 +172,7 @@
 
 /datum/quirk/voracious
 	name = "Voracious"
-	desc = "Nothing gets between you and your food. You eat twice as fast as everyone else!"
+	desc = "Nothing gets between you and your food. You eat and recover from stuffing twice as fast, while getting less full!" //GS13 Edit - Changed description
 	value = 1
 	mob_trait = TRAIT_VORACIOUS
 	gain_text = "<span class='notice'>You feel HONGRY.</span>"
