@@ -263,6 +263,7 @@
 	name = "IPC heart"
 	desc = "An electronic pump that regulates hydraulic functions, the electronics have EMP shielding."
 	icon_state = "heart-c"
+	organ_flags = ORGAN_SYNTHETIC // GS13 = Fixes IPC organs decaying, we hope.
 
 /obj/item/organ/heart/freedom
 	name = "heart of freedom"

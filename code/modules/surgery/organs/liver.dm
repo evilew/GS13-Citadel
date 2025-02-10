@@ -96,6 +96,7 @@
 /obj/item/organ/liver/ipc
 	name = "reagent processing liver"
 	icon_state = "liver-c"
+	organ_flags = ORGAN_SYNTHETIC // GS13 = Fixes IPC organs decaying, we hope.
 
 /obj/item/organ/liver/cybernetic
 	name = "basic cybernetic liver"

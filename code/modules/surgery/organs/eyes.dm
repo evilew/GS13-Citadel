@@ -428,6 +428,7 @@
 /obj/item/organ/eyes/ipc
 	name = "ipc eyes"
 	icon_state = "cybernetic_eyeballs"
+	organ_flags = ORGAN_SYNTHETIC // GS13 = Fixes IPC organs decaying, we hope.
 
 /obj/item/organ/eyes/ipc/emp_act(severity)
 	. = ..()
