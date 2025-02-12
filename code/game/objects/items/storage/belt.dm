@@ -149,7 +149,9 @@
 /obj/item/storage/belt/medical/ComponentInitialize()
 	. = ..()
 	var/datum/component/storage/STR = GetComponent(/datum/component/storage)
-	STR.max_w_class = WEIGHT_CLASS_BULKY
+	// GS13 Edit
+	//STR.max_w_class = WEIGHT_CLASS_BULKY
+	// GS13 End Edit
 	STR.max_items = 11
 	STR.max_w_class = WEIGHT_CLASS_NORMAL
 	STR.max_combined_w_class = 24
@@ -202,7 +204,10 @@
 		/obj/item/implanter,
 		/obj/item/pinpointer/crew,
 		/obj/item/reagent_containers/chem_pack,
-		/obj/item/stack/sticky_tape //surgical tape
+		// GS13 Edit
+		/obj/item/stack/sticky_tape, //surgical tape
+		/obj/item/fermichem/pHmeter // chemical analyzer
+		// GS13 End Edit
 		))
 
 /obj/item/storage/belt/medical/surgery_belt_adv
