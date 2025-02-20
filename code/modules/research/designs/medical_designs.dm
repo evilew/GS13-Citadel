@@ -834,6 +834,58 @@
 	category = list("Misc", "Medical Designs")
 	departmental_flags = DEPARTMENTAL_FLAG_MEDICAL
 
+/datum/design/ipc_heart // GS13 ADDITION
+	name = "I.P.C heart"
+	desc = "Allows for the construction of an I.P.C heart."
+	id = "ipc_heart"
+	build_type = PROTOLATHE | MECHFAB
+	materials = list(/datum/material/glass = 400, /datum/material/iron = 800, /datum/material/gold = 300)
+	build_path = /obj/item/organ/heart/ipc
+	category = list("Misc", "Medical Designs")
+	departmental_flags = DEPARTMENTAL_FLAG_MEDICAL | DEPARTMENTAL_FLAG_SCIENCE
+
+/datum/design/ipc_liver // GS13 ADDITION
+	name = "I.P.C reagent processing liver"
+	desc = "Allows for the construction of an I.P.C reagent processing liver."
+	id = "ipc_liver"
+	build_type = PROTOLATHE | MECHFAB
+	materials = list(/datum/material/diamond = 400, /datum/material/iron = 800)
+	build_path = /obj/item/organ/liver/ipc
+	category = list("Misc", "Medical Designs")
+	departmental_flags = DEPARTMENTAL_FLAG_MEDICAL | DEPARTMENTAL_FLAG_SCIENCE
+
+/datum/design/ipc_ears // GS13 ADDITION
+	name = "I.P.C auditory sensors"
+	desc = "Allows for the construction of an I.P.C auditory sensors."
+	id = "ipc_ears"
+	build_type = PROTOLATHE | MECHFAB
+	materials = list(/datum/material/gold = 400, /datum/material/iron = 800)
+	build_path = /obj/item/organ/ears/ipc
+	category = list("Misc", "Medical Designs")
+	departmental_flags = DEPARTMENTAL_FLAG_MEDICAL | DEPARTMENTAL_FLAG_SCIENCE
+
+/datum/design/ipc_tongue // GS13 ADDITION
+	name = "I.P.C positronic voicebox"
+	desc = "Allows for the construction of an I.P.C positronic voicebox."
+	id = "ipc_tongue"
+	build_type = PROTOLATHE | MECHFAB
+	materials = list(/datum/material/gold = 400, /datum/material/iron = 800)
+	build_path = /obj/item/organ/tongue/robot/ipc
+	category = list("Misc", "Medical Designs")
+	departmental_flags = DEPARTMENTAL_FLAG_MEDICAL | DEPARTMENTAL_FLAG_SCIENCE
+
+/datum/design/ipc_eyes // GS13 ADDITION
+	name = "I.P.C eyes"
+	desc = "Allows for the construction of an I.P.C eyes."
+	id = "ipc_eyes"
+	build_type = PROTOLATHE | MECHFAB
+	materials = list(/datum/material/glass = 500, /datum/material/iron = 800)
+	build_path = /obj/item/organ/eyes/ipc
+	category = list("Misc", "Medical Designs")
+	departmental_flags = DEPARTMENTAL_FLAG_MEDICAL | DEPARTMENTAL_FLAG_SCIENCE
+
+
+
 /////////////////////
 ///Surgery Designs///
 /////////////////////

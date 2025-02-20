@@ -79,3 +79,11 @@
 	"reset_module", "purge_module", "remove_module", "freeformcore_module", "asimov_module", "paladin_module", "tyrant_module", "corporate_module",
 	"default_module", "borg_ai_control", "mecha_tracking_ai_control", "aiupload", "intellicard")
 	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 2500)
+
+/datum/techweb_node/ipc_tech
+	id = "ipc_tech"
+	display_name = "I.P.C. parts"
+	description = "I.P.C. parts research."
+	prereq_ids = list("robotics", "posibrain")
+	design_ids = list("ipc_eyes", "ipc_stomach", "ipc_heart", "ipc_liver", "ipc_ears", "ipc_tongue", "ci-power-cord" )
+	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 2000)

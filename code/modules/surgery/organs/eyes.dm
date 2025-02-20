@@ -429,6 +429,7 @@
 	name = "ipc eyes"
 	icon_state = "cybernetic_eyeballs"
 	organ_flags = ORGAN_SYNTHETIC // GS13 = Fixes IPC organs decaying, we hope.
+	flash_protect = 2 // GS13 EDIT Non-organic eyes should be protected from welding flash.
 
 /obj/item/organ/eyes/ipc/emp_act(severity)
 	. = ..()
