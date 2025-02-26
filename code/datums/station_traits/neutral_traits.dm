@@ -19,7 +19,7 @@
 /datum/station_trait/unique_ai
 	name = "Unique AI"
 	trait_type = STATION_TRAIT_NEUTRAL
-	weight = 5
+	weight = 3 //gs13 - lowered this a little
 	show_in_report = TRUE
 	report_message = "For experimental purposes, this station AI might show divergence from default lawset. Do not meddle with this experiment."
 	trait_to_give = STATION_TRAIT_UNIQUE_AI
@@ -86,7 +86,7 @@
 /datum/station_trait/glitched_pdas
 	name = "PDA glitch"
 	trait_type = STATION_TRAIT_NEUTRAL
-	weight = 15
+	weight = 8 //gs13 - lowered by half
 	show_in_report = TRUE
 	report_message = "Something seems to be wrong with the PDAs issued to you all this shift. Nothing too bad though."
 	trait_to_give = STATION_TRAIT_PDA_GLITCHED
@@ -94,7 +94,7 @@
 /datum/station_trait/announcement_intern
 	name = "Announcement Intern"
 	trait_type = STATION_TRAIT_NEUTRAL
-	weight = 1
+	weight = 2 //gs13 - raised slightly, intern's goated
 	show_in_report = TRUE
 	report_message = "Please be nice to him."
 	blacklist = list(/datum/station_trait/announcement_medbot)
@@ -117,11 +117,12 @@
 
 /datum/station_trait/randomizing_station_name
 	name = "Randomizing station name"
+	weight = 10 //gs13 - it didn't have any weight
 	show_in_report = TRUE
 	report_message = "Due to legal reasons or other, we might not be able to settle on a station name."
 	trait_processes = TRUE
 	COOLDOWN_DECLARE(randomizing_cooldown)
-	var/trigger_every = 30 MINUTES
+	var/trigger_every = 90 MINUTES //GS13 - nerfed it a bit, a little too annoying
 	blacklist = list(/datum/station_trait/randomizing_station_name/fast, /datum/station_trait/randomizing_station_name/slow)
 
 /datum/station_trait/randomizing_station_name/on_round_start()
@@ -162,10 +163,12 @@
 
 /datum/station_trait/randomizing_station_name/fast
 	name = "Randomizing station name - Fast"
-	trigger_every = 15 MINUTES
+	trigger_every = 1 HOURS //GS13 - change every 15 minutes is a little too fast
+	weight = 8 //gs13 - it didn't have any weight
 	blacklist = list(/datum/station_trait/randomizing_station_name, /datum/station_trait/randomizing_station_name/slow)
 
 /datum/station_trait/randomizing_station_name/slow
 	name = "Randomizing station name - Slow"
-	trigger_every = 1 HOURS
+	trigger_every = 2 HOURS //GS13 - rounds are long, let's make it REALLY slow
+	weight = 10 //gs13 - it didn't have any weight
 	blacklist = list(/datum/station_trait/randomizing_station_name/fast, /datum/station_trait/randomizing_station_name)

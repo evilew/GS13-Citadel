@@ -132,6 +132,10 @@
 /obj/effect/turf_decal/stripes/line,
 /turf/open/floor/plasteel,
 /area/engineering/main)
+"lL" = (
+/obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden,
+/turf/open/floor/plasteel,
+/area/engineering/main)
 "lY" = (
 /obj/effect/turf_decal/stripes/line,
 /turf/open/floor/plating,
@@ -195,6 +199,13 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
 	dir = 6
 	},
+/turf/open/floor/plasteel,
+/area/engineering/main)
+"vz" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
 /turf/open/floor/plasteel,
 /area/engineering/main)
 "xx" = (
@@ -1275,9 +1286,9 @@ MJ
 MJ
 "}
 (26,1,1) = {"
-fh
-kh
-mB
+Pg
+vz
+lL
 ZY
 Tr
 rT

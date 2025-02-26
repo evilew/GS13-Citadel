@@ -899,9 +899,6 @@
 	dir = 8
 	},
 /obj/effect/decal/cleanable/dirt,
-/obj/effect/mob_spawn/human/skeleton/alive{
-	name = "Bob"
-	},
 /turf/open/floor/plasteel/freezer,
 /area/ruin/powered/snackstore)
 "VL" = (

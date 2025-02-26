@@ -323,8 +323,8 @@
 /turf/open/floor/plating,
 /area/engineering/main)
 "ur" = (
-/obj/machinery/atmospherics/pipe/manifold/supply/hidden{
-	dir = 1
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 4
 	},
 /obj/effect/spawner/structure/window/plasma/reinforced,
 /turf/open/floor/plating,
@@ -472,8 +472,7 @@
 /area/engineering/main)
 "Im" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on{
-	dir = 4;
-	pixel_y = 5
+	dir = 4
 	},
 /turf/open/floor/plasteel,
 /area/engineering/main)
@@ -546,13 +545,6 @@
 "Oj" = (
 /turf/closed/wall/r_wall,
 /area/space/nearstation)
-"Ow" = (
-/obj/machinery/atmospherics/components/unary/vent_pump/on{
-	dir = 4;
-	pixel_y = 5
-	},
-/turf/open/floor/plasteel,
-/area/engineering/main)
 "Po" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
 	dir = 4
@@ -1043,7 +1035,7 @@ Un
 Im
 Un
 Un
-Ow
+mf
 Un
 Un
 to

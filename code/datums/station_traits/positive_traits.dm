@@ -1,6 +1,6 @@
-#define PARTY_COOLDOWN_LENGTH_MIN 6 MINUTES
-#define PARTY_COOLDOWN_LENGTH_MAX 12 MINUTES
-
+#define PARTY_COOLDOWN_LENGTH_MIN 30 MINUTES
+#define PARTY_COOLDOWN_LENGTH_MAX 60 MINUTES
+//GS13 - raised both of these vars, on longer rounds they were really spammy
 
 /datum/station_trait/lucky_winner
 	name = "Lucky winner"
@@ -180,7 +180,7 @@
 
 /datum/station_trait/deathrattle_department/cargo
 	trait_flags = NONE
-	weight = 1
+	weight = 2 //gs13 - raised slightly, they get a little prone to dying
 	department_to_apply_to = DEPARTMENT_BITFLAG_CARGO
 	department_name = "Cargo"
 

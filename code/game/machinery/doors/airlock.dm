@@ -43,7 +43,7 @@
 
 /obj/machinery/door/airlock
 	name = "airlock"
-	icon = 'GainStation13/icons/obj/doors/airlocks/station/public.dmi' //GS13 Edit: perspective sprites
+	icon = 'hyperstation/icons/obj/doors/base.dmi' //GS13 Edit: perspective sprites
 	icon_state = "closed"
 	max_integrity = 300
 	var/normal_integrity = AIRLOCK_INTEGRITY_N
@@ -88,8 +88,13 @@
 	var/wiretypepath = /datum/wires/airlock // which set of per round randomized wires this airlock type has.
 	var/airlock_material //material of inner filling; if its an airlock with glass, this should be set to "glass"
 	//GS13 Edit Start: perspective sprites
-	var/overlays_file = 'GainStation13/icons/obj/doors/airlocks/station/overlays.dmi'
-	var/note_overlay_file = 'GainStation13/icons/obj/doors/airlocks/station/overlays.dmi' //Used for papers and photos pinned to the airlock
+	var/overlays_file = 'hyperstation/icons/obj/doors/overlays.dmi'
+	var/note_overlay_file = 'hyperstation/icons/obj/doors/overlays.dmi' //Used for papers and photos pinned to the airlock
+	var/color_overlay_file = 'hyperstation/icons/obj/doors/color.dmi'
+	var/strip_overlay_file = 'hyperstation/icons/obj/doors/strip.dmi'
+	//colours! modular wow!
+	var/basecolor = ""
+	var/stripcolor = rgb(130,160,90)
 	//GS13 End
 
 	var/cyclelinkeddir = 0
@@ -462,6 +467,8 @@
 	var/mutable_appearance/panel_overlay
 	var/mutable_appearance/weld_overlay
 	var/mutable_appearance/damag_overlay
+	var/mutable_appearance/strip_overlay //gs13 - new airlocks
+	var/mutable_appearance/color_overlay //gs13 - new airlocks
 	var/mutable_appearance/sparks_overlay
 	var/mutable_appearance/note_overlay
 	var/notetype = note_type()
@@ -469,6 +476,12 @@
 	switch(state)
 		if(AIRLOCK_CLOSED)
 			frame_overlay = get_airlock_overlay("closed", icon)
+			//gs13 edit start - colored airlocks
+			color_overlay = get_airlock_overlay("closed", color_overlay_file)
+			strip_overlay = get_airlock_overlay("closed", strip_overlay_file)
+			color_overlay.color = basecolor
+			strip_overlay.color = stripcolor
+			//gs13 edit end
 			if(airlock_material)
 				filling_overlay = get_airlock_overlay("[airlock_material]_closed", overlays_file)
 			else
@@ -497,6 +510,12 @@
 			if(!hasPower())
 				return
 			frame_overlay = get_airlock_overlay("closed", icon)
+			//gs13 edit start - colored airlocks
+			color_overlay = get_airlock_overlay("closed", color_overlay_file)
+			strip_overlay = get_airlock_overlay("closed", strip_overlay_file)
+			color_overlay.color = basecolor
+			strip_overlay.color = stripcolor
+			//gs13 edit end
 			if(airlock_material)
 				filling_overlay = get_airlock_overlay("[airlock_material]_closed", overlays_file)
 			else
@@ -539,6 +558,12 @@
 
 		if(AIRLOCK_CLOSING)
 			frame_overlay = get_airlock_overlay("closing", icon)
+			//gs13 edit start - colored airlocks
+			color_overlay = get_airlock_overlay("closing", color_overlay_file)
+			strip_overlay = get_airlock_overlay("closing", strip_overlay_file)
+			color_overlay.color = basecolor
+			strip_overlay.color = stripcolor
+			//gs13 edit end
 			if(airlock_material)
 				filling_overlay = get_airlock_overlay("[airlock_material]_closing", overlays_file)
 			else
@@ -555,6 +580,12 @@
 
 		if(AIRLOCK_OPEN)
 			frame_overlay = get_airlock_overlay("open", icon)
+			//gs13 edit start - colored airlocks
+			color_overlay = get_airlock_overlay("open", color_overlay_file)
+			strip_overlay = get_airlock_overlay("open", strip_overlay_file)
+			color_overlay.color = basecolor
+			strip_overlay.color = stripcolor
+			//gs13 edit end
 			if(airlock_material)
 				filling_overlay = get_airlock_overlay("[airlock_material]_open", overlays_file)
 			else
@@ -571,6 +602,12 @@
 
 		if(AIRLOCK_OPENING)
 			frame_overlay = get_airlock_overlay("opening", icon)
+			//gs13 edit start - colored airlocks
+			color_overlay = get_airlock_overlay("opening", color_overlay_file)
+			strip_overlay = get_airlock_overlay("opening", strip_overlay_file)
+			color_overlay.color = basecolor
+			strip_overlay.color = stripcolor
+			//gs13 edit end
 			if(airlock_material)
 				filling_overlay = get_airlock_overlay("[airlock_material]_opening", overlays_file)
 			else
@@ -587,6 +624,12 @@
 
 	cut_overlays()
 	add_overlay(frame_overlay)
+	//gs13 edit start - colored airlocks
+	if (basecolor)
+		add_overlay(color_overlay)
+	if (stripcolor)
+		add_overlay(strip_overlay)
+	//gs13 edit end
 	add_overlay(filling_overlay)
 	if(lights_overlay)
 		add_overlay(lights_overlay)

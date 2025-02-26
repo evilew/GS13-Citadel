@@ -6,19 +6,22 @@
 	abandoned = TRUE
 
 /obj/machinery/door/airlock/command
-	icon = 'GainStation13/icons/obj/doors/airlocks/station/command.dmi' //GS13 Edit: perspective sprites
+	basecolor = rgb(0,110,200)
+	stripcolor = rgb(115,200,255)
 	assemblytype = /obj/structure/door_assembly/door_assembly_com
 	wiretypepath = /datum/wires/airlock/command
 	normal_integrity = 450
 
 /obj/machinery/door/airlock/security
-	icon = 'GainStation13/icons/obj/doors/airlocks/station/security.dmi' //GS13 Edit: perspective sprites
+	basecolor = rgb(235,50,50) //gs13 - modular colored airlocks
+	stripcolor = rgb(255, 213, 25) //gs13 - modular colored airlocks
 	assemblytype = /obj/structure/door_assembly/door_assembly_sec
 	wiretypepath = /datum/wires/airlock/security
 	normal_integrity = 450
 
 /obj/machinery/door/airlock/engineering
-	icon = 'GainStation13/icons/obj/doors/airlocks/station/engineering.dmi' //GS13 Edit: perspective sprites
+	basecolor = rgb(235,190,0) //gs13 - modular colored airlocks
+	stripcolor = rgb(50,50,50) //gs13 - modular colored airlocks
 	assemblytype = /obj/structure/door_assembly/door_assembly_eng
 	wiretypepath = /datum/wires/airlock/engineering
 
@@ -26,13 +29,12 @@
 	abandoned = TRUE
 
 /obj/machinery/door/airlock/medical
-	icon = 'GainStation13/icons/obj/doors/airlocks/station/medical.dmi' //GS13 Edit: perspective sprites
+	basecolor = rgb(250,250,250) //gs13 - modular colored airlocks
+	stripcolor = rgb(0,255,255)//gs13 - modular colored airlocks
 	assemblytype = /obj/structure/door_assembly/door_assembly_med
 	wiretypepath = /datum/wires/airlock/medical
 
 /obj/machinery/door/airlock/maintenance
-	name = "maintenance access"
-	icon = 'GainStation13/icons/obj/doors/airlocks/station/maintenance.dmi' //GS13 Edit: perspective sprites
 	assemblytype = /obj/structure/door_assembly/door_assembly_mai
 	normal_integrity = 250
 
@@ -41,18 +43,19 @@
 
 /obj/machinery/door/airlock/maintenance/external
 	name = "external airlock access"
-	icon = 'GainStation13/icons/obj/doors/airlocks/station/maintenanceexternal.dmi' //GS13 Edit: perspective sprites
 	assemblytype = /obj/structure/door_assembly/door_assembly_extmai
 
 /obj/machinery/door/airlock/mining
 	name = "mining airlock"
-	icon = 'GainStation13/icons/obj/doors/airlocks/station/mining.dmi' //GS13 Edit: perspective sprites
+	basecolor = rgb(222, 150, 50) //gs13 - modular colored airlocks
+	stripcolor = rgb(162, 95, 28) //gs13 - modular colored airlocks
 	assemblytype = /obj/structure/door_assembly/door_assembly_min
 	wiretypepath = /datum/wires/airlock/cargo
 
 /obj/machinery/door/airlock/atmos
 	name = "atmospherics airlock"
-	icon = 'GainStation13/icons/obj/doors/airlocks/station/atmos.dmi' //GS13 Edit: perspective sprites
+	basecolor = rgb(131,163,93)
+	stripcolor = ""
 	assemblytype = /obj/structure/door_assembly/door_assembly_atmo
 	wiretypepath = /datum/wires/airlock/engineering
 
@@ -60,22 +63,24 @@
 	abandoned = TRUE
 
 /obj/machinery/door/airlock/research
-	icon = 'GainStation13/icons/obj/doors/airlocks/station/research.dmi' //GS13 Edit: perspective sprites
+	basecolor = rgb(250,250,250) //gs13 - modular colored airlocks
+	stripcolor = rgb(150,30,255) //gs13 - modular colored airlocks
 	assemblytype = /obj/structure/door_assembly/door_assembly_research
 	wiretypepath = /datum/wires/airlock/science
 
 /obj/machinery/door/airlock/freezer
 	name = "freezer airlock"
-	icon = 'GainStation13/icons/obj/doors/airlocks/station/freezer.dmi' //GS13 Edit: perspective sprites
 	assemblytype = /obj/structure/door_assembly/door_assembly_fre
 
 /obj/machinery/door/airlock/science
-	icon = 'GainStation13/icons/obj/doors/airlocks/station/science.dmi' //GS13 Edit: perspective sprites
+	basecolor = rgb(250,250,250) //gs13 - modular colored airlocks
+	stripcolor = rgb(150,30,255) //gs13 - modular colored airlocks
 	assemblytype = /obj/structure/door_assembly/door_assembly_science
 	wiretypepath = /datum/wires/airlock/science
 
 /obj/machinery/door/airlock/virology
-	icon = 'GainStation13/icons/obj/doors/airlocks/station/virology.dmi' //GS13 Edit: perspective sprites
+	basecolor = rgb(250,250,250) //gs13 - modular colored airlocks
+	stripcolor = rgb(0,255,255) //gs13 - modular colored airlocks
 	assemblytype = /obj/structure/door_assembly/door_assembly_viro
 	wiretypepath = /datum/wires/airlock/medical
 
@@ -87,6 +92,8 @@
 /obj/machinery/door/airlock/glass
 	opacity = 0
 	glass = TRUE
+	basecolor = ""
+	stripcolor = ""
 
 /obj/machinery/door/airlock/glass/incinerator
 	autoclose = FALSE
@@ -181,6 +188,7 @@
 	name = "gold airlock"
 	icon = 'GainStation13/icons/obj/doors/airlocks/station/gold.dmi' //GS13 Edit: perspective sprites
 	assemblytype = /obj/structure/door_assembly/door_assembly_gold
+	stripcolor = 0 //gs13 - modular airlocks
 
 /obj/machinery/door/airlock/gold/glass
 	opacity = 0
@@ -190,6 +198,7 @@
 	name = "silver airlock"
 	icon = 'GainStation13/icons/obj/doors/airlocks/station/silver.dmi' //GS13 Edit: perspective sprites
 	assemblytype = /obj/structure/door_assembly/door_assembly_silver
+	stripcolor = 0 //gs13 - modular airlocks
 
 /obj/machinery/door/airlock/silver/glass
 	opacity = 0
@@ -201,6 +210,7 @@
 	assemblytype = /obj/structure/door_assembly/door_assembly_diamond
 	normal_integrity = 1000
 	explosion_block = 2
+	stripcolor = 0 //gs13 - modular airlocks
 
 /obj/machinery/door/airlock/diamond/glass
 	normal_integrity = 950
@@ -212,6 +222,7 @@
 	icon = 'GainStation13/icons/obj/doors/airlocks/station/uranium.dmi' //GS13 Edit: perspective sprites
 	assemblytype = /obj/structure/door_assembly/door_assembly_uranium
 	var/last_event = 0
+	stripcolor = 0 //gs13 - modular airlocks
 
 /obj/machinery/door/airlock/uranium/process()
 	if(world.time > last_event+20)
@@ -233,6 +244,7 @@
 	desc = "No way this can end badly."
 	icon = 'GainStation13/icons/obj/doors/airlocks/station/plasma.dmi' //GS13 Edit: perspective sprites
 	assemblytype = /obj/structure/door_assembly/door_assembly_plasma
+	stripcolor = 0 //gs13 - modular airlocks
 
 /obj/machinery/door/airlock/plasma/temperature_expose(datum/gas_mixture/air, exposed_temperature, exposed_volume)
 	if(exposed_temperature > 300)
@@ -275,6 +287,7 @@
 	icon = 'GainStation13/icons/obj/doors/airlocks/station/bananium.dmi' //GS13 Edit: perspective sprites
 	assemblytype = /obj/structure/door_assembly/door_assembly_bananium
 	doorOpen = 'sound/items/bikehorn.ogg'
+	stripcolor = 0 //gs13 - modular airlocks
 
 /obj/machinery/door/airlock/bananium/glass
 	opacity = 0
@@ -284,6 +297,7 @@
 	name = "sandstone airlock"
 	icon = 'GainStation13/icons/obj/doors/airlocks/station/sandstone.dmi' //GS13 Edit: perspective sprites
 	assemblytype = /obj/structure/door_assembly/door_assembly_sandstone
+	stripcolor = 0 //gs13 - modular airlocks
 
 /obj/machinery/door/airlock/sandstone/glass
 	opacity = 0
@@ -293,6 +307,7 @@
 	name = "wooden airlock"
 	icon = 'GainStation13/icons/obj/doors/airlocks/station/wood.dmi' //GS13 Edit: perspective sprites
 	assemblytype = /obj/structure/door_assembly/door_assembly_wood
+	stripcolor = 0 //gs13 - modular airlocks
 
 /obj/machinery/door/airlock/wood/glass
 	opacity = 0
@@ -304,6 +319,7 @@
 	icon = 'GainStation13/icons/obj/doors/airlocks/shuttle/shuttle.dmi' //GS13 Edit: perspective sprites
 	overlays_file = 'GainStation13/icons/obj/doors/airlocks/shuttle/overlays.dmi' //GS13 Edit: perspective sprites
 	normal_integrity = 400
+	stripcolor = 0 //gs13 - modular airlocks
 
 /obj/machinery/door/airlock/titanium/glass
 	normal_integrity = 350
@@ -315,6 +331,7 @@
 	icon = 'GainStation13/icons/obj/doors/airlocks/clockwork/pinion_airlock.dmi' //GS13 Edit: perspective sprites
 	overlays_file = 'GainStation13/icons/obj/doors/airlocks/clockwork/overlays.dmi' //GS13 Edit: perspective sprites
 	assemblytype = /obj/structure/door_assembly/door_assembly_bronze
+	stripcolor = 0 //gs13 - modular airlocks
 
 /obj/machinery/door/airlock/bronze/seethru
 	assemblytype = /obj/structure/door_assembly/door_assembly_bronze/seethru
@@ -330,6 +347,7 @@
 	icon = 'GainStation13/icons/obj/doors/airlocks/station2/glass.dmi' //GS13 Edit: perspective sprites
 	overlays_file = 'GainStation13/icons/obj/doors/airlocks/station2/overlays.dmi' //GS13 Edit: perspective sprites
 	assemblytype = /obj/structure/door_assembly/door_assembly_public
+	stripcolor = 0 //gs13 - modular airlocks
 
 /obj/machinery/door/airlock/public/glass
 	opacity = 0
@@ -360,6 +378,7 @@
 	overlays_file = 'GainStation13/icons/obj/doors/airlocks/external/overlays.dmi' //GS13 Edit: perspective sprites
 	note_overlay_file = 'GainStation13/icons/obj/doors/airlocks/external/overlays.dmi' //GS13 Edit: perspective sprites
 	assemblytype = /obj/structure/door_assembly/door_assembly_ext
+	stripcolor = 0 //gs13 - modular airlocks
 
 /obj/machinery/door/airlock/external/glass
 	opacity = 0
@@ -377,11 +396,13 @@
 	normal_integrity = 1000
 	security_level = 6
 	explosion_block = 2
+	stripcolor = 0 //gs13 - modular airlocks
 
 /obj/machinery/door/airlock/grunge
 	icon = 'GainStation13/icons/obj/doors/airlocks/centcom/centcom.dmi' //GS13 Edit: perspective sprites
 	overlays_file = 'GainStation13/icons/obj/doors/airlocks/centcom/overlays.dmi' //GS13 Edit: perspective sprites
 	assemblytype = /obj/structure/door_assembly/door_assembly_grunge
+	stripcolor = 0 //gs13 - modular airlocks
 
 /obj/machinery/door/airlock/grunge/abandoned
 	abandoned = TRUE
@@ -400,6 +421,7 @@
 	explosion_block = 2
 	normal_integrity = 400 // reverse engieneerd: 400 * 1.5 (sec lvl 6) = 600 = original
 	security_level = 6
+	stripcolor = 0 //gs13 - modular airlocks
 
 //////////////////////////////////
 /*
@@ -412,6 +434,7 @@
 	overlays_file = 'GainStation13/icons/obj/doors/airlocks/hatch/overlays.dmi' //GS13 Edit: perspective sprites
 	note_overlay_file = 'GainStation13/icons/obj/doors/airlocks/hatch/overlays.dmi' //GS13 Edit: perspective sprites
 	assemblytype = /obj/structure/door_assembly/door_assembly_hatch
+	stripcolor = 0 //gs13 - modular airlocks
 
 /obj/machinery/door/airlock/maintenance_hatch
 	name = "maintenance hatch"
@@ -419,6 +442,7 @@
 	overlays_file = 'GainStation13/icons/obj/doors/airlocks/hatch/overlays.dmi' //GS13 Edit: perspective sprites
 	note_overlay_file = 'GainStation13/icons/obj/doors/airlocks/hatch/overlays.dmi' //GS13 Edit: perspective sprites
 	assemblytype = /obj/structure/door_assembly/door_assembly_mhatch
+	stripcolor = 0 //gs13 - modular airlocks
 
 /obj/machinery/door/airlock/maintenance_hatch/abandoned
 	abandoned = TRUE
@@ -437,6 +461,7 @@
 	normal_integrity = 500
 	security_level = 1
 	damage_deflection = 30
+	stripcolor = 0 //gs13 - modular airlocks
 
 //////////////////////////////////
 /*
@@ -448,6 +473,7 @@
 	icon = 'GainStation13/icons/obj/doors/airlocks/shuttle/shuttle.dmi' //GS13 Edit: perspective sprites
 	overlays_file = 'GainStation13/icons/obj/doors/airlocks/shuttle/overlays.dmi' //GS13 Edit: perspective sprites
 	assemblytype = /obj/structure/door_assembly/door_assembly_shuttle
+	stripcolor = 0 //gs13 - modular airlocks
 
 /obj/machinery/door/airlock/shuttle/glass
 	opacity = 0
@@ -466,6 +492,7 @@
 	aiControlDisabled = 1
 	normal_integrity = 700
 	security_level = 1
+	stripcolor = 0 //gs13 - modular airlocks
 
 //////////////////////////////////
 /*
@@ -484,6 +511,7 @@
 	var/openingoverlaytype = /obj/effect/temp_visual/cult/door
 	var/friendly = FALSE
 	var/stealthy = FALSE
+	stripcolor = 0 //gs13 - modular airlocks
 
 /obj/machinery/door/airlock/cult/Initialize(mapload)
 	. = ..()
@@ -560,6 +588,7 @@
 	overlays_file = 'GainStation13/icons/obj/doors/airlocks/cult/unruned/overlays.dmi' //GS13 Edit: perspective sprites
 	assemblytype = /obj/structure/door_assembly/door_assembly_cult/unruned
 	openingoverlaytype = /obj/effect/temp_visual/cult/door/unruned
+	stripcolor = 0 //gs13 - modular airlocks
 
 /obj/machinery/door/airlock/cult/unruned/friendly
 	friendly = TRUE
@@ -592,6 +621,7 @@
 	damage_deflection = 30
 	normal_integrity = 240
 	var/construction_state = GEAR_SECURE //Pinion airlocks have custom deconstruction
+	stripcolor = 0 //gs13 - modular airlocks
 
 /obj/machinery/door/airlock/clockwork/Initialize(mapload)
 	. = ..()
@@ -705,6 +735,7 @@
 	assemblytype = null
 	glass = TRUE
 	bound_width = 64 // 2x1
+	stripcolor = 0 //gs13 - modular airlocks
 
 /obj/machinery/door/airlock/glass_large/narsie_act()
 	return

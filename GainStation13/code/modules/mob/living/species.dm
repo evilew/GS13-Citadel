@@ -328,7 +328,7 @@
 			FATNESS_LEVEL_BARELYMOBILE,
 			FATNESS_LEVEL_IMMOBILE,
 			"<span class='notice'>You feel less restrained by your fat!</span>",
-			"<span class='danger'>You feel belly smush against the floor!</span>")
+			"<span class='danger'>You feel your belly smush against the floor!</span>")
 		return
 	if(HAS_TRAIT(H, TRAIT_EXTREMELYOBESE))
 		handle_fatness_trait(

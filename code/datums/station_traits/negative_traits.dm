@@ -279,7 +279,7 @@
 	report_message = "A radioactive stormfront is passing through your station's system. Expect an increased likelihood of radiation storms passing over your station, as well the potential for multiple radiation storms to occur during your shift."
 	trait_type = STATION_TRAIT_NEGATIVE
 	trait_flags = NONE
-	weight = 2
+	weight = 0 //GS13 - radstorm bad
 	event_control_path = /datum/round_event_control/radiation_storm
-	weight_multiplier = 1.5
+	weight_multiplier = 0 //GS13 radstorm bad
 	max_occurrences_modifier = 0 //GS13 - radstorm bad

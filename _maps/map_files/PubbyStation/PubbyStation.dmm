@@ -42566,7 +42566,7 @@
 /turf/open/floor/plasteel,
 /area/engineering/atmos)
 "bKZ" = (
-/obj/machinery/atmospherics/pipe/simple/yellow/visible{
+/obj/machinery/atmospherics/pipe/layer_manifold{
 	dir = 4
 	},
 /obj/effect/spawner/structure/window/reinforced,
@@ -44227,7 +44227,7 @@
 /area/engineering/atmos)
 "bPf" = (
 /obj/machinery/atmospherics/pipe/simple/cyan/visible,
-/obj/machinery/atmospherics/pipe/simple/yellow/visible{
+/obj/machinery/atmospherics/pipe/layer_manifold{
 	dir = 4
 	},
 /obj/effect/spawner/structure/window/reinforced,
@@ -45485,7 +45485,7 @@
 "bSi" = (
 /obj/machinery/atmospherics/pipe/simple/cyan/visible,
 /obj/effect/spawner/structure/window/reinforced,
-/obj/machinery/atmospherics/pipe/simple/yellow/visible{
+/obj/machinery/atmospherics/pipe/layer_manifold{
 	dir = 4
 	},
 /turf/open/floor/plating,
@@ -46422,7 +46422,7 @@
 "bUz" = (
 /obj/effect/spawner/structure/window/reinforced,
 /obj/machinery/atmospherics/pipe/simple/cyan/visible,
-/obj/machinery/atmospherics/pipe/simple/purple/visible{
+/obj/machinery/atmospherics/pipe/layer_manifold{
 	dir = 4
 	},
 /turf/open/floor/plating,
@@ -46699,7 +46699,7 @@
 /area/engineering/atmos)
 "bVl" = (
 /obj/effect/spawner/structure/window/reinforced,
-/obj/machinery/atmospherics/pipe/simple/yellow/visible{
+/obj/machinery/atmospherics/pipe/layer_manifold{
 	dir = 4
 	},
 /obj/machinery/atmospherics/pipe/simple/cyan/visible,
@@ -49367,6 +49367,7 @@
 	name = "Atmospherics External Access";
 	req_access_txt = "24"
 	},
+/obj/structure/fans/tiny,
 /turf/open/floor/plating,
 /area/maintenance/disposal/incinerator)
 "cdm" = (
@@ -50275,6 +50276,7 @@
 /obj/structure/cable/yellow{
 	icon_state = "1-2"
 	},
+/obj/structure/fans/tiny,
 /turf/open/floor/plating,
 /area/engineering/main)
 "chw" = (
@@ -51067,6 +51069,7 @@
 	name = "Telecommunications External Access";
 	req_access_txt = "61"
 	},
+/obj/structure/fans/tiny,
 /turf/open/floor/plating,
 /area/tcommsat/computer)
 "clB" = (
@@ -55614,8 +55617,13 @@
 /turf/open/floor/plating,
 /area/maintenance/department/engine)
 "dKs" = (
-/turf/open/floor/catwalk_floor,
-/area/space/station_ruins)
+/obj/effect/mapping_helpers/airlock/cyclelink_helper,
+/obj/machinery/door/airlock/external{
+	name = "Port Docking Bay 1"
+	},
+/obj/structure/fans/tiny,
+/turf/open/floor/plasteel/dark,
+/area/hallway/secondary/entry)
 "dLY" = (
 /obj/structure/table,
 /obj/item/assembly/igniter,
@@ -57171,6 +57179,16 @@
 	},
 /turf/closed/wall,
 /area/science/mixing)
+"gMM" = (
+/obj/effect/mapping_helpers/airlock/cyclelink_helper{
+	dir = 1
+	},
+/obj/machinery/door/airlock/external{
+	name = "Port Docking Bay 1"
+	},
+/obj/structure/fans/tiny,
+/turf/open/floor/plasteel/dark,
+/area/hallway/secondary/entry)
 "gMO" = (
 /obj/structure/plasticflaps/opaque,
 /turf/open/floor/plating,
@@ -58073,6 +58091,14 @@
 	},
 /turf/open/floor/plasteel,
 /area/cargo/office)
+"iIx" = (
+/obj/machinery/atmospherics/pipe/layer_manifold,
+/obj/effect/spawner/structure/window/reinforced,
+/obj/machinery/atmospherics/pipe/simple/green/visible{
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/engineering/atmos)
 "iJi" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
 	dir = 5
@@ -58185,7 +58211,7 @@
 /area/maintenance/department/security/brig)
 "iSL" = (
 /obj/effect/spawner/structure/window/reinforced,
-/obj/machinery/atmospherics/pipe/simple/orange/visible,
+/obj/machinery/atmospherics/pipe/layer_manifold,
 /turf/open/floor/plating,
 /area/engineering/atmos)
 "iTE" = (
@@ -60204,6 +60230,10 @@
 	},
 /turf/open/floor/plasteel,
 /area/cargo/storage)
+"nmB" = (
+/mob/living/simple_animal/opossum/poppy,
+/turf/open/floor/plating,
+/area/maintenance/department/engine)
 "nnf" = (
 /obj/structure/rack,
 /obj/item/stack/packageWrap,
@@ -60991,6 +61021,7 @@
 	name = "Solar Maintenance";
 	req_access_txt = "10; 13"
 	},
+/obj/structure/fans/tiny,
 /turf/open/floor/plating,
 /area/maintenance/solars/starboard)
 "oDP" = (
@@ -62581,6 +62612,7 @@
 	name = "Solar Maintenance";
 	req_access_txt = "10; 13"
 	},
+/obj/structure/fans/tiny,
 /turf/open/floor/plating,
 /area/maintenance/solars/port)
 "rKL" = (
@@ -70732,7 +70764,7 @@ uIu
 uIu
 uIu
 uIu
-dKs
+aaa
 uIu
 uIu
 uIu
@@ -84514,14 +84546,14 @@ aZy
 aFS
 aGS
 aGW
-aHv
+gMM
 aaa
 aaa
 aaa
 aaa
 aaa
 aaa
-aGS
+dKs
 aGW
 aHv
 aIF
@@ -86056,14 +86088,14 @@ aZA
 aGn
 aGS
 aGW
-aHv
+gMM
 aaa
 aaa
 aaa
 aaa
 aaa
 aaa
-aGS
+dKs
 aGW
 aHv
 aJg
@@ -90470,7 +90502,7 @@ bva
 bva
 bva
 tvP
-bDi
+nmB
 wRk
 bva
 bva
@@ -101263,7 +101295,7 @@ myn
 bVX
 bWM
 bXv
-bWc
+iSL
 tmi
 bZL
 caB
@@ -102291,7 +102323,7 @@ bVh
 bVY
 bWM
 bXy
-bWc
+iSL
 bZe
 bZL
 caE
@@ -103319,7 +103351,7 @@ bVi
 bMe
 bWP
 bXy
-bQO
+iIx
 bZe
 bZN
 caH

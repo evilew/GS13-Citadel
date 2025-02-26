@@ -197,6 +197,13 @@
 	},
 /turf/open/floor/plasteel,
 /area/engineering/main)
+"hk" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
+/turf/open/floor/plasteel,
+/area/engineering/main)
 "ht" = (
 /obj/structure/lattice/catwalk,
 /obj/structure/cable{
@@ -680,6 +687,10 @@
 	},
 /turf/open/floor/plating/airless,
 /area/space/nearstation)
+"KV" = (
+/obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden,
+/turf/open/floor/plasteel,
+/area/engineering/main)
 "Lr" = (
 /obj/structure/table,
 /obj/item/clothing/gloves/color/yellow,
@@ -1734,9 +1745,9 @@ MJ
 MJ
 "}
 (26,1,1) = {"
-fh
-kh
-mB
+Pg
+hk
+KV
 ZY
 Tr
 rT

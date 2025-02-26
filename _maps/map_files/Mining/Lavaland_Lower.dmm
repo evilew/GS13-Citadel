@@ -7088,6 +7088,13 @@
 /obj/machinery/washing_machine,
 /turf/open/floor/carpet/red,
 /area/xenoarch/caloriteresearch_powered)
+"qo" = (
+/obj/effect/turf_decal/stripes{
+	icon_state = "trim";
+	dir = 1
+	},
+/turf/open/floor/engine,
+/area/xenoarch/caloriteresearch_powered)
 "qp" = (
 /obj/machinery/computer{
 	desc = "This screen is broken beyond repairs... What little you can make out of it reads as follows... '-The skin of employee 228, mimicking them after consuming them.'";
@@ -7102,6 +7109,13 @@
 	icon_state = "engine"
 	},
 /area/xenoarch/nothinghere)
+"qq" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/catwalk_floor,
+/area/xenoarch/caloriteresearch_powered)
 "qr" = (
 /obj/effect/turf_decal/box,
 /obj/structure/trash_pile,
@@ -7158,6 +7172,9 @@
 /area/xenoarch/caloriteresearch_powered)
 "qz" = (
 /obj/structure/barricade/security,
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
 /turf/open/floor/engine,
 /area/xenoarch/caloriteresearch_powered)
 "qB" = (
@@ -7274,6 +7291,13 @@
 	},
 /turf/open/floor/plasteel,
 /area/xenoarch/gen)
+"qX" = (
+/obj/structure/barricade/security,
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/turf/open/floor/engine,
+/area/xenoarch/caloriteresearch_powered)
 "qY" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/porta_turret/fattening,
@@ -7302,6 +7326,17 @@
 "rc" = (
 /turf/open/floor/plasteel/dark/side,
 /area/xenoarch/gen)
+"rd" = (
+/obj/machinery/door/airlock/public{
+	dir = 4
+	},
+/obj/effect/turf_decal/loading_area{
+	dir = 6;
+	icon_state = "steel_panel";
+	name = "steel pannel"
+	},
+/turf/open/floor/plasteel/freezer,
+/area/xenoarch/caloriteresearch_powered)
 "re" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 4
@@ -7366,7 +7401,10 @@
 /turf/open/floor/plasteel,
 /area/xenoarch/caloriteresearch_powered)
 "ro" = (
-/obj/machinery/jukebox,
+/obj/machinery/jukebox{
+	fair_market_price = 0;
+	queuecost = 0
+	},
 /obj/machinery/light{
 	dir = 1
 	},
@@ -7451,14 +7489,32 @@
 /turf/open/indestructible/bubblegum,
 /area/ruin/powered/candyland)
 "rF" = (
-/obj/structure/sink{
-	dir = 4;
-	pixel_x = 11
+/obj/structure/urinal{
+	pixel_y = 29
 	},
-/obj/structure/mirror{
-	pixel_x = 28
+/obj/effect/turf_decal/stripes/white/line{
+	dir = 1;
+	icon_state = "steel_decals9"
+	},
+/obj/effect/turf_decal/stripes/white/line{
+	dir = 4;
+	icon_state = "steel_decals9"
+	},
+/obj/effect/turf_decal/stripes/white/line{
+	dir = 2;
+	icon_state = "steel_decals9"
 	},
 /turf/open/floor/plasteel/freezer,
+/area/xenoarch/caloriteresearch_powered)
+"rG" = (
+/obj/effect/turf_decal/stripes/white/line{
+	dir = 1;
+	icon_state = "steel_decals_central4"
+	},
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/turf/open/floor/plasteel,
 /area/xenoarch/caloriteresearch_powered)
 "rK" = (
 /obj/effect/turf_decal/stripes/white/line{
@@ -7497,6 +7553,20 @@
 /obj/effect/turf_decal/tile/neutral,
 /obj/structure/chair/bench,
 /turf/open/floor/plasteel/dark,
+/area/xenoarch/caloriteresearch_powered)
+"rS" = (
+/obj/effect/turf_decal/stripes/white/line{
+	dir = 2;
+	icon_state = "steel_decals3"
+	},
+/obj/effect/turf_decal/stripes/white/line{
+	dir = 6;
+	icon_state = "steel_decals3"
+	},
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/turf/open/floor/plasteel,
 /area/xenoarch/caloriteresearch_powered)
 "rT" = (
 /obj/structure/bed/double,
@@ -7578,7 +7648,8 @@
 /obj/machinery/light/small{
 	dir = 1
 	},
-/turf/open/floor/plating,
+/obj/effect/turf_decal/stripes,
+/turf/open/floor/catwalk_floor,
 /area/xenoarch/caloriteresearch_powered)
 "sl" = (
 /obj/structure/chair/sofa,
@@ -7641,7 +7712,7 @@
 /obj/structure/filingcabinet,
 /obj/item/paper/fluff/ruins/calorite_facility/note1,
 /obj/item/paper/fluff/ruins/calorite_facility/note18,
-/turf/open/floor/plasteel/dark,
+/turf/open/floor/plasteel,
 /area/xenoarch/caloriteresearch_powered)
 "sy" = (
 /obj/structure/cable{
@@ -7711,7 +7782,7 @@
 "sJ" = (
 /obj/structure/table,
 /obj/item/pen,
-/turf/open/floor/plasteel/dark,
+/turf/open/floor/plasteel,
 /area/xenoarch/caloriteresearch_powered)
 "sK" = (
 /obj/structure/table,
@@ -7859,9 +7930,12 @@
 /area/xenoarch/caloriteresearch_powered)
 "tm" = (
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plating{
-	icon_state = "platingdmg1"
-	},
+/obj/effect/turf_decal/stripes/line,
+/turf/open/floor/engine,
+/area/xenoarch/caloriteresearch_powered)
+"tn" = (
+/obj/machinery/portable_atmospherics/canister/air,
+/turf/open/floor/plating,
 /area/xenoarch/caloriteresearch_powered)
 "tp" = (
 /obj/effect/turf_decal/tile/brown{
@@ -7882,6 +7956,10 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating/airless,
 /area/xenoarch/caloriteresearch_unpowered)
+"tu" = (
+/mob/living/simple_animal/hostile/fatten/magehand,
+/turf/open/floor/plasteel/freezer,
+/area/xenoarch/caloriteresearch_powered)
 "tv" = (
 /obj/item/kirbyplants/random,
 /obj/effect/turf_decal/tile/bar{
@@ -7934,6 +8012,7 @@
 /obj/machinery/door/airlock/public/glass{
 	dir = 4
 	},
+/obj/structure/trap/fattening,
 /turf/open/floor/plasteel/freezer,
 /area/xenoarch/caloriteresearch_powered)
 "tE" = (
@@ -7953,6 +8032,23 @@
 	id = "fatchamber"
 	},
 /turf/open/floor/mineral/calorite,
+/area/xenoarch/caloriteresearch_powered)
+"tI" = (
+/obj/effect/turf_decal/stripes/white/line{
+	dir = 4;
+	icon_state = "steel_decals4"
+	},
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/turf/open/floor/plasteel,
+/area/xenoarch/caloriteresearch_powered)
+"tJ" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/turf/open/floor/plating,
 /area/xenoarch/caloriteresearch_powered)
 "tL" = (
 /obj/effect/turf_decal/loading_area{
@@ -7991,7 +8087,11 @@
 /turf/open/floor/plasteel,
 /area/xenoarch/arch)
 "tT" = (
-/obj/machinery/vending/engivend,
+/obj/machinery/vending/engivend{
+	extra_price = 0;
+	default_price = 0;
+	fair_market_price = 0
+	},
 /turf/open/floor/plating,
 /area/xenoarch/caloriteresearch_powered)
 "tU" = (
@@ -8013,12 +8113,16 @@
 	icon_state = "drain";
 	name = "drain"
 	},
-/turf/open/floor/plasteel/freezer,
+/turf/open/floor/plasteel/white,
 /area/xenoarch/caloriteresearch_powered)
 "tZ" = (
 /obj/structure/girder,
 /turf/open/floor/plating/airless,
 /area/xenoarch/caloriteresearch_unpowered)
+"ub" = (
+/obj/machinery/porta_turret/fattening,
+/turf/open/floor/plasteel/dark,
+/area/xenoarch/caloriteresearch_powered)
 "uc" = (
 /obj/structure/toilet,
 /obj/effect/turf_decal/loading_area{
@@ -8039,7 +8143,11 @@
 /obj/effect/turf_decal/tile/bar{
 	dir = 1
 	},
-/obj/machinery/vending/dinnerware,
+/obj/machinery/vending/dinnerware{
+	default_price = 0;
+	extra_price = 0;
+	fair_market_price = 0
+	},
 /turf/open/floor/mineral/basaltstone_floor,
 /area/xenoarch/caloriteresearch_powered)
 "ui" = (
@@ -8158,7 +8266,11 @@
 	dir = 1
 	},
 /obj/structure/rack/shelf,
-/turf/open/floor/plasteel/dark,
+/obj/effect/turf_decal/stripes{
+	icon_state = "trim";
+	dir = 9
+	},
+/turf/open/floor/engine,
 /area/xenoarch/caloriteresearch_powered)
 "uF" = (
 /obj/effect/turf_decal/tile/red,
@@ -8193,6 +8305,16 @@
 /obj/machinery/field/generator,
 /turf/open/floor/engine,
 /area/xenoarch/caloriteresearch_powered)
+"uP" = (
+/obj/structure/trap/belch,
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/turf/open/floor/plasteel,
+/area/xenoarch/caloriteresearch_powered)
 "uQ" = (
 /obj/effect/turf_decal/stripes/white/line{
 	dir = 2;
@@ -8203,6 +8325,9 @@
 	icon_state = "steel_decals3"
 	},
 /obj/effect/decal/cleanable/dirt,
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
 /turf/open/floor/plasteel,
 /area/xenoarch/caloriteresearch_powered)
 "uR" = (
@@ -8241,6 +8366,13 @@
 /obj/structure/closet/l3closet/janitor,
 /turf/open/floor/plasteel/dark,
 /area/xenoarch/caloriteresearch_powered)
+"uY" = (
+/obj/machinery/field/generator,
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/turf/open/floor/engine,
+/area/xenoarch/caloriteresearch_powered)
 "va" = (
 /obj/structure/toilet{
 	dir = 4
@@ -8249,6 +8381,12 @@
 	dir = 8
 	},
 /obj/effect/decal/cleanable/dirt,
+/mob/living/simple_animal/hostile/fatten/magehand,
+/obj/effect/turf_decal/loading_area{
+	dir = 8;
+	icon_state = "drain";
+	name = "drain"
+	},
 /turf/open/floor/plasteel/freezer,
 /area/xenoarch/caloriteresearch_powered)
 "vb" = (
@@ -8397,7 +8535,8 @@
 	dir = 1
 	},
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plating,
+/obj/effect/turf_decal/stripes,
+/turf/open/floor/catwalk_floor,
 /area/xenoarch/caloriteresearch_powered)
 "vH" = (
 /obj/machinery/computer/security/telescreen/entertainment{
@@ -8507,8 +8646,16 @@
 /turf/open/floor/plasteel/dark,
 /area/xenoarch/gen)
 "vX" = (
-/obj/machinery/light{
-	dir = 1
+/obj/structure/urinal{
+	pixel_y = 29
+	},
+/obj/effect/turf_decal/stripes/white/line{
+	dir = 1;
+	icon_state = "steel_decals9"
+	},
+/obj/effect/turf_decal/stripes/white/line{
+	dir = 4;
+	icon_state = "steel_decals9"
 	},
 /turf/open/floor/plasteel/freezer,
 /area/xenoarch/caloriteresearch_powered)
@@ -8523,8 +8670,10 @@
 /turf/open/floor/plating,
 /area/xenoarch/caloriteresearch_powered)
 "vZ" = (
-/obj/structure/trap/belch,
-/turf/open/floor/plasteel/dark,
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/turf/open/floor/engine,
 /area/xenoarch/caloriteresearch_powered)
 "wd" = (
 /obj/structure/table,
@@ -8547,7 +8696,7 @@
 "wg" = (
 /obj/structure/frame/computer,
 /obj/item/trash/odd_disk,
-/turf/open/floor/plasteel/dark,
+/turf/open/floor/plasteel,
 /area/xenoarch/caloriteresearch_powered)
 "wh" = (
 /obj/effect/turf_decal/tile/purple{
@@ -8649,6 +8798,9 @@
 /obj/effect/turf_decal/stripes{
 	dir = 8
 	},
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
 /turf/open/floor/plasteel,
 /area/xenoarch/caloriteresearch_powered)
 "wB" = (
@@ -8702,7 +8854,11 @@
 	},
 /obj/item/autosurgeon/nutripump_turbo,
 /obj/structure/rack/shelf,
-/turf/open/floor/plasteel/dark,
+/obj/effect/turf_decal/stripes{
+	icon_state = "trim";
+	dir = 5
+	},
+/turf/open/floor/engine,
 /area/xenoarch/caloriteresearch_powered)
 "wR" = (
 /obj/structure/rack/shelf,
@@ -8733,6 +8889,11 @@
 /obj/item/reagent_containers/food/snacks/candy,
 /turf/open/candyfloor,
 /area/ruin/powered/candyland)
+"wX" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/trap/belch,
+/turf/open/floor/plasteel,
+/area/xenoarch/caloriteresearch_powered)
 "wY" = (
 /obj/effect/turf_decal/tile/neutral{
 	dir = 8
@@ -8854,6 +9015,11 @@
 	dir = 1
 	},
 /area/xenoarch/gen)
+"xo" = (
+/obj/effect/decal/cleanable/dirt,
+/mob/living/simple_animal/hostile/fatten/magehand,
+/turf/open/floor/plasteel/freezer,
+/area/xenoarch/caloriteresearch_powered)
 "xp" = (
 /obj/structure/chair/bronze,
 /obj/item/pen/red,
@@ -8924,6 +9090,20 @@
 /obj/machinery/portable_atmospherics/scrubber,
 /turf/open/floor/plating,
 /area/xenoarch/arch)
+"xx" = (
+/obj/machinery/porta_turret/fattening,
+/obj/item/stack/marker_beacon{
+	anchored = 1;
+	icon_state = "markerburgundy-on";
+	light_color = "#FA644B";
+	light_power = 3;
+	light_range = 2;
+	name = "landing marker";
+	picked_color = "Burgundy"
+	},
+/obj/effect/turf_decal/box,
+/turf/open/floor/plating/asteroid/basalt/lava_land_surface,
+/area/lavaland/surface/outdoors)
 "xy" = (
 /obj/effect/turf_decal/stripes/corner{
 	dir = 8
@@ -8959,7 +9139,11 @@
 	},
 /area/xenoarch/nothinghere)
 "xH" = (
-/obj/machinery/vending/kink,
+/obj/machinery/vending/kink{
+	fair_market_price = 0;
+	extra_price = 0;
+	default_price = 0
+	},
 /turf/open/floor/plating,
 /area/xenoarch/caloriteresearch_powered)
 "xJ" = (
@@ -9035,7 +9219,7 @@
 /obj/structure/chair/wood/normal{
 	dir = 8
 	},
-/turf/open/floor/carpet/royalblue,
+/turf/open/floor/wood,
 /area/xenoarch/caloriteresearch_powered)
 "xV" = (
 /obj/effect/turf_decal/loading_area{
@@ -9059,7 +9243,7 @@
 	icon_state = "drain";
 	name = "drain"
 	},
-/turf/open/floor/plasteel/freezer,
+/turf/open/floor/plasteel/white,
 /area/xenoarch/caloriteresearch_powered)
 "xX" = (
 /obj/effect/turf_decal/candy/redwhite3,
@@ -9101,9 +9285,8 @@
 /turf/open/floor/plasteel,
 /area/xenoarch/caloriteresearch_powered)
 "yg" = (
-/turf/open/floor/plating{
-	icon_state = "panelscorched"
-	},
+/obj/effect/turf_decal/stripes,
+/turf/open/floor/catwalk_floor,
 /area/xenoarch/caloriteresearch_powered)
 "yh" = (
 /obj/effect/turf_decal/tile/neutral{
@@ -9171,13 +9354,22 @@
 	dir = 8
 	},
 /obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/stripes/white/line{
+	dir = 8;
+	icon_state = "steel_decals9"
+	},
+/obj/effect/turf_decal/loading_area{
+	dir = 1;
+	icon_state = "drain";
+	name = "drain"
+	},
 /turf/open/floor/plasteel/freezer,
 /area/xenoarch/caloriteresearch_powered)
 "yp" = (
 /obj/machinery/light/broken,
 /obj/item/kirbyplants,
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel/dark,
+/turf/open/floor/plasteel,
 /area/xenoarch/caloriteresearch_powered)
 "yq" = (
 /obj/machinery/iv_drip/feeding_tube,
@@ -9234,18 +9426,29 @@
 "yD" = (
 /obj/structure/cable,
 /obj/effect/turf_decal/box/white,
-/turf/open/floor/plating{
-	icon_state = "platingdmg1"
-	},
+/turf/open/floor/catwalk_floor,
 /area/xenoarch/caloriteresearch_powered)
 "yE" = (
 /turf/open/floor/plating,
 /area/xenoarch/caloriteresearch_unpowered)
+"yF" = (
+/mob/living/simple_animal/hostile/fatten/magehand,
+/turf/open/floor/carpet/royalblue,
+/area/xenoarch/caloriteresearch_powered)
 "yG" = (
 /obj/structure/fans/tiny/invisible,
 /obj/machinery/door/airlock/hatch,
 /turf/open/floor/plating,
 /area/xenoarch/caloriteresearch_unpowered)
+"yH" = (
+/obj/machinery/door/airlock/public/glass{
+	dir = 4
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/turf/open/floor/plasteel/freezer,
+/area/xenoarch/caloriteresearch_powered)
 "yJ" = (
 /obj/effect/decal/cleanable/glass,
 /obj/structure/cable{
@@ -9334,6 +9537,24 @@
 /obj/effect/spawner/lootdrop/mre,
 /turf/open/floor/plasteel/dark,
 /area/xenoarch/caloriteresearch_powered)
+"yW" = (
+/obj/structure/sink{
+	dir = 4;
+	pixel_x = 11
+	},
+/obj/structure/mirror{
+	pixel_x = 28
+	},
+/obj/effect/turf_decal/stripes/white/line{
+	dir = 4;
+	icon_state = "steel_decals9"
+	},
+/obj/effect/turf_decal/stripes/white/line{
+	dir = 2;
+	icon_state = "steel_decals9"
+	},
+/turf/open/floor/plasteel/freezer,
+/area/xenoarch/caloriteresearch_powered)
 "yX" = (
 /obj/machinery/conveyor{
 	dir = 4;
@@ -9387,7 +9608,8 @@
 /area/lavaland/surface/outdoors)
 "zg" = (
 /obj/item/crowbar,
-/turf/open/floor/plating,
+/obj/effect/turf_decal/stripes,
+/turf/open/floor/catwalk_floor,
 /area/xenoarch/caloriteresearch_powered)
 "zh" = (
 /obj/effect/turf_decal/loading_area{
@@ -9436,7 +9658,11 @@
 /turf/open/floor/plasteel,
 /area/xenoarch/caloriteresearch_powered)
 "zq" = (
-/obj/machinery/vending/dinnerware,
+/obj/machinery/vending/dinnerware{
+	default_price = 0;
+	extra_price = 0;
+	fair_market_price = 0
+	},
 /turf/open/floor/plasteel,
 /area/xenoarch/caloriteresearch_powered)
 "zr" = (
@@ -9490,6 +9716,10 @@
 	},
 /turf/open/floor/mineral/calorite/strong,
 /area/lavaland/surface/outdoors)
+"zy" = (
+/obj/structure/table_frame,
+/turf/open/floor/catwalk_floor,
+/area/xenoarch/caloriteresearch_powered)
 "zz" = (
 /obj/structure/table,
 /turf/open/floor/plasteel/dark,
@@ -9533,6 +9763,14 @@
 	},
 /obj/item/newspaper,
 /obj/effect/decal/cleanable/dirt,
+/obj/machinery/light/small{
+	dir = 4
+	},
+/obj/effect/turf_decal/loading_area{
+	icon_state = "drain";
+	name = "drain";
+	dir = 4
+	},
 /turf/open/floor/plasteel/freezer,
 /area/xenoarch/caloriteresearch_powered)
 "zM" = (
@@ -9542,7 +9780,7 @@
 /obj/structure/cable{
 	icon_state = "0-2"
 	},
-/turf/open/floor/plating,
+/turf/open/floor/catwalk_floor,
 /area/xenoarch/caloriteresearch_powered)
 "zQ" = (
 /obj/structure/reagent_dispensers/water_cooler,
@@ -9702,6 +9940,9 @@
 /obj/structure/fluff/paper/stack{
 	dir = 1
 	},
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
 /turf/open/floor/plasteel,
 /area/xenoarch/caloriteresearch_powered)
 "As" = (
@@ -9850,6 +10091,7 @@
 /obj/structure/cable{
 	icon_state = "0-8"
 	},
+/obj/item/wallframe/apc,
 /turf/open/floor/plating,
 /area/xenoarch/caloriteresearch_powered)
 "AL" = (
@@ -9867,6 +10109,9 @@
 "AM" = (
 /obj/structure/table,
 /obj/item/clothing/gloves/color/red/insulated,
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
 /turf/open/floor/engine,
 /area/xenoarch/caloriteresearch_powered)
 "AN" = (
@@ -9876,7 +10121,11 @@
 /obj/effect/turf_decal/tile/purple{
 	dir = 8
 	},
-/obj/machinery/vending/wardrobe/jani_wardrobe,
+/obj/machinery/vending/wardrobe/jani_wardrobe{
+	extra_price = 0;
+	default_price = 0;
+	fair_market_price = 0
+	},
 /turf/open/floor/plasteel/dark,
 /area/xenoarch/caloriteresearch_powered)
 "AO" = (
@@ -9957,7 +10206,11 @@
 /obj/machinery/light{
 	dir = 1
 	},
-/obj/machinery/vending/cola/random,
+/obj/machinery/vending/cola/random{
+	fair_market_price = 0;
+	extra_price = 0;
+	default_price = 0
+	},
 /turf/open/floor/plasteel,
 /area/xenoarch/caloriteresearch_powered)
 "Bd" = (
@@ -9995,10 +10248,18 @@
 	},
 /turf/open/floor/plating/asteroid/basalt/lava_land_surface,
 /area/lavaland/surface/outdoors)
+"Bk" = (
+/obj/structure/table,
+/obj/machinery/microwave{
+	pixel_x = 1;
+	pixel_y = 6
+	},
+/turf/open/floor/plasteel/freezer,
+/area/xenoarch/caloriteresearch_powered)
 "Bl" = (
 /obj/structure/filingcabinet,
 /obj/item/paper/fluff/ruins/calorite_facility/note4,
-/turf/open/floor/plasteel/dark,
+/turf/open/floor/plasteel,
 /area/xenoarch/caloriteresearch_powered)
 "Bm" = (
 /turf/closed/mineral/random/volcanic/strangerock,
@@ -10013,7 +10274,7 @@
 /area/xenoarch/caloriteresearch_powered)
 "Br" = (
 /obj/structure/dresser,
-/turf/open/floor/carpet/royalblue,
+/turf/open/floor/wood,
 /area/xenoarch/caloriteresearch_powered)
 "Bt" = (
 /obj/structure/table,
@@ -10024,6 +10285,15 @@
 "Bu" = (
 /obj/structure/toilet{
 	dir = 8
+	},
+/mob/living/simple_animal/hostile/fatten/magehand,
+/obj/machinery/light/small{
+	dir = 4
+	},
+/obj/effect/turf_decal/loading_area{
+	icon_state = "drain";
+	name = "drain";
+	dir = 4
 	},
 /turf/open/floor/plasteel/freezer,
 /area/xenoarch/caloriteresearch_powered)
@@ -10110,12 +10380,15 @@
 	},
 /obj/effect/decal/cleanable/molten_object/large,
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plating,
+/obj/effect/turf_decal/stripes/corner{
+	dir = 1
+	},
+/turf/open/floor/catwalk_floor,
 /area/xenoarch/caloriteresearch_powered)
 "BL" = (
 /obj/structure/rack/shelf,
 /obj/item/storage/backpack/duffelbag/med/surgery{
-	pixel_y = 12
+	pixel_y = 8
 	},
 /turf/open/floor/plasteel/white,
 /area/xenoarch/caloriteresearch_powered)
@@ -10169,7 +10442,11 @@
 /obj/effect/turf_decal/tile/bar{
 	dir = 1
 	},
-/obj/machinery/vending/boozeomat/all_access,
+/obj/machinery/vending/boozeomat/all_access{
+	fair_market_price = 0;
+	extra_price = 0;
+	default_price = 0
+	},
 /turf/open/floor/mineral/basaltstone_floor,
 /area/xenoarch/caloriteresearch_powered)
 "Cl" = (
@@ -10193,6 +10470,11 @@
 /obj/item/stack/cable_coil/cut/red,
 /turf/open/floor/plating,
 /area/xenoarch/caloriteresearch_powered)
+"Cq" = (
+/obj/structure/table,
+/obj/machinery/reagentgrinder,
+/turf/open/floor/plasteel/freezer,
+/area/xenoarch/caloriteresearch_powered)
 "Cr" = (
 /obj/structure/cable{
 	icon_state = "1-4"
@@ -10201,7 +10483,7 @@
 	icon_state = "4-8"
 	},
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plating,
+/turf/open/floor/catwalk_floor,
 /area/xenoarch/caloriteresearch_powered)
 "Cs" = (
 /obj/effect/turf_decal/stripes/white/line{
@@ -10591,6 +10873,14 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/xenoarch/arch)
+"DR" = (
+/obj/effect/decal/cleanable/glass,
+/obj/structure/cable,
+/turf/open/floor/plating,
+/area/xenoarch/caloriteresearch_powered)
+"DT" = (
+/turf/open/floor/catwalk_floor,
+/area/xenoarch/caloriteresearch_powered)
 "DU" = (
 /obj/effect/turf_decal/tile/brown{
 	dir = 8
@@ -10611,8 +10901,13 @@
 /turf/open/floor/plating,
 /area/lavaland/surface/outdoors)
 "DW" = (
-/obj/structure/fluff/paper/stack,
-/turf/open/floor/plasteel/dark,
+/obj/structure/trap/belch,
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/turf/open/floor/plating{
+	icon_state = "platingdmg1"
+	},
 /area/xenoarch/caloriteresearch_powered)
 "DX" = (
 /obj/effect/turf_decal/box,
@@ -10742,7 +11037,7 @@
 /obj/structure/cable{
 	icon_state = "4-8"
 	},
-/turf/open/floor/plating,
+/turf/open/floor/catwalk_floor,
 /area/xenoarch/caloriteresearch_powered)
 "Es" = (
 /obj/effect/decal/cleanable/dirt,
@@ -10804,6 +11099,10 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/rockvault,
 /area/xenoarch/nothinghere)
+"EE" = (
+/obj/structure/sign/warning,
+/turf/closed/wall/rust,
+/area/xenoarch/caloriteresearch_powered)
 "EH" = (
 /obj/machinery/conveyor{
 	dir = 6;
@@ -10872,6 +11171,10 @@
 	pixel_x = -4;
 	pixel_y = 4
 	},
+/turf/open/floor/catwalk_floor,
+/area/xenoarch/caloriteresearch_powered)
+"ET" = (
+/obj/structure/flora/rock,
 /turf/open/floor/plating,
 /area/xenoarch/caloriteresearch_powered)
 "EV" = (
@@ -10881,7 +11184,7 @@
 /obj/machinery/computer{
 	name = "bluescreened computer"
 	},
-/turf/open/floor/plasteel/dark,
+/turf/open/floor/plasteel,
 /area/xenoarch/caloriteresearch_powered)
 "EW" = (
 /obj/structure/chair/sofa{
@@ -11034,7 +11337,7 @@
 	dir = 1
 	},
 /obj/structure/frame/computer,
-/turf/open/floor/plasteel/dark,
+/turf/open/floor/plasteel,
 /area/xenoarch/caloriteresearch_powered)
 "FC" = (
 /obj/structure/plasticflaps,
@@ -11044,6 +11347,11 @@
 	},
 /turf/open/floor/plating,
 /area/xenoarch/caloriteresearch_unpowered)
+"FD" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/flora/rock/pile,
+/turf/open/floor/plasteel/freezer,
+/area/xenoarch/caloriteresearch_powered)
 "FE" = (
 /turf/open/floor/plasteel/grimy,
 /area/xenoarch/nothinghere)
@@ -11117,12 +11425,35 @@
 	},
 /turf/open/floor/plasteel,
 /area/xenoarch/arch)
+"FS" = (
+/obj/machinery/power/floodlight,
+/obj/machinery/light/floor,
+/obj/structure/cable{
+	icon_state = "0-4"
+	},
+/turf/open/floor/plating,
+/area/xenoarch/caloriteresearch_powered)
 "FT" = (
 /obj/machinery/light/broken{
 	dir = 4
 	},
 /turf/open/floor/plasteel/rockvault,
 /area/xenoarch/nothinghere)
+"FU" = (
+/obj/effect/turf_decal/tile/neutral{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/neutral,
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/porta_turret/fattening/heavy,
+/turf/open/floor/plasteel/dark,
+/area/xenoarch/caloriteresearch_powered)
 "FV" = (
 /obj/structure/lattice,
 /turf/open/lava/smooth/lava_land_surface,
@@ -11187,12 +11518,29 @@
 /area/xenoarch/caloriteresearch_powered)
 "Gj" = (
 /obj/item/soap/deluxe,
+/obj/effect/turf_decal/stripes/white/line{
+	dir = 1;
+	icon_state = "steel_decals9"
+	},
+/obj/effect/turf_decal/stripes/white/line{
+	dir = 8;
+	icon_state = "steel_decals9"
+	},
 /turf/open/floor/plasteel/freezer,
 /area/xenoarch/caloriteresearch_powered)
 "Gk" = (
 /obj/structure/chair/bench/left,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/dark,
+/area/xenoarch/caloriteresearch_powered)
+"Gl" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/turf/open/floor/plasteel,
 /area/xenoarch/caloriteresearch_powered)
 "Gn" = (
 /obj/structure/girder,
@@ -11243,7 +11591,7 @@
 /obj/structure/cable{
 	icon_state = "1-4"
 	},
-/turf/open/floor/plating,
+/turf/open/floor/pod,
 /area/xenoarch/caloriteresearch_powered)
 "Gx" = (
 /obj/structure/closet/crate/trashcart,
@@ -11258,7 +11606,11 @@
 /turf/open/floor/plasteel,
 /area/xenoarch/arch)
 "GA" = (
-/obj/machinery/vending/cigarette,
+/obj/machinery/vending/cigarette{
+	extra_price = 0;
+	fair_market_price = 0;
+	default_price = 0
+	},
 /turf/open/floor/plasteel,
 /area/xenoarch/caloriteresearch_powered)
 "GD" = (
@@ -11273,7 +11625,11 @@
 /obj/effect/turf_decal/tile/bar{
 	dir = 1
 	},
-/obj/machinery/vending/mealdor,
+/obj/machinery/vending/mealdor{
+	default_price = 0;
+	extra_price = 0;
+	fair_market_price = 0
+	},
 /turf/open/floor/mineral/basaltstone_floor,
 /area/xenoarch/caloriteresearch_powered)
 "GH" = (
@@ -11405,7 +11761,11 @@
 /obj/effect/turf_decal/tile/bar{
 	dir = 1
 	},
-/obj/machinery/vending/coffee,
+/obj/machinery/vending/coffee{
+	extra_price = 0;
+	default_price = 0;
+	fair_market_price = 0
+	},
 /turf/open/floor/mineral/basaltstone_floor,
 /area/xenoarch/caloriteresearch_powered)
 "Hm" = (
@@ -11470,7 +11830,7 @@
 /obj/structure/fluff/paper/stack{
 	dir = 9
 	},
-/turf/open/floor/plasteel/dark,
+/turf/open/floor/plasteel,
 /area/xenoarch/caloriteresearch_powered)
 "HH" = (
 /obj/structure/table,
@@ -11527,7 +11887,7 @@
 /obj/machinery/light/small/broken{
 	dir = 1
 	},
-/turf/open/floor/carpet/royalblue,
+/turf/open/floor/wood,
 /area/xenoarch/caloriteresearch_powered)
 "HR" = (
 /obj/effect/turf_decal/tile/bar,
@@ -11626,6 +11986,12 @@
 	},
 /turf/open/floor/plasteel,
 /area/xenoarch/caloriteresearch_powered)
+"In" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/turf/open/floor/engine,
+/area/xenoarch/caloriteresearch_powered)
 "Ip" = (
 /obj/structure/table,
 /obj/item/weldingtool,
@@ -11676,6 +12042,11 @@
 /obj/structure/table/wood,
 /turf/open/floor/mineral/basaltstone_floor,
 /area/xenoarch/caloriteresearch_powered)
+"ID" = (
+/obj/item/electronics/apc,
+/obj/effect/turf_decal/stripes,
+/turf/open/floor/catwalk_floor,
+/area/xenoarch/caloriteresearch_powered)
 "IE" = (
 /obj/structure/table,
 /obj/machinery/reagentgrinder,
@@ -11693,11 +12064,24 @@
 /obj/item/reagent_containers/rag/towel{
 	pixel_y = 3
 	},
+/obj/machinery/light{
+	dir = 1
+	},
+/obj/effect/turf_decal/loading_area{
+	dir = 8;
+	icon_state = "steel_panel";
+	name = "steel pannel"
+	},
 /turf/open/floor/plasteel/freezer,
 /area/xenoarch/caloriteresearch_powered)
 "IG" = (
 /obj/machinery/ore_silo,
-/turf/open/floor/plating,
+/obj/effect/turf_decal/stripes/line,
+/obj/effect/turf_decal/stripes{
+	icon_state = "trim";
+	dir = 8
+	},
+/turf/open/floor/engine,
 /area/xenoarch/caloriteresearch_powered)
 "IH" = (
 /obj/structure/tree/candylight,
@@ -11761,12 +12145,30 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel,
 /area/xenoarch/caloriteresearch_powered)
+"IT" = (
+/obj/machinery/biogenerator,
+/turf/open/floor/plasteel/freezer,
+/area/xenoarch/caloriteresearch_powered)
 "IV" = (
 /obj/structure/chair/sofa/right/old{
 	dir = 1
 	},
 /turf/open/floor/carpet/green,
 /area/xenoarch/gen)
+"IW" = (
+/obj/machinery/porta_turret/fattening/heavy,
+/obj/item/stack/marker_beacon{
+	anchored = 1;
+	icon_state = "markerburgundy-on";
+	light_color = "#FA644B";
+	light_power = 3;
+	light_range = 2;
+	name = "landing marker";
+	picked_color = "Burgundy"
+	},
+/obj/effect/turf_decal/box,
+/turf/open/floor/plating,
+/area/lavaland/surface/outdoors)
 "IX" = (
 /obj/machinery/door/airlock/maintenance_hatch,
 /turf/open/floor/plating,
@@ -11802,7 +12204,7 @@
 "Jf" = (
 /obj/structure/table,
 /obj/item/folder/yellow,
-/turf/open/floor/plasteel/dark,
+/turf/open/floor/plasteel,
 /area/xenoarch/caloriteresearch_powered)
 "Jg" = (
 /obj/machinery/door/airlock/public{
@@ -11816,7 +12218,8 @@
 	pixel_y = 1
 	},
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plating,
+/obj/effect/turf_decal/stripes,
+/turf/open/floor/catwalk_floor,
 /area/xenoarch/caloriteresearch_powered)
 "Ji" = (
 /obj/effect/decal/cleanable/oil,
@@ -11894,7 +12297,13 @@
 	icon_state = "4-8"
 	},
 /obj/item/paper/fluff/ruins/calorite_facility/engineer_note,
-/turf/open/floor/plating,
+/turf/open/floor/catwalk_floor,
+/area/xenoarch/caloriteresearch_powered)
+"Jw" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/stripes/box,
+/obj/machinery/porta_turret/fattening/heavy,
+/turf/open/floor/plasteel/dark,
 /area/xenoarch/caloriteresearch_powered)
 "Jx" = (
 /obj/effect/turf_decal/tile/bar,
@@ -11909,6 +12318,9 @@
 /obj/item/multitool,
 /obj/structure/cable{
 	icon_state = "2-4"
+	},
+/obj/effect/turf_decal/stripes/corner{
+	dir = 8
 	},
 /turf/open/floor/plating,
 /area/xenoarch/caloriteresearch_powered)
@@ -11989,6 +12401,13 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel,
 /area/xenoarch/caloriteresearch_powered)
+"JK" = (
+/obj/machinery/door/airlock/maintenance_hatch,
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/turf/open/floor/plating,
+/area/xenoarch/caloriteresearch_powered)
 "JN" = (
 /obj/machinery/light{
 	dir = 1
@@ -12038,6 +12457,11 @@
 	},
 /turf/open/floor/plasteel,
 /area/xenoarch/caloriteresearch_powered)
+"JS" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/stripes,
+/turf/open/floor/catwalk_floor,
+/area/xenoarch/caloriteresearch_powered)
 "JT" = (
 /obj/structure/cable{
 	icon_state = "0-8"
@@ -12058,6 +12482,9 @@
 	dir = 9;
 	icon_state = "steel_decals6"
 	},
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
 /turf/open/floor/plasteel,
 /area/xenoarch/caloriteresearch_powered)
 "JW" = (
@@ -12069,8 +12496,14 @@
 /turf/open/floor/plasteel,
 /area/xenoarch/arch)
 "JZ" = (
-/obj/structure/rack/shelf,
-/turf/open/floor/plasteel/dark,
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/structure/disposalpipe/segment,
+/obj/effect/turf_decal/stripes/corner{
+	dir = 4
+	},
+/turf/open/floor/plating,
 /area/xenoarch/caloriteresearch_powered)
 "Ka" = (
 /obj/effect/turf_decal/tile/bar,
@@ -12086,7 +12519,7 @@
 	},
 /obj/item/stack/sheet/mineral/diamond,
 /obj/effect/turf_decal/box/white,
-/turf/open/floor/plating,
+/turf/open/floor/catwalk_floor,
 /area/xenoarch/caloriteresearch_powered)
 "Kc" = (
 /obj/item/reagent_containers/food/snacks/bluecherrycupcake,
@@ -12122,7 +12555,7 @@
 /area/xenoarch/arch)
 "Kh" = (
 /obj/effect/turf_decal/box/white,
-/turf/open/floor/plating,
+/turf/open/floor/catwalk_floor,
 /area/xenoarch/caloriteresearch_powered)
 "Ki" = (
 /obj/structure/table,
@@ -12274,7 +12707,7 @@
 /obj/structure/cable{
 	icon_state = "1-4"
 	},
-/turf/open/floor/plating,
+/turf/open/floor/catwalk_floor,
 /area/xenoarch/caloriteresearch_powered)
 "KG" = (
 /obj/structure/trash_pile,
@@ -12284,6 +12717,19 @@
 /mob/living/simple_animal/hostile/feed/chocolate_slime/creambeast,
 /turf/open/indestructible/chocolate,
 /area/ruin/powered/candyland)
+"KK" = (
+/obj/effect/turf_decal/stripes/white/line{
+	dir = 2;
+	icon_state = "steel_decals4"
+	},
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/structure/cable{
+	icon_state = "2-4"
+	},
+/turf/open/floor/plating,
+/area/xenoarch/caloriteresearch_powered)
 "KL" = (
 /turf/open/floor/plating{
 	icon_state = "platingdmg1"
@@ -12298,7 +12744,7 @@
 "KN" = (
 /obj/structure/rack/shelf,
 /obj/item/taperecorder,
-/turf/open/floor/plasteel/dark,
+/turf/open/floor/plasteel,
 /area/xenoarch/caloriteresearch_powered)
 "KO" = (
 /obj/structure/chair/sofa/right/old{
@@ -12439,6 +12885,11 @@
 "Lk" = (
 /obj/structure/scale,
 /obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/loading_area{
+	dir = 1;
+	icon_state = "steel_panel";
+	name = "steel pannel"
+	},
 /turf/open/floor/plasteel/freezer,
 /area/xenoarch/caloriteresearch_powered)
 "Lm" = (
@@ -12461,6 +12912,21 @@
 /obj/item/stack/ore/calorite,
 /turf/open/floor/plating,
 /area/lavaland/surface/outdoors)
+"Lp" = (
+/obj/structure/bed/double,
+/obj/item/restraints/handcuffs,
+/turf/open/floor/plasteel/dark,
+/area/xenoarch/caloriteresearch_powered)
+"Lq" = (
+/obj/effect/turf_decal/stripes/white/line{
+	dir = 2;
+	icon_state = "steel_decals_central4"
+	},
+/obj/structure/cable{
+	icon_state = "1-8"
+	},
+/turf/open/floor/plasteel,
+/area/xenoarch/caloriteresearch_powered)
 "Ls" = (
 /turf/open/floor/plasteel,
 /area/xenoarch/caloriteresearch_powered)
@@ -12482,6 +12948,16 @@
 /obj/effect/decal/cleanable/oil,
 /turf/open/floor/plating,
 /area/lavaland/surface/outdoors)
+"LB" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/stripes/corner{
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/xenoarch/caloriteresearch_powered)
 "LC" = (
 /obj/effect/turf_decal/tile/neutral{
 	dir = 8
@@ -12496,6 +12972,17 @@
 /obj/structure/chair/stool/bar,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/dark,
+/area/xenoarch/caloriteresearch_powered)
+"LD" = (
+/obj/machinery/shower{
+	pixel_y = 19
+	},
+/obj/effect/turf_decal/loading_area{
+	dir = 1;
+	icon_state = "drain";
+	name = "drain"
+	},
+/turf/open/floor/plasteel/freezer,
 /area/xenoarch/caloriteresearch_powered)
 "LE" = (
 /obj/effect/turf_decal{
@@ -12581,7 +13068,7 @@
 /obj/machinery/computer{
 	name = "broken computer"
 	},
-/turf/open/floor/plasteel/dark,
+/turf/open/floor/plasteel,
 /area/xenoarch/caloriteresearch_powered)
 "LZ" = (
 /obj/effect/turf_decal/loading_area{
@@ -12622,7 +13109,7 @@
 	icon_state = "0-2"
 	},
 /obj/effect/turf_decal/box/white,
-/turf/open/floor/plating,
+/turf/open/floor/catwalk_floor,
 /area/xenoarch/caloriteresearch_powered)
 "Me" = (
 /obj/structure/barricade/wooden,
@@ -12671,6 +13158,15 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/mineral/basaltstone_floor,
 /area/xenoarch/caloriteresearch_powered)
+"Mr" = (
+/obj/machinery/door/airlock/public/glass{
+	dir = 4
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/turf/open/floor/plasteel/white,
+/area/xenoarch/caloriteresearch_powered)
 "Ms" = (
 /obj/structure/closet/toolcloset,
 /turf/open/floor/plating,
@@ -12679,6 +13175,23 @@
 /obj/item/stack/sheet/mineral/wood,
 /turf/open/floor/plating,
 /area/xenoarch/gen)
+"Mu" = (
+/obj/machinery/conveyor{
+	dir = 2;
+	id = "fatchamber"
+	},
+/obj/item/stack/tile/mineral/calorite/hide,
+/obj/item/stack/tile/mineral/calorite/hide,
+/obj/item/stack/tile/mineral/calorite/hide,
+/obj/item/stack/tile/mineral/calorite/hide,
+/obj/item/stack/tile/mineral/calorite/hide,
+/obj/item/stack/tile/mineral/calorite/hide,
+/obj/item/stack/tile/mineral/calorite/hide,
+/obj/item/stack/tile/mineral/calorite/hide,
+/obj/item/stack/tile/mineral/calorite/hide,
+/obj/item/stack/tile/mineral/calorite/hide,
+/turf/open/floor/mineral/calorite/hide,
+/area/xenoarch/caloriteresearch_powered)
 "Mv" = (
 /obj/item/restraints/legcuffs/beartrap,
 /obj/item/restraints/legcuffs/beartrap,
@@ -12848,7 +13361,7 @@
 /obj/structure/cable{
 	icon_state = "0-8"
 	},
-/turf/open/floor/plating,
+/turf/open/floor/catwalk_floor,
 /area/xenoarch/caloriteresearch_powered)
 "Nc" = (
 /obj/structure/chair/bench/left,
@@ -12871,6 +13384,12 @@
 	icon_state = "engine"
 	},
 /area/xenoarch/nothinghere)
+"Nf" = (
+/obj/structure/frame/machine,
+/turf/open/floor/plating{
+	icon_state = "platingdmg1"
+	},
+/area/xenoarch/caloriteresearch_powered)
 "Ng" = (
 /obj/item/paper/fluff/ruins/calorite_facility/charred,
 /turf/open/floor/plasteel/dark,
@@ -12906,14 +13425,30 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/xenoarch/caloriteresearch_powered)
+"Nl" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/loading_area{
+	dir = 6;
+	icon_state = "steel_panel";
+	name = "steel pannel"
+	},
+/turf/open/floor/plasteel/freezer,
+/area/xenoarch/caloriteresearch_powered)
 "Nn" = (
 /obj/structure/barricade/wooden,
 /turf/open/floor/plating/asteroid/basalt/lava_land_surface,
 /area/lavaland/surface/outdoors)
+"No" = (
+/obj/structure/trap/belch,
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/turf/open/floor/plasteel,
+/area/xenoarch/caloriteresearch_powered)
 "Np" = (
 /obj/structure/fluff/paper/stack,
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel/dark,
+/turf/open/floor/plasteel,
 /area/xenoarch/caloriteresearch_powered)
 "Nq" = (
 /obj/structure/chair/bench/left,
@@ -12957,6 +13492,39 @@
 	},
 /turf/open/floor/plating,
 /area/xenoarch/caloriteresearch_unpowered)
+"NC" = (
+/obj/machinery/field/generator,
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/turf/open/floor/engine,
+/area/xenoarch/caloriteresearch_powered)
+"ND" = (
+/obj/effect/turf_decal/stripes/white/line{
+	dir = 1;
+	icon_state = "steel_decals9"
+	},
+/obj/effect/turf_decal/stripes/white/line{
+	dir = 4;
+	icon_state = "steel_decals9"
+	},
+/obj/effect/turf_decal/stripes/white/line{
+	dir = 2;
+	icon_state = "steel_decals9"
+	},
+/obj/effect/turf_decal/stripes/white/line{
+	dir = 8;
+	icon_state = "steel_decals9"
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/structure/cable{
+	icon_state = "2-4"
+	},
+/turf/open/floor/plasteel,
+/area/xenoarch/caloriteresearch_powered)
 "NE" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 1
@@ -12978,6 +13546,10 @@
 /obj/structure/table,
 /obj/machinery/cell_charger,
 /obj/effect/decal/cleanable/dirt,
+/obj/item/electronics/apc{
+	pixel_y = 12
+	},
+/obj/item/stock_parts/cell/high,
 /turf/open/floor/plating,
 /area/xenoarch/caloriteresearch_powered)
 "NK" = (
@@ -13023,7 +13595,11 @@
 /obj/effect/turf_decal/tile/bar{
 	dir = 1
 	},
-/obj/machinery/vending/snack/orange,
+/obj/machinery/vending/snack/orange{
+	default_price = 0;
+	extra_price = 0;
+	fair_market_price = 0
+	},
 /turf/open/floor/mineral/basaltstone_floor,
 /area/xenoarch/caloriteresearch_powered)
 "NT" = (
@@ -13053,6 +13629,21 @@
 "Oa" = (
 /turf/open/floor/plasteel/white,
 /area/xenoarch/caloriteresearch_powered)
+"Ob" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/yellow{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/yellow{
+	dir = 4
+	},
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/turf/open/floor/plating,
+/area/xenoarch/caloriteresearch_powered)
 "Oc" = (
 /obj/structure/cable{
 	icon_state = "4-8"
@@ -13071,7 +13662,7 @@
 "Oe" = (
 /obj/structure/curtain,
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel/freezer,
+/turf/open/floor/plasteel/white,
 /area/xenoarch/caloriteresearch_powered)
 "Of" = (
 /obj/structure/lattice,
@@ -13109,6 +13700,11 @@
 	dir = 4
 	},
 /obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/loading_area{
+	dir = 6;
+	icon_state = "steel_panel";
+	name = "steel pannel"
+	},
 /turf/open/floor/plasteel/freezer,
 /area/xenoarch/caloriteresearch_powered)
 "Oq" = (
@@ -13141,6 +13737,12 @@
 "Ou" = (
 /turf/open/floor/plating/airless,
 /area/xenoarch/caloriteresearch_unpowered)
+"Ov" = (
+/obj/structure/cable{
+	icon_state = "0-4"
+	},
+/turf/open/floor/plating,
+/area/xenoarch/caloriteresearch_powered)
 "Ow" = (
 /obj/effect/turf_decal/stripes{
 	dir = 10
@@ -13233,9 +13835,22 @@
 	},
 /turf/open/floor/mineral/basaltstone_floor,
 /area/xenoarch/caloriteresearch_powered)
+"OL" = (
+/obj/effect/turf_decal/loading_area{
+	dir = 9;
+	icon_state = "steel_panel";
+	name = "steel pannel"
+	},
+/turf/open/floor/plasteel/freezer,
+/area/xenoarch/caloriteresearch_powered)
 "OM" = (
 /obj/machinery/shower{
 	dir = 1
+	},
+/mob/living/simple_animal/hostile/fatten/magehand,
+/obj/effect/turf_decal/loading_area{
+	icon_state = "drain";
+	name = "drain"
 	},
 /turf/open/floor/plasteel/freezer,
 /area/xenoarch/caloriteresearch_powered)
@@ -13272,6 +13887,15 @@
 	},
 /turf/open/floor/plasteel,
 /area/xenoarch/caloriteresearch_powered)
+"OW" = (
+/obj/machinery/light{
+	dir = 1
+	},
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/turf/open/floor/plasteel,
+/area/xenoarch/caloriteresearch_powered)
 "OY" = (
 /obj/effect/turf_decal/tile/neutral{
 	dir = 8
@@ -13293,7 +13917,16 @@
 	amount = 20
 	},
 /obj/effect/turf_decal/box/white,
-/turf/open/floor/plating,
+/obj/item/stack/sheet/mineral/plasma{
+	amount = 20
+	},
+/obj/item/stack/sheet/mineral/plasma{
+	amount = 20
+	},
+/obj/item/stack/sheet/mineral/plasma{
+	amount = 20
+	},
+/turf/open/floor/catwalk_floor,
 /area/xenoarch/caloriteresearch_powered)
 "Pa" = (
 /obj/machinery/mineral/ore_redemption,
@@ -13390,13 +14023,19 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/freezer,
 /area/xenoarch/caloriteresearch_powered)
+"Pt" = (
+/obj/structure/cable{
+	icon_state = "2-4"
+	},
+/turf/open/floor/catwalk_floor,
+/area/xenoarch/caloriteresearch_powered)
 "Pu" = (
 /obj/structure/table/wood,
 /obj/machinery/light/small{
 	dir = 1
 	},
 /obj/item/clothing/accessory/armband/science,
-/turf/open/floor/carpet/royalblue,
+/turf/open/floor/wood,
 /area/xenoarch/caloriteresearch_powered)
 "Pv" = (
 /turf/open/floor/plating/asteroid/basalt/lava_land_surface,
@@ -13485,6 +14124,19 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/xenoarch/caloriteresearch_powered)
+"PL" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/yellow,
+/obj/effect/turf_decal/tile/yellow{
+	dir = 4
+	},
+/obj/structure/cable{
+	icon_state = "2-4"
+	},
+/turf/open/floor/plating,
+/area/xenoarch/caloriteresearch_powered)
 "PM" = (
 /obj/effect/turf_decal/stripes{
 	dir = 4
@@ -13505,7 +14157,7 @@
 	icon_state = "0-2"
 	},
 /obj/effect/turf_decal/box/white,
-/turf/open/floor/plating,
+/turf/open/floor/catwalk_floor,
 /area/xenoarch/caloriteresearch_powered)
 "PW" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer1,
@@ -13542,6 +14194,12 @@
 	},
 /turf/open/floor/plating,
 /area/xenoarch/caloriteresearch_unpowered)
+"Qd" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/turf/open/floor/engine,
+/area/xenoarch/caloriteresearch_powered)
 "Qe" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/trash_pile,
@@ -13603,6 +14261,12 @@
 /obj/item/trash/tray,
 /turf/open/floor/plasteel/dark,
 /area/xenoarch/caloriteresearch_powered)
+"Qp" = (
+/obj/item/wallframe/apc,
+/turf/open/floor/plating{
+	icon_state = "platingdmg1"
+	},
+/area/xenoarch/caloriteresearch_powered)
 "Qr" = (
 /turf/open/floor/plating/lavaland_baseturf,
 /area/xenoarch/caloriteresearch_unpowered)
@@ -13613,6 +14277,16 @@
 "Qy" = (
 /obj/machinery/shower{
 	pixel_y = 19
+	},
+/obj/effect/turf_decal/loading_area{
+	dir = 2;
+	icon_state = "steel_panel";
+	name = "steel pannel"
+	},
+/obj/effect/turf_decal/loading_area{
+	dir = 1;
+	icon_state = "drain";
+	name = "drain"
 	},
 /turf/open/floor/plasteel/freezer,
 /area/xenoarch/caloriteresearch_powered)
@@ -13649,12 +14323,15 @@
 	dir = 9;
 	icon_state = "steel_decals6"
 	},
+/obj/structure/cable{
+	icon_state = "2-4"
+	},
 /turf/open/floor/plasteel,
 /area/xenoarch/caloriteresearch_powered)
 "QH" = (
 /obj/structure/table,
 /obj/item/paper,
-/turf/open/floor/plasteel/dark,
+/turf/open/floor/plasteel,
 /area/xenoarch/caloriteresearch_powered)
 "QL" = (
 /obj/structure/flora/junglebush/c,
@@ -13706,6 +14383,12 @@
 /obj/structure/closet/crate/large,
 /turf/open/floor/plasteel,
 /area/xenoarch/caloriteresearch_powered)
+"QU" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/turf/open/floor/plasteel,
+/area/xenoarch/caloriteresearch_powered)
 "QV" = (
 /obj/effect/decal/cleanable/molten_object/large,
 /turf/open/floor/plasteel/freezer,
@@ -13729,7 +14412,7 @@
 	pixel_x = 1;
 	pixel_y = 5
 	},
-/turf/open/floor/plating,
+/turf/open/floor/catwalk_floor,
 /area/xenoarch/caloriteresearch_powered)
 "QZ" = (
 /obj/effect/turf_decal/stripes/line{
@@ -13766,6 +14449,11 @@
 "Rf" = (
 /obj/structure/chair/sofa/corner,
 /turf/open/floor/mineral/basaltstone_floor,
+/area/xenoarch/caloriteresearch_powered)
+"Rg" = (
+/obj/effect/decal/cleanable/glass,
+/obj/structure/trap/fattening,
+/turf/open/floor/plating,
 /area/xenoarch/caloriteresearch_powered)
 "Rh" = (
 /obj/structure/lattice/catwalk,
@@ -14019,9 +14707,7 @@
 /area/xenoarch/caloriteresearch_powered)
 "Sh" = (
 /obj/machinery/suit_storage_unit/atmos,
-/turf/open/floor/plating{
-	icon_state = "platingdmg1"
-	},
+/turf/open/floor/catwalk_floor,
 /area/xenoarch/caloriteresearch_powered)
 "Si" = (
 /obj/effect/turf_decal/tile/neutral{
@@ -14041,6 +14727,18 @@
 /turf/open/floor/light{
 	dir = 1
 	},
+/area/xenoarch/caloriteresearch_powered)
+"Sl" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/glass,
+/turf/open/floor/plasteel/freezer,
+/area/xenoarch/caloriteresearch_powered)
+"Sm" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/turf/open/floor/plasteel,
 /area/xenoarch/caloriteresearch_powered)
 "Sn" = (
 /obj/item/shard,
@@ -14182,6 +14880,13 @@
 /obj/item/xenoarch/clean/brush,
 /turf/open/floor/plasteel,
 /area/xenoarch/caloriteresearch_powered)
+"SI" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/turf/open/floor/plasteel,
+/area/xenoarch/caloriteresearch_powered)
 "SJ" = (
 /obj/structure/mineral_door/calorite,
 /obj/structure/barricade/wooden/crude,
@@ -14207,7 +14912,7 @@
 "SP" = (
 /obj/structure/table,
 /obj/item/paper/fluff/ruins/calorite_facility/note37,
-/turf/open/floor/plasteel/dark,
+/turf/open/floor/plasteel,
 /area/xenoarch/caloriteresearch_powered)
 "SR" = (
 /obj/machinery/door/airlock/public/glass{
@@ -14237,7 +14942,18 @@
 /obj/structure/rack/shelf,
 /obj/item/stack/sheet/metal/fifty,
 /obj/item/stack/sheet/glass/fifty,
-/turf/open/floor/plating,
+/turf/open/floor/catwalk_floor,
+/area/xenoarch/caloriteresearch_powered)
+"SV" = (
+/obj/machinery/door/airlock/public{
+	dir = 4
+	},
+/obj/effect/turf_decal/loading_area{
+	dir = 9;
+	icon_state = "steel_panel";
+	name = "steel pannel"
+	},
+/turf/open/floor/plasteel/freezer,
 /area/xenoarch/caloriteresearch_powered)
 "SW" = (
 /obj/structure/table,
@@ -14326,11 +15042,12 @@
 /obj/structure/closet/cabinet,
 /obj/item/clothing/under/plasmaman/science,
 /obj/item/clothing/head/helmet/space/plasmaman/science,
-/turf/open/floor/carpet/royalblue,
+/turf/open/floor/wood,
 /area/xenoarch/caloriteresearch_powered)
 "To" = (
 /obj/machinery/power/floodlight,
 /obj/machinery/light/floor,
+/obj/structure/cable,
 /turf/open/floor/plating,
 /area/xenoarch/caloriteresearch_powered)
 "Tp" = (
@@ -14343,7 +15060,7 @@
 	name = "drain"
 	},
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel/freezer,
+/turf/open/floor/plasteel/white,
 /area/xenoarch/caloriteresearch_powered)
 "Tq" = (
 /obj/effect/turf_decal/stripes/line{
@@ -14406,7 +15123,7 @@
 	charge = 20
 	},
 /obj/structure/cable,
-/turf/open/floor/plating,
+/turf/open/floor/catwalk_floor,
 /area/xenoarch/caloriteresearch_powered)
 "Tx" = (
 /obj/effect/decal/cleanable/dirt,
@@ -14666,6 +15383,20 @@
 	icon_state = "engine"
 	},
 /area/xenoarch/nothinghere)
+"Ut" = (
+/obj/effect/turf_decal/stripes/white/line{
+	dir = 5;
+	icon_state = "steel_decals3"
+	},
+/obj/effect/turf_decal/stripes/white/line{
+	dir = 4;
+	icon_state = "steel_decals3"
+	},
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/turf/open/floor/plasteel,
+/area/xenoarch/caloriteresearch_powered)
 "Uu" = (
 /obj/item/reagent_containers/food/snacks/cakeslice/chocolate,
 /turf/open/indestructible/chocolate,
@@ -14704,6 +15435,11 @@
 /obj/machinery/light/small{
 	dir = 8
 	},
+/obj/effect/turf_decal/loading_area{
+	dir = 8;
+	icon_state = "drain";
+	name = "drain"
+	},
 /turf/open/floor/plasteel/freezer,
 /area/xenoarch/caloriteresearch_powered)
 "UC" = (
@@ -14722,11 +15458,13 @@
 /obj/machinery/light/small{
 	dir = 8
 	},
-/turf/open/floor/plasteel/freezer,
+/turf/open/floor/plasteel/white,
 /area/xenoarch/caloriteresearch_powered)
 "UF" = (
 /obj/structure/table/wood,
 /obj/item/book/granter/spell/fattening/traps,
+/mob/living/simple_animal/hostile/fatten/magehand,
+/mob/living/simple_animal/hostile/fatten/magehand,
 /mob/living/simple_animal/hostile/fatten/magehand,
 /mob/living/simple_animal/hostile/fatten/magehand,
 /mob/living/simple_animal/hostile/fatten/magehand,
@@ -14744,7 +15482,11 @@
 	dir = 8;
 	name = "LIZARD CONTAINMENT SEAL"
 	},
-/turf/open/floor/plasteel/dark,
+/turf/open/floor/carpet/orange,
+/area/xenoarch/caloriteresearch_powered)
+"UI" = (
+/obj/machinery/vending/mealdor,
+/turf/open/floor/plasteel/freezer,
 /area/xenoarch/caloriteresearch_powered)
 "UK" = (
 /obj/machinery/shower{
@@ -14755,7 +15497,7 @@
 	icon_state = "drain";
 	name = "drain"
 	},
-/turf/open/floor/plasteel/freezer,
+/turf/open/floor/plasteel/white,
 /area/xenoarch/caloriteresearch_powered)
 "UL" = (
 /obj/structure/closet/cabinet,
@@ -14778,6 +15520,9 @@
 	icon_state = "steel_decals1"
 	},
 /obj/effect/decal/cleanable/glass,
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
 /turf/open/floor/plasteel,
 /area/xenoarch/caloriteresearch_powered)
 "UQ" = (
@@ -14833,7 +15578,12 @@
 /obj/item/clothing/neck/petcollar/calorite,
 /obj/item/trash/fatoray_scrap1,
 /obj/structure/rack/shelf,
-/turf/open/floor/plasteel/dark,
+/obj/effect/turf_decal/stripes/line,
+/obj/effect/turf_decal/stripes{
+	icon_state = "trim";
+	dir = 4
+	},
+/turf/open/floor/engine,
 /area/xenoarch/caloriteresearch_powered)
 "Va" = (
 /obj/structure/sign/poster/contraband/punch_shit{
@@ -14878,6 +15628,9 @@
 "Vk" = (
 /obj/machinery/conveyor_switch/oneway{
 	id = "fatloop"
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
 	},
 /turf/open/floor/engine,
 /area/xenoarch/caloriteresearch_powered)
@@ -15086,7 +15839,14 @@
 	icon_state = "drain";
 	name = "drain"
 	},
-/turf/open/floor/plasteel/freezer,
+/turf/open/floor/plasteel/white,
+/area/xenoarch/caloriteresearch_powered)
+"Wc" = (
+/obj/effect/decal/cleanable/glass,
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/turf/open/floor/plasteel,
 /area/xenoarch/caloriteresearch_powered)
 "Wd" = (
 /obj/machinery/light/small,
@@ -15109,6 +15869,14 @@
 	icon_state = "platingdmg1"
 	},
 /area/xenoarch/caloriteresearch_unpowered)
+"Wm" = (
+/obj/machinery/light/small{
+	dir = 4
+	},
+/obj/item/wallframe/apc,
+/obj/item/stock_parts/cell/high,
+/turf/open/floor/plating,
+/area/xenoarch/caloriteresearch_powered)
 "Wo" = (
 /obj/effect/turf_decal/loading_area{
 	dir = 1;
@@ -15127,7 +15895,7 @@
 /obj/structure/fluff/paper/stack{
 	dir = 8
 	},
-/turf/open/floor/plasteel/dark,
+/turf/open/floor/plasteel,
 /area/xenoarch/caloriteresearch_powered)
 "Ws" = (
 /obj/structure/flora/rock/pile,
@@ -15160,7 +15928,11 @@
 /obj/effect/turf_decal/tile/bar{
 	dir = 1
 	},
-/obj/machinery/vending/cola/random,
+/obj/machinery/vending/cola/random{
+	default_price = 0;
+	extra_price = 0;
+	fair_market_price = 0
+	},
 /turf/open/floor/mineral/basaltstone_floor,
 /area/xenoarch/caloriteresearch_powered)
 "WA" = (
@@ -15188,6 +15960,21 @@
 	},
 /turf/open/floor/plating,
 /area/lavaland/surface/outdoors)
+"WC" = (
+/obj/effect/turf_decal/stripes/white/line{
+	dir = 8;
+	icon_state = "steel_decals3"
+	},
+/obj/effect/turf_decal/stripes/white/line{
+	dir = 9;
+	icon_state = "steel_decals3"
+	},
+/obj/effect/turf_decal/stripes/white/line{
+	dir = 2;
+	icon_state = "steel_decals4"
+	},
+/turf/open/floor/plasteel,
+/area/xenoarch/caloriteresearch_powered)
 "WD" = (
 /obj/structure/lattice,
 /turf/open/floor/plating/asteroid/basalt/lava_land_surface,
@@ -15243,7 +16030,11 @@
 /turf/open/floor/plating,
 /area/xenoarch/caloriteresearch_powered)
 "WQ" = (
-/obj/machinery/vending/tool,
+/obj/machinery/vending/tool{
+	extra_price = 0;
+	default_price = 0;
+	fair_market_price = 0
+	},
 /turf/open/floor/plating,
 /area/xenoarch/caloriteresearch_powered)
 "WS" = (
@@ -15305,6 +16096,10 @@
 /obj/structure/table,
 /turf/open/floor/plasteel,
 /area/xenoarch/caloriteresearch_powered)
+"Xe" = (
+/obj/structure/flora/rock/pile,
+/turf/open/floor/plating,
+/area/xenoarch/caloriteresearch_powered)
 "Xf" = (
 /obj/machinery/light{
 	dir = 4
@@ -15315,7 +16110,11 @@
 "Xg" = (
 /obj/machinery/light/broken,
 /obj/structure/reagent_dispensers/water_cooler,
-/turf/open/floor/plasteel/dark,
+/turf/open/floor/plasteel,
+/area/xenoarch/caloriteresearch_powered)
+"Xh" = (
+/mob/living/simple_animal/hostile/fatten/magehand,
+/turf/open/floor/wood,
 /area/xenoarch/caloriteresearch_powered)
 "Xi" = (
 /obj/effect/turf_decal/loading_area{
@@ -15336,6 +16135,15 @@
 	dir = 1
 	},
 /obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/loading_area{
+	dir = 4;
+	icon_state = "steel_panel";
+	name = "steel pannel"
+	},
+/obj/effect/turf_decal/loading_area{
+	icon_state = "drain";
+	name = "drain"
+	},
 /turf/open/floor/plasteel/freezer,
 /area/xenoarch/caloriteresearch_powered)
 "Xk" = (
@@ -15453,10 +16261,10 @@
 /turf/open/floor/plasteel/dark,
 /area/xenoarch/caloriteresearch_powered)
 "XH" = (
-/obj/structure/cable{
-	icon_state = "1-8"
-	},
 /obj/machinery/light,
+/obj/structure/cable{
+	icon_state = "1-4"
+	},
 /turf/open/floor/plating{
 	icon_state = "platingdmg1"
 	},
@@ -15479,6 +16287,14 @@
 	dir = 8
 	},
 /obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/stripes/white/line{
+	dir = 1;
+	icon_state = "steel_decals9"
+	},
+/obj/effect/turf_decal/loading_area{
+	icon_state = "drain";
+	name = "drain"
+	},
 /turf/open/floor/plasteel/freezer,
 /area/xenoarch/caloriteresearch_powered)
 "XK" = (
@@ -15532,7 +16348,11 @@
 /turf/open/floor/plating,
 /area/lavaland/surface/outdoors)
 "XV" = (
-/obj/machinery/vending/clothing,
+/obj/machinery/vending/clothing{
+	extra_price = 0;
+	default_price = 0;
+	fair_market_price = 0
+	},
 /turf/open/floor/plasteel,
 /area/xenoarch/caloriteresearch_powered)
 "XX" = (
@@ -15558,15 +16378,13 @@
 /obj/structure/cable{
 	icon_state = "0-8"
 	},
-/turf/open/floor/plating,
+/turf/open/floor/catwalk_floor,
 /area/xenoarch/caloriteresearch_powered)
 "XZ" = (
 /obj/structure/cable{
-	icon_state = "4-8"
+	icon_state = "1-8"
 	},
-/turf/open/floor/plating{
-	icon_state = "platingdmg1"
-	},
+/turf/open/floor/plating,
 /area/xenoarch/caloriteresearch_powered)
 "Yb" = (
 /obj/structure/table,
@@ -15608,6 +16426,12 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel,
 /area/xenoarch/caloriteresearch_powered)
+"Yk" = (
+/obj/effect/turf_decal/stripes/corner{
+	dir = 1
+	},
+/turf/open/floor/plating,
+/area/xenoarch/caloriteresearch_powered)
 "Ym" = (
 /obj/effect/turf_decal/tile/purple{
 	dir = 1
@@ -15623,6 +16447,9 @@
 /area/xenoarch/caloriteresearch_powered)
 "Yp" = (
 /obj/machinery/space_heater,
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
 /turf/open/floor/engine,
 /area/xenoarch/caloriteresearch_powered)
 "Yr" = (
@@ -15644,10 +16471,16 @@
 /obj/structure/lattice/catwalk,
 /turf/open/floor/plating,
 /area/lavaland/surface/outdoors)
+"Yv" = (
+/obj/effect/turf_decal/stripes{
+	dir = 8
+	},
+/turf/open/floor/catwalk_floor,
+/area/xenoarch/caloriteresearch_powered)
 "Yz" = (
 /obj/structure/closet/cabinet,
 /obj/item/clothing/accessory/armband/science,
-/turf/open/floor/carpet/royalblue,
+/turf/open/floor/wood,
 /area/xenoarch/caloriteresearch_powered)
 "YB" = (
 /obj/effect/turf_decal/stripes/line{
@@ -15674,11 +16507,16 @@
 /area/xenoarch/caloriteresearch_powered)
 "YJ" = (
 /obj/machinery/door/airlock/public,
+/obj/effect/turf_decal/loading_area{
+	dir = 5;
+	icon_state = "steel_panel";
+	name = "steel pannel"
+	},
 /turf/open/floor/plasteel/freezer,
 /area/xenoarch/caloriteresearch_powered)
 "YK" = (
 /obj/item/wrench,
-/turf/open/floor/plating,
+/turf/open/floor/catwalk_floor,
 /area/xenoarch/caloriteresearch_powered)
 "YN" = (
 /obj/effect/turf_decal/tile/bar{
@@ -15745,6 +16583,10 @@
 "Za" = (
 /turf/closed/indestructible/chocolate,
 /area/ruin/powered/candyland)
+"Zc" = (
+/obj/item/grenade/chem_grenade/lipoifier_weak,
+/turf/open/floor/plating,
+/area/xenoarch/caloriteresearch_powered)
 "Zd" = (
 /obj/structure/cable{
 	icon_state = "4-8"
@@ -15882,17 +16724,8 @@
 /obj/machinery/light{
 	dir = 8
 	},
-/obj/effect/turf_decal/stripes/white/line{
-	dir = 8;
-	icon_state = "steel_decals3"
-	},
-/obj/effect/turf_decal/stripes/white/line{
-	dir = 9;
-	icon_state = "steel_decals3"
-	},
-/obj/effect/turf_decal/stripes/white/line{
-	dir = 2;
-	icon_state = "steel_decals4"
+/obj/structure/cable{
+	icon_state = "1-2"
 	},
 /turf/open/floor/plasteel,
 /area/xenoarch/caloriteresearch_powered)
@@ -15985,6 +16818,23 @@
 /obj/effect/turf_decal/stripes/line,
 /turf/open/floor/plating,
 /area/xenoarch/arch)
+"ZS" = (
+/obj/effect/turf_decal/stripes/corner,
+/turf/open/floor/plating,
+/area/xenoarch/caloriteresearch_powered)
+"ZU" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/yellow,
+/obj/effect/turf_decal/tile/yellow{
+	dir = 4
+	},
+/obj/structure/cable{
+	icon_state = "1-8"
+	},
+/turf/open/floor/plating,
+/area/xenoarch/caloriteresearch_powered)
 "ZV" = (
 /obj/effect/turf_decal/stripes/white/line{
 	dir = 2;
@@ -16003,6 +16853,14 @@
 	pixel_x = 28
 	},
 /obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/stripes/white/line{
+	dir = 4;
+	icon_state = "steel_decals9"
+	},
+/obj/effect/turf_decal/stripes/white/line{
+	dir = 2;
+	icon_state = "steel_decals9"
+	},
 /turf/open/floor/plasteel/freezer,
 /area/xenoarch/caloriteresearch_powered)
 
@@ -44302,7 +45160,7 @@ lQ
 lQ
 lQ
 lQ
-lQ
+SZ
 lQ
 ab
 ab
@@ -44559,7 +45417,7 @@ lQ
 lQ
 lQ
 lQ
-lQ
+Nn
 lQ
 lQ
 ab
@@ -44816,7 +45674,7 @@ lQ
 lQ
 lQ
 lQ
-lQ
+SZ
 lQ
 lQ
 lQ
@@ -45073,7 +45931,7 @@ lQ
 lQ
 lQ
 lQ
-lQ
+SZ
 lQ
 lQ
 lQ
@@ -45330,7 +46188,7 @@ ab
 ab
 ab
 lQ
-lQ
+Nn
 lQ
 lQ
 lQ
@@ -45594,16 +46452,16 @@ ab
 ab
 lQ
 lQ
-lQ
-lQ
+Td
+Td
 ab
 ab
 ab
 ab
 ab
 ab
-ab
-ab
+Td
+Td
 ab
 ab
 ab
@@ -45852,15 +46710,15 @@ ab
 ab
 ab
 ab
+Td
+Td
+Td
+ab
+ab
+ab
 lQ
-lQ
-lQ
-ab
-ab
-ab
-ab
-ab
-ab
+Td
+Td
 ab
 ab
 ab
@@ -46116,7 +46974,7 @@ lQ
 lQ
 lQ
 lQ
-ab
+lQ
 ab
 ab
 ab
@@ -46371,7 +47229,7 @@ ab
 ab
 ab
 ab
-ab
+lQ
 lQ
 lQ
 lQ
@@ -46627,9 +47485,9 @@ ab
 ab
 ab
 ab
-ab
-ab
-ab
+Td
+Td
+lQ
 ab
 ab
 lQ
@@ -46884,8 +47742,8 @@ ab
 ab
 ab
 ab
-ab
-ab
+Td
+Td
 ab
 ab
 ab
@@ -47670,7 +48528,7 @@ lQ
 lQ
 lQ
 lQ
-lQ
+SZ
 lQ
 lQ
 lQ
@@ -47927,7 +48785,7 @@ ab
 lQ
 lQ
 lQ
-lQ
+SZ
 lQ
 lQ
 lQ
@@ -48184,7 +49042,7 @@ ab
 ab
 lQ
 lQ
-lQ
+Nn
 lQ
 lQ
 lQ
@@ -48441,7 +49299,7 @@ ab
 ab
 ab
 lQ
-lQ
+SZ
 lQ
 lQ
 lQ
@@ -50287,12 +51145,12 @@ vx
 ab
 BP
 zm
-lQ
+Td
 lQ
 Td
 lQ
 lQ
-lQ
+Td
 lQ
 lQ
 lQ
@@ -50551,7 +51409,7 @@ ab
 BP
 lQ
 lQ
-lQ
+Td
 lQ
 lQ
 ab
@@ -53120,7 +53978,7 @@ lQ
 lQ
 lQ
 lQ
-lQ
+IW
 lQ
 lQ
 lQ
@@ -54394,7 +55252,7 @@ Nd
 Nd
 CK
 GD
-lQ
+xx
 lQ
 BP
 lQ
@@ -55936,7 +56794,7 @@ Ug
 Ug
 Iz
 GD
-lQ
+xx
 lQ
 lQ
 lQ
@@ -56193,7 +57051,7 @@ lQ
 lQ
 lQ
 lQ
-jY
+lQ
 lQ
 lQ
 lQ
@@ -56448,7 +57306,7 @@ ab
 ab
 xR
 lQ
-lQ
+jY
 lQ
 lQ
 lQ
@@ -58765,7 +59623,7 @@ vx
 lQ
 BP
 lQ
-lQ
+Td
 lQ
 lQ
 lQ
@@ -59026,7 +59884,7 @@ lQ
 jY
 jY
 lQ
-lQ
+Td
 lQ
 lQ
 lQ
@@ -59283,7 +60141,7 @@ lQ
 lQ
 lQ
 lQ
-lQ
+Td
 lQ
 lQ
 lQ
@@ -59537,7 +60395,7 @@ jY
 lQ
 lQ
 lQ
-lQ
+Td
 BP
 lQ
 lQ
@@ -60573,7 +61431,7 @@ ab
 ab
 jV
 lQ
-lQ
+Td
 ab
 ab
 ab
@@ -61857,7 +62715,7 @@ ab
 ab
 ab
 lQ
-lQ
+Td
 lQ
 ab
 ab
@@ -64182,15 +65040,15 @@ ab
 lQ
 ab
 ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
+HJ
+HJ
+HJ
+HJ
+Bm
+HJ
+Bm
+Bm
+HJ
 ab
 ab
 ab
@@ -64439,15 +65297,15 @@ ab
 lQ
 ab
 ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
+Bm
+Bm
+Xe
+KL
+Bm
+Bm
+Bm
+Zc
+HJ
 ab
 ab
 ab
@@ -64696,15 +65554,15 @@ ab
 jV
 ab
 ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
+Bm
+Iu
+Sl
+Sl
+KL
+ET
+Bm
+Bm
+HJ
 ab
 ab
 ab
@@ -64953,15 +65811,15 @@ ab
 ab
 ab
 ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
+HJ
+Bk
+LM
+FD
+NU
+xT
+ET
+KL
+HJ
 ab
 ab
 ab
@@ -65210,15 +66068,15 @@ ab
 ab
 ab
 ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
+HJ
+Cq
+Jr
+xT
+xT
+xT
+xT
+Sl
+Bm
 ab
 ab
 ab
@@ -65467,15 +66325,15 @@ ab
 ab
 ab
 ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
+HJ
+Bm
+Bm
+Sl
+Bm
+IT
+UI
+Bm
+Bm
 ab
 ab
 ab
@@ -65727,7 +66585,7 @@ HJ
 XB
 HJ
 HJ
-HJ
+yH
 XB
 XB
 HJ
@@ -65983,8 +66841,8 @@ OA
 UE
 Ny
 zq
-Ls
 su
+Ls
 CD
 wT
 Gu
@@ -66237,7 +67095,7 @@ HJ
 Pr
 Jr
 Oe
-Jr
+Oa
 Ny
 vf
 UA
@@ -67535,7 +68393,7 @@ wj
 Lu
 OA
 AM
-Zt
+In
 Yp
 HJ
 XB
@@ -67799,7 +68657,7 @@ Zt
 Zt
 KL
 SG
-KE
+SG
 XB
 ab
 ab
@@ -68047,16 +68905,16 @@ rK
 Ny
 qT
 uO
-Zt
-Zt
+Qd
+Qd
 Vk
-qz
-Zt
-Zt
-Zt
-uO
+qX
+Qd
+Qd
+Qd
+NC
 CB
-XZ
+KL
 XB
 ab
 ab
@@ -68300,7 +69158,7 @@ Vh
 wI
 HJ
 QG
-Iu
+DR
 Hj
 Ja
 Zt
@@ -68554,23 +69412,23 @@ Ur
 XB
 Li
 wI
-rT
+Lp
 HJ
 JU
 TC
 OA
 ty
 uO
-Zt
-Zt
-Zt
+In
+In
+In
 qz
-Zt
-Zt
-Zt
-uO
+In
+In
+In
+uY
 rW
-Zt
+zs
 HJ
 ab
 ab
@@ -68811,7 +69669,7 @@ XB
 XB
 HJ
 yb
-Iu
+Rg
 HJ
 JU
 TC
@@ -68822,12 +69680,12 @@ Ny
 Tj
 Tj
 Tj
-Ny
+EE
 yb
 OA
 KL
 yb
-OA
+Ov
 HJ
 XB
 XB
@@ -69070,21 +69928,21 @@ KL
 SG
 SG
 Ls
-SX
-HU
-HF
+KK
+rS
+tI
 ZC
-IM
-Dh
+GU
+GU
 wz
 wz
 wz
 UO
-Hf
-Ls
-Ls
-Ls
-Ls
+Wc
+GU
+No
+Kq
+XZ
 Ls
 OA
 xg
@@ -69324,15 +70182,15 @@ UC
 Sb
 CQ
 SG
-KL
-UC
-UC
-GY
+WZ
+Sm
+tJ
+Lq
 BB
 xc
-UC
-qM
-Ls
+WC
+IM
+Dh
 Ls
 Ls
 Ls
@@ -69342,7 +70200,7 @@ Ak
 zI
 AX
 EL
-Ls
+SG
 OA
 Yn
 Tg
@@ -69581,15 +70439,15 @@ EX
 QZ
 rt
 Fr
-UC
+SI
 Ls
 Ye
 Mg
 qM
 OH
 UC
-UC
-UC
+Ls
+Ls
 ux
 Ls
 Ls
@@ -69838,7 +70696,7 @@ FP
 qt
 Xd
 Pd
-UC
+SI
 Xx
 Eb
 ti
@@ -70095,7 +70953,7 @@ UC
 Fd
 Lf
 Ls
-Ls
+QU
 Ls
 YF
 Ht
@@ -70364,7 +71222,7 @@ Vt
 CF
 Ls
 UC
-Ls
+RK
 Vf
 yX
 Zz
@@ -70609,9 +71467,9 @@ UW
 qt
 BC
 GY
-vM
-xc
-YF
+ND
+rG
+Ob
 To
 Vt
 Vt
@@ -70620,7 +71478,7 @@ uG
 SG
 TJ
 vw
-UC
+wX
 Dr
 Ma
 Qg
@@ -70866,7 +71724,7 @@ Ls
 Fd
 JR
 OB
-qM
+Ut
 OH
 YF
 BY
@@ -70874,7 +71732,7 @@ Vt
 Tl
 Vt
 SG
-To
+FS
 Gr
 Ls
 UC
@@ -71111,7 +71969,7 @@ VZ
 VZ
 VZ
 VZ
-BM
+Mu
 VZ
 VZ
 VZ
@@ -71131,7 +71989,7 @@ LH
 Wx
 uG
 NX
-SG
+Cn
 TF
 Ls
 UC
@@ -71380,7 +72238,7 @@ HJ
 HJ
 HJ
 HJ
-DL
+OW
 Ls
 YF
 Ht
@@ -71388,7 +72246,7 @@ SG
 Vt
 Vt
 Vt
-SG
+Cn
 TF
 Ls
 Ls
@@ -71637,15 +72495,15 @@ IG
 HJ
 qY
 SG
-KL
+DW
 Xx
 ME
 vY
 re
 RW
 vY
-vY
-vY
+PL
+ZU
 PZ
 zr
 Ls
@@ -71889,18 +72747,18 @@ HJ
 SG
 SG
 HJ
-wI
+qo
 SG
 up
 vb
 SG
-Ls
+uP
 Ls
 OS
 Ls
 Jj
-Ls
-Ls
+GU
+GU
 Ls
 Ls
 OS
@@ -71914,8 +72772,8 @@ UC
 Ls
 Ls
 Av
-Tq
 Nt
+Tq
 Av
 Ls
 SB
@@ -72146,13 +73004,13 @@ HJ
 ny
 SG
 HJ
-wI
+qo
 tm
-Vh
+NU
 vZ
 sa
-Ls
-Ls
+Gl
+RK
 qs
 PA
 DN
@@ -72172,7 +73030,7 @@ tj
 tj
 OA
 OA
-OA
+Mr
 Ny
 Ny
 Ny
@@ -72396,19 +73254,19 @@ ay
 ay
 lQ
 XB
-XC
+zy
 KL
-XC
-SG
+DT
+RS
 SG
 SG
 HJ
 wQ
 UZ
 yb
-qY
+Jw
 yb
-SG
+Cn
 Ls
 Wy
 Nh
@@ -72653,10 +73511,10 @@ ay
 ay
 BP
 XB
+Nf
 KL
-KL
-XC
-SG
+DT
+RS
 SG
 NU
 HJ
@@ -72665,7 +73523,7 @@ HJ
 HJ
 HJ
 HJ
-IX
+JK
 OA
 OA
 OA
@@ -72922,7 +73780,7 @@ Ms
 Ms
 uR
 SG
-SG
+Cn
 Ny
 EV
 Np
@@ -73172,7 +74030,7 @@ XB
 HJ
 HJ
 GI
-SG
+ZS
 Ih
 Ih
 SG
@@ -73433,10 +74291,10 @@ Ia
 Kb
 KE
 TH
-WZ
+Pt
 yD
 Lm
-FM
+tn
 Ny
 wg
 Vh
@@ -73688,20 +74546,20 @@ yg
 Xw
 Ia
 YK
-HV
+qq
 TH
 ES
-KL
+DT
 QM
-SG
+tn
 Ny
 Fy
 Wp
 sx
 KN
-JZ
+YC
 Bl
-DW
+DN
 yp
 OA
 FK
@@ -73941,7 +74799,7 @@ lQ
 lQ
 HJ
 QW
-SG
+ID
 Xw
 Ia
 PS
@@ -74201,11 +75059,11 @@ HJ
 sk
 Xw
 Ia
-SG
+DT
 XY
 IZ
 ES
-SG
+DT
 WP
 Iu
 SG
@@ -74230,13 +75088,13 @@ KL
 qk
 qk
 Wu
-KL
+Qp
 OA
 BL
 Oa
 On
 Tj
-wI
+ub
 Vh
 Vh
 zz
@@ -74712,15 +75570,15 @@ ay
 BP
 Yg
 Qb
-NU
+JS
 SG
-SG
+Yk
 Ow
 Nb
 TH
 Nb
 Da
-HV
+LB
 Aq
 NJ
 Cn
@@ -74737,7 +75595,7 @@ Ls
 IR
 Ny
 Tn
-WM
+Xh
 Br
 OA
 yN
@@ -74994,8 +75852,8 @@ UC
 DU
 Ny
 Pu
-WM
-WM
+yF
+yF
 rg
 ur
 Ls
@@ -75227,13 +76085,13 @@ ay
 XB
 ra
 BK
-KL
+Yv
 DA
-SG
+Yk
 Ah
 Ez
 uu
-qk
+JZ
 sy
 LN
 qL
@@ -75488,7 +76346,7 @@ Yr
 QD
 MN
 Qe
-TR
+Wm
 NU
 SG
 zs
@@ -75765,14 +76623,14 @@ UC
 tp
 OA
 Yz
-WM
+rb
 Br
 OA
 Ul
 UC
 Ny
 Dm
-rb
+Xh
 Vj
 OA
 AE
@@ -76022,7 +76880,7 @@ UC
 tp
 Ny
 HQ
-WM
+yF
 WM
 rg
 uz
@@ -76279,7 +77137,7 @@ UC
 DU
 Ny
 xU
-WM
+yF
 LW
 OA
 Cw
@@ -76287,7 +77145,7 @@ wH
 rg
 rb
 rb
-rb
+Xh
 Ny
 Uj
 SG
@@ -76781,7 +77639,7 @@ wY
 Ld
 um
 Ld
-Vr
+FU
 Ld
 Qn
 Ld
@@ -76800,7 +77658,7 @@ Ls
 UC
 OA
 vm
-rb
+Xh
 Te
 OA
 yn
@@ -77057,10 +77915,10 @@ TV
 Hh
 OA
 UL
-rb
+Xh
 we
 OA
-Qy
+LD
 Jr
 OM
 Ny
@@ -77318,7 +78176,7 @@ OA
 OA
 OA
 Qy
-xT
+Nl
 Xj
 Ny
 ab
@@ -77829,10 +78687,10 @@ uz
 OA
 Op
 OA
-Jg
+rd
 OA
 IF
-Jr
+OL
 Lk
 OA
 ab
@@ -78089,7 +78947,7 @@ Jr
 Jr
 Jr
 xT
-Jr
+tu
 xT
 OA
 ab
@@ -78341,12 +79199,12 @@ NF
 zj
 uz
 Ny
-Jg
+SV
 Ny
-Jg
+SV
 Ny
 vX
-xT
+xo
 XA
 Ny
 ab
@@ -78604,7 +79462,7 @@ zL
 Ny
 rF
 ZX
-rF
+yW
 OA
 ab
 ab

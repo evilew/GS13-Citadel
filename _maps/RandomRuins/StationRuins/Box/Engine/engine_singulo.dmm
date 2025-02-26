@@ -672,6 +672,10 @@
 	},
 /turf/open/floor/engine,
 /area/engineering/main)
+"MC" = (
+/obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden,
+/turf/open/floor/plasteel,
+/area/engineering/main)
 "MD" = (
 /obj/structure/reagent_dispensers/fueltank,
 /obj/effect/turf_decal/stripes/line{
@@ -717,6 +721,13 @@
 	icon_state = "0-4"
 	},
 /turf/open/floor/engine,
+/area/engineering/main)
+"OS" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
+/turf/open/floor/plasteel,
 /area/engineering/main)
 "Pg" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
@@ -1585,9 +1596,9 @@ MJ
 MJ
 "}
 (26,1,1) = {"
-fh
-kh
-mB
+Pg
+OS
+MC
 ZY
 kC
 mZ

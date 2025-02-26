@@ -240,6 +240,7 @@
 /obj/item/organ/eyes/robotic/glow
 	name = "High Luminosity Eyes"
 	desc = "Special glowing eyes, used by snowflakes who want to be special."
+	flash_protect = 2 // GS13 EDIT Non-organic eyes should be protected from welding flash.
 	left_eye_color = "000"
 	right_eye_color = "000"
 	actions_types = list(/datum/action/item_action/organ_action/use, /datum/action/item_action/organ_action/toggle)
@@ -429,6 +430,7 @@
 	name = "ipc eyes"
 	icon_state = "cybernetic_eyeballs"
 	organ_flags = ORGAN_SYNTHETIC // GS13 = Fixes IPC organs decaying, we hope.
+	flash_protect = 2 // GS13 EDIT Non-organic eyes should be protected from welding flash.
 
 /obj/item/organ/eyes/ipc/emp_act(severity)
 	. = ..()

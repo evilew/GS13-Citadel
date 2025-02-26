@@ -45,7 +45,7 @@
 /obj/machinery/vending
 	name = "\improper Vendomat"
 	desc = "A generic vending machine."
-	icon = 'icons/obj/vending.dmi'
+	icon = 'GainStation13/icons/obj/vending.dmi' //GS13 icons
 	icon_state = "generic"
 	layer = BELOW_OBJ_LAYER
 	density = TRUE
