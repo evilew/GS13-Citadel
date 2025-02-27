@@ -289,6 +289,7 @@
 #define TRAIT_METAL_CRUNCHER 	"metal_cruncher"
 #define TRAIT_WATER_SPONGE 		"water_sponge"
 #define TRAIT_FATROUSAL         "fatrousal"
+#define TRAIT_MILKY				"milky" //basically faster milk production
 
 //GS13 Port
 #define TRAIT_HEADPAT_SLUT		"headpat_slut"
