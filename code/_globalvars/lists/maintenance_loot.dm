@@ -119,8 +119,8 @@ GLOBAL_LIST_INIT(maintenance_loot, list(
 	//GS13 EDIT
 	/obj/item/trash/fatoray_scrap1 = 1,
 	/obj/item/trash/fatoray_scrap2 = 1,
-	/obj/item/trash/odd_disk = 1,
 	/obj/item/metal_food/mram = 7,
+	/obj/item/trash/odd_disk = 1,
 	// GS13 EDIT END
 	"" = 3
 	))
