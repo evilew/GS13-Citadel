@@ -5,14 +5,10 @@
 	if(breath.total_moles() == 0)
 		return
 
-	var/pressure = breath.return_pressure()
 	var/total_moles = breath.total_moles()
 	var/lipoifium_moles = breath.get_moles(GAS_FAT)
-	#define PP_MOLES(X) ((X / total_moles) * pressure)
-	var/gas_breathed = PP_MOLES(lipoifium_moles) // this does the same thing as the bit below but I think this is more readable
-	// #define PP(air, gas) PP_MOLES(air.get_moles(gas))
-	// var/gas_breathed = PP(breath, GAS_FAT)
-	if(gas_breathed <= 0)
+	#define PP_MOLES(X) ((X / total_moles) * pressure) // this needs to be here because spaghetti, I'm sorry
+	if(lipoifium_moles <= 0)
 		return
 
 	H.adjust_fatness(lipoifium_moles * 1500, FATTENING_TYPE_ATMOS)
