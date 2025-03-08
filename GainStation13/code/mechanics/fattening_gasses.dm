@@ -15,8 +15,8 @@
 	if(gas_breathed <= 0)
 		return
 
-	H.adjust_fatness(gas_breathed, FATTENING_TYPE_ATMOS)
-	breath.adjust_moles(GAS_FAT, -gas_breathed)
+	H.adjust_fatness(lipoifium_moles * 1500, FATTENING_TYPE_ATMOS)
+	breath.set_moles(GAS_FAT, 0)
 	// TODO: the entire code below is a workaround for default odor not working
 	// The problem seems to be auxmos'es get_gasses function not acknowledging that lipoifium exists
 	// which is strange, considering that everything else regarding this gas and auxmos works
