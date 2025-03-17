@@ -12,6 +12,8 @@
 	 *  such collision by forcing a non-collision.
 	 */
 	var/rotated
+	 //BLUEMOON FIX - ADDED BY GS13
+	var/initial_dir // Stores the initial direction of the decal
 
 /datum/element/decal/Attach(atom/target, _icon, _icon_state, _dir, _cleanable=CLEAN_GOD, _color, _layer=TURF_LAYER, _description, _alpha=255, _rotated=FALSE)
 	. = ..()
@@ -20,6 +22,8 @@
 	description = _description
 	cleanable = _cleanable
 	rotated = _rotated
+	//BLUEMOON FIX - ADDED BY GS13
+	initial_dir = _dir // Store the initial direction
 
 	RegisterSignal(target,COMSIG_ATOM_UPDATE_OVERLAYS, PROC_REF(apply_overlay), TRUE)
 	if(isturf(target))
@@ -63,7 +67,8 @@
 
 /datum/element/decal/proc/apply_overlay(atom/source, list/overlay_list)
 	SIGNAL_HANDLER
-
+	//BLUEMOON FIX - ADDED BY GS13
+	pic.dir = initial_dir // Use the initial direction instead of the turf's direction
 	overlay_list += pic
 
 /datum/element/decal/proc/shuttlemove_react(datum/source, turf/newT)

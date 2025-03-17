@@ -7704,9 +7704,6 @@
 "sv" = (
 /turf/open/floor/plasteel,
 /area/ruin/space/has_grav/powered)
-"sw" = (
-/turf/open/floor/plasteel/damturf/platdmg1,
-/area/xenoarch/arch)
 "sx" = (
 /obj/structure/fluff/paper,
 /obj/structure/filingcabinet,
@@ -13525,12 +13522,6 @@
 	},
 /turf/open/floor/plasteel,
 /area/xenoarch/caloriteresearch_powered)
-"NE" = (
-/obj/effect/turf_decal/stripes/line{
-	dir = 1
-	},
-/turf/open/floor/plasteel/damturf/platdmg1,
-/area/xenoarch/arch)
 "NF" = (
 /obj/structure/chair/stool{
 	pixel_y = 8
@@ -15003,10 +14994,6 @@
 /obj/effect/turf_decal/stripes,
 /turf/open/floor/plasteel/dark,
 /area/xenoarch/caloriteresearch_powered)
-"Th" = (
-/obj/structure/trash_pile,
-/turf/open/floor/plasteel,
-/area/xenoarch/arch)
 "Ti" = (
 /obj/effect/turf_decal/stripes/white/line{
 	dir = 2;
@@ -15848,10 +15835,6 @@
 	},
 /turf/open/floor/plasteel,
 /area/xenoarch/caloriteresearch_powered)
-"Wd" = (
-/obj/machinery/light/small,
-/turf/open/floor/plasteel/damturf/platdmg1,
-/area/xenoarch/arch)
 "We" = (
 /obj/effect/turf_decal/candy/bluewhite1,
 /turf/open/candyfloor,
@@ -22727,7 +22710,7 @@ bG
 bG
 bG
 bG
-sw
+bG
 bG
 xw
 uA
@@ -22988,7 +22971,7 @@ SN
 SN
 YB
 VG
-sw
+bG
 fL
 aI
 qI
@@ -23245,7 +23228,7 @@ wq
 wq
 VM
 th
-Wd
+Qx
 fL
 Kg
 qI
@@ -23747,7 +23730,7 @@ ab
 ab
 ab
 fL
-sw
+bG
 ZR
 Di
 aC
@@ -23758,7 +23741,7 @@ aC
 aC
 aC
 VM
-NE
+th
 bG
 fV
 xy
@@ -25297,7 +25280,7 @@ aC
 sY
 JO
 aC
-Th
+aC
 sY
 sY
 th
@@ -25803,12 +25786,12 @@ ab
 ab
 ab
 fL
+uA
 bG
 bG
 bG
 bG
 bG
-sw
 bG
 bG
 bG

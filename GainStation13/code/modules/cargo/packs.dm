@@ -30,3 +30,10 @@
 					/obj/item/seeds/random)
 	crate_name = "strange seeds crate"
 	crate_type = /obj/structure/closet/crate/hydroponics
+
+/datum/supply_pack/critter/fennec //ported from CHOMPstation2
+	name = "Fennec Crate"
+	desc = "Why so ears?"
+	cost = 5000
+	contains = list(/mob/living/simple_animal/pet/fox/fennec)
+	crate_name = "fennec crate"
