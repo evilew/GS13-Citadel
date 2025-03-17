@@ -39,3 +39,11 @@
 	gender = FEMALE
 	gold_core_spawnable = NO_SPAWN
 	unique_pet = TRUE
+
+/mob/living/simple_animal/pet/fox/fennec //ported from CHOMPstation2
+	name = "fennec"
+	desc = "It's an earsy fennec fox."
+	icon = 'v_CHOMPstation2/icons/mob/fennec.dmi'
+	icon_state = "fennec"
+	icon_living = "fennec"
+	icon_dead = "fennec_dead"
