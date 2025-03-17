@@ -256,7 +256,10 @@ SUBSYSTEM_DEF(vote)
 		var/amount_required = 0 //gs13 tweaked from 1 to 0
 		transfer_votes_done = 0 //gs13 tweaked from 1 to 0 (also removed it incrementing with each vote)
 		text += "\nExtending requires at least [amount_required] votes to win."
+		// GS13 EDIT
+		// if(choices[VOTE_CONTINUE] < amount_required || choices[VOTE_TRANSFER] >= choices[VOTE_CONTINUE])
 		if(choices[VOTE_CONTINUE] < amount_required || choices[VOTE_TRANSFER] > choices[VOTE_CONTINUE])
+		// GS13 END EDIT
 			winners = list(VOTE_TRANSFER)
 		else
 			winners = list(VOTE_CONTINUE)
