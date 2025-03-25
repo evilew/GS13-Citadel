@@ -615,7 +615,6 @@ GLOBAL_LIST_INIT(valid_plushie_paths, valid_plushie_paths())
 /obj/item/toy/plush/lizardplushie/kobold
 	name = "spacelizard plushie"
 	desc = "An adorable stuffed toy that resembles a lizard in a suit."
-	icon_state = "plushie_spacelizard"
 	icon_state = "spess_lizord"
 
 /obj/item/toy/plush/nukeplushie
@@ -654,7 +653,6 @@ GLOBAL_LIST_INIT(valid_plushie_paths, valid_plushie_paths())
 /obj/item/toy/plush/mothplushie
 	name = "moth plushie"
 	desc = "An adorable stuffed toy that resembles some kind of insect."
-	icon_state = "moff"
 	icon_state = "moffplush"
 	squeak_override = list('modular_citadel/sound/voice/mothsqueak.ogg' = 1)
 	can_random_spawn = FALSE
@@ -764,7 +762,6 @@ GLOBAL_LIST_INIT(valid_plushie_paths, valid_plushie_paths())
 
 /obj/item/toy/plush/mammal/dog/borgi
 	name = "borgi plushie"
-	icon_state = "borgi"
 	icon_state = "robotcorgi"
 	desc = "An adorable stuffed toy that resembles a robot dog."
 
@@ -778,7 +775,6 @@ GLOBAL_LIST_INIT(valid_plushie_paths, valid_plushie_paths())
 /obj/item/toy/plush/bird
 	name = "bird plushie"
 	desc = "An adorable stuffed plushie that resembles an avian."
-	icon_state = "bird"
 	icon_state = "plushie_vox"
 	attack_verb = list("peeped", "beeped", "poofed")
 	squeak_override = list('modular_citadel/sound/voice/peep.ogg' = 1)
@@ -814,7 +810,6 @@ GLOBAL_LIST_INIT(valid_plushie_paths, valid_plushie_paths())
 /obj/item/toy/plush/crab
 	name = "crab plushie"
 	desc = "Fewer pinches than a real one, but it still clicks."
-	icon_state = "crab"
 	icon_state = "mr_krabs"
 	attack_verb = list("clicked", "clacked", "pinched")
 
