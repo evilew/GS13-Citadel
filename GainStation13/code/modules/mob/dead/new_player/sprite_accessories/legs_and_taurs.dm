@@ -67,3 +67,19 @@
 	color_src = MATRIXED
 	matrixed_sections = MATRIX_RED_GREEN
 	taur_mode = STYLE_SNEK_TAURIC
+
+/datum/sprite_accessory/taur/fatdrakelights //Edited fat drake but with lights
+	name = "Fat Drake (lights)"
+	icon = 'GainStation13/icons/mob/markings/mam_taur.dmi'
+	icon_state = "fdsynthlights"
+	color_src = MATRIXED
+	matrixed_sections = MATRIX_ALL
+	taur_mode = STYLE_PAW_TAURIC
+
+/datum/sprite_accessory/taur/drakelights //Edited drake but with lights
+	name = "Drake (lights)"
+	icon = 'GainStation13/icons/mob/markings/mam_taur.dmi'
+	icon_state = "drakelights"
+	color_src = MATRIXED
+	matrixed_sections = MATRIX_ALL
+	taur_mode = STYLE_PAW_TAURIC
