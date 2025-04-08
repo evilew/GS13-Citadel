@@ -148,6 +148,13 @@
 	contains = list(/obj/item/vending_refill/wardrobe/cargo_wardrobe)
 	crate_name = "cargo department supply crate"
 
+/datum/supply_pack/vending/wardrobes/clothing //GS13 Edit: ClothesMate refill pack
+	name = "ClothesMate Supply Crate"
+	desc = "ClothesMate missing your favorite outfit? Solve that issue today with this autodrobe refill."
+	cost = 1500
+	contains = list(/obj/item/vending_refill/clothing)
+	crate_name = "clothesmate supply crate"
+
 /datum/supply_pack/vending/wardrobes/engineering
 	name = "Engineering Wardrobe Supply Crate"
 	desc = "This crate contains refills for the EngiDrobe and AtmosDrobe."

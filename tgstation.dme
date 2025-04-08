@@ -4157,6 +4157,7 @@
 #include "hyperstation\code\obj\decal.dm"
 #include "hyperstation\code\obj\fleshlight.dm"
 #include "hyperstation\code\obj\kinkyclothes.dm"
+#include "hyperstation\code\obj\pole.dm"
 #include "hyperstation\code\obj\sizeitems.dm"
 #include "hyperstation\code\obj\stargate_clothing.dm"
 #include "hyperstation\code\obj\ZaoCorp\hat.dm"
