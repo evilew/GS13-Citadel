@@ -1570,7 +1570,7 @@ GLOBAL_LIST_EMPTY(preferences_datums)
 	popup.open(FALSE)
 	onclose(user, "capturekeypress", src)
 
-/datum/preferences/proc/SetChoices(mob/user, limit = 17, list/splitJobs = list("Chief Engineer"), widthPerColumn = 295, height = 620)
+/datum/preferences/proc/SetChoices(mob/user, limit = 22, list/splitJobs = list("Chief Engineer"), widthPerColumn = 295, height = 620) //GS13 Edit: Expanding out the pref window for new job additions
 	if(!SSjob)
 		return
 
@@ -3025,7 +3025,7 @@ GLOBAL_LIST_EMPTY(preferences_datums)
 					var/new_wl_rate = input(user, "Choose your weight loss rate from 0.1 (10%) to 2 (200%).\n Decimals such as 0.2 indicate 20% rate.\nDefault recommended rate is 0.5 (50%)", "Character Preference", wl_rate) as num|null
 					if (new_wl_rate)
 						wl_rate = max(min(round(text2num(new_wl_rate),0.01),2),0)
-				
+
 				if("stuckage_chance")
 					var/new_stuckage_chance = input(user, "Choose your chance to get stuck in doors from 0.1 (10%) to 1 (100%).\nDecimals such as 0.2 indicate 20% chance.\nSetting this to 0 restores default values.", "Character Preference", stuckage_chance) as num|null
 					if(new_stuckage_chance)

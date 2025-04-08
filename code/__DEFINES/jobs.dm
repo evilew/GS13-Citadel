@@ -12,6 +12,8 @@
 #define ROBOTICIST		(1<<8)
 #define AI_JF			(1<<9)
 #define CYBORG			(1<<10)
+#define JR_OFFICER		(1<<11)
+#define JR_ENGINEER		(1<<12)
 
 
 #define MEDSCI			(1<<1)
@@ -24,6 +26,8 @@
 #define GENETICIST		(1<<5)
 #define VIROLOGIST		(1<<6)
 #define PARAMEDIC		(1<<7)
+#define JR_DOCTOR		(1<<8)
+#define JR_SCIENTIST	(1<<9)
 
 
 #define CIVILIAN		(1<<2)
