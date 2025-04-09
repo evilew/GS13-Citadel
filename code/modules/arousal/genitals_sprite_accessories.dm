@@ -152,3 +152,19 @@
 	icon = 'hyperstation/icons/obj/genitals/belly_round.dmi'
 	icon_state = "round"
 	name = "Round Belly"
+
+//GS13 EDIT TAUR BELLY
+/datum/sprite_accessory/taur_belly // Generic taur belly
+	icon = 'GainStation13/icons/obj/genitals/taur_belly/taur_belly_drake.dmi'
+	icon_state = "drake"
+	name = "generic taur belly"
+	color_src = "taur_belly_color"
+	//taur_dimension_x = 64
+	feat_taur = "belly_taur"
+	center = TRUE
+	dimension_x = 64
+
+/datum/sprite_accessory/taur_belly/drake
+	taur_icon = 'GainStation13/icons/obj/genitals/taur_belly/taur_belly_drake.dmi'
+	icon_state = "drake"
+	name = "Drake Belly"

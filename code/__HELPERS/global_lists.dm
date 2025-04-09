@@ -58,6 +58,7 @@
 	init_sprite_accessory_subtypes(/datum/sprite_accessory/butt, GLOB.butt_shapes_list)
 	init_sprite_accessory_subtypes(/datum/sprite_accessory/testicles, GLOB.balls_shapes_list)
 	init_sprite_accessory_subtypes(/datum/sprite_accessory/belly, GLOB.belly_shapes_list)
+	init_sprite_accessory_subtypes(/datum/sprite_accessory/taur_belly, GLOB.taur_belly_shapes_list) //GS13 EDIT TAUR BELLY
 
 	for(var/gpath in subtypesof(/obj/item/organ/genital))
 		var/obj/item/organ/genital/G = gpath
