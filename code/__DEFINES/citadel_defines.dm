@@ -10,10 +10,11 @@
 #define VAGINA_LAYER_INDEX		2
 #define TESTICLES_LAYER_INDEX	3
 #define BELLY_LAYER_INDEX		4
-#define GENITAL_LAYER_INDEX		5
-#define PENIS_LAYER_INDEX		6
+#define TAUR_BELLY_LAYER_INDEX	5
+#define GENITAL_LAYER_INDEX		6
+#define PENIS_LAYER_INDEX		7
 
-#define GENITAL_LAYER_INDEX_LENGTH 6 //keep it updated with each new index added, thanks.
+#define GENITAL_LAYER_INDEX_LENGTH 7 //keep it updated with each new index added, thanks.
 
 //genital flags
 #define GENITAL_BLACKLISTED		(1<<0) //for genitals that shouldn't be added to GLOB.genitals_list.
@@ -71,6 +72,11 @@
 #define BELLY_SIZE_MAX	10
 
 #define DEF_BELLY_SHAPE "Soft Belly" //GS13 - More belly types
+
+//GS13 EDIT TAUR BELLIES
+#define TAUR_BELLY_SIZE_DEF		1
+#define TAUR_BELLY_SIZE_MAX		10
+#define TAUR_BELLY_SHAPE_DEF 	"Drake Belly" // GS13 - for future taur bodies...
 
 //GS13 Port - Add back Arousal
 #define AROUSAL_MINIMUM_DEFAULT 	0

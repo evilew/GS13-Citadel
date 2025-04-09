@@ -106,6 +106,8 @@
 		init_sprite_accessory_subtypes(/datum/sprite_accessory/ears/mam_ears, GLOB.mam_ears_list)
 	if(!GLOB.mam_snouts_list.len)
 		init_sprite_accessory_subtypes(/datum/sprite_accessory/snouts/mam_snouts, GLOB.mam_snouts_list)
+	if(!GLOB.taur_belly_shapes_list.len) //GS13 EDIT TAUR BELLY
+		init_sprite_accessory_subtypes(/datum/sprite_accessory/taur_belly, GLOB.taur_belly_shapes_list)
 
 	//snowflake check so people's ckey features don't get randomly put on unmonkeys/spawns
 	var/list/snowflake_mam_tails_list = list()
@@ -221,6 +223,15 @@
 		"hide_belly" 		= FALSE,
 		"inflatable_belly" 	= FALSE,
 		"belly_color" 		= pick("FFFFFF","7F7F7F", "7FFF7F", "7F7FFF", "FF7F7F", "7FFFFF", "FF7FFF", "FFFF7F"),
+		// GS13 EDIT END
+		// GS13 EDIT START - TAUR BELLY
+		"has_taur_belly" 	= FALSE,
+		"taur_belly_size"	= TAUR_BELLY_SIZE_DEF,
+		"taur_belly_shape"	= TAUR_BELLY_SHAPE_DEF,
+		"hide_taur_belly" 	= FALSE,
+		//"inflatable_belly" 	= FALSE,
+		"taur_belly_color" 	= pick("FFFFFF","7F7F7F", "7FFF7F", "7F7FFF", "FF7F7F", "7FFFFF", "FF7FFF", "FFFF7F"),
+		"taur_belly_visibility"	= GEN_VISIBLE_NO_UNDIES,
 		// GS13 EDIT END
 
 		"balls_visibility"	= GEN_VISIBLE_NO_UNDIES,

@@ -129,6 +129,11 @@
 		var/picked_visibility = input(usr, "Choose visibility", "Expose/Hide genitals", "Hidden by clothes") in list("Always visible", "Hidden by Undies", "Hidden by clothes", "Always hidden")
 		E.toggle_visibility(picked_visibility)
 
+	if(href_list["hidetaur belly"])
+		var/obj/item/organ/genital/taur_belly/X = usr.getorganslot("taur_belly")
+		var/picked_visibility = input(usr, "Choose visibility", "Expose/Hide genitals", "Hidden by clothes") in list("Always visible", "Hidden by Undies", "Hidden by clothes", "Always hidden")
+		X.toggle_visibility(picked_visibility)
+
 	if(href_list["hidebutt"])
 		var/obj/item/organ/genital/butt/A = usr.getorganslot(ORGAN_SLOT_BUTT)
 		var/picked_visibility = input(usr, "Choose visibility", "Expose/Hide genitals", "Hidden by clothes") in list("Always visible", "Hidden by Undies", "Hidden by clothes", "Always hidden")

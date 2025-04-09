@@ -4066,6 +4066,7 @@
 #include "GainStation13\code\modules\mob\living\fullness.dm"
 #include "GainStation13\code\modules\mob\living\nutribot.dm"
 #include "GainStation13\code\modules\mob\living\species.dm"
+#include "GainStation13\code\modules\mob\living\taur_belly.dm"
 #include "GainStation13\code\modules\mob\living\vore\eating\trasheat_lists.dm"
 #include "GainStation13\code\modules\mod\modules\modules_fat.dm"
 #include "GainStation13\code\modules\power\energy_harvester.dm"
