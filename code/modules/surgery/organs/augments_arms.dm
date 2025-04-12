@@ -378,7 +378,7 @@
 			A.cell.use(A.cell.charge)
 			to_chat(H, "<span class='notice'>You siphon off as much as [A] can spare.</span>")
 			break
-		if(H.nutrition > NUTRITION_LEVEL_WELL_FED)
+		if(H.nutrition > NUTRITION_LEVEL_FAT) //GS13 edit; I considered uncapped but it drains APCs and fattens stupid fast. could be fun uncapped but speed would need tweaking
 			to_chat(H, "<span class='notice'>You are now fully charged.</span>")
 			break
 	in_use = FALSE
@@ -397,7 +397,7 @@
 		C.use(siphoned_charge)
 		do_sparks(1, FALSE, C)
 		H.adjust_nutrition(siphoned_charge / 100)	//Less efficient on a pure power basis than APC recharge. Still a very viable way of gaining nutrition. (100 nutrition / base 10k cell)
-		if(H.nutrition > NUTRITION_LEVEL_WELL_FED)
+		if(H.nutrition > NUTRITION_LEVEL_FAT) //GS13 edit, as above
 			to_chat(H, "<span class='notice'>You are now fully charged.</span>")
 			break
 	in_use = FALSE
