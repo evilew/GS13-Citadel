@@ -198,5 +198,5 @@
 	mob_trait = TRAIT_BIOFUEL
 
 /datum/quirk/biofuel/post_add()
-	REMOVE_TRAIT(quirk_holder, TRAIT_NO_PROCESS_FOOD, TRAIT_SPECIES)
+	REMOVE_TRAIT(quirk_holder, TRAIT_NO_PROCESS_FOOD, SPECIES_TRAIT)
 // GS13 EDIT END
