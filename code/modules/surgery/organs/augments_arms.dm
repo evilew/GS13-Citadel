@@ -414,13 +414,15 @@
 		C.use(siphoned_charge)
 		do_sparks(1, FALSE, C)
 		H.adjust_nutrition(siphoned_charge / 100)	//Less efficient on a pure power basis than APC recharge. Still a very viable way of gaining nutrition. (100 nutrition / base 10k cell)
+		// GS13 EDIT START
 		if(H.nutrition >= NUTRITION_LEVEL_WELL_FED)
-			if(!overcharge) //GS13 edit
+			if(!overcharge)
 				to_chat(H, "<span class='notice'>You are now fully charged.</span>")
 				break
 			else
 				if(H.nutrition >= NUTRITION_LEVEL_FAT)
 					to_chat(H, "<span class='notice'>You've packed as much extra power into your battery as it can handle.</span>")
 					break
+		//GS13 EDIT END	
 	in_use = FALSE
 	H.visible_message("<span class='notice'>[H] disconnects [src] from [C].</span>", "<span class='notice'>You disconnect from [C].</span>")
