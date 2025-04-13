@@ -384,7 +384,8 @@
 			A.cell.use(A.cell.charge)
 			to_chat(H, "<span class='notice'>You siphon off as much as [A] can spare.</span>")
 			break
-		if(H.nutrition >= NUTRITION_LEVEL_WELL_FED)
+		//GS13 EDIT START
+		if(H.nutrition >= NUTRITION_LEVEL_WELL_FED)	
 			if(!overcharge) //GS13 edit
 				to_chat(H, "<span class='notice'>You are now fully charged.</span>")
 				break
@@ -392,6 +393,7 @@
 				if(H.nutrition >= NUTRITION_LEVEL_FAT)
 					to_chat(H, "<span class='notice'>You've packed as much extra power into your battery as it can handle.</span>")
 					break
+		//GS13 EDIT END
 	in_use = FALSE
 	H.visible_message("<span class='notice'>[H] unplugs from [A].</span>", "<span class='notice'>You unplug from [A].</span>")
 
