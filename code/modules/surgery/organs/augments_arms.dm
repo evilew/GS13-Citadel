@@ -361,10 +361,11 @@
 /obj/item/apc_powercord/proc/apc_powerdraw_loop(obj/machinery/power/apc/A, mob/living/carbon/human/H)
 	H.visible_message("<span class='notice'>[H] inserts a power connector into [A].</span>", "<span class='notice'>You begin to draw power from [A].</span>")
 
-	//GS13 edit
+	//GS13 EDIT START
 	var/overcharge = FALSE
 	if(H.nutrition >= NUTRITION_LEVEL_WELL_FED)
 		overcharge = TRUE
+	//GS13 EDIT END
 
 	while(do_after(H, 10, target = A))
 		if(loc != H)
