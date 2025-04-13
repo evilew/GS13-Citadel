@@ -360,6 +360,12 @@
 
 /obj/item/apc_powercord/proc/apc_powerdraw_loop(obj/machinery/power/apc/A, mob/living/carbon/human/H)
 	H.visible_message("<span class='notice'>[H] inserts a power connector into [A].</span>", "<span class='notice'>You begin to draw power from [A].</span>")
+
+	//GS13 edit
+	var/overcharge = FALSE
+	if(H.nutrition >= NUTRITION_LEVEL_WELL_FED)
+		overcharge = TRUE
+
 	while(do_after(H, 10, target = A))
 		if(loc != H)
 			to_chat(H, "<span class='warning'>You must keep your connector out while charging!</span>")
@@ -378,14 +384,25 @@
 			A.cell.use(A.cell.charge)
 			to_chat(H, "<span class='notice'>You siphon off as much as [A] can spare.</span>")
 			break
-		if(H.nutrition > NUTRITION_LEVEL_FAT) //GS13 edit; I considered uncapped but it drains APCs and fattens stupid fast. could be fun uncapped but speed would need tweaking
-			to_chat(H, "<span class='notice'>You are now fully charged.</span>")
-			break
+		if(H.nutrition >= NUTRITION_LEVEL_WELL_FED)
+			if(!overcharge) //GS13 edit
+				to_chat(H, "<span class='notice'>You are now fully charged.</span>")
+				break
+			else
+				if(H.nutrition >= NUTRITION_LEVEL_FAT)
+					to_chat(H, "<span class='notice'>You've packed as much extra power into your battery as it can handle.</span>")
+					break
 	in_use = FALSE
 	H.visible_message("<span class='notice'>[H] unplugs from [A].</span>", "<span class='notice'>You unplug from [A].</span>")
 
 /obj/item/apc_powercord/proc/cell_powerdraw_loop(obj/item/stock_parts/cell/C, mob/living/carbon/human/H)
 	H.visible_message("<span class='notice'>[H] connects a power cord to [C]</span>", "<span class='notice'>You begin to draw power from [C].</span>")
+
+		//GS13 edit
+	var/overcharge = FALSE
+	if(H.nutrition >= NUTRITION_LEVEL_WELL_FED)
+		overcharge = TRUE
+
 	while(do_after(H, 10, target = C))
 		if(loc != H)
 			to_chat(H, "<span class='warning'>You must keep your connector out while charging!</span>")
@@ -397,8 +414,13 @@
 		C.use(siphoned_charge)
 		do_sparks(1, FALSE, C)
 		H.adjust_nutrition(siphoned_charge / 100)	//Less efficient on a pure power basis than APC recharge. Still a very viable way of gaining nutrition. (100 nutrition / base 10k cell)
-		if(H.nutrition > NUTRITION_LEVEL_FAT) //GS13 edit, as above
-			to_chat(H, "<span class='notice'>You are now fully charged.</span>")
-			break
+		if(H.nutrition >= NUTRITION_LEVEL_WELL_FED)
+			if(!overcharge) //GS13 edit
+				to_chat(H, "<span class='notice'>You are now fully charged.</span>")
+				break
+			else
+				if(H.nutrition >= NUTRITION_LEVEL_FAT)
+					to_chat(H, "<span class='notice'>You've packed as much extra power into your battery as it can handle.</span>")
+					break
 	in_use = FALSE
 	H.visible_message("<span class='notice'>[H] disconnects [src] from [C].</span>", "<span class='notice'>You disconnect from [C].</span>")
