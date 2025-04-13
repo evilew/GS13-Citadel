@@ -92,6 +92,7 @@
 
 	// GS13 EDIT
 	var/SSD = FALSE
+	var/lastclienttime = 0 //GS13 Editception: SSD timer
 
 	var/list/pipes_shown = list()
 	var/last_played_vent
