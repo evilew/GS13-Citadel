@@ -2393,7 +2393,7 @@
 /obj/machinery/door/airlock/security/glass{
 	dir = 8;
 	name = "Security E.V.A. Storage";
-	req_access_txt = "3"
+	req_access_txt = "1"
 	},
 /obj/structure/cable/yellow{
 	icon_state = "4-8"
