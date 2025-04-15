@@ -872,22 +872,23 @@ GLOBAL_LIST_EMPTY(preferences_datums)
 					dat += "</td>"
 					dat += "</tr></table>"
 					// GS13 EDIT TAUR BELLY START
-					dat += APPEARANCE_CATEGORY_COLUMN
-					dat += "<h3>Taur Belly</h3>"
-					dat += "<a style='display:block;width:50px' href='?_src_=prefs;preference=has_taur_belly'>[features["has_taur_belly"] == TRUE ? "Yes" : "No"]</a>"
-					if(features["has_taur_belly"])
-						dat += "<b>Color:</b></a><BR>"
-						if(pref_species.use_skintones && features["genitals_use_skintone"] == TRUE)
-							dat += "<span style='border: 1px solid #161616; background-color: [SKINTONE2HEX(skin_tone)];'><font color='[color_hex2num(SKINTONE2HEX(skin_tone)) < 200 ? "FFFFFF" : "000000"]'>[SKINTONE2HEX(skin_tone)]</font></span>(Skin tone overriding)<br>"
-						else
-							dat += "<span style='border: 1px solid #161616; background-color: #[features["taur_belly_color"]];'><font color='[color_hex2num(features["taur_belly_color"]) < 200 ? "FFFFFF" : "000000"]'>#[features["taur_belly_color"]]</font></span> <a href='?_src_=prefs;preference=taur_belly_color;task=input'>Change</a><br>"
-						dat += "<b>Belly Size:</b> <a style='display:block;width:120px' href='?_src_=prefs;preference=taur_belly_size;task=input'>[features["taur_belly_size"]]</a>"
-						dat += "<b>Max Fat Belly Size:</b> <a style='display:block;width:120px' href='?_src_=prefs;preference=max_taur_belly_size;task=input'>[features["max_taur_belly_size"]]</a>"
-						dat += "<b>Belly Shape:</b> <a style='display:block;width:120px' href='?_src_=prefs;preference=taur_belly_shape;task=input'>[features["taur_belly_shape"]]</a>"
-						dat += "<b>Belly Visibility:</b><a style='display:block;width:100px' href='?_src_=prefs;preference=taur_belly_visibility;task=input'>[features["taur_belly_visibility"]]</a>"
-						//dat += "<b>Inflation (climax with and manual belly size change in arousal menu):</b><a style='display:block;width:50px' href='?_src_=prefs;preference=inflatable_belly'>[features["inflatable_belly"] == 1 ? "Yes" : "No"]</a>"
-					dat += "</td>"
-					dat += "</tr></table>"
+					if(features["taur"] != "None")
+						dat += APPEARANCE_CATEGORY_COLUMN
+						dat += "<h3>Taur Belly</h3>"
+						dat += "<a style='display:block;width:50px' href='?_src_=prefs;preference=has_taur_belly'>[features["has_taur_belly"] == TRUE ? "Yes" : "No"]</a>"
+						if(features["has_taur_belly"])
+							dat += "<b>Color:</b></a><BR>"
+							if(pref_species.use_skintones && features["genitals_use_skintone"] == TRUE)
+								dat += "<span style='border: 1px solid #161616; background-color: [SKINTONE2HEX(skin_tone)];'><font color='[color_hex2num(SKINTONE2HEX(skin_tone)) < 200 ? "FFFFFF" : "000000"]'>[SKINTONE2HEX(skin_tone)]</font></span>(Skin tone overriding)<br>"
+							else
+								dat += "<span style='border: 1px solid #161616; background-color: #[features["taur_belly_color"]];'><font color='[color_hex2num(features["taur_belly_color"]) < 200 ? "FFFFFF" : "000000"]'>#[features["taur_belly_color"]]</font></span> <a href='?_src_=prefs;preference=taur_belly_color;task=input'>Change</a><br>"
+							dat += "<b>Belly Size:</b> <a style='display:block;width:120px' href='?_src_=prefs;preference=taur_belly_size;task=input'>[features["taur_belly_size"]]</a>"
+							dat += "<b>Max Fat Belly Size:</b> <a style='display:block;width:120px' href='?_src_=prefs;preference=max_taur_belly_size;task=input'>[features["max_taur_belly_size"]]</a>"
+							dat += "<b>Belly Shape:</b> <a style='display:block;width:120px' href='?_src_=prefs;preference=taur_belly_shape;task=input'>[features["taur_belly_shape"]]</a>"
+							dat += "<b>Belly Visibility:</b><a style='display:block;width:100px' href='?_src_=prefs;preference=taur_belly_visibility;task=input'>[features["taur_belly_visibility"]]</a>"
+							//dat += "<b>Inflation (climax with and manual belly size change in arousal menu):</b><a style='display:block;width:50px' href='?_src_=prefs;preference=inflatable_belly'>[features["inflatable_belly"] == 1 ? "Yes" : "No"]</a>"
+						dat += "</td>"
+						dat += "</tr></table>"
 
 				//Markings
 				if(MARKINGS_CHAR_TAB)
