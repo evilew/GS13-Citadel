@@ -41,13 +41,6 @@
 	cost = 300 //double their export value
 	contains = list(/obj/item/stack/sheet/metal/fifty)
 
-/datum/supply_pack/materials/gmushroom50 //GS13 Buyable LL wood
-	crate_type = /obj/structure/closet/secure_closet/cargo
-	name = "50 Mushroom Planks"
-	desc = "Looks like wood AND is fire proof? Of course you need fifty mushroom planks!"
-	cost = 1700 //Original code cost, this may change in the future
-	contains = list(/obj/item/stack/sheet/mineral/gmushroom/fifty)
-
 /datum/supply_pack/materials/plasteel20
 	crate_type = /obj/structure/closet/secure_closet/cargo
 	name = "20 Plasteel Sheets"
@@ -62,26 +55,12 @@
 	cost = 200 // double their export
 	contains = list(/obj/item/stack/sheet/plastic/twenty)
 
-/datum/supply_pack/materials/plaswood50 //GS13 Buyable LL wood from cargo
-	crate_type = /obj/structure/closet/secure_closet/cargo
-	name = "50 Plaswood Planks"
-	desc = "Who need metal when you can have fifty plaswood planks?"
-	cost = 9000 //Original code cost, this may change in the future
-	contains = list(/obj/item/stack/sheet/mineral/plaswood/fifty)
-
 /datum/supply_pack/materials/sandstone30
 	crate_type = /obj/structure/closet/secure_closet/cargo
 	name = "30 Sandstone Blocks"
 	desc = "Neither sandy nor stoney, these thirty blocks will still get the job done."
 	cost = 150 // five times their export
 	contains = list(/obj/item/stack/sheet/mineral/sandstone/thirty)
-
-/datum/supply_pack/materials/shadoww50 //GS13 Buyable LL wood from cargo
-	crate_type = /obj/structure/closet/secure_closet/cargo
-	name = "50 Shadow Wood Planks"
-	desc = "Time to bring the dark side with fifty shadow wooden planks!"
-	cost = 1450 //Original code cost, this may change in the future
-	contains = list(/obj/item/stack/sheet/mineral/shadoww/fifty)
 
 /datum/supply_pack/materials/wood20
 	crate_type = /obj/structure/closet/secure_closet/cargo

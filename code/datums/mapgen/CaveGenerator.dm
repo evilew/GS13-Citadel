@@ -41,7 +41,7 @@
 	if(!megafauna_spawn_list)
 		megafauna_spawn_list = GLOB.megafauna_spawn_list
 	if(!flora_spawn_list)
-		flora_spawn_list = list(/obj/structure/flora/ash/leaf_shroom = 2 , /obj/structure/flora/ash/cap_shroom = 2 , /obj/structure/flora/ash/stem_shroom = 2 , /obj/structure/flora/ash/cacti = 1, /obj/structure/flora/ash/tall_shroom = 2, /obj/structure/flora/gmushroom/gggmushroom = 2, /obj/structure/flora/shadowtree/shadowtreee = 2, /obj/structure/flora/plasmatree/plasmatreee = 2)  //GS13 Edit: trees in caves
+		flora_spawn_list = list(/obj/structure/flora/ash/leaf_shroom = 2 , /obj/structure/flora/ash/cap_shroom = 2 , /obj/structure/flora/ash/stem_shroom = 2 , /obj/structure/flora/ash/cacti = 1, /obj/structure/flora/ash/tall_shroom = 2)
 	if(!feature_spawn_list)
 		feature_spawn_list = list(/obj/structure/geyser/random = 1)
 

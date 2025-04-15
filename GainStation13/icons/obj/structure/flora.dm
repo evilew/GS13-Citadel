@@ -39,7 +39,7 @@
 				user.visible_message("<span class='notice'>[user] fells [src] with the [W].</span>","<span class='notice'>You fell [src] with the [W].</span>", "You hear the sound of a tree falling.")
 				playsound(get_turf(src), 'sound/effects/meteorimpact.ogg', 100 , 0, 0)
 				for(var/i=1 to log_amount)
-					new /obj/item/grown/log/gmushroom(get_turf(src))
+					new /obj/item/grown/log(get_turf(src))
 
 				var/obj/structure/gmushroom/gmushroomstump/S = new(loc)
 				S.name = "[name] stump"
@@ -91,7 +91,7 @@
 				user.visible_message("<span class='notice'>[user] fells [src] with the [W].</span>","<span class='notice'>You fell [src] with the [W].</span>", "You hear the sound of a tree falling.")
 				playsound(get_turf(src), 'sound/effects/meteorimpact.ogg', 100 , 0, 0)
 				for(var/i=1 to log_amount)
-					new /obj/item/grown/log/shadowtree(get_turf(src))
+					new /obj/item/grown/log(get_turf(src))
 
 				var/obj/structure/shadowtree/shadowtreestump/S = new(loc)
 				S.name = "[name] stump"
@@ -142,7 +142,7 @@
 				user.visible_message("<span class='notice'>[user] fells [src] with the [W].</span>","<span class='notice'>You fell [src] with the [W].</span>", "You hear the sound of a tree falling.")
 				playsound(get_turf(src), 'sound/effects/meteorimpact.ogg', 100 , 0, 0)
 				for(var/i=1 to log_amount)
-					new /obj/item/grown/log/plasmatree(get_turf(src))
+					new /obj/item/grown/log(get_turf(src))
 
 				var/obj/structure/plasmatree/plasmatreestump/S = new(loc)
 				S.name = "[name] stump"
