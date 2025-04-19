@@ -370,6 +370,18 @@ GLOBAL_LIST_INIT(prototype_language_holders, init_language_holder_prototypes())
 	spoken_languages = list(/datum/language/common = list(LANGUAGE_ATOM),
 							/datum/language/arachnid = list(LANGUAGE_ATOM))
 
+/datum/language_holder/spacerussian //GS13 - Neo-Russkiya
+	understood_languages = list(/datum/language/common = list(LANGUAGE_ATOM),
+								/datum/language/spacerussian = list(LANGUAGE_ATOM))
+	spoken_languages = list(/datum/language/common = list(LANGUAGE_ATOM),
+							/datum/language/spacerussian = list(LANGUAGE_ATOM))
+
+/datum/language_holder/tajara //GS13 - Siik'Tajr
+	understood_languages = list(/datum/language/common = list(LANGUAGE_ATOM),
+								/datum/language/tajara = list(LANGUAGE_ATOM))
+	spoken_languages = list(/datum/language/common = list(LANGUAGE_ATOM),
+							/datum/language/tajara = list(LANGUAGE_ATOM))
+
 /datum/language_holder/empty
 	understood_languages = null
 	spoken_languages = null

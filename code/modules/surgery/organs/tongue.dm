@@ -29,6 +29,8 @@
 		/datum/language/signlanguage,
 		/datum/language/neokanji,
 		/datum/language/sylvan,
+		/datum/language/spacerussian,
+		/datum/language/tajara,
 	))
 	healing_factor = STANDARD_ORGAN_HEALING*5 //Fast!!
 	decay_factor = STANDARD_ORGAN_DECAY/2
@@ -266,6 +268,7 @@
 		/datum/language/sylvan,
 		/datum/language/voltaic,
 		/datum/language/neokanji,
+		/datum/language/spacerussian,
 	))
 
 /obj/item/organ/tongue/ethereal/Initialize(mapload)
@@ -286,6 +289,7 @@
 		/datum/language/beachbum,
 		/datum/language/aphasia,
 		/datum/language/arachnid,
+		/datum/language/spacerussian,
 	))
 
 /obj/item/organ/tongue/arachnid/Initialize(mapload)
