@@ -229,7 +229,7 @@
 		"taur_belly_size"	= TAUR_BELLY_SIZE_DEF,
 		"taur_belly_shape"	= TAUR_BELLY_SHAPE_DEF,
 		"hide_taur_belly" 	= FALSE,
-		//"inflatable_belly" 	= FALSE,
+		"taur_inflatable_belly" 	= FALSE,
 		"taur_belly_color" 	= pick("FFFFFF","7F7F7F", "7FFF7F", "7F7FFF", "FF7F7F", "7FFFFF", "FF7FFF", "FFFF7F"),
 		"taur_belly_visibility"	= GEN_VISIBLE_NO_UNDIES,
 		// GS13 EDIT END

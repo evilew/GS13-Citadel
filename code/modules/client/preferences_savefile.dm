@@ -908,7 +908,7 @@ SAVEFILE UPDATING/VERSIONING - 'Simplified', or rather, more coder-friendly ~Car
 	S["feature_taur_belly_shape"]			>> features["taur_belly_shape"]
 	S["feature_taur_belly_color"]			>> features["taur_belly_color"]
 	S["feature_hide_taur_belly"]			>> features["hide_taur_belly"]
-	//S["feature_inflatable_belly"]		>> features["inflatable_belly"]
+	S["feature_taur_inflatable_belly"]		>> features["taur_inflatable_belly"]
 	S["feature_taur_belly_visibility"] >> features["feature_taur_belly_visibility"]
 
 	// Flavor texts, Made into a standard.
@@ -1346,7 +1346,7 @@ SAVEFILE UPDATING/VERSIONING - 'Simplified', or rather, more coder-friendly ~Car
 	WRITE_FILE(S["feature_taur_belly_shape"], features["taur_belly_shape"])
 	WRITE_FILE(S["feature_taur_belly_color"], features["taur_belly_color"])
 	WRITE_FILE(S["feature_hide_taur_belly"], features["hide_taur_belly"])
-	//WRITE_FILE(S["feature_inflatable_belly"], features["inflatable_belly"])
+	WRITE_FILE(S["feature_taur_inflatable_belly"], features["taur_inflatable_belly"])
 	//GS13 TAUR BELLY EDIT START END
 
 	WRITE_FILE(S["feature_ooc_notes"], features["ooc_notes"])
