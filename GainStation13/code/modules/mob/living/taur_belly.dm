@@ -13,7 +13,7 @@
 	genital_flags 			= UPDATE_OWNER_APPEARANCE|GENITAL_CAN_TAUR
 	masturbation_verb 		= "massage"
 	var/sent_full_message	= TRUE //defaults to 1 since they're full to start
-	//var/inflatable			= FALSE //For inflation connoisseurs not implemented yet
+	var/inflatable			= FALSE
 	var/size_cached			= 0
 	var/prev_size			= 0
 	layer_index				= TAUR_BELLY_LAYER_INDEX
@@ -71,7 +71,7 @@
 	max_size = D.features["max_taur_belly_size"]
 	starting_size = D.features["belly_size"]
 	shape = D.features["taur_belly_shape"]
-	//inflatable = D.features["inflatable_belly"]
+	inflatable = D.features["taur_inflatable_belly"]
 	toggle_visibility(D.features["taur_belly_visibility"], FALSE)
 
 
