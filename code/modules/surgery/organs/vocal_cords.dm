@@ -588,13 +588,17 @@
 	else if((findtext(message, inflate_words)))
 		cooldown = COOLDOWN_MEME
 		for(var/mob/living/carbon/gainer in listeners)
-			gainer.fullness += 200 //this probably  needs a pref lock...
+			if(gainer.check_weight_prefs(FATTENING_TYPE_MAGIC)) //Make sure the listener(s) have magical wg enabled
+				gainer.fullness += 20 //We want fullness but not too much
+				to_chat(gainer, "<span class= 'warning'>As the great voice fills your ears, you start to feel more bloated...</span>") //Can only be seen by those with the appropriate pref toggled
 
 	//GAIN
 	else if((findtext(message, gain_words)))
 		cooldown = COOLDOWN_MEME
 		for(var/mob/living/carbon/gainer in listeners)
-			gainer.adjust_fatness(500, FATTENING_TYPE_MAGIC)
+			if(gainer.check_weight_prefs(FATTENING_TYPE_MAGIC)) //Make sure the listener(s) have magical wg enabled
+				gainer.adjust_fatness(250, FATTENING_TYPE_MAGIC) //Nerfed down from 500 in oldcode
+				to_chat(gainer, "<span class= 'warning'>As the great voice fills your ears, you suddenly grow heavier!</span>") //Can only be seen by those with the appropriate pref toggled
 
 	else
 		cooldown = COOLDOWN_NONE
