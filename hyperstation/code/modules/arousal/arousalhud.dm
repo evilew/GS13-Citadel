@@ -256,7 +256,7 @@
 		var/obj/item/organ/genital/taur_belly/X = usr.getorganslot("taur_belly")
 		if(X.size > 0)
 			to_chat(usr, "<span class='userlove'>You feel your taur belly diminish.</span>")
-			X.size -= 1
+			X.modify_size(-1)
 			H.update_genitals()
 		else
 			to_chat(usr, "<span class='warning'>Your taur belly is already at the minimum size! </span>")
@@ -265,7 +265,7 @@
 		var/obj/item/organ/genital/taur_belly/X = usr.getorganslot("taur_belly")
 		if(X.size < 11)
 			to_chat(usr, "<span class='userlove'>You feel your taur belly bloat out..</span>")
-			X.size += 1
+			X.modify_size(1)
 			H.update_genitals()
 		else
 			to_chat(usr, "<span class='warning'>Your taur belly is already at the maximum size! </span>")
