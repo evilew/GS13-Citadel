@@ -1,4 +1,4 @@
-//Psych Pillbottles
+//GS13: Psych Pillbottles for Psychologist
 /obj/item/storage/pill_bottle/happinesspsych
 	name = "happiness pill bottle"
 	desc = "Contains pills used as a last resort means to temporarily stabilize depression and anxiety. WARNING: side effects may include slurred speech, drooling, and severe addiction."

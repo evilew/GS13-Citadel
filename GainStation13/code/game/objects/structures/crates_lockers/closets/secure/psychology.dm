@@ -1,4 +1,4 @@
-/obj/structure/closet/secure_closet/psychology
+/obj/structure/closet/secure_closet/psychology //GS13: Psychologist job equip locker
 	name = "psychology locker"
 	req_access = list(ACCESS_PSYCH)
 	icon_state = "cabinet"

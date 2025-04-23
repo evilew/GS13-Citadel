@@ -1,3 +1,4 @@
+//GS13: Pysch pills
 /obj/item/reagent_containers/pill/lsdpsych
 	name = "antipsychotic pill"
 	desc = "Talk to your healthcare provider immediately if hallucinations worsen or new hallucinations emerge."
