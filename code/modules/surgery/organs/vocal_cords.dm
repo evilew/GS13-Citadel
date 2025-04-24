@@ -599,6 +599,7 @@
 			if(gainer.check_weight_prefs(FATTENING_TYPE_MAGIC)) //Make sure the listener(s) have magical wg enabled
 				gainer.adjust_fatness(250, FATTENING_TYPE_MAGIC) //Nerfed down from 500 in oldcode
 				to_chat(gainer, "<span class= 'warning'>As the great voice fills your ears, you suddenly grow heavier!</span>") //Can only be seen by those with the appropriate pref toggled
+	//END GS13 CHANGES
 
 	else
 		cooldown = COOLDOWN_NONE
