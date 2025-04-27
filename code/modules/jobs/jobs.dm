@@ -6,7 +6,7 @@ GLOBAL_LIST_INIT(command_positions, list(
 	"Research Director",
 	"Chief Medical Officer",
 	"Quartermaster"))
-//GS13 edit: Trainee roles
+//GS13 edit: Trainee roles + Psychologist
 GLOBAL_LIST_INIT(engineering_positions, list(
 	"Chief Engineer",
 	"Station Engineer",
@@ -21,6 +21,7 @@ GLOBAL_LIST_INIT(medical_positions, list(
 	"Virologist",
 	"Paramedic",
 	"Chemist",
+	"Psychologist",
 	"Medical Resident"))
 
 
