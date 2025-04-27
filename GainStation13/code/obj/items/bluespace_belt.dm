@@ -45,6 +45,13 @@
 	var/fatness_to_power_coefficient = 68 // FATNESS_LEVEL_BLOB*2 BFI divided by this equals 100, our maximum power drain
 	var/mob/living/carbon/user		// the fatass who's weight we must track for power drain calcs
 
+/obj/item/bluespace_belt/primitive/examine(mob/user)
+	. = ..()
+	if(cell && cell.charge)
+		. += "<span class='notice'>It seems to have [DisplayEnergy(cell.charge)] of power remaining.</span>"
+	else
+		. += "<span class='notice'>It seems to be out of power.</span>"
+
 /obj/item/bluespace_belt/primitive/Initialize(mapload)
 	. = ..()
 	if(!cell && cell_type)
