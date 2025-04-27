@@ -4026,6 +4026,7 @@
 #include "GainStation13\code\modules\client\preferences\preferences.dm"
 #include "GainStation13\code\modules\clothing\under\jobs\modular_items.dm"
 #include "GainStation13\code\modules\events\vent_clog.dm\vent_clog.dm"
+#include "GainStation13\code\modules\events\bluespace_belt_failure.dm"
 #include "GainStation13\code\modules\food_and_drinks\bigbottle.dm"
 #include "GainStation13\code\modules\food_and_drinks\drinks.dm"
 #include "GainStation13\code\modules\food_and_drinks\food.dm"

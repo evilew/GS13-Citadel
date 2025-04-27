@@ -57,6 +57,25 @@
 	if(!cell && cell_type)
 		cell = new cell_type
 
+/obj/item/bluespace_belt/primitive/emp_act(severity)
+	. = ..()
+	STOP_PROCESSING(SSprocessing, src)
+	if(cell && !(. & EMP_PROTECT_CONTENTS))
+		cell.emp_act(severity)
+
+	if(!isnull(user))
+		user.hider_remove(src)
+		to_chat(loc, "<span class='warning'>\The [src] overloads!</span>")
+
+	addtimer(CALLBACK(src, PROC_REF(emp_act_end)), severity*10, TIMER_UNIQUE | TIMER_NO_HASH_WAIT | TIMER_OVERRIDE)
+
+/obj/item/bluespace_belt/primitive/proc/emp_act_end()
+	if(!isnull(user))
+		user.hider_add(src)
+	
+	START_PROCESSING(SSprocessing, src)
+
+
 /obj/item/bluespace_belt/primitive/equipped(mob/U, slot)
 	..()
 	if(!iscarbon(U))
@@ -131,7 +150,7 @@
 	STOP_PROCESSING(SSprocessing, src)
 	
 
-/obj/item/bluespace_belt/dropped(mob/user)
+/obj/item/bluespace_belt/primitive/dropped(mob/person)
 	..()
 	user = null
 
