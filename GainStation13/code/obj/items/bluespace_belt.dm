@@ -38,7 +38,11 @@
 
 /obj/item/bluespace_belt/primitive
 	name = "primitive bluespace belt"
-	desc = "A primitive belt made using bluespace technology. The power of space and time, used to hide the fact you are fat. This one requires cells to continue operating."
+	desc = "A primitive belt made using bluespace technology. The power of space and time, used to hide the fact you are fat. This one requires cells to continue operating, and may suffer from random failures."
+	icon = 'GainStation13/icons/obj/clothing/bluespace_belt.dmi'
+	icon_state = "primitive_belt"
+	item_state = "primitive_belt"
+
 	var/cell_type = /obj/item/stock_parts/cell/high
 	var/obj/item/stock_parts/cell/cell
 	var/maximum_power_drain = 100
@@ -63,6 +67,7 @@
 	if(cell && !(. & EMP_PROTECT_CONTENTS))
 		cell.emp_act(severity)
 
+	icon_state = "primitive_belt_off"
 	if(!isnull(user))
 		user.hider_remove(src)
 		to_chat(loc, "<span class='warning'>\The [src] overloads!</span>")
@@ -72,7 +77,7 @@
 /obj/item/bluespace_belt/primitive/proc/emp_act_end()
 	if(!isnull(user))
 		user.hider_add(src)
-	
+	icon_state = "primitive_belt"
 	START_PROCESSING(SSprocessing, src)
 
 
@@ -112,6 +117,12 @@
 			to_chat(person, "<span class='notice'>You swiftly replace the cell in the belt</span>")
 			person.put_in_hands(cell)
 		cell = W
+
+		if (cell.charge)
+			icon_state = "primitive_belt"
+		else
+			icon_state = "primitive_belt_off"
+
 		START_PROCESSING(SSprocessing, src)
 
 		if (equipped)
@@ -129,6 +140,7 @@
 		user.hider_remove(src)
 	
 	to_chat(person, "<span class='notice'>You take the cell out of the belt, letting your mass flow out!</span>")
+	icon_state = "primitive_belt_off"
 	user = null
 	person.put_in_hands(cell)
 	cell = null
@@ -144,6 +156,7 @@
 		user.hider_remove(src)
 	
 	to_chat(person, "<span class='notice'>You take the cell out of the belt, letting your mass flow out!</span>")
+	icon_state = "primitive_belt_off"
 	user = null
 	person.put_in_hands(cell)
 	cell = null
@@ -162,6 +175,7 @@
 		return
 
 	if (!cell.charge)
+		icon_state = "primitive_belt_off"
 		user.hider_remove(src)
 		to_chat(user, "<span class='notice'>The belt beeps as it's battery runs out, and your mass starts flowing out!</span>")
 		user = null
