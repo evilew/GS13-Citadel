@@ -5,6 +5,7 @@
 	var/obj/item/organ/genital/butt/butt = H.getorganslot(ORGAN_SLOT_BUTT)
 	var/obj/item/organ/genital/belly/belly = H.getorganslot(ORGAN_SLOT_BELLY)
 	var/obj/item/organ/genital/breasts/breasts = H.getorganslot(ORGAN_SLOT_BREASTS)
+	var/obj/item/organ/genital/taur_belly/tbelly = H.getorganslot(ORGAN_SLOT_TAUR_BELLY) //GS13 TAUR BELLY EDIT
 
 	if(butt)
 		if(butt.max_size > 0)
@@ -18,6 +19,12 @@
 				belly.modify_size(size_change)
 		else
 			belly.modify_size(size_change)
+	if(tbelly)	//GS13 TAUR BELLY EDIT
+		if(tbelly.max_size > 0)
+			if((tbelly.size + size_change) <= tbelly.max_size)
+				tbelly.modify_size(size_change)
+		else
+			tbelly.modify_size(size_change)
 	if(breasts)
 		if(breasts.max_size > 0)
 			if((breasts.cached_size + size_change) <= breasts.max_size)

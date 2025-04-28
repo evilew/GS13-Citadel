@@ -31,9 +31,24 @@
 	crate_name = "strange seeds crate"
 	crate_type = /obj/structure/closet/crate/hydroponics
 
+/datum/supply_pack/misc/stripperpole //oldcode port
+	name = "Stripper Pole Crate"
+	desc = "No private bar is complete without a stripper pole, show off the goods! Comes with a ready-to-assemble stripper pole, and a complementary wrench to get things set up!"
+	cost = 3550
+	contains = list(/obj/item/polepack,
+					/obj/item/wrench)
+	crate_name = "stripper pole crate"
+
 /datum/supply_pack/critter/fennec //ported from CHOMPstation2
 	name = "Fennec Crate"
 	desc = "Why so ears?"
 	cost = 5000
 	contains = list(/mob/living/simple_animal/pet/fox/fennec)
 	crate_name = "fennec crate"
+
+/datum/supply_pack/vending/wardrobes/clothing //existing game item not in cargo for some reason
+	name = "ClothesMate Supply Crate"
+	desc = "ClothesMate missing your favorite outfit? Solve that issue today with this autodrobe refill."
+	cost = 1500
+	contains = list(/obj/item/vending_refill/clothing)
+	crate_name = "clothesmate supply crate"

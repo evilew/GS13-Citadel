@@ -106,4 +106,8 @@
 /proc/is_reagent_processing_invalid(datum/reagent/R, mob/living/owner)
 	if(!R || !owner)
 		return TRUE
+	//GS13 edit start
+	if(HAS_TRAIT(owner, TRAIT_BIOFUEL) && (R.chemical_flags & REAGENT_BIOFUEL_PROCESS))
+		return FALSE
+	//GS13 edit end
 	return ((HAS_TRAIT(owner, TRAIT_ROBOTIC_ORGANISM) && !(R.chemical_flags & REAGENT_ROBOTIC_PROCESS)) || (!HAS_TRAIT(owner, TRAIT_ROBOTIC_ORGANISM) && !(R.chemical_flags & REAGENT_ORGANIC_PROCESS)))
