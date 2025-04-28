@@ -104,8 +104,12 @@
 	icon_state = "primitive_belt_off"
 
 /obj/item/bluespace_belt/primitive/fat_hide(var/mob/living/carbon/user)
-	var/belts_pref = user?.client?.prefs.helplessness_belts
-	var/weight_to_hide = min(belts_pref, user.fatness_real - 1)
+	var/weight_to_hide = 0
+	if(preferences.helplessness_belts)
+		var/belts_pref = user?.client?.prefs.helplessness_belts
+		weight_to_hide = min(belts_pref, user.fatness_real - 1)
+	else
+		weight_to_hide = min(FATNESS_LEVEL_BLOB*2, user.fatness_real - 1)
 	return -(weight_to_hide)
 
 
