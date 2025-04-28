@@ -203,13 +203,15 @@
 
 				// if(istype(fatty.belt, /obj/item/bluespace_belt))
 				var/obj/item/bluespace_belt/primitive/PBS_belt = fatty.belt
-				if(istype(PBS_belt) && fatty.fatness > preferences.helplessness_belts * 2)
-					to_chat(fatty, "<span class='warning'>[PBS_belt] can no longer contain your weight!</span>")
+				if(istype(PBS_belt) && fatty.fatness > preferences.helplessness_belts)
+					// to_chat(fatty, "<span class='warning'>[PBS_belt] can no longer contain your weight!</span>")
+					fatty.visible_message("<span class='warning'>[PBS_belt] fails as it's unable to contain [fatty]'s bulk!</span>", "<span class='warning'>[PBS_belt] fails as it's unable to contain your bulk!</span>")
 					fatty.dropItemToGround(PBS_belt)
 					
 				var/obj/item/storage/belt/belt = fatty.belt
 				if(istype(belt))
-					to_chat(fatty, "<span class='warning'>[belt] can no longer contain your weight!</span>")
+					// to_chat(fatty, "<span class='warning'>[belt] can no longer contain your weight!</span>")
+					fatty.visible_message("<span class='warning'>With a loud ripping sound, [fatty]'s [belt] snaps open!</span>", "<span class='warning'>With a loud ripping sound, your [belt] snaps open!</span>")
 					fatty.dropItemToGround(belt)
 
 		else if(fatty.fatness < preferences.helplessness_belts)
