@@ -343,6 +343,8 @@ GLOBAL_LIST_EMPTY(preferences_datums)
 		helplessness_clothing_back = 0
 	if(isnull(helplessness_clothing_jumpsuit))
 		helplessness_clothing_jumpsuit = 0
+	if(isnull(helplessness_belts))
+		helplessness_belts = 0
 	if(isnull(helplessness_hidden_face))
 		helplessness_hidden_face = 0
 	if(isnull(helplessness_mute))
@@ -1452,6 +1454,7 @@ GLOBAL_LIST_EMPTY(preferences_datums)
 					dat += "<b>Immobile Arms:</b><a href='?_src_=prefs;preference=helplessness_immobile_arms'>[helplessness_immobile_arms == FALSE ? "Disabled" : helplessness_immobile_arms]</a><BR>"
 					dat += "<b>Clothing Jumpsuit:</b><a href='?_src_=prefs;preference=helplessness_clothing_jumpsuit'>[helplessness_clothing_jumpsuit == FALSE ? "Disabled" : helplessness_clothing_jumpsuit]</a><BR>"
 					dat += "<b>Clothing, Suit, Boots, and Gloves:</b><a href='?_src_=prefs;preference=helplessness_clothing_misc'>[helplessness_clothing_misc == FALSE ? "Disabled" : helplessness_clothing_misc]</a><BR>"
+					dat += "<b>Belts:</b><a href='?_src_=prefs;preference=helplessness_belts'>[helplessness_belts == FALSE ? "Disabled" : helplessness_belts]</a><BR>"
 					dat += "<b>Clothing Back:</b><a href='?_src_=prefs;preference=helplessness_clothing_back'>[helplessness_clothing_back == FALSE ? "Disabled" : helplessness_clothing_back]</a><BR>"
 					dat += "<b>No Buckle:</b><a href='?_src_=prefs;preference=helplessness_no_buckle'>[helplessness_no_buckle == FALSE ? "Disabled" : helplessness_no_buckle]</a><BR>"
 					dat += "</td>"
@@ -3542,6 +3545,8 @@ GLOBAL_LIST_EMPTY(preferences_datums)
 					helplessness_clothing_jumpsuit = chose_weight("Choose the level of fatness that you would like to be made unable to wear jumpsuits at. None will disable this alltogether", user)
 				if("helplessness_clothing_misc")
 					helplessness_clothing_misc = chose_weight("Choose the level of fatness that you would like to be made unable to wear other non-jumpsuit clothing at. None will disable this alltogether", user)
+				if("helplessness_belts")
+					helplessness_belts = chose_weight("Choose the level of fatness that you would like to be made unable to wear belts at. This also affects how much weight the Primitive Bluespace Belt can hide. None will disable this alltogether", user)
 				if("helplessness_clothing_back")
 					helplessness_clothing_back = chose_weight("Choose the level of fatness that you would like to be made unable to wear anything on your back at. None will disable this alltogether", user)
 				if("helplessness_no_buckle")

@@ -16,6 +16,17 @@
 	if(!mod_check(I) && HAS_TRAIT(H, TRAIT_NO_MISC) && (slot == ITEM_SLOT_FEET || slot ==ITEM_SLOT_GLOVES || slot == ITEM_SLOT_OCLOTHING))
 		to_chat(H, "<span class='warning'>You are too fat to wear [I].</span>")
 		return FALSE
+	
+	if(HAS_TRAIT(H, TRAIT_NO_BELT) && slot == ITEM_SLOT_BELT)
+		if(istype(I, /obj/item/bluespace_belt/primitive) && H?.client?.prefs.helplessness_belts*2 > H.fatness)
+			return ..()
+
+		if(istype(I, /obj/item/bluespace_belt) && !istype(I, /obj/item/bluespace_belt/primitive))
+			return ..()
+		
+		to_chat(H, "<span class='warning'>You are too fat to wear [I].</span>")
+		return FALSE
+
 
 	return ..()
 

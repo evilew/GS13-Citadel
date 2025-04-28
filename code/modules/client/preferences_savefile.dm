@@ -949,6 +949,7 @@ SAVEFILE UPDATING/VERSIONING - 'Simplified', or rather, more coder-friendly ~Car
 	S["helplessness_immobile_arms"] >> helplessness_immobile_arms
 	S["helplessness_clothing_jumpsuit"] >> helplessness_clothing_jumpsuit
 	S["helplessness_clothing_misc"] >> helplessness_clothing_misc
+	S["helplessness_belts"] >> helplessness_belts
 	S["helplessness_clothing_back"] >> helplessness_clothing_back
 	S["helplessness_no_buckle"] >> helplessness_no_buckle
 	S["stuckage"] >> stuckage
@@ -1245,6 +1246,7 @@ SAVEFILE UPDATING/VERSIONING - 'Simplified', or rather, more coder-friendly ~Car
 	WRITE_FILE(S["helplessness_immobile_arms"], helplessness_immobile_arms)
 	WRITE_FILE(S["helplessness_clothing_jumpsuit"], helplessness_clothing_jumpsuit)
 	WRITE_FILE(S["helplessness_clothing_misc"], helplessness_clothing_misc)
+	WRITE_FILE(S["helplessness_belts"], helplessness_belts)
 	WRITE_FILE(S["helplessness_clothing_back"], helplessness_clothing_back)
 	WRITE_FILE(S["helplessness_no_buckle"], helplessness_no_buckle)
 	WRITE_FILE(S["stuckage"], stuckage)

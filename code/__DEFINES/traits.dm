@@ -254,6 +254,7 @@
 #define TRAIT_NO_MOVE "no_move"
 #define TRAIT_NO_JUMPSUIT "no_jumpsuit"
 #define TRAIT_NO_MISC "no_misc"
+#define TRAIT_NO_BELT "no_belt"
 #define TRAIT_NO_BACKPACK "no_backpack"
 #define TRAIT_NO_BUCKLE "no_buckle"
 #define TRAIT_DOCILE "docile"

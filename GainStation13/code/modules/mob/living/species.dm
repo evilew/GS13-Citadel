@@ -196,6 +196,30 @@
 			REMOVE_TRAIT(fatty, TRAIT_NO_MISC, HELPLESSNESS_TRAIT)
 
 
+	if(preferences.helplessness_belts)
+		if(!HAS_TRAIT_FROM(fatty, TRAIT_NO_BELT, HELPLESSNESS_TRAIT))
+			if(fatty.fatness >= preferences.helplessness_belts)
+				ADD_TRAIT(fatty, TRAIT_NO_BELT, HELPLESSNESS_TRAIT)
+
+				// if(istype(fatty.belt, /obj/item/bluespace_belt))
+				var/obj/item/bluespace_belt/primitive/PBS_belt = fatty.belt
+				if(istype(PBS_belt))
+					to_chat(fatty, "<span class='warning'>[PBS_belt] can no longer contain your weight!</span>")
+					fatty.dropItemToGround(PBS_belt)
+					
+				var/obj/item/storage/belt/belt = fatty.belt
+				if(istype(belt))
+					to_chat(fatty, "<span class='warning'>[belt] can no longer contain your weight!</span>")
+					fatty.dropItemToGround(belt)
+
+		else if(fatty.fatness < preferences.helplessness_belts)
+			to_chat(fatty, "<span class='notice'>You feel thin enough to put on belts now. </span>")
+			REMOVE_TRAIT(fatty, TRAIT_NO_BELT, HELPLESSNESS_TRAIT)
+
+	else
+		if(HAS_TRAIT_FROM(fatty, TRAIT_NO_BELT, HELPLESSNESS_TRAIT))
+			REMOVE_TRAIT(fatty, TRAIT_NO_BELT, HELPLESSNESS_TRAIT)
+
 	if(preferences.helplessness_clothing_back)
 		if(!HAS_TRAIT_FROM(fatty, TRAIT_NO_BACKPACK, HELPLESSNESS_TRAIT))
 			if(fatty.fatness >= preferences.helplessness_clothing_back)
