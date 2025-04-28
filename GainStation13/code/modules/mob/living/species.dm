@@ -203,7 +203,7 @@
 
 				// if(istype(fatty.belt, /obj/item/bluespace_belt))
 				var/obj/item/bluespace_belt/primitive/PBS_belt = fatty.belt
-				if(istype(PBS_belt))
+				if(istype(PBS_belt) && fatty.fatness > preferences.helplessness_belts * 2)
 					to_chat(fatty, "<span class='warning'>[PBS_belt] can no longer contain your weight!</span>")
 					fatty.dropItemToGround(PBS_belt)
 					

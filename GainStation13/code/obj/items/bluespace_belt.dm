@@ -45,8 +45,8 @@
 
 	var/cell_type = /obj/item/stock_parts/cell/high
 	var/obj/item/stock_parts/cell/cell
-	var/maximum_power_drain = 100
-	var/fatness_to_power_coefficient = 68 // FATNESS_LEVEL_BLOB*2 BFI divided by this equals 100, our maximum power drain
+	var/maximum_power_drain = 50
+	var/fatness_to_power_coefficient = 136 // FATNESS_LEVEL_BLOB*2 BFI divided by this equals 50, our maximum power drain
 	var/mob/living/carbon/user		// the fatass who's weight we must track for power drain calcs
 	var/overloaded = FALSE		// is it EMP'ed?
 
