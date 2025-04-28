@@ -193,6 +193,10 @@
 		aroused_state = FALSE
 
 /obj/item/organ/genital/proc/generate_fluid(datum/reagents/R)
+	//GS13 milky trait
+	var/milky_mult = 2
+	if(owner != null && HAS_TRAIT(owner, TRAIT_MILKY))
+		milky_mult += 2
 	var/amount = clamp((fluid_rate * ((world.time - last_orgasmed) / (10 SECONDS)) * fluid_mult),0,fluid_max_volume)
 	R.clear_reagents()
 	R.maximum_volume = fluid_max_volume
@@ -201,6 +205,7 @@
 	else if(linked_organ?.fluid_id)
 		R.add_reagent(linked_organ.fluid_id,amount)
 	return TRUE
+
 
 /obj/item/organ/genital/proc/update_link()
 	if(owner)

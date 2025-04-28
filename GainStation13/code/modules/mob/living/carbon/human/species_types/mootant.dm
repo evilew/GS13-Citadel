@@ -1,7 +1,7 @@
-/mob/living/carbon/human/species/mootant
-	race = /datum/species/mootant
+/mob/living/carbon/human/species/mammal/mootant
+	race = /datum/species/mammal/mootant
 
-/datum/species/mootant
+/datum/species/mammal/mootant //WIP species
 	name = "Mootant"
 	id = SPECIES_MOOTANT
 	default_color = "FFFFFF"
@@ -23,19 +23,6 @@
 	species_category = SPECIES_CATEGORY_FURRY
 
 	allowed_limb_ids = list("mammal","aquatic","avian")
-
-// /obj/item/organ/genital/breasts/mootant //special type of breasts that produces more
-// 	name = "mootant breasts"
-// 	desc = "Breasts of a mootant, typically characterized by greater size and productivity."
-// 	fluid_id = /datum/reagent/consumable/milk
-// 	fluid_rate = MILK_RATE_MOOTANT
-// 	fluid_mult = 2
-// 	fluid_max_volume = 1000
-// 	producing = TRUE
-// 	size = BREASTS_SIZE_MOOTANT
-
-
-//i'll throw these elsewhere xd
 
 /datum/sprite_accessory/snouts/mam_snouts/mootant
 	name = "Mootant"
@@ -83,19 +70,7 @@
 
 /datum/reagent/mutationtoxin/mootant
 	name = "Mootant Mutation Toxin"
-	description = "A glowing toxin."
+	description = "A milk-colored toxin."
 	color = "#ffffff"
-	race = /datum/species/mootant
+	race = /datum/species/mammal/mootant
 	mutationtext = "<span class='danger'>The pain subsides. You feel... milkier.</span>"
-
-/obj/item/organ/genital/breasts/proc/set_milky_trait(new_state,cause = "manual toggle")
-	if(!(genital_flags & GENITAL_FUID_PRODUCTION))
-		return FALSE
-	if(!((HAS_TRAIT(owner,TRAIT_MILKY) && !new_state) || HAS_TRAIT(owner,TRAIT_MILKY) && new_state))
-		milky_trait_state = new_state
-		fluid_rate = MILK_RATE_MOOTANT
-		fluid_max_volume = 1000
-		producing = TRUE
-	if(cause)
-		owner.log_message("[src]'s lactation was [new_state ? "enabled" : "disabled"] due to [cause]", LOG_EMOTE)
-	return milky_trait

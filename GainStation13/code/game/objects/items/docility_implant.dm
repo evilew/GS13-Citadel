@@ -66,14 +66,24 @@
 		TRAIT_LIVESTOCK,
 		TRAIT_NO_MISC,
 		TRAIT_NORUNNING,
+		TRAIT_MILKY,
 	)
 
-	/// What is the name of the mob before we change it?
-	var/stored_name = ""
-	/// What name do we want to give the mob before adding the randomized number
-	var/name_to_give = "Livestock"
-	/// How much do we want to modifiy the productivity stats of the mob's current sex organs by?
-	var/productivity_mult = 4
+/obj/item/implant/docile/livestock/justfat
+	name = "hacked livestock implant"
+	required_fatness = FATNESS_LEVEL_FAT
+	traits_list = list(
+		TRAIT_WEIGHT_LOSS_IMMUNE,
+		TRAIT_PACIFISM,
+		TRAIT_CLUMSY,
+		TRAIT_FAT_GOOD,
+		TRAIT_HEAVY_SLEEPER,
+		TRAIT_DOCILE,
+		TRAIT_LIVESTOCK,
+		TRAIT_NO_MISC,
+		TRAIT_NORUNNING,
+		TRAIT_MILKY,
+	)
 
 /obj/item/implant/docile/livestock/can_be_implanted_in(mob/living/target)
 	. = ..()
@@ -132,3 +142,8 @@
 	name = "implant case - 'Livestock'"
 	desc = "A glass case containing a livestock implant. Functions similar to the docility implant, but changes the implantee's name and makes them even more helpless. cannot be combined with the docility implant."
 	imp_type = /obj/item/implant/docile/livestock
+
+/obj/item/implantcase/docile/livestock/justfat
+	name = "implant case - 'Livestock - hacked ver'"
+	desc = "A glass case containing a livestock implant. Functions similar to the docility implant, but changes the implantee's name and makes them even more helpless. cannot be combined with the docility implant. This one seems to apply to people who are just fat, rather than immobile."
+	imp_type = /obj/item/implant/docile/livestock/justfat

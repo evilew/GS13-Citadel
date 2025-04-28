@@ -149,10 +149,3 @@
 
 #define FARTING_NOISES		(1<<17) //GS13
 #define BURPING_NOISES		(1<<18) //GS13
-
-//GS13 - special values for mootants
-#define BREASTS_SIZE_MOOTANT				"e"
-#define BREASTS_VOLUME_BASE_MOOTANT			200
-#define MILK_RATE_MOOTANT					20
-#define MILK_RATE_MULT_MOOTANT				3
-#define MILK_EFFICIENCY_MOOTANT				3
