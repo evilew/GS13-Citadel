@@ -8,7 +8,7 @@
 	species_traits = list(MUTCOLORS,EYECOLOR,LIPS,HAIR,HORNCOLOR,WINGCOLOR,HAS_FLESH,HAS_BONE)
 	inherent_traits = list(TRAIT_CHUNKYFINGERS, TRAIT_VORACIOUS, TRAIT_LIPOLICIDE_TOLERANCE, TRAIT_PACIFISM, TRAIT_MILKY, TRAIT_HEAT) //chunky fingers because hooves!
 	inherent_biotypes = MOB_ORGANIC|MOB_HUMANOID|MOB_BEAST
-	mutant_bodyparts = list("mcolor" = "FFFFFF","mcolor2" = "FFFFFF","mcolor3" = "FFFFFF", "mam_snouts" = "mootant_tertiary", "mam_tail" = "Husky", "mam_ears" = "mootant_tertiary", "deco_wings" = "None",
+	mutant_bodyparts = list("mcolor" = "FFFFFF","mcolor2" = "FFFFFF","mcolor3" = "FFFFFF", "mam_snouts" = "Mootant ALT (Tertiary)", "mam_tail" = "Husky", "mam_ears" = "Mootant ALT (Tertiary)", "deco_wings" = "None",
 						 "mam_body_markings" = list(), "taur" = "None", "horns" = "None", "legs" = "Plantigrade", "meat_type" = "Mammalian")
 	attack_verb = "claw"
 	attack_sound = 'sound/weapons/slash.ogg'
@@ -24,6 +24,7 @@
 
 	allowed_limb_ids = list("mammal","aquatic","avian")
 
+//mootant body parts
 /datum/sprite_accessory/snouts/mam_snouts/mootant
 	name = "Mootant"
 	icon = 'GainStation13/icons/mob/markings/mam_snouts.dmi'
@@ -74,6 +75,7 @@
 	color = "#ffffff"
 	race = /datum/species/mammal/mootant
 	mutationtext = "<span class='danger'>The pain subsides. You feel... milky.</span>"
+	var/produced_chem = /datum/reagent/consumable/milk
 
 /obj/item/reagent_containers/glass/beaker/mutationmootant //preset for toxin
 	list_reagents = list(/datum/reagent/mutationtoxin/mootant = 50)
@@ -83,9 +85,13 @@
 	if(!istype(H))
 		return
 	to_chat(H, "<span class='warning'><b>You crumple in agony as your flesh wildly morphs into a new bovine form!</b></span>")
-	H.visible_message("<b>[H]</b> falls to the ground and screams as [H.p_their()] their body turns more bovine!") //'froths' sounds painful when used with SKIN.
+	H.visible_message("<b>[H]</b> falls to the ground and screams as [H.p_their()] their body turns more bovine!")
 	H.DefaultCombatKnockdown(60)
 	H.adjust_fatness(400, FATTENING_TYPE_CHEM)
-	H.reagents.add_reagent(/datum/reagent/fermi/breast_enlarger, 30)
+	H.dna.features["breasts_producing"] = TRUE
+	H.dna.features["mam_ears"] = "Mootant ALT (Tertiary)"
+	H.dna.features["mam_snouts"] = "Mootant ALT (Tertiary)"
+	H.reagents.add_reagent(/datum/reagent/fermi/breast_enlarger, 30) //instead of adding breasts as a mutant organ, let's just make them grow some
+	H.update_body()
 	addtimer(CALLBACK(src, PROC_REF(mutate), H), 30)
 	return
