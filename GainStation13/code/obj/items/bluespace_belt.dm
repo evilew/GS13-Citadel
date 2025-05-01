@@ -67,7 +67,7 @@
 
 	if(cell && !(. & EMP_PROTECT_CONTENTS))
 		cell.emp_act(severity)
-	
+
 	overloaded = TRUE
 	to_chat(loc, "<span class='warning'>\The [src] overloads!</span>")
 	deactivate()
@@ -75,17 +75,17 @@
 
 /obj/item/bluespace_belt/primitive/proc/emp_act_end()
 	overloaded = FALSE
-	activate()	
+	activate()
 
 /obj/item/bluespace_belt/primitive/proc/activate()
 	if (overloaded)
 		deactivate()
 		return
-	
+
 	if(!cell)
 		deactivate()
 		return
-	
+
 	if(!cell.charge)
 		deactivate()
 		return
@@ -99,13 +99,13 @@
 /obj/item/bluespace_belt/primitive/proc/deactivate()
 	if(!isnull(user))
 		user.hider_remove(src)
-	
+
 	STOP_PROCESSING(SSprocessing, src)
 	icon_state = "primitive_belt_off"
 
 /obj/item/bluespace_belt/primitive/fat_hide(var/mob/living/carbon/user)
 	var/weight_to_hide = 0
-	if(preferences.helplessness_belts)
+	if (user?.client?.prefs.helplessness_belts)
 		var/belts_pref = user?.client?.prefs.helplessness_belts
 		weight_to_hide = min(belts_pref, user.fatness_real - 1)
 	else
@@ -163,24 +163,24 @@
 		// 		user = person
 		// 	activate()
 
-		
+
 
 		if (equipped && cell.charge)
 			to_chat(person, "<span class='notice'>Your mass begins to shrink as the belt is powered again...</span>")
 			user = person
-			
+
 		// 	// user.hider_add(src)
 		activate()
-		
 
-	
+
+
 /obj/item/bluespace_belt/primitive/attack_self(mob/person)
 	if (!cell)
 		return
-	
+
 	// if(!isnull(user))
 	// 	user.hider_remove(src)
-	
+
 	to_chat(person, "<span class='notice'>You take the cell out of the belt, letting your mass flow out!</span>")
 	person.put_in_hands(cell)
 	cell = null
@@ -192,10 +192,10 @@
 
 	if (!cell)
 		return
-	
+
 	// if(!isnull(user))
 	// 	user.hider_remove(src)
-	
+
 	to_chat(person, "<span class='notice'>You take the cell out of the belt, letting your mass flow out!</span>")
 	// icon_state = "primitive_belt_off"
 	// user = null
@@ -203,7 +203,7 @@
 	cell = null
 	// STOP_PROCESSING(SSprocessing, src)
 	deactivate()
-	
+
 
 /obj/item/bluespace_belt/primitive/dropped(mob/person)
 	..()
@@ -212,7 +212,7 @@
 /obj/item/bluespace_belt/primitive/process()
 	if(isnull(user))
 		return
-	
+
 	if (!cell)
 		return
 
