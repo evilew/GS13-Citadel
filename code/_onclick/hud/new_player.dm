@@ -299,6 +299,18 @@
 
 	var/mob/dead/new_player/new_player = hud.mymob
 
+	//GS13 EDIT
+	var/ooc_length = length(new_player?.client?.prefs?.features["ooc_notes"])
+	if(ooc_length < 50)
+		to_chat(usr, "<span class='danger'>You need to set your OOC text or make it longer! (50 character minimum) This can be done in the background tab under the character settings menu.</span>")
+		return
+
+	var/flavor_length = length(new_player?.client?.prefs?.features["flavor_text"])
+	if(flavor_length < 50)
+		to_chat(usr, "<span class='danger'>You need to set your flavor text or make it longer! (50 character minimum) This can be done in the background tab under the character settings menu.</span>")
+		return
+	//GS13 EDIT END
+
 	if(SSticker.queued_players.len || (relevant_cap && living_player_count() >= relevant_cap && !(ckey(new_player.key) in GLOB.admin_datums)))
 		to_chat(new_player, span_danger("[CONFIG_GET(string/hard_popcap_message)]"))
 

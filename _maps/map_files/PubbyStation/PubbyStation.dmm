@@ -22141,13 +22141,14 @@
 /turf/open/floor/plating,
 /area/cargo/storage)
 "aTr" = (
-/obj/machinery/door/poddoor{
-	id = "QMLoaddoor";
-	name = "supply dock loading door"
-	},
 /obj/machinery/conveyor{
 	dir = 4;
 	id = "QMLoad"
+	},
+/obj/machinery/door/poddoor{
+	id = "QMLoaddoor";
+	name = "supply dock loading door";
+	dir = 4
 	},
 /turf/open/floor/plating,
 /area/cargo/storage)
@@ -22612,12 +22613,13 @@
 /turf/open/floor/plasteel,
 /area/cargo/storage)
 "aUy" = (
-/obj/machinery/door/airlock/external{
-	name = "Supply Dock Airlock";
-	req_access_txt = "31"
-	},
 /obj/effect/mapping_helpers/airlock/cyclelink_helper{
 	dir = 4
+	},
+/obj/machinery/door/airlock/external{
+	name = "Supply Dock Airlock";
+	req_access_txt = "31";
+	dir = 8
 	},
 /turf/open/floor/plating,
 /area/cargo/storage)
@@ -24046,13 +24048,14 @@
 /turf/open/floor/plating,
 /area/cargo/storage)
 "aXz" = (
-/obj/machinery/door/poddoor{
-	id = "QMLoaddoor2";
-	name = "supply dock loading door"
-	},
 /obj/machinery/conveyor{
 	dir = 8;
 	id = "QMLoad2"
+	},
+/obj/machinery/door/poddoor{
+	id = "QMLoaddoor2";
+	name = "supply dock loading door";
+	dir = 4
 	},
 /turf/open/floor/plating,
 /area/cargo/storage)
@@ -27719,12 +27722,14 @@
 /turf/open/floor/plasteel,
 /area/cargo/office)
 "bfI" = (
-/obj/machinery/door/airlock/external{
-	name = "Mining Dock Airlock";
-	req_access_txt = "48"
-	},
 /obj/effect/mapping_helpers/airlock/cyclelink_helper{
 	dir = 4
+	},
+/obj/machinery/door/airlock/external{
+	name = "Mining Dock Airlock";
+	req_access_txt = "48";
+	shuttledocked = 1;
+	dir = 8
 	},
 /turf/open/floor/plating,
 /area/cargo/miningdock)
@@ -61175,11 +61180,13 @@
 /turf/open/floor/catwalk_floor,
 /area/maintenance/department/crew_quarters/dorms)
 "oPy" = (
+/obj/effect/mapping_helpers/airlock/cyclelink_helper{
+	dir = 8
+	},
 /obj/machinery/door/airlock/external{
 	name = "Mining Dock Airlock";
-	req_access_txt = "48"
-	},
-/obj/effect/mapping_helpers/airlock/cyclelink_helper{
+	req_access_txt = "48";
+	shuttledocked = 1;
 	dir = 8
 	},
 /turf/open/floor/plating,
@@ -63081,11 +63088,12 @@
 /turf/closed/wall/r_wall,
 /area/commons/lounge)
 "sQt" = (
+/obj/effect/mapping_helpers/airlock/cyclelink_helper{
+	dir = 8
+	},
 /obj/machinery/door/airlock/external{
 	name = "Supply Dock Airlock";
-	req_access_txt = "31"
-	},
-/obj/effect/mapping_helpers/airlock/cyclelink_helper{
+	req_access_txt = "31";
 	dir = 8
 	},
 /turf/open/floor/plating,

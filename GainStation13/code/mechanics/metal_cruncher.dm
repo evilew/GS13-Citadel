@@ -84,3 +84,7 @@
 	crunch_value = 15
 /obj/item/stack/sheet/mineral/plaswood
 	crunch_value = 15
+/obj/item/stack/sheet/mineral/diamond
+	crunch_value = 25
+
+

@@ -148,3 +148,12 @@
 			species.liked_food |= MEAT
 		else
 			species.disliked_food &= ~MEAT
+
+/datum/quirk/biofuel
+	name = "Biofuel Processor"
+	desc = "Your robotic body is equipped to eat and digest food the same way organic crew can."
+	value = 0
+	mob_trait = TRAIT_BIOFUEL
+
+/datum/quirk/biofuel/post_add()
+	REMOVE_TRAIT(quirk_holder, TRAIT_NO_PROCESS_FOOD, SPECIES_TRAIT)

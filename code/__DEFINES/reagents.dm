@@ -77,6 +77,8 @@
 #define REAGENT_SPLITRETAINVOL      (1<<7)  //Retains initial volume of chem when splitting
 #define REAGENT_ORGANIC_PROCESS		(1<<8)	//Can be processed by organic carbons - will otherwise slowly dissipate
 #define REAGENT_ROBOTIC_PROCESS		(1<<9)	//Can be processed by robotic carbons - will otherwise slowly dissipate
+//GS13 edit
+#define REAGENT_BIOFUEL_PROCESS		(1<<10) //Can be processed by robotic carbons with biofuel processor trait - should be on nutriment-type reagents and fatchems only
 
 #define REAGENT_ALL_PROCESS (REAGENT_ORGANIC_PROCESS | REAGENT_ROBOTIC_PROCESS)	//expand this if you for some reason add more process flags
 

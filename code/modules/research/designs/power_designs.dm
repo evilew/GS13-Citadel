@@ -57,15 +57,27 @@
 	category = list("Misc","Power Designs")
 	departmental_flags = DEPARTMENTAL_FLAG_SCIENCE | DEPARTMENTAL_FLAG_ENGINEERING
 
+// GS13 EDIT
 /datum/design/inducer
 	name = "Inducer"
 	desc = "The GT-75 Electromagnetic Power Inducer can wirelessly induce electric charge in an object, allowing you to recharge power cells without having to remove them." //GS13 - NT to GT
 	id = "inducer"
 	build_type = PROTOLATHE
 	materials = list(/datum/material/iron = 3000, /datum/material/glass = 1000)
+	build_path = /obj/item/inducer/dry///sci
+	category = list("Power Designs")
+	departmental_flags = /*DEPARTMENTAL_FLAG_SCIENCE | */DEPARTMENTAL_FLAG_ENGINEERING
+
+/datum/design/inducer_sci
+	name = "Inducer"
+	desc = "The GT-75 Electromagnetic Power Inducer can wirelessly induce electric charge in an object, allowing you to recharge power cells without having to remove them." //GS13 - NT to GT
+	id = "inducer_sci"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 3000, /datum/material/glass = 1000)
 	build_path = /obj/item/inducer/sci
 	category = list("Power Designs")
-	departmental_flags = DEPARTMENTAL_FLAG_SCIENCE | DEPARTMENTAL_FLAG_ENGINEERING
+	departmental_flags = DEPARTMENTAL_FLAG_SCIENCE
+// GS13 END EDIT
 
 /datum/design/inducercombat
 	name = "Combat Ready Inducer"

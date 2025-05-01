@@ -129,12 +129,6 @@
 	path = /obj/item/clothing/shoes/wheelys
 	ckeywhitelist = list("colorlessspy", "Colorlessspy")
 
-/datum/gear/donator/crowbars_plush
-	name = "Crowbars Plush"
-	category = LOADOUT_CATEGORY_DONATOR
-	path = /obj/item/toy/plush/gs13/crowbars
-	ckeywhitelist = list("M16nPregnant", "m16npregnant" )
-
 /datum/gear/donator/sharky_plush
 	name = "Sharky Plush"
 	category = LOADOUT_CATEGORY_DONATOR

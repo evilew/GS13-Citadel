@@ -251,6 +251,8 @@
 	var/static/regex/dab_words = regex("dab|mood") //CITADEL CHANGE
 	var/static/regex/snap_words = regex("snap") //CITADEL CHANGE
 	var/static/regex/bwoink_words = regex("what the fuck are you doing|bwoink|hey you got a moment?") //CITADEL CHANGE
+	var/static/regex/gain_words = regex("gain|fatten|widen|get fatter|get fat") //GS13
+	var/static/regex/inflate_words = regex("blimp|balloon|inflate|bloat") //GS13
 
 	var/i = 0
 	//STUN
@@ -580,6 +582,24 @@
 		cooldown = COOLDOWN_MEME
 		addtimer(CALLBACK(GLOBAL_PROC, GLOBAL_PROC_REF(playsound), get_turf(user), 'sound/effects/adminhelp.ogg', 300, 1), 25)
 	//END CITADEL CHANGES
+
+
+	//GS13 STUFF
+	else if((findtext(message, inflate_words)))
+		cooldown = COOLDOWN_MEME
+		for(var/mob/living/carbon/gainer in listeners)
+			if(gainer.check_weight_prefs(FATTENING_TYPE_MAGIC)) //Make sure the listener(s) have magical wg enabled
+				gainer.fullness += 20 //We want fullness but not too much
+				to_chat(gainer, "<span class= 'warning'>As the great voice fills your ears, you start to feel more bloated...</span>") //Can only be seen by those with the appropriate pref toggled
+
+	//GAIN
+	else if((findtext(message, gain_words)))
+		cooldown = COOLDOWN_MEME
+		for(var/mob/living/carbon/gainer in listeners)
+			if(gainer.check_weight_prefs(FATTENING_TYPE_MAGIC)) //Make sure the listener(s) have magical wg enabled
+				gainer.adjust_fatness(250, FATTENING_TYPE_MAGIC) //Nerfed down from 500 in oldcode
+				to_chat(gainer, "<span class= 'warning'>As the great voice fills your ears, you suddenly grow heavier!</span>") //Can only be seen by those with the appropriate pref toggled
+	//END GS13 CHANGES
 
 	else
 		cooldown = COOLDOWN_NONE

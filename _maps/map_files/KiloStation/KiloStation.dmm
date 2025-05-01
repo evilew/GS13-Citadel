@@ -3102,6 +3102,7 @@
 "afB" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/cobweb,
+/obj/structure/trash_pile,
 /turf/open/floor/plating{
 	icon_state = "platingdmg1"
 	},
@@ -6669,6 +6670,7 @@
 /area/security/brig)
 "alI" = (
 /obj/effect/decal/cleanable/dirt,
+/obj/structure/trash_pile,
 /turf/open/floor/plating{
 	icon_state = "panelscorched"
 	},
@@ -17304,6 +17306,7 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/grille/broken,
 /obj/effect/spawner/lootdrop/grille_or_trash,
+/obj/structure/trash_pile,
 /turf/open/floor/plating{
 	icon_state = "platingdmg3"
 	},
@@ -20543,6 +20546,7 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/cobweb/cobweb2,
 /obj/effect/spawner/lootdrop/grille_or_trash,
+/obj/structure/trash_pile,
 /turf/open/floor/plating{
 	icon_state = "platingdmg3"
 	},
@@ -33282,8 +33286,8 @@
 /turf/open/floor/plasteel/dark,
 /area/science/lab)
 "bdN" = (
-/obj/structure/girder,
 /obj/effect/decal/cleanable/dirt,
+/obj/structure/trash_pile,
 /turf/open/floor/plating,
 /area/maintenance/starboard)
 "bdO" = (
@@ -33428,6 +33432,7 @@
 "bdW" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/spawner/lootdrop/grille_or_trash,
+/obj/structure/trash_pile,
 /turf/open/floor/plating{
 	icon_state = "platingdmg1"
 	},
@@ -49653,6 +49658,7 @@
 "bFk" = (
 /obj/structure/grille/broken,
 /obj/effect/decal/cleanable/dirt,
+/obj/structure/trash_pile,
 /turf/open/floor/plating{
 	icon_state = "platingdmg3"
 	},
@@ -50030,6 +50036,7 @@
 /area/maintenance/central)
 "bFS" = (
 /obj/effect/decal/cleanable/dirt,
+/obj/structure/trash_pile,
 /turf/open/floor/plating{
 	icon_state = "platingdmg3"
 	},
@@ -57946,7 +57953,7 @@
 "bSJ" = (
 /obj/machinery/light/small,
 /obj/effect/decal/cleanable/dirt,
-/obj/effect/spawner/lootdrop/grille_or_trash,
+/obj/structure/trash_pile,
 /turf/open/floor/plating,
 /area/maintenance/starboard/aft)
 "bSL" = (
@@ -59376,6 +59383,7 @@
 "bVk" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/spawner/lootdrop/grille_or_trash,
+/obj/structure/trash_pile,
 /turf/open/floor/plating{
 	icon_state = "panelscorched"
 	},
@@ -60451,6 +60459,7 @@
 	dir = 6
 	},
 /obj/effect/decal/cleanable/dirt,
+/obj/structure/trash_pile,
 /turf/open/floor/plating,
 /area/maintenance/aft)
 "bWQ" = (
@@ -65972,6 +65981,7 @@
 "cgn" = (
 /obj/effect/decal/cleanable/cobweb/cobweb2,
 /obj/effect/decal/cleanable/dirt,
+/obj/structure/trash_pile,
 /turf/open/floor/plating,
 /area/maintenance/port/aft)
 "cgo" = (
@@ -70364,6 +70374,7 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/spawner/lootdrop/grille_or_trash,
+/obj/structure/trash_pile,
 /turf/open/floor/plating{
 	icon_state = "panelscorched"
 	},
@@ -73025,6 +73036,7 @@
 "csT" = (
 /obj/effect/decal/cleanable/cobweb,
 /obj/effect/decal/cleanable/dirt,
+/obj/structure/trash_pile,
 /turf/open/floor/plating,
 /area/maintenance/port)
 "csW" = (
@@ -73285,6 +73297,7 @@
 "ctt" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/spawner/lootdrop/grille_or_trash,
+/obj/structure/trash_pile,
 /turf/open/floor/plating{
 	icon_state = "panelscorched"
 	},
@@ -73915,6 +73928,7 @@
 "cuJ" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/spawner/lootdrop/grille_or_trash,
+/obj/structure/trash_pile,
 /turf/open/floor/plating{
 	icon_state = "platingdmg3"
 	},
@@ -76560,12 +76574,12 @@
 /turf/open/space/basic,
 /area/space)
 "cBb" = (
-/obj/effect/spawner/lootdrop/grille_or_trash,
 /obj/effect/decal/cleanable/dirt,
+/obj/structure/trash_pile,
 /turf/open/floor/plating{
-	icon_state = "platingdmg3"
+	icon_state = "panelscorched"
 	},
-/area/maintenance/aft)
+/area/maintenance/port)
 "cBc" = (
 /obj/structure/sign/poster/contraband/random,
 /turf/closed/wall,
@@ -77413,6 +77427,7 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/blood/old,
 /obj/effect/spawner/lootdrop/grille_or_trash,
+/obj/structure/trash_pile,
 /turf/open/floor/plating{
 	icon_state = "platingdmg3"
 	},
@@ -78056,6 +78071,7 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/cobweb,
 /obj/effect/spawner/lootdrop/grille_or_trash,
+/obj/structure/trash_pile,
 /turf/open/floor/plating{
 	icon_state = "platingdmg3"
 	},
@@ -80121,6 +80137,7 @@
 /obj/effect/decal/cleanable/cobweb/cobweb2,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/spawner/lootdrop/maintenance,
+/obj/structure/trash_pile,
 /turf/open/floor/plating,
 /area/maintenance/starboard/fore)
 "cLg" = (
@@ -80207,6 +80224,7 @@
 "cLG" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/spawner/lootdrop/maintenance,
+/obj/structure/trash_pile,
 /turf/open/floor/plating,
 /area/maintenance/starboard)
 "cLH" = (
@@ -80357,6 +80375,7 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/cobweb,
 /obj/effect/spawner/lootdrop/grille_or_trash,
+/obj/structure/trash_pile,
 /turf/open/floor/plating{
 	icon_state = "platingdmg3"
 	},
@@ -80481,6 +80500,7 @@
 "cMG" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/cobweb,
+/obj/structure/trash_pile,
 /turf/open/floor/plating{
 	icon_state = "panelscorched"
 	},
@@ -81962,6 +81982,11 @@
 	icon_state = "wood-broken3"
 	},
 /area/commons/vacant_room/office)
+"hpE" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/trash_pile,
+/turf/open/floor/plating,
+/area/maintenance/starboard/fore)
 "hqF" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer1,
@@ -83025,6 +83050,11 @@
 /obj/item/tank/internals/emergency_oxygen/double,
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/powered/dinner_for_two)
+"nhe" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/trash_pile,
+/turf/open/floor/plating,
+/area/maintenance/aft)
 "njo" = (
 /obj/item/beacon,
 /turf/open/floor/carpet,
@@ -83466,6 +83496,11 @@
 /obj/effect/decal/cleanable/glass,
 /turf/open/floor/plating/asteroid/airless,
 /area/space/nearstation)
+"pCx" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/trash_pile,
+/turf/open/floor/plating,
+/area/maintenance/central)
 "pEm" = (
 /obj/effect/spawner/structure/window,
 /turf/open/floor/plating,
@@ -84780,6 +84815,13 @@
 	},
 /turf/open/floor/plating,
 /area/ruin/space/djstation)
+"vYZ" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/trash_pile,
+/turf/open/floor/plating{
+	icon_state = "platingdmg1"
+	},
+/area/maintenance/starboard/fore)
 "vZP" = (
 /obj/effect/turf_decal/tile/neutral{
 	dir = 1
@@ -99518,7 +99560,7 @@ bhU
 aEw
 bxq
 crk
-cnL
+cBb
 iwu
 agp
 bHg
@@ -110571,7 +110613,7 @@ bpy
 brT
 cuN
 btL
-aYO
+pCx
 cQb
 aoq
 aoP
@@ -111114,7 +111156,7 @@ cbA
 cFC
 bFa
 bFa
-cBb
+bFS
 bFa
 aFM
 fVp
@@ -113426,7 +113468,7 @@ bHm
 bFa
 cHm
 bFa
-bGG
+nhe
 cdp
 dMm
 bFx
@@ -117994,7 +118036,7 @@ cEu
 atW
 cFp
 ayt
-aoC
+vYZ
 dSG
 dSG
 dSG
@@ -121061,7 +121103,7 @@ bfq
 iMq
 bbx
 alB
-arx
+hpE
 arx
 alB
 alB
@@ -126220,7 +126262,7 @@ axo
 cNO
 azC
 cOf
-ctI
+bdN
 awi
 auL
 bbS

@@ -53,3 +53,23 @@
 	icon = 'GainStation13/icons/mob/markings/mam_ears.dmi'
 	color_src = MATRIXED
 	matrixed_sections = MATRIX_RED_GREEN
+
+/datum/sprite_accessory/ears/mam_ears/elf
+	name = "Elf"
+	icon = 'GainStation13/icons/mob/markings/mam_ears.dmi'
+	icon_state = "elf"
+
+/datum/sprite_accessory/ears/human/elf
+	name = "Elf"
+	icon = 'GainStation13/icons/mob/markings/mam_ears.dmi'
+	icon_state = "elf"
+
+/datum/sprite_accessory/ears/mam_ears/kip
+	name = "Kip"
+	icon = 'GainStation13/icons/mob/markings/mam_ears.dmi'
+	icon_state = "kip"
+
+/datum/sprite_accessory/ears/human/kip
+	name = "Kip"
+	icon = 'GainStation13/icons/mob/markings/mam_ears.dmi'
+	icon_state = "kip"

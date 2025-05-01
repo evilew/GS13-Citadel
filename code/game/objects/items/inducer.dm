@@ -19,6 +19,16 @@
 	if(!cell && cell_type)
 		cell = new cell_type
 
+// GS13 EDIT - added an engi inducer without a powercell this
+/obj/item/inducer/dry
+	opened = TRUE
+	cell_type = null
+
+/obj/item/inducer/dry/Initialize(mapload)
+	. = ..()
+	update_icon()
+// GS13 END EDIT
+
 /obj/item/inducer/proc/induce(obj/item/stock_parts/cell/target, coefficient)
 	var/totransfer = min(cell.charge,(powertransfer * coefficient))
 	var/transferred = target.give(totransfer)

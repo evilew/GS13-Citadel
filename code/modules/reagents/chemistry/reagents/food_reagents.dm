@@ -12,6 +12,7 @@
 	taste_description = "generic food"
 	taste_mult = 4
 	value = REAGENT_VALUE_VERY_COMMON
+	chemical_flags = REAGENT_ORGANIC_PROCESS | REAGENT_BIOFUEL_PROCESS // GS13 edit; lets robots with the biofuel trait process foodchems
 	var/nutriment_factor = 1 * REAGENTS_METABOLISM
 	var/max_nutrition = INFINITY
 	var/quality = 0	//affects mood, typically higher for mixed drinks with more complex recipes

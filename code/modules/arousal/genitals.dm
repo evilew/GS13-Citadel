@@ -266,6 +266,8 @@
 		give_genital(/obj/item/organ/genital/butt)
 	if(dna.features["has_belly"])
 		give_genital(/obj/item/organ/genital/belly)
+	if(dna.features["has_taur_belly"]) //GS13 EDIT TAUR BELLY
+		give_genital(/obj/item/organ/genital/taur_belly)
 
 /mob/living/carbon/human/proc/give_genital(obj/item/organ/genital/G)
 	if(!dna || (NOGENITALS in dna.species.species_traits) || getorganslot(initial(G.slot)))
@@ -327,6 +329,8 @@
 					S = GLOB.butt_shapes_list[G.shape]
 				if(/obj/item/organ/genital/belly)
 					S = GLOB.belly_shapes_list[G.shape]
+				if(/obj/item/organ/genital/taur_belly) //GS13 EDIT TAUR BELLY
+					S = GLOB.taur_belly_shapes_list[G.shape]
 
 			if(!S || S.icon_state == "none")
 				continue
@@ -363,12 +367,17 @@
 						genital_overlay.color = "#[dna.features["butt_color"]]"
 					if("belly_color")
 						genital_overlay.color = "#[dna.features["belly_color"]]"
+					if("taur_belly_color")	//GS13 EDIT TAUR BELLY
+						genital_overlay.color = "#[dna.features["taur_belly_color"]]"
 
 			//GS13 -	Because each genital's file has different naming schemes for their icon_states,
 			//			I've made it so each type is checked and the icon_state built based on which genital it is
 			switch(G.slot)
 				if("belly")
 					genital_overlay.icon = G.icon
+					genital_overlay.icon_state = "[G.icon_state]_[aroused_state]_[layertext]"
+				if("taur_belly") //GS13 EDIT TAUR BELLY
+					//genital_overlay.icon = G.icon
 					genital_overlay.icon_state = "[G.icon_state]_[aroused_state]_[layertext]"
 				if("breasts")
 					genital_overlay.icon_state = "[G.slot]_[S.icon_state]_[size][(dna.species.use_skintones && !dna.skin_tone_override) ? "-s" : ""]_[aroused_state]_[layertext]"
@@ -410,6 +419,7 @@
 	var/buttCheck = getorganslot(ORGAN_SLOT_BUTT)
 	var/ballCheck = getorganslot(ORGAN_SLOT_TESTICLES)
 	var/bellyCheck = getorganslot(ORGAN_SLOT_BELLY)
+	var/taurbellyCheck = getorganslot(ORGAN_SLOT_TAUR_BELLY)	//GS13 EDIT TAUR BELLY
 
 	if(organCheck == FALSE)
 		if(ishuman(src) && dna.species.use_skintones)
@@ -420,6 +430,7 @@
 			dna.features["butt_color"] = "[dna.species.fixed_mut_color]"
 			dna.features["belly_color"] = "[dna.species.fixed_mut_color]"
 			dna.features["testicles_color"] = "[dna.species.fixed_mut_color]"
+			dna.features["taur_belly_color"] = "[dna.species.fixed_mut_color]"	//GS13 EDIT TAUR BELLY
 			return
 		//So people who haven't set stuff up don't get rainbow surprises.
 		dna.features["cock_color"] = "[dna.features["mcolor"]]"
@@ -427,6 +438,7 @@
 		dna.features["butt_color"] = "[dna.features["mcolor"]]"
 		dna.features["belly_color"] = "[dna.features["mcolor"]]"
 		dna.features["testicles_color"] = "[dna.features["mcolor"]]"
+		dna.features["taur_belly_color"] = "[dna.features["mcolor"]]"	//GS13 EDIT TAUR BELLY
 	else //If there's a new organ, make it the same colour.
 		if(breastCheck == FALSE)
 			dna.features["breasts_color"] = dna.features["cock_color"]
@@ -438,4 +450,6 @@
 			dna.features["belly_color"] = dna.features["belly_color"]
 		else if (ballCheck == FALSE)
 			dna.features["testicles_color"] = dna.features["testicles_color"]
+		else if (taurbellyCheck == FALSE)
+			dna.features["taur_belly_color"] = dna.features["taur_belly_color"]	//GS13 EDIT TAUR BELLY
 	return TRUE

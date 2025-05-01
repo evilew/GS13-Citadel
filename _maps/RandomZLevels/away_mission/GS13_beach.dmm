@@ -1,17 +1,17 @@
-"ab" = (/obj/effect/turf_decal/sand,/obj/structure/table,/obj/item/reagent_containers/rag/towel,/obj/item/reagent_containers/rag/towel{pixel_y = 4},/obj/item/reagent_containers/rag/towel{pixel_y = 8},/turf/open/floor/plating/beach/sand,/area/space)
-"ac" = (/obj/structure/mirror{pixel_y = 28},/turf/open/floor/mineral/basaltstone_floor,/area/ctf)
+"ab" = (/obj/effect/turf_decal/sand,/obj/structure/table,/obj/item/reagent_containers/rag/towel,/obj/item/reagent_containers/rag/towel{pixel_y = 4},/obj/item/reagent_containers/rag/towel{pixel_y = 8},/turf/open/floor/plating/beach/sand,/area/ctf)
+"ac" = (/obj/structure/mirror{pixel_y = 28},/obj/effect/turf_decal/sand,/turf/open/floor/mineral/basaltstone_floor,/area/ctf)
 "ad" = (/turf/open/floor/plating/beach/coastline_b{dir = 1},/area/ctf)
 "at" = (/obj/structure/railing{dir = 1},/turf/open/floor/plaswood,/area/ctf)
 "aJ" = (/obj/structure/flora/ausbushes/stalkybush,/turf/open/floor/plating/beach/coastline_b{dir = 4},/area/ctf)
-"aK" = (/obj/structure/chair/bench/left{dir = 4},/obj/machinery/light{dir = 1; color = "#ffa500"},/turf/open/floor/plaswood,/area/space)
-"bk" = (/obj/structure/table/wood,/obj/item/kitchen/knife/butcher,/obj/item/reagent_containers/food/snacks/fishfry{pixel_y = 12; pixel_x = -3},/obj/machinery/light/small{dir = 8},/turf/open/floor/wood/wood_large,/area/ctf)
+"aK" = (/obj/structure/chair/bench/left{dir = 4},/obj/machinery/light{dir = 1; color = "#ffa500"},/turf/open/floor/plaswood,/area/xenoarch/caloriteresearch_powered)
+"bk" = (/obj/structure/table/wood,/obj/item/kitchen/knife/butcher,/obj/item/reagent_containers/food/snacks/fishfry{pixel_y = 12; pixel_x = -3},/obj/machinery/light/small{dir = 8},/turf/open/floor/wood/wood_large,/area/xenoarch/caloriteresearch_powered)
 "bv" = (/turf/open/floor/plating/beach/coastline_b{dir = 9},/area/ctf)
 "bL" = (/obj/structure/closet/secure_closet/personal/cabinet,/obj/item/clothing/suit/jacket/letterman_red,/turf/open/floor/wood,/area/ctf)
 "bQ" = (/turf/open/floor/plating/beach/coastline_t{dir = 10},/area/ctf)
 "bR" = (/obj/structure/closet/secure_closet/personal/cabinet,/obj/item/clothing/neck/necklace/dope,/turf/open/floor/wood,/area/ctf)
 "bY" = (/turf/open/floor/plating/beach/coastline_t/sandwater_inner{dir = 8},/area/ctf)
 "cl" = (/obj/structure/table/wood,/obj/item/reagent_containers/food/drinks/bottle/champagne,/turf/open/floor/wood,/area/ctf)
-"cC" = (/obj/structure/rack,/obj/item/bdsm_whip/ridingcrop/fattening,/turf/open/floor/wood/wood_large,/area/ctf)
+"cC" = (/obj/structure/rack,/turf/open/floor/wood/wood_large,/area/xenoarch/caloriteresearch_powered)
 "cZ" = (/obj/effect/turf_decal/sand,/obj/effect/turf_decal/stripes/asteroid/line{dir = 10},/turf/open/floor/plating/beach/sand,/area/ctf)
 "dw" = (/obj/structure/table,/obj/item/storage/box/donkpockets,/turf/open/floor/wood,/area/ctf)
 "dz" = (/obj/item/reagent_containers/food/drinks/soda_cans/cola{pixel_x = -8; pixel_y = -4},/obj/item/reagent_containers/food/drinks/soda_cans/space_mountain_wind{pixel_x = 15},/turf/open/floor/plating/beach/sand,/area/ctf)
@@ -23,20 +23,21 @@
 "er" = (/obj/machinery/hydroponics/constructable,/turf/open/floor/wood,/area/ctf)
 "et" = (/obj/effect/overlay/coconut,/turf/open/floor/plating/beach/sand,/area/ctf)
 "eA" = (/obj/structure/railing{dir = 1},/obj/structure/flora/ausbushes/stalkybush,/turf/open/floor/plating/beach/coastline_b,/area/ctf)
-"eC" = (/obj/machinery/vending/hydronutrients,/turf/open/floor/wood,/area/ctf)
+"eC" = (/obj/machinery/vending/hydronutrients{fair_market_price = 0; extra_price = 0; default_price = 0},/turf/open/floor/wood,/area/ctf)
 "eE" = (/obj/item/reagent_containers/food/drinks/bottle/orangejuice{pixel_x = -6},/obj/item/reagent_containers/food/drinks/bottle/pineapplejuice{pixel_x = 6},/turf/open/floor/carpet/orange,/area/ctf)
 "eN" = (/obj/item/flashlight/flare/torch,/turf/open/floor/plating/beach/sand,/area/ctf)
-"eO" = (/obj/machinery/gateway{dir = 1},/obj/effect/turf_decal/sand,/obj/effect/turf_decal/stripes/asteroid/line{dir = 1},/turf/open/floor/plating/beach/sand,/area/ctf)
+"eO" = (/turf/open/floor/plaswood,/area/ctf)
 "eU" = (/obj/structure/table/wood,/obj/item/seeds/ambrosia,/obj/item/seeds/tower,/obj/item/seeds/ambrosia/gaia,/obj/item/seeds/cannabis,/obj/item/seeds/cannabis/white,/turf/open/floor/wood,/area/ctf)
 "fa" = (/obj/item/reagent_containers/food/drinks/soda_cans/lemon_lime{pixel_x = -12},/turf/open/floor/plating/beach/sand,/area/ctf)
 "fd" = (/obj/item/toy/syndicateballoon,/turf/open/floor/plating/beach/sand,/area/ctf)
-"fs" = (/obj/machinery/iv_drip/feeding_tube,/turf/open/floor/wood/wood_large,/area/ctf)
+"fs" = (/obj/machinery/iv_drip/feeding_tube,/turf/open/floor/wood/wood_large,/area/xenoarch/caloriteresearch_powered)
 "fB" = (/obj/structure/table/wood,/turf/open/floor/wood,/area/ctf)
 "fE" = (/turf/open/floor/wood/damturf/broken2,/area/ctf)
-"fH" = (/obj/structure/fans/tiny,/obj/machinery/door/airlock/wood{id_tag = "beachbigsauna"; name = "Large Sauna"},/turf/open/floor/wood,/area/space)
-"fJ" = (/obj/structure/mirror{pixel_x = -28},/obj/effect/turf_decal/sand,/obj/structure/sink{pixel_y = 32},/turf/open/floor/plasteel/white,/area/ctf)
+"fH" = (/obj/structure/fans/tiny,/obj/machinery/door/airlock/wood{id_tag = "beachbigsauna"; name = "Large Sauna"},/turf/open/floor/wood,/area/ctf)
+"fJ" = (/obj/structure/mirror{pixel_x = -28},/obj/effect/turf_decal/sand,/obj/structure/sink{pixel_y = 32},/obj/effect/turf_decal/loading_area{dir = 1; icon_state = "drain"; name = "drain"},/turf/open/floor/plasteel/white,/area/ctf)
 "fK" = (/obj/structure/reagent_dispensers/beerkeg,/turf/open/floor/plating/beach/sand,/area/ctf)
 "fW" = (/obj/structure/closet/secure_closet/personal/cabinet,/obj/item/clothing/suit/jacket/letterman,/turf/open/floor/wood,/area/ctf)
+"gd" = (/obj/machinery/vr_sleeper{dir = 1},/turf/open/floor/plaswood,/area/ctf)
 "gm" = (/obj/structure/flora/rock{desc = "A volcanic rock."; name = "coastal rock"},/turf/open/floor/plating/beach/water{desc = "What's the difference?"; name = "coastline water"},/area/ctf)
 "gs" = (/obj/structure/flora/rock{desc = "A volcanic rock."; name = "coastal rock"},/turf/open/indestructible/binary{density = 1; desc = "I can't move through this."; icon = 'icons/misc/beach.dmi'; icon_state = "water"; name = "deep ocean water"},/area/ctf)
 "gx" = (/obj/effect/overlay/palmtree_r,/obj/effect/overlay/coconut,/turf/open/floor/plating/beach/sand,/area/ctf)
@@ -44,7 +45,7 @@
 "gI" = (/obj/structure/chair/comfy/plywood,/turf/open/floor/plating/beach/sand,/area/ctf)
 "gJ" = (/obj/structure/table,/obj/item/reagent_containers/glass/beaker{pixel_x = 5},/turf/open/floor/wood,/area/ctf)
 "gQ" = (/turf/open/floor/plating/beach/coastline_t,/area/ctf)
-"hd" = (/obj/structure/chair/bench/left{dir = 4},/turf/open/floor/plaswood,/area/space)
+"hd" = (/obj/structure/chair/bench/left{dir = 4},/turf/open/floor/plaswood,/area/xenoarch/caloriteresearch_powered)
 "hp" = (/obj/effect/overlay/palmtree_l,/turf/open/floor/plating/beach/sand,/area/ctf)
 "hW" = (/obj/structure/rack/shelf,/obj/item/mop/advanced,/obj/item/mop/advanced,/obj/item/storage/bag/trash/bluespace,/obj/item/storage/bag/trash/bluespace,/turf/open/floor/wood,/area/ctf)
 "ii" = (/obj/item/reagent_containers/food/drinks/soda_cans/dr_gibb{pixel_x = -9; pixel_y = -7},/turf/open/floor/plating/beach/sand,/area/ctf)
@@ -52,50 +53,53 @@
 "ip" = (/obj/structure/flora/ausbushes/fullgrass,/turf/open/indestructible/binary{density = 1; desc = "I can't move through this."; icon = 'icons/misc/beach.dmi'; icon_state = "water"; name = "deep ocean water"},/area/ctf)
 "ir" = (/obj/structure{desc = "Bar and beach south, dorms east."; icon = 'icons/obj/stationobjs.dmi'; icon_state = "signpost"; name = "directions signpost"},/turf/open/floor/plating/beach/sand,/area/ctf)
 "ix" = (/turf/open/floor/wood/damturf/broken3,/area/ctf)
-"iL" = (/obj/effect/turf_decal/sand,/obj/structure/table,/obj/item/reagent_containers/rag/towel,/obj/item/reagent_containers/rag/towel{pixel_y = 4},/obj/item/reagent_containers/rag/towel{pixel_y = 4},/obj/item/reagent_containers/rag/towel{pixel_y = 8},/turf/open/floor/plating/beach/sand,/area/space)
+"iL" = (/obj/effect/turf_decal/sand,/obj/structure/table,/obj/item/reagent_containers/rag/towel,/obj/item/reagent_containers/rag/towel{pixel_y = 4},/obj/item/reagent_containers/rag/towel{pixel_y = 4},/obj/item/reagent_containers/rag/towel{pixel_y = 8},/turf/open/floor/plating/beach/sand,/area/ctf)
 "iR" = (/turf/closed/wall/mineral/wood,/area/ctf)
 "iX" = (/turf/open/floor/carpet/orange,/area/ctf)
 "ja" = (/obj/structure/railing{dir = 4},/obj/structure/flora/ausbushes/fullgrass,/turf/open/floor/plating/beach/coastline_b{dir = 8},/area/ctf)
+"jb" = (/obj/structure/toilet{pixel_y = 8},/obj/effect/turf_decal/sand,/obj/effect/turf_decal/loading_area{dir = 8; icon_state = "drain"; name = "drain"},/obj/effect/turf_decal/loading_area{dir = 1; icon_state = "drain"; name = "drain"},/turf/open/floor/plasteel/white,/area/ctf)
 "jf" = (/obj/structure/railing{dir = 4},/turf/open/floor/wood,/area/ctf)
 "jr" = (/turf/open/floor/plating/beach/coastline_t{dir = 8},/area/ctf)
 "ju" = (/obj/item/reagent_containers/food/drinks/soda_cans/space_mountain_wind,/turf/open/floor/plating/beach/sand,/area/ctf)
 "jA" = (/turf/open/floor/plating/beach/coastline_t{dir = 5},/area/ctf)
-"jM" = (/obj/machinery/button/door{id = "changlinhut1"; name = "changing room lock"; normaldoorcontrol = 1; pixel_x = -24; specialfunctions = 4},/turf/open/floor/mineral/basaltstone_floor,/area/ctf)
+"jM" = (/obj/machinery/button/door{id = "changlinhut1"; name = "changing room lock"; normaldoorcontrol = 1; pixel_x = -24; specialfunctions = 4},/obj/effect/turf_decal/sand,/turf/open/floor/mineral/basaltstone_floor,/area/ctf)
+"ki" = (/obj/machinery/vr_sleeper,/turf/open/floor/plaswood,/area/ctf)
 "kj" = (/obj/structure/sign/poster/contraband/corn_oil,/turf/closed/wall/mineral/sandstone,/area/ctf)
-"kr" = (/obj/machinery/jukebox/disco/indestructible,/turf/open/floor/light/colour_cycle,/area/ctf)
+"kr" = (/obj/effect/turf_decal/sand,/obj/machinery/gateway{dir = 1},/turf/open/floor/plating/beach/sand,/area/ctf)
 "kI" = (/obj/machinery/button/door{id = "toilet2"; name = "restroom lock"; normaldoorcontrol = 1; pixel_x = -24; specialfunctions = 4},/obj/effect/turf_decal/sand,/turf/open/floor/plasteel/white,/area/ctf)
 "kK" = (/obj/structure/closet/secure_closet/bar,/obj/item/storage/box/drinkingglasses,/obj/item/reagent_containers/food/drinks/shaker,/turf/open/floor/wood,/area/ctf)
-"kR" = (/obj/structure/mirror{pixel_x = 28},/obj/effect/turf_decal/sand,/obj/structure/sink{pixel_y = 32},/turf/open/floor/plasteel/white,/area/ctf)
-"kT" = (/obj/structure/sauna_oven,/obj/machinery/light{dir = 1; color = "#ffa500"},/turf/open/floor/plaswood,/area/space)
+"kR" = (/obj/structure/mirror{pixel_x = 28},/obj/effect/turf_decal/sand,/obj/structure/sink{pixel_y = 32},/obj/effect/turf_decal/loading_area{dir = 1; icon_state = "drain"; name = "drain"},/turf/open/floor/plasteel/white,/area/ctf)
+"kT" = (/obj/structure/sauna_oven,/obj/machinery/light{dir = 1; color = "#ffa500"},/turf/open/floor/plaswood,/area/xenoarch/caloriteresearch_powered)
 "kV" = (/obj/machinery/button/door{id = "theloveshack4"; name = "door lock"; normaldoorcontrol = 1; pixel_x = 24; specialfunctions = 4},/obj/structure/bed/double,/obj/item/bedsheet/double_blue,/turf/open/floor/wood,/area/ctf)
 "la" = (/obj/item/toy/sword/cx,/obj/item/toy/sword,/obj/item/toy/katana,/obj/item/toy/foamblade,/turf/open/floor/plating/beach/sand,/area/ctf)
 "ld" = (/obj/machinery/deepfryer,/turf/open/floor/wood,/area/ctf)
 "lh" = (/obj/item/reagent_containers/food/drinks/soda_cans/lemon_lime{pixel_x = -12},/obj/item/reagent_containers/food/drinks/soda_cans/dr_gibb{pixel_x = 13},/turf/open/floor/plating/beach/sand,/area/ctf)
 "ln" = (/obj/structure/flora/ausbushes/fullgrass,/turf/open/floor/plating/beach/coastline_b{dir = 4},/area/ctf)
 "lq" = (/obj/structure/flora/ausbushes/stalkybush,/turf/open/floor/plating/beach/coastline_b,/area/ctf)
-"lP" = (/obj/structure/table/wood,/obj/item/gun/energy/kinetic_accelerator/crossbow/feeder,/turf/open/floor/wood/wood_large,/area/ctf)
+"lP" = (/obj/structure/table/wood,/obj/item/gun/energy/kinetic_accelerator/crossbow/feeder,/turf/open/floor/wood/wood_large,/area/xenoarch/caloriteresearch_powered)
 "lY" = (/obj/structure/flora/ausbushes/stalkybush,/turf/open/floor/plating/beach/coastline_b{dir = 10},/area/ctf)
 "mm" = (/obj/item/reagent_containers/food/drinks/bottle/wine,/obj/item/reagent_containers/food/drinks/bottle/rum,/obj/structure/table/wood,/turf/open/floor/wood,/area/ctf)
 "mp" = (/obj/item/toy/plush/random,/turf/open/floor/plating/beach/sand,/area/ctf)
 "mu" = (/obj/structure/flora/ausbushes/brflowers,/turf/open/floor/grass,/area/ctf)
 "mv" = (/obj/structure/flora/rock/pile,/turf/open/floor/plating/beach/water,/area/ctf)
-"mF" = (/turf/closed/indestructible/wood,/area/space)
+"mz" = (/obj/effect/turf_decal/sand,/obj/effect/turf_decal/loading_area{dir = 4; icon_state = "drain"; name = "drain"},/obj/machinery/shower{dir = 8},/turf/open/floor/plasteel/white,/area/ctf)
+"mF" = (/obj/effect/turf_decal/sand,/obj/effect/turf_decal/loading_area{dir = 1; icon_state = "drain"; name = "drain"},/obj/machinery/shower{pixel_y = 19},/turf/open/floor/plating/beach/sand,/area/ctf)
 "mL" = (/obj/structure/flora/ausbushes/fullgrass,/turf/open/floor/grass,/area/ctf)
-"no" = (/obj/item/toy/plush/random,/turf/open/floor/plating/beach/coastline_t{dir = 8},/area/ctf)
-"np" = (/obj/machinery/vending/dinnerware,/turf/open/floor/wood,/area/ctf)
+"no" = (/obj/item/toy/fluff/bone_poly,/turf/open/floor/plating/beach/sand,/area/ctf)
+"np" = (/obj/machinery/vending/dinnerware{fair_market_price = 0; extra_price = 0; default_price = 0},/turf/open/floor/wood,/area/ctf)
 "nr" = (/obj/structure/sink/kitchen{desc = "A sink used for washing one's hands and face. It looks rusty and home-made"; name = "old sink"; pixel_y = 28},/turf/open/floor/wood,/area/ctf)
 "ny" = (/turf/open/floor/plating/beach/sand,/area/ctf)
 "nA" = (/obj/machinery/button/door{id = "toilet1"; name = "restroom lock"; normaldoorcontrol = 1; pixel_x = 24; specialfunctions = 4},/obj/effect/turf_decal/sand,/turf/open/floor/plasteel/white,/area/ctf)
-"nK" = (/obj/machinery/door/airlock/wood{id_tag = "oldshack"; name = "Decrepit Shack"},/turf/open/floor/wood/wood_large,/area/ctf)
-"oa" = (/obj/machinery/shower{dir = 8},/obj/effect/turf_decal/sand,/turf/open/floor/plasteel/white,/area/ctf)
+"nK" = (/obj/machinery/door/airlock/wood{id_tag = "oldshack"; name = "Decrepit Shack"},/obj/structure/barricade/wooden,/turf/open/floor/wood/wood_large,/area/ctf)
+"oa" = (/obj/machinery/shower{dir = 8},/obj/effect/turf_decal/sand,/obj/effect/turf_decal/loading_area{dir = 4; icon_state = "drain"; name = "drain"},/turf/open/floor/plasteel/white,/area/ctf)
 "oo" = (/obj/structure/flora/ausbushes/stalkybush,/turf/open/floor/plating/beach/coastline_b{dir = 8},/area/ctf)
 "os" = (/obj/machinery/door/airlock/sandstone{id_tag = "theloveshack2"; name = "Beach Hut"},/turf/open/floor/wood,/area/ctf)
 "ou" = (/obj/effect/turf_decal/stripes/white/full,/obj/item/toy/beach_ball,/turf/open/floor/plating/beach/sand,/area/ctf)
-"ov" = (/obj/effect/turf_decal/sand,/obj/machinery/vending/snack/random,/turf/open/floor/plating/beach/sand,/area/ctf)
+"ov" = (/obj/effect/turf_decal/sand,/obj/machinery/vending/snack/random{fair_market_price = 0; extra_price = 0; default_price = 0},/turf/open/floor/plating/beach/sand,/area/ctf)
 "ox" = (/obj/effect/turf_decal/sand,/obj/effect/turf_decal/stripes/asteroid/line{dir = 9},/turf/open/floor/plating/beach/sand,/area/ctf)
 "oG" = (/obj/effect/turf_decal/stripes/white/corner,/obj/effect/turf_decal/stripes/white/line{dir = 4},/turf/open/floor/plating/beach/sand,/area/ctf)
 "oR" = (/obj/structure/table/wood,/obj/item/storage/box/drinkingglasses,/turf/open/floor/wood,/area/ctf)
-"pd" = (/obj/structure/table/wood,/obj/item/reagent_containers/glass/beaker/lipoifier{pixel_x = -8},/obj/item/reagent_containers/glass/beaker/waterbottle,/turf/open/floor/wood/wood_large,/area/ctf)
+"pd" = (/obj/structure/table/wood,/obj/item/reagent_containers/glass/beaker/lipoifier{pixel_x = -8},/obj/item/reagent_containers/glass/beaker/waterbottle,/turf/open/floor/wood/wood_large,/area/xenoarch/caloriteresearch_powered)
 "pP" = (/obj/machinery/button/door{id = "theloveshack5"; name = "door lock"; normaldoorcontrol = 1; pixel_x = 24; specialfunctions = 4},/obj/structure/bed/double,/obj/item/bedsheet/black/double,/turf/open/floor/wood,/area/ctf)
 "pS" = (/obj/effect/turf_decal/sand,/obj/machinery/jukebox,/turf/open/floor/plating/beach/sand,/area/ctf)
 "qc" = (/obj/structure/flora/ausbushes/reedbush,/turf/open/floor/plating/beach/coastline_b{dir = 8},/area/ctf)
@@ -106,27 +110,28 @@
 "qQ" = (/obj/structure/railing{dir = 1},/obj/structure/flora/ausbushes/fullgrass,/turf/open/floor/plating/beach/coastline_b,/area/ctf)
 "qU" = (/obj/structure/flora/rock{desc = "A volcanic rock."; name = "coastal rock"},/turf/open/floor/plating/beach/water,/area/ctf)
 "rf" = (/obj/effect/turf_decal/stripes/white/full,/turf/open/floor/plating/beach/sand,/area/ctf)
-"rh" = (/obj/effect/turf_decal/sand,/obj/machinery/vending/mealdor,/turf/open/floor/plating/beach/sand,/area/ctf)
+"rh" = (/obj/effect/turf_decal/sand,/obj/machinery/vending/mealdor{fair_market_price = 0; extra_price = 0; default_price = 0},/turf/open/floor/plating/beach/sand,/area/ctf)
 "rp" = (/obj/structure/table/wood,/obj/item/storage/fancy/donut_box,/turf/open/floor/wood,/area/ctf)
 "rz" = (/obj/effect/turf_decal/sand{density = 1},/obj/effect/decal/fakelattice,/turf/open/floor/pod/light{density = 1},/area/ctf)
-"rY" = (/obj/machinery/light/small{dir = 1},/turf/open/floor/wood/wood_large,/area/ctf)
+"rK" = (/obj/structure/closet/athletic_mixed{anchored = 1},/obj/effect/turf_decal/sand,/turf/open/floor/plating/beach/sand,/area/ctf)
+"rY" = (/obj/machinery/light/small{dir = 1},/turf/open/floor/wood/wood_large,/area/xenoarch/caloriteresearch_powered)
 "rZ" = (/obj/structure/table/wood,/obj/item/clothing/glasses/sunglasses,/obj/item/reagent_containers/food/drinks/beer,/obj/item/reagent_containers/food/drinks/beer,/turf/open/floor/wood,/area/ctf)
 "sb" = (/turf/open/floor/wood/damturf/broken1,/area/ctf)
 "se" = (/turf/open/floor/light/colour_cycle,/area/ctf)
-"sE" = (/obj/machinery/button/door{id = "beachbigsauna"; name = "Large Sauna Lock"; normaldoorcontrol = 1; specialfunctions = 4; pixel_y = -24},/turf/open/floor/wood,/area/space)
+"sE" = (/obj/machinery/button/door{id = "beachbigsauna"; name = "Large Sauna Lock"; normaldoorcontrol = 1; specialfunctions = 4; pixel_y = -24},/turf/open/floor/wood,/area/xenoarch/caloriteresearch_powered)
 "sI" = (/obj/item/storage/bag/tray,/obj/item/reagent_containers/food/snacks/burger/mcguffin,/obj/item/reagent_containers/food/snacks/burger/chicken,/obj/item/reagent_containers/food/snacks/burger/cheese,/turf/open/floor/carpet/orange,/area/ctf)
 "tt" = (/obj/effect/turf_decal/sand,/obj/effect/turf_decal/stripes/asteroid/line{dir = 8},/turf/open/floor/plating/beach/sand,/area/ctf)
 "tw" = (/obj/structure/table/wood,/obj/item/reagent_containers/food/drinks/ale,/turf/open/floor/wood,/area/ctf)
-"tH" = (/obj/structure/table/wood,/obj/structure/sink{pixel_y = 32},/obj/item/stack/sheet/mineral/wood/fifty,/obj/item/stack/sheet/mineral/wood/fifty,/obj/item/reagent_containers/glass/bucket,/turf/open/floor/plaswood,/area/space)
-"tI" = (/obj/structure/fans/tiny,/obj/machinery/door/airlock/wood{id_tag = "beachsmallsauna"; name = "Small Sauna"},/turf/open/floor/wood,/area/space)
+"tH" = (/obj/structure/table/wood,/obj/structure/sink{pixel_y = 32},/obj/item/stack/sheet/mineral/wood/fifty,/obj/item/stack/sheet/mineral/wood/fifty,/obj/item/stack/sheet/mineral/wood/fifty,/obj/item/reagent_containers/glass/bucket,/obj/item/reagent_containers/glass/bucket,/turf/open/floor/plaswood,/area/xenoarch/caloriteresearch_powered)
+"tI" = (/obj/structure/fans/tiny,/obj/machinery/door/airlock/wood{id_tag = "beachsmallsauna"; name = "Small Sauna"},/turf/open/floor/wood,/area/ctf)
 "tK" = (/obj/structure/railing{dir = 8},/obj/structure/railing{dir = 1},/obj/structure/barricade/wooden,/turf/open/floor/plating/beach/coastline_b{dir = 9},/area/ctf)
 "tN" = (/obj/structure/window/reinforced{dir = 4},/obj/effect/mob_spawn/human/beach/alive/lifeguard,/turf/open/floor/wood,/area/ctf)
 "tP" = (/obj/structure/railing{dir = 8},/turf/open/floor/plating/beach/coastline_b{dir = 4},/area/ctf)
-"tZ" = (/obj/structure/sauna_oven,/turf/open/floor/plaswood,/area/space)
+"tZ" = (/obj/structure/sauna_oven,/turf/open/floor/plaswood,/area/xenoarch/caloriteresearch_powered)
 "ub" = (/turf/open/floor/plating/beach/coastline_b{dir = 4},/area/ctf)
-"ui" = (/obj/structure/window{dir = 4},/obj/structure/fans/tiny/invisible,/turf/open/water/jungle,/area/space)
+"ui" = (/obj/structure/window{dir = 4},/obj/structure/fans/tiny/invisible,/turf/open/water/jungle,/area/xenoarch/caloriteresearch_powered)
 "un" = (/turf/open/floor/plating/beach/coastline_t/sandwater_inner{dir = 1},/area/ctf)
-"ur" = (/obj/effect/turf_decal/sand,/turf/open/floor/plasteel/white,/area/ctf)
+"ur" = (/obj/effect/turf_decal/sand,/obj/effect/turf_decal/loading_area{dir = 8; icon_state = "drain"; name = "drain"},/obj/machinery/shower{dir = 4},/turf/open/floor/plasteel/white,/area/ctf)
 "uv" = (/obj/structure/table/wood,/obj/item/reagent_containers/food/drinks/soda_cans/lemon_lime,/turf/open/floor/wood,/area/ctf)
 "uw" = (/obj/effect/turf_decal/sand,/obj/structure/table/wood,/obj/item/toy/poolnoodle/red,/obj/item/toy/poolnoodle/yellow,/obj/item/toy/poolnoodle/blue,/obj/item/reagent_containers/rag/towel/random,/obj/item/reagent_containers/rag/towel/random,/obj/item/reagent_containers/rag/towel/random,/turf/open/floor/plating/beach/sand,/area/ctf)
 "ux" = (/obj/structure/barricade/wooden,/turf/open/floor/wood,/area/ctf)
@@ -134,60 +139,65 @@
 "uH" = (/obj/effect/overlay/palmtree_r,/turf/open/floor/plating/beach/sand,/area/ctf)
 "uU" = (/obj/effect/turf_decal/sand,/obj/effect/turf_decal/sand,/turf/open/floor/plating/beach/sand,/area/ctf)
 "va" = (/obj/structure/flora/ausbushes/fullgrass,/turf/open/floor/plating/beach/coastline_b{dir = 8},/area/ctf)
-"vb" = (/turf/open/floor/wood/wood_large,/area/ctf)
-"vm" = (/obj/machinery/vending/boozeomat,/turf/open/floor/wood,/area/ctf)
-"vn" = (/obj/effect/turf_decal/sand,/obj/machinery/portable_atmospherics/canister/water_vapor,/turf/open/floor/plating/beach/sand,/area/space)
+"vb" = (/turf/open/floor/wood/wood_large,/area/xenoarch/caloriteresearch_powered)
+"vm" = (/obj/machinery/vending/boozeomat{fair_market_price = 0; extra_price = 0; default_price = 0},/turf/open/floor/wood,/area/ctf)
+"vn" = (/obj/effect/turf_decal/sand,/obj/effect/turf_decal/box,/obj/machinery/space_heater,/turf/open/floor/plating/beach/sand,/area/ctf)
 "vp" = (/obj/item/toy/beach_ball,/turf/open/floor/plating/beach/sand,/area/ctf)
-"vs" = (/obj/machinery/vending/autodrobe/all_access,/turf/open/floor/plating/beach/sand,/area/ctf)
+"vs" = (/obj/machinery/vending/autodrobe/all_access{fair_market_price = 0; extra_price = 0; default_price = 0},/turf/open/floor/plating/beach/sand,/area/ctf)
 "vv" = (/turf/closed/indestructible/wood,/area/ctf)
-"vw" = (/obj/structure/table/wood,/obj/item/reagent_containers/food/snacks/burger/fish,/turf/open/floor/wood/wood_large,/area/ctf)
-"vz" = (/turf/open/floor/plating/beach/sand,/area/space)
+"vw" = (/obj/structure/table/wood,/obj/item/reagent_containers/food/snacks/burger/fish,/turf/open/floor/wood/wood_large,/area/xenoarch/caloriteresearch_powered)
+"vz" = (/obj/machinery/autolathe,/obj/item/stack/sheet/glass/fifty,/obj/item/stack/sheet/metal/fifty,/turf/open/floor/plating/beach/sand,/area/ctf)
 "vC" = (/obj/structure/railing,/turf/open/floor/wood,/area/ctf)
 "vE" = (/obj/structure/chair/wood,/turf/open/floor/wood,/area/ctf)
-"vK" = (/obj/machinery/button/door{pixel_y = 22; id = "oldshack_prison"},/turf/open/floor/wood/wood_large,/area/ctf)
+"vK" = (/obj/machinery/button/door{pixel_y = 22; id = "oldshack_prison"},/turf/open/floor/wood/wood_large,/area/xenoarch/caloriteresearch_powered)
 "vR" = (/obj/machinery/door/airlock/sandstone{id_tag = "toilet2"; name = "restroom stall"},/obj/effect/turf_decal/sand,/turf/open/floor/plasteel/white,/area/ctf)
-"vX" = (/obj/structure/closet/secure_closet/personal/cabinet,/obj/item/hatchet/bone,/turf/open/floor/wood/wood_large,/area/ctf)
+"vX" = (/obj/structure/closet/secure_closet/personal/cabinet,/obj/item/hatchet/bone,/turf/open/floor/wood/wood_large,/area/xenoarch/caloriteresearch_powered)
 "wo" = (/obj/machinery/computer/security/telescreen/entertainment{pixel_y = 32},/turf/open/floor/wood,/area/ctf)
 "wz" = (/obj/structure/flora/ausbushes/leafybush,/turf/open/floor/plating/beach/coastline_b{dir = 1},/area/ctf)
 "wC" = (/obj/effect/overlay/palmtree_l{pixel_y = 25},/obj/effect/overlay/coconut{pixel_x = -7; pixel_y = 7},/turf/open/floor/plating/beach/sand,/area/ctf)
+"wS" = (/obj/machinery/vending/cigarette{default_price = 0; extra_price = 0; fair_market_price = 0},/turf/open/floor/wood,/area/ctf)
 "wW" = (/obj/structure/flora/ausbushes/reedbush,/turf/open/indestructible/binary{density = 1; desc = "I can't move through this."; icon = 'icons/misc/beach.dmi'; icon_state = "water"; name = "deep ocean water"},/area/ctf)
 "xq" = (/obj/structure/table/wood,/obj/machinery/chem_dispenser/drinks/fullupgrade{dir = 8},/turf/open/floor/wood,/area/ctf)
 "xw" = (/obj/structure/window/reinforced{dir = 1},/obj/structure/window/reinforced{dir = 8},/obj/item/bikehorn/airhorn,/obj/structure/table/wood,/obj/item/storage/firstaid,/obj/item/storage/firstaid/brute,/turf/open/floor/wood,/area/ctf)
+"xF" = (/obj/item/toy/plush/random,/turf/open/floor/plating/beach/coastline_t/sandwater_inner{dir = 4},/area/ctf)
 "xJ" = (/obj/effect/turf_decal/sand,/obj/effect/turf_decal/stripes/asteroid/line{dir = 5},/turf/open/floor/plating/beach/sand,/area/ctf)
-"xP" = (/obj/structure/closet/wardrobe/mixed,/turf/open/floor/mineral/basaltstone_floor,/area/ctf)
-"yc" = (/obj/structure/chair/bench/left{dir = 8},/turf/open/floor/plaswood,/area/space)
+"xP" = (/obj/structure/closet/wardrobe/mixed,/obj/effect/turf_decal/sand,/turf/open/floor/mineral/basaltstone_floor,/area/ctf)
+"yc" = (/obj/structure/chair/bench/left{dir = 8},/turf/open/floor/plaswood,/area/xenoarch/caloriteresearch_powered)
 "yg" = (/obj/item/trash/chips{pixel_x = -18; pixel_y = 7},/turf/open/floor/plating/beach/sand,/area/ctf)
 "yk" = (/turf/open/floor/plating/beach/coastline_t{dir = 6},/area/ctf)
 "yy" = (/turf/open/floor/plating/beach/coastline_t{dir = 1},/area/ctf)
+"yC" = (/obj/item/toy/plush/random,/turf/open/floor/plating/beach/coastline_t/sandwater_inner{dir = 1},/area/ctf)
 "yH" = (/obj/structure/table,/obj/item/kitchen/rollingpin,/turf/open/floor/wood,/area/ctf)
-"yJ" = (/obj/effect/turf_decal/sand,/obj/machinery/vending/cigarette,/turf/open/floor/plating/beach/sand,/area/ctf)
+"yJ" = (/obj/effect/turf_decal/sand,/obj/machinery/vending/cigarette{fair_market_price = 0; extra_price = 0; default_price = 0},/turf/open/floor/plating/beach/sand,/area/ctf)
 "yP" = (/obj/structure/flora/ausbushes/reedbush,/turf/open/floor/plating/beach/water,/area/ctf)
 "zg" = (/turf/open/floor/wood,/area/ctf)
 "zh" = (/obj/effect/overlay/palmtree_l,/turf/open/floor/plating/beach/coastline_t{dir = 4},/area/ctf)
-"zD" = (/obj/structure/window{dir = 8},/obj/structure/fans/tiny/invisible,/turf/open/water/jungle,/area/space)
+"zD" = (/obj/structure/window{dir = 8},/obj/structure/fans/tiny/invisible,/turf/open/water/jungle,/area/xenoarch/caloriteresearch_powered)
 "zG" = (/obj/structure/flora/ausbushes/fullgrass,/turf/open/floor/plating/beach/coastline_b{dir = 1},/area/ctf)
 "zH" = (/obj/effect/turf_decal/stripes/white/line{dir = 4},/turf/open/floor/plating/beach/sand,/area/ctf)
-"Aj" = (/obj/machinery/portable_atmospherics/canister/water_vapor,/obj/structure/sink{pixel_y = 32},/turf/open/floor/plaswood,/area/space)
+"Aj" = (/obj/machinery/portable_atmospherics/canister/water_vapor,/obj/structure/sink{pixel_y = 32},/obj/machinery/portable_atmospherics/canister/water_vapor,/turf/open/floor/plaswood,/area/xenoarch/caloriteresearch_powered)
 "As" = (/obj/effect/overlay/palmtree_r{desc = "How did you get here?"; icon_state = "palm2"; name = "\proper island palm tree"},/turf/open/floor/plating/beach/sand,/area/ctf)
-"AC" = (/obj/effect/turf_decal/stripes/white/corner,/turf/open/floor/plating/beach/sand,/area/ctf)
+"AC" = (/obj/effect/turf_decal/stripes/white/corner,/obj/item/toy/fluff/frisbee_poly,/turf/open/floor/plating/beach/sand,/area/ctf)
 "AH" = (/obj/effect/overlay/palmtree_l,/obj/effect/overlay/coconut,/turf/open/floor/plating/beach/sand,/area/ctf)
-"BM" = (/obj/item/gun/energy/fatoray,/turf/closed/mineral,/area/ctf)
+"BM" = (/obj/item/melee/curator_whip/fattening,/turf/closed/mineral,/area/ctf)
 "BP" = (/obj/machinery/door/airlock/sandstone{id_tag = "theloveshack4"; name = "Beach Hut"},/turf/open/floor/wood,/area/ctf)
+"Ce" = (/turf/closed/indestructible/wood,/area/xenoarch/caloriteresearch_powered)
 "Ch" = (/obj/machinery/button/door{id = "theloveshack1"; name = "door lock"; normaldoorcontrol = 1; pixel_x = 24; specialfunctions = 4},/obj/item/bedsheet/double_gato,/obj/structure/bed/double,/turf/open/floor/wood,/area/ctf)
 "Cq" = (/obj/structure/sign/poster/official/gato_logo,/turf/closed/wall/mineral/sandstone,/area/ctf)
 "CA" = (/obj/structure/flora/ausbushes/leafybush,/turf/open/floor/plating/beach/coastline_b{dir = 4},/area/ctf)
+"CP" = (/obj/item/gun/magic/wand/food,/turf/open/floor/plating/beach/sand,/area/ctf)
 "CS" = (/obj/effect/turf_decal/sand,/obj/effect/turf_decal/stripes/asteroid/line{dir = 4},/turf/open/floor/plating/beach/sand,/area/ctf)
-"Db" = (/obj/structure/bed/dogbed,/obj/item/clothing/neck/petcollar/locked/calorite{pixel_x = -6; pixel_y = -8},/obj/machinery/light/small{dir = 1},/turf/open/floor/wood/damturf/broken3,/area/ctf)
+"Db" = (/obj/structure/bed/dogbed,/obj/item/clothing/neck/petcollar/locked/calorite{pixel_x = -6; pixel_y = -8},/obj/machinery/light/small{dir = 1},/turf/open/floor/wood/damturf/broken3,/area/xenoarch/caloriteresearch_powered)
 "Du" = (/obj/structure/flora/ausbushes/stalkybush,/turf/open/floor/plating/beach/water,/area/ctf)
 "Dw" = (/obj/structure/closet/secure_closet/personal/cabinet,/obj/item/clothing/glasses/heat,/turf/open/floor/wood,/area/ctf)
 "DN" = (/obj/item/reagent_containers/food/drinks/beer/light{pixel_x = -14; pixel_y = 15},/turf/open/floor/plating/beach/sand,/area/ctf)
-"DT" = (/obj/structure/mineral_door/wood{name = "bar"},/turf/open/floor/wood,/area/ctf)
+"DT" = (/obj/structure/mineral_door/sandstone,/turf/open/floor/wood,/area/ctf)
 "DU" = (/obj/structure/table,/obj/item/reagent_containers/food/drinks/soda_cans/sodawater,/obj/item/reagent_containers/food/drinks/soda_cans/shamblers,/obj/item/reagent_containers/food/drinks/soda_cans/pwr_game,/obj/item/reagent_containers/food/drinks/soda_cans/air,/obj/item/reagent_containers/food/drinks/soda_cans/canned_laughter,/obj/item/reagent_containers/food/drinks/soda_cans/tonic,/obj/item/reagent_containers/spray/spraytan,/turf/open/floor/plating/beach/sand,/area/ctf)
 "Ea" = (/obj/structure/flora/ausbushes/reedbush,/turf/open/floor/plating/beach/water{desc = "What's the difference?"; name = "coastline water"},/area/ctf)
 "Eb" = (/obj/effect/turf_decal/sand,/turf/open/floor/plating/beach/sand,/area/ctf)
 "Eo" = (/obj/machinery/door/airlock/sandstone{id_tag = "toilet1"; name = "restroom stall"},/obj/effect/turf_decal/sand,/turf/open/floor/plasteel/white,/area/ctf)
 "Eq" = (/obj/item/reagent_containers/food/drinks/soda_cans/cola{pixel_x = -5},/turf/open/floor/plating/beach/sand,/area/ctf)
-"Es" = (/turf/open/floor/wood,/area/space)
+"Es" = (/turf/open/floor/wood,/area/xenoarch/caloriteresearch_powered)
 "ED" = (/mob/living/simple_animal/parrot,/turf/open/floor/plating/beach/sand,/area/ctf)
 "EE" = (/obj/effect/turf_decal/sand,/obj/effect/turf_decal/stripes/asteroid/line,/turf/open/floor/plating/beach/sand,/area/ctf)
 "EL" = (/obj/effect/turf_decal/sand,/obj/effect/turf_decal/stripes/asteroid/line{dir = 1},/turf/open/floor/plating/beach/sand,/area/ctf)
@@ -196,10 +206,10 @@
 "ER" = (/obj/item/reagent_containers/food/snacks/grown/cannabis/rainbow,/turf/open/floor/wood,/area/ctf)
 "FF" = (/obj/item/stack/sheet/plastic/fifty,/obj/item/stack/sheet/plastic/fifty,/obj/machinery/autolathe/toy,/turf/open/floor/plating/beach/sand,/area/ctf)
 "FH" = (/obj/item/clothing/glasses/heat,/turf/open/floor/plating/beach/sand,/area/ctf)
-"FQ" = (/obj/structure/rack/shelf,/obj/item/reagent_containers/food/snacks/rationpack,/obj/item/reagent_containers/food/snacks/rationpack,/obj/item/reagent_containers/food/snacks/rationpack,/obj/item/reagent_containers/food/snacks/rationpack,/obj/item/reagent_containers/food/snacks/rationpack,/turf/open/floor/wood/wood_large,/area/ctf)
+"FQ" = (/obj/structure/rack/shelf,/obj/item/reagent_containers/food/snacks/rationpack,/obj/item/reagent_containers/food/snacks/rationpack,/obj/item/reagent_containers/food/snacks/rationpack,/obj/item/reagent_containers/food/snacks/rationpack,/obj/item/reagent_containers/food/snacks/rationpack,/turf/open/floor/wood/wood_large,/area/xenoarch/caloriteresearch_powered)
 "Gg" = (/obj/structure/table,/turf/open/floor/wood,/area/ctf)
-"Gk" = (/obj/machinery/button/door{pixel_y = -22; id = "oldshack"},/obj/item/kirbyplants/dead,/turf/open/floor/wood/wood_large,/area/ctf)
-"Gt" = (/obj/structure/closet/crate/critter,/turf/open/floor/wood/wood_large,/area/ctf)
+"Gk" = (/obj/machinery/button/door{pixel_y = -22; id = "oldshack"},/obj/item/kirbyplants/dead,/turf/open/floor/wood/wood_large,/area/xenoarch/caloriteresearch_powered)
+"Gt" = (/obj/structure/closet/crate/critter,/turf/open/floor/wood/wood_large,/area/xenoarch/caloriteresearch_powered)
 "GI" = (/mob/living/simple_animal/crab/kreb,/turf/open/floor/plating/beach/sand,/area/ctf)
 "GM" = (/obj/structure/table/wood,/obj/item/ashtray,/turf/open/floor/wood,/area/ctf)
 "GP" = (/obj/structure/weightmachine/stacklifter,/obj/effect/turf_decal/sand,/turf/open/floor/plating/beach/sand,/area/ctf)
@@ -211,18 +221,18 @@
 "HF" = (/obj/structure/table,/obj/machinery/microwave{pixel_x = -3; pixel_y = 6},/turf/open/floor/wood,/area/ctf)
 "HR" = (/obj/structure/sign/poster/contraband/red_rum,/turf/closed/wall/mineral/sandstone,/area/ctf)
 "HV" = (/obj/item/clothing/head/collectable/paper{desc = "What looks like an ordinary paper hat is actually a rare and valuable collector's edition paper hat. Keep away from fire, Curators, and ocean waves."},/turf/open/floor/plating/beach/water,/area/ctf)
-"Ii" = (/obj/structure/chair/bench/left{dir = 8},/obj/machinery/button/door{id = "beachsmallsauna"; name = "Small Sauna Lock"; normaldoorcontrol = 1; specialfunctions = 4; pixel_y = -24},/turf/open/floor/plaswood,/area/space)
+"Ii" = (/obj/structure/chair/bench/left{dir = 8},/obj/machinery/button/door{id = "beachsmallsauna"; name = "Small Sauna Lock"; normaldoorcontrol = 1; specialfunctions = 4; pixel_y = -24},/turf/open/floor/plaswood,/area/xenoarch/caloriteresearch_powered)
 "Im" = (/turf/open/floor/plating/beach/coastline_b{dir = 8},/area/ctf)
 "Ip" = (/obj/structure/sign/poster/contraband/syndicate_recruitment{pixel_x = -28},/turf/open/floor/plating/beach/sand,/area/ctf)
 "Iu" = (/obj/structure/flora/ausbushes/stalkybush,/turf/open/indestructible/binary{density = 1; desc = "I can't move through this."; icon = 'icons/misc/beach.dmi'; icon_state = "water"; name = "deep ocean water"},/area/ctf)
-"Iv" = (/obj/effect/turf_decal/sand,/turf/open/floor/plating/beach/sand,/area/space)
+"Iv" = (/obj/item/clothing/shoes/sandal,/obj/item/clothing/shoes/sandal,/obj/item/clothing/shoes/sandal,/obj/structure/closet/crate{anchored = 1},/obj/effect/turf_decal/sand,/obj/item/reagent_containers/rag/towel/random,/obj/item/reagent_containers/rag/towel,/obj/item/clothing/under/color/grey,/turf/open/floor/plating/beach/sand,/area/ctf)
 "ID" = (/obj/structure/flora/ausbushes/ppflowers,/turf/open/floor/grass,/area/ctf)
 "IO" = (/obj/structure/railing{dir = 4},/turf/open/floor/plating/beach/coastline_b{dir = 8},/area/ctf)
 "IS" = (/obj/structure/flora/ausbushes/stalkybush{desc = "It can't be smoked."; name = "sea weed"},/turf/open/indestructible/binary{density = 1; desc = "I can't move through this."; icon = 'icons/misc/beach.dmi'; icon_state = "water"; name = "deep ocean water"},/area/ctf)
 "Ja" = (/obj/structure/weightmachine/weightlifter,/obj/effect/turf_decal/sand,/turf/open/floor/plating/beach/sand,/area/ctf)
-"Ji" = (/obj/structure/dresser,/turf/open/floor/wood/wood_large,/area/ctf)
+"Ji" = (/obj/structure/dresser,/turf/open/floor/wood/wood_large,/area/xenoarch/caloriteresearch_powered)
 "Jp" = (/turf/open/floor/plating/beach/coastline_b,/area/ctf)
-"Jq" = (/obj/machinery/vending/clothing,/turf/open/floor/plating/beach/sand,/area/ctf)
+"Jq" = (/obj/machinery/vending/clothing{fair_market_price = 0; extra_price = 0; default_price = 0},/turf/open/floor/plating/beach/sand,/area/ctf)
 "Js" = (/obj/effect/turf_decal/stripes/white/line,/turf/open/floor/plating/beach/sand,/area/ctf)
 "Jv" = (/obj/machinery/seed_extractor,/turf/open/floor/wood,/area/ctf)
 "JB" = (/obj/effect/turf_decal/stripes/white/line{dir = 8},/turf/open/floor/plating/beach/sand,/area/ctf)
@@ -234,20 +244,22 @@
 "JZ" = (/obj/item/reagent_containers/food/drinks/soda_cans/space_mountain_wind{pixel_x = -17; pixel_y = 17},/turf/open/floor/plating/beach/sand,/area/ctf)
 "Kh" = (/turf/open/floor/plating/beach/coastline_t/sandwater_inner,/area/ctf)
 "Ku" = (/obj/machinery/button/door{id = "loveshack"; name = "love shack lock"; normaldoorcontrol = 1; pixel_x = 24; specialfunctions = 4},/obj/structure/bed/double,/obj/item/bedsheet/double_red,/turf/open/floor/wood,/area/ctf)
+"Kv" = (/mob/living/simple_animal/bot/secbot/grievous/toy,/turf/open/floor/plating/beach/sand,/area/ctf)
 "Kw" = (/obj/machinery/door/airlock/sandstone{id_tag = "theloveshack3"; name = "Beach Hut"},/turf/open/floor/wood,/area/ctf)
 "KE" = (/turf/open/floor/wood/damturf/broken4,/area/ctf)
-"KG" = (/obj/structure/table/wood,/obj/machinery/microwave{pixel_y = 6},/turf/open/floor/wood/wood_large,/area/ctf)
+"KG" = (/obj/structure/table/wood,/obj/machinery/microwave{pixel_y = 6},/turf/open/floor/wood/wood_large,/area/xenoarch/caloriteresearch_powered)
 "KH" = (/obj/item/stack/sheet/mineral/calorite,/obj/item/stack/sheet/mineral/calorite,/obj/item/stack/sheet/mineral/calorite,/obj/item/stack/sheet/mineral/calorite,/obj/item/stack/sheet/mineral/calorite,/obj/item/stack/sheet/mineral/calorite,/obj/item/stack/sheet/mineral/calorite,/obj/item/stack/sheet/mineral/calorite,/obj/item/stack/sheet/mineral/calorite,/obj/item/stack/sheet/mineral/calorite,/obj/item/stack/sheet/mineral/calorite,/obj/item/stack/sheet/mineral/calorite,/turf/open/floor/plating/beach/sand,/area/ctf)
-"KQ" = (/obj/item/clothing/shoes/sandal,/obj/item/clothing/shoes/sandal,/obj/item/clothing/shoes/sandal,/obj/structure/closet/crate,/obj/effect/turf_decal/sand,/obj/item/reagent_containers/rag/towel/random,/turf/open/floor/plating/beach/sand,/area/ctf)
+"KQ" = (/obj/item/clothing/shoes/sandal,/obj/item/clothing/shoes/sandal,/obj/item/clothing/shoes/sandal,/obj/effect/turf_decal/sand,/obj/item/reagent_containers/rag/towel/random,/obj/item/reagent_containers/rag/towel,/obj/item/clothing/under/color/grey,/obj/structure/closet/crate{anchored = 1},/turf/open/floor/plating/beach/sand,/area/ctf)
 "Lf" = (/obj/item/toy/minimeteor,/turf/open/floor/plating/beach/sand,/area/ctf)
 "Lj" = (/obj/item/melee/skateboard{color = "#6666ff"; desc = "Yes, surf boards have wheels. Stop laughing."; name = "surf board"; pixel_x = -15; pixel_y = 1},/turf/open/floor/plating/beach/water,/area/ctf)
 "Lv" = (/obj/machinery/processor,/turf/open/floor/wood,/area/ctf)
 "Lw" = (/obj/structure/closet/secure_closet/freezer/kitchen{req_access = list(25)},/obj/item/storage/fancy/egg_box,/obj/item/reagent_containers/food/condiment/milk,/obj/item/reagent_containers/food/condiment/milk,/obj/item/reagent_containers/food/condiment/flour,/obj/item/reagent_containers/food/condiment/flour,/obj/item/reagent_containers/food/condiment/mayonnaise,/obj/item/reagent_containers/food/condiment/sugar,/obj/item/reagent_containers/food/condiment/sugar,/obj/item/reagent_containers/food/condiment/enzyme,/obj/item/reagent_containers/food/condiment/enzyme{layer = 5},/turf/open/floor/wood,/area/ctf)
-"LQ" = (/obj/item/toy/plush/random,/turf/open/floor/plating/beach/coastline_t/sandwater_inner{dir = 8},/area/ctf)
+"LQ" = (/obj/item/toy/fluff/frisbee_poly,/turf/open/floor/plating/beach/sand,/area/ctf)
 "LX" = (/obj/structure/railing{dir = 4},/obj/structure/flora/ausbushes/stalkybush,/turf/open/floor/plating/beach/coastline_b{dir = 8},/area/ctf)
-"LZ" = (/obj/effect/turf_decal/sand,/obj/structure/closet/secure_closet/personal,/obj/item/reagent_containers/rag/towel,/turf/open/floor/plating/beach/sand,/area/space)
-"Mk" = (/obj/machinery/button/door{id = "changlinhut2"; name = "changing room lock"; normaldoorcontrol = 1; pixel_x = 24; specialfunctions = 4},/turf/open/floor/mineral/basaltstone_floor,/area/ctf)
+"LZ" = (/obj/effect/turf_decal/sand,/obj/structure/closet/secure_closet/personal,/obj/item/reagent_containers/rag/towel,/obj/item/reagent_containers/rag/towel,/turf/open/floor/plating/beach/sand,/area/ctf)
+"Mk" = (/obj/machinery/button/door{id = "changlinhut2"; name = "changing room lock"; normaldoorcontrol = 1; pixel_x = 24; specialfunctions = 4},/obj/effect/turf_decal/sand,/turf/open/floor/mineral/basaltstone_floor,/area/ctf)
 "Mo" = (/turf/open/floor/plating/beach/water,/area/ctf)
+"MG" = (/obj/item/clothing/mask/facehugger/toy,/turf/open/floor/plating/beach/sand,/area/ctf)
 "MO" = (/turf/closed/indestructible/rock,/area/ctf)
 "MV" = (/turf/open/floor/wood/damturf/broken6,/area/ctf)
 "MW" = (/obj/effect/overlay/palmtree_r,/turf/open/floor/plating/beach/coastline_t{dir = 1},/area/ctf)
@@ -258,21 +270,21 @@
 "Nz" = (/obj/structure/railing{dir = 1},/turf/open/floor/plating/beach/coastline_b,/area/ctf)
 "NO" = (/obj/structure/sign/barsign{pixel_y = 32},/obj/effect/turf_decal/sand,/turf/open/floor/plating/beach/sand,/area/ctf)
 "NX" = (/turf/open/floor/plating/beach/coastline_t/sandwater_inner{dir = 4},/area/ctf)
-"NY" = (/obj/machinery/door/airlock/sandstone{id_tag = "changlinhut1"; name = "changing room"},/turf/open/floor/mineral/basaltstone_floor,/area/ctf)
+"NY" = (/obj/machinery/door/airlock/sandstone{id_tag = "changlinhut1"; name = "changing room"},/obj/effect/turf_decal/sand,/turf/open/floor/mineral/basaltstone_floor,/area/ctf)
 "Ol" = (/obj/effect/overlay/coconut{pixel_x = 17; pixel_y = 7},/turf/open/floor/plating/beach/sand,/area/ctf)
-"On" = (/obj/machinery/door/airlock/wood/glass{id_tag = "oldshack_prison"; name = "Tight Cell"},/turf/open/floor/wood,/area/ctf)
+"On" = (/obj/machinery/door/airlock/wood/glass{id_tag = "oldshack_prison"; name = "Tight Cell"},/turf/open/floor/wood,/area/xenoarch/caloriteresearch_powered)
 "Or" = (/turf/closed/indestructible/sandstone,/area/ctf)
 "Pe" = (/obj/machinery/computer/security/telescreen/entertainment{pixel_y = -32},/turf/open/floor/wood,/area/ctf)
 "PK" = (/obj/structure/flora/ausbushes/reedbush,/turf/open/floor/plating/beach/coastline_b{dir = 4},/area/ctf)
-"Qi" = (/obj/structure/chair/bench{dir = 4},/turf/open/floor/plaswood,/area/space)
+"Qi" = (/obj/structure/chair/bench{dir = 4},/turf/open/floor/plaswood,/area/xenoarch/caloriteresearch_powered)
 "Qr" = (/obj/effect/overlay/palmtree_l,/turf/open/floor/plating/beach/coastline_t/sandwater_inner{dir = 1},/area/ctf)
 "QC" = (/obj/item/reagent_containers/food/drinks/soda_cans/starkist{pixel_x = -12; pixel_y = 3},/turf/open/floor/plating/beach/sand,/area/ctf)
-"QQ" = (/obj/structure/closet/athletic_mixed,/obj/effect/turf_decal/sand,/turf/open/floor/plating/beach/sand,/area/ctf)
+"QQ" = (/obj/effect/turf_decal/sand,/obj/structure/closet/athletic_mixed{anchored = 1},/turf/open/floor/plating/beach/sand,/area/ctf)
 "QS" = (/turf/open/indestructible/binary{density = 1; desc = "I can't move through this."; icon = 'icons/misc/beach.dmi'; icon_state = "water"; name = "deep ocean water"},/area/ctf)
-"QT" = (/obj/machinery/shower{dir = 4},/obj/effect/turf_decal/sand,/turf/open/floor/plasteel/white,/area/ctf)
+"QT" = (/obj/machinery/shower{dir = 4},/obj/effect/turf_decal/sand,/obj/effect/turf_decal/loading_area{dir = 8; icon_state = "drain"; name = "drain"},/turf/open/floor/plasteel/white,/area/ctf)
 "QV" = (/obj/structure/sign/poster/contraband/chefpropaganda,/turf/closed/wall/mineral/sandstone,/area/ctf)
 "QX" = (/obj/effect/mob_spawn/human/bartender/alive,/turf/open/floor/wood,/area/ctf)
-"Rh" = (/obj/structure/bed/double,/obj/item/bedsheet/cult/double,/turf/open/floor/wood/wood_large,/area/ctf)
+"Rh" = (/obj/structure/bed/double,/obj/item/bedsheet/cult/double,/turf/open/floor/wood/wood_large,/area/xenoarch/caloriteresearch_powered)
 "Rq" = (/turf/open/floor/plating/beach/coastline_t{dir = 4},/area/ctf)
 "Ry" = (/mob/living/simple_animal/hostile/shark/kawaii,/turf/open/floor/plating/beach/water{desc = "What's the difference?"; name = "coastline water"},/area/ctf)
 "RC" = (/obj/structure/flora/ausbushes/sunnybush,/turf/open/floor/plating/beach/sand,/area/ctf)
@@ -288,7 +300,7 @@
 "Tm" = (/obj/structure/table,/obj/item/reagent_containers/food/drinks/beer,/obj/item/reagent_containers/food/drinks/beer,/obj/item/reagent_containers/food/drinks/beer,/obj/item/reagent_containers/food/drinks/beer,/obj/item/reagent_containers/food/drinks/beer,/obj/item/reagent_containers/food/drinks/beer,/turf/open/floor/plating/beach/sand,/area/ctf)
 "Tp" = (/obj/machinery/door/airlock/sandstone{id_tag = "theloveshack1"; name = "Beach Hut"},/turf/open/floor/wood,/area/ctf)
 "Tr" = (/turf/open/floor/plating/beach/coastline_b{dir = 5},/area/ctf)
-"Tt" = (/obj/structure/toilet{pixel_y = 8},/obj/effect/turf_decal/sand,/turf/open/floor/plasteel/white,/area/ctf)
+"Tt" = (/obj/structure/toilet{pixel_y = 8},/obj/effect/turf_decal/sand,/obj/effect/turf_decal/loading_area{dir = 4; icon_state = "drain"; name = "drain"},/obj/effect/turf_decal/loading_area{dir = 1; icon_state = "drain"; name = "drain"},/turf/open/floor/plasteel/white,/area/ctf)
 "Tz" = (/obj/structure/flora/rock/pile,/turf/open/floor/plating/beach/water{desc = "What's the difference?"; name = "coastline water"},/area/ctf)
 "TB" = (/turf/open/floor/plasteel/stairs/old,/area/ctf)
 "TR" = (/turf/open/floor/plating/beach/coastline_t{dir = 9},/area/ctf)
@@ -305,9 +317,10 @@
 "VZ" = (/obj/machinery/door/airlock/sandstone{id_tag = "loveshack"; name = "Beach Hut"},/turf/open/floor/wood,/area/ctf)
 "Wa" = (/obj/structure/closet/secure_closet/personal/cabinet,/obj/item/clothing/suit/jacket/letterman_syndie,/turf/open/floor/wood,/area/ctf)
 "We" = (/obj/structure/flora/ausbushes/reedbush,/turf/open/floor/plating/beach/coastline_b,/area/ctf)
-"Wf" = (/obj/effect/turf_decal/sand,/obj/machinery/vending/gato,/turf/open/floor/plating/beach/sand,/area/ctf)
+"Wf" = (/obj/effect/turf_decal/sand,/obj/machinery/vending/gato{fair_market_price = 0; extra_price = 0; default_price = 0},/turf/open/floor/plating/beach/sand,/area/ctf)
 "Wg" = (/obj/structure/closet/crate/wooden,/obj/item/reagent_containers/food/snacks/carpmeat,/obj/item/reagent_containers/food/snacks/carpmeat,/obj/item/reagent_containers/food/snacks/carpmeat,/obj/item/reagent_containers/food/snacks/carpmeat,/obj/item/reagent_containers/food/snacks/carpmeat,/obj/item/reagent_containers/food/snacks/carpmeat,/obj/item/reagent_containers/food/snacks/carpmeat,/obj/item/reagent_containers/food/snacks/carpmeat,/obj/item/reagent_containers/food/snacks/carpmeat,/turf/open/floor/wood,/area/ctf)
-"Wz" = (/obj/machinery/door/airlock/sandstone{id_tag = "changlinhut2"; name = "changing room"},/turf/open/floor/mineral/basaltstone_floor,/area/ctf)
+"Wu" = (/obj/item/toy/plush/random,/turf/open/floor/plating/beach/coastline_t{dir = 9},/area/ctf)
+"Wz" = (/obj/machinery/door/airlock/sandstone{id_tag = "changlinhut2"; name = "changing room"},/obj/effect/turf_decal/sand,/turf/open/floor/mineral/basaltstone_floor,/area/ctf)
 "WB" = (/obj/machinery/smartfridge/drying_rack,/turf/open/floor/wood,/area/ctf)
 "WF" = (/obj/structure/flora/ausbushes/stalkybush{desc = "It can't be smoked."; name = "sea weed"},/turf/open/floor/plating/beach/coastline_b{dir = 8},/area/ctf)
 "WM" = (/obj/structure/flora/ausbushes/grassybush,/turf/open/floor/plating/beach/coastline_b{dir = 4},/area/ctf)
@@ -315,26 +328,29 @@
 "WU" = (/obj/item/toy/plush/random,/turf/open/floor/plating/beach/coastline_t{dir = 10},/area/ctf)
 "Xc" = (/obj/structure/flora/ausbushes/leafybush,/turf/open/floor/plating/beach/coastline_b,/area/ctf)
 "Xj" = (/obj/machinery/food_cart,/turf/open/floor/wood,/area/ctf)
+"Xu" = (/obj/item/toy/plush/random,/turf/open/floor/plating/beach/coastline_t,/area/ctf)
 "Xw" = (/obj/structure/chair/comfy/plywood{dir = 4},/turf/open/floor/plating/beach/sand,/area/ctf)
 "Xz" = (/obj/structure/railing{dir = 8},/obj/structure/flora/ausbushes/stalkybush,/turf/open/floor/plating/beach/coastline_b{dir = 4},/area/ctf)
 "XB" = (/obj/effect/turf_decal/sand,/obj/structure/chair/stool,/turf/open/floor/plating/beach/sand,/area/ctf)
 "XK" = (/obj/structure/closet/crate/wooden{desc = "Now this is what island exploration is all about."; name = "Treasure Chest"},/obj/item/clothing/head/pirate,/obj/item/clothing/glasses/eyepatch,/obj/item/clothing/suit/pirate,/obj/item/melee/sabre{desc = "This isn't real however it can trick someone into thinking you have something real.."; force = 0; name = "foam pirate's sabre"; throwforce = 0},/obj/item/melee/sabre{desc = "This isn't real however it can trick someone into thinking you have something real.."; force = 0; name = "foam pirate's sabre"; throwforce = 0},/turf/open/floor/plating/beach/sand,/area/ctf)
 "XR" = (/obj/structure/flora/ausbushes/stalkybush{desc = "It can't be smoked."; name = "sea weed"},/turf/open/floor/plating/beach/coastline_b{dir = 1},/area/ctf)
 "Ym" = (/obj/structure/sign/poster/ripped{pixel_x = 32},/turf/open/floor/plating/beach/sand,/area/ctf)
-"Yq" = (/obj/effect/turf_decal/sand,/obj/machinery/vending/kink,/turf/open/floor/plating/beach/sand,/area/ctf)
+"Yq" = (/obj/effect/turf_decal/sand,/obj/machinery/vending/kink{fair_market_price = 0; extra_price = 0; default_price = 0},/turf/open/floor/plating/beach/sand,/area/ctf)
 "Yu" = (/obj/effect/overlay/palmtree_l,/turf/open/floor/plating/beach/coastline_t/sandwater_inner{dir = 4},/area/ctf)
+"Yy" = (/obj/item/toy/plush/gs13/amogus,/turf/open/floor/plating/beach/sand,/area/ctf)
 "YP" = (/obj/item/reagent_containers/food/drinks/soda_cans/cola{pixel_x = -8; pixel_y = -4},/turf/open/floor/plating/beach/sand,/area/ctf)
 "YR" = (/obj/structure/window/reinforced{dir = 8},/obj/structure/window/reinforced,/obj/item/megaphone,/turf/open/floor/wood,/area/ctf)
 "YS" = (/obj/machinery/grill/unwrenched,/obj/item/reagent_containers/food/snacks/sausage,/turf/open/floor/plating/beach/sand,/area/ctf)
 "YX" = (/obj/item/reagent_containers/food/snacks/meat/slab/goliath,/obj/item/reagent_containers/food/snacks/meat/slab/xeno,/obj/item/reagent_containers/food/snacks/meat/slab/spider,/obj/item/reagent_containers/food/snacks/meat/slab/killertomato,/obj/item/reagent_containers/food/snacks/meat/slab/bear,/obj/structure/closet/secure_closet/freezer/kitchen,/obj/item/storage/fancy/donut_box,/obj/item/reagent_containers/food/snacks/meat/slab/monkey,/obj/item/reagent_containers/food/snacks/meat/slab/monkey,/obj/item/reagent_containers/food/snacks/meat/slab/monkey,/obj/item/reagent_containers/food/snacks/meat/slab/monkey,/obj/item/reagent_containers/food/snacks/meat/slab/monkey,/obj/item/reagent_containers/food/snacks/meat/slab/monkey,/turf/open/floor/wood,/area/ctf)
 "YY" = (/obj/structure/chair/stool,/obj/effect/turf_decal/sand,/turf/open/floor/plating/beach/sand,/area/ctf)
+"Zd" = (/obj/decal/stencil/left/v,/obj/decal/stencil/left/r{pixel_x = 8},/turf/closed/indestructible/wood,/area/ctf)
 "Ze" = (/obj/structure/railing{dir = 4},/obj/structure/railing{dir = 1},/obj/structure/barricade/wooden,/turf/open/floor/plating/beach/coastline_b{dir = 5},/area/ctf)
 "Zn" = (/obj/item/book/granter/spell/fattening,/turf/open/floor/plating/beach/sand,/area/ctf)
 "Zx" = (/obj/item/toy/plush/gs13/rose,/turf/open/floor/plating/beach/sand,/area/ctf)
 "ZB" = (/obj/item/reagent_containers/food/drinks/soda_cans/lemon_lime{pixel_x = -12; pixel_y = 14},/turf/open/floor/plating/beach/sand,/area/ctf)
-"ZC" = (/obj/structure/dresser{density = 0; pixel_y = 18},/turf/open/floor/mineral/basaltstone_floor,/area/ctf)
+"ZC" = (/obj/structure/dresser{density = 0; pixel_y = 18},/obj/effect/turf_decal/sand,/turf/open/floor/mineral/basaltstone_floor,/area/ctf)
 "ZM" = (/obj/structure/flora/ausbushes/fullgrass,/turf/open/floor/plating/beach/water{desc = "What's the difference?"; name = "coastline water"},/area/ctf)
-"ZZ" = (/obj/effect/turf_decal/sand,/obj/machinery/shower{pixel_y = 19},/obj/effect/turf_decal/loading_area{dir = 1; icon_state = "drain"; name = "drain"},/turf/open/floor/plating/beach/sand,/area/space)
+"ZZ" = (/obj/effect/turf_decal/sand,/obj/machinery/shower{pixel_y = 19},/obj/effect/turf_decal/loading_area{dir = 1; icon_state = "drain"; name = "drain"},/turf/open/floor/plating/beach/sand,/area/ctf)
 
 (1,1,1) = {"
 OrOrOrOrOrOrOrOrOrOrOrOrOrOrOrOrOrOrOrOrOrOrOrOrOrOrOrOrOrOrOrOrOrOrOrOrOrOrOrOrOrOrOrOrOrOrOrOrOrOrOrOrOrOrOrOrOrOrOrOrOrOrOrOrOrOrOrOrOrOrOrOrOrOrOrOrOrOrOrOrOrOrOrOrOrOrOrOrOrOrOrOrOrOrOrOrOrOrOrOrOrOrOrOrOrOrOrOrOrOrOrOrOrOrOrOrOrOrOrOrOrOrOrOrOrOrOrOrOrOrOrOrOrOrOrOrOrOrOrOrOrOrOrOrOrOrOrOrOrOrOrOrOrOrOrOrOrOrOrOrOrOrOrOrOrOrOrOrOrOrOrOrOrOrOrOrOrOrOrOr
@@ -352,8 +368,8 @@ OrOrQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQS
 OrOrQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSipQSQSQSQSwWQSQSIuQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSOrOr
 OrOrQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSwWIuipipIuwWQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSMoadadadadadMoQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSOrOr
 OrOrQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSgsadXRadQSQSQSQSQSQSQSQSISQSQSQSQSISQSQSgsQSgsQSQSQSQSISQSQSQSQSQSQSISQSQSQSQSQSgsQSISQSgsQSQSQSQSQSQSQSQSQSISISQSQSQSQSQSQSQSQSgsISQSQSQSQSQSQSQSQSQSgsQSQSQSISQSQSQSISQSQSISQSQSQSQSQSQSQSQSISQSgsipvvvvvvJXJXJXJXvvvvvvQSQSQSQSQSgsQSQSQSQSQSISQSQSQSQSQSISQSgsQSImTRyyyyyyjAubQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSOrOr
-OrOrQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSImTRyyjAubJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGdBJGoovvDbvvvwpdlPKGrYRhvvlnJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGImjrnyXKAsRqubQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSOrOr
-OrOrQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSWFjrZxRqubJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGZMqcvvOnvvbkvbvbvbvbJivvPKJGEaJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGImjrnyOlnyRqubQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSOrOr
+OrOrQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSImTRyyjAubJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGdBJGoovvDbCevwpdlPKGrYRhvvlnJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGImjrnyXKAsRqubQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSOrOr
+OrOrQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSWFjrZxRqubJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGZMqcvvOnCebkvbvbvbvbJivvPKJGEaJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGImjrnyOlnyRqubQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSOrOr
 OrOrQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSImbQgQykubJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGdBImvvvbvKvbvbvbvbvbvXvvaJJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGImjrEDnynyRqubQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSOrOr
 OrOrQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSJpJpJpJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGEaJGJGImvvGtvbcCFQfsvbvbGkvvlnZMJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGImbQgQgQgQykubQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSOrOr
 OrOrQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSISJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGvavvvvvvvvvvvvvvnKvvvvubdBJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGMoJpJpJpJpJpMoQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSOrOr
@@ -387,31 +403,31 @@ OrOrQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJG
 OrOrQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGMoMoVCTRNXnynynyhpnynyeNnyeNnyetnynynynynynynynynynynynyhpnynynynynynyXwnynyunyyjAubMoMoMoMoMoMoMoMoMoVCTRyyNXnyRCnynynynynyRCnyunjASgadMoMoMoMoMoMoMoMoMoJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSOrOr
 OrOrQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGMoImTRNXnynynynynynyeNYSfKNyeNnynynynynynyhpnynynynynynynynynynynynynynyJZnyXwnyRqSgMoMoMoMoLjMoMoMoImTRNXnynynynynynynynynynynynyunyyjASgMoMoMoMoMoMoMoMoJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSOrOr
 OrOrQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGMoImjrnynynyhpnyetnynyeNnyeNnynynyhpnynynynynynynynynynynynynynynynynynyFHnynyDNunjAubMoMoMoMoMoMoMoVCjrhpqtnynynynynynynynynynynyqthpunjASgMoMoMoMoMoMoMoJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSOrOr
-OrOrQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGMoImjrnynynynynynynynynyetnynynynyRCnynynynynynyoxeOxJnynynynyRCnynynyhpnynynyXwnyRqSgadadadadadadVCTRNXnynynynynynynynynyNlnynynynynynyunjASgadMoMoMoMoMoJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSOrOr
-OrOrQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGMoImjrnynyRCnyhpnynynynynynyhpnynynyRCnynynynynyttEbCSnynynynynynynynynyetnynynyZBunyyyyyyyyyyyyyyyyNXnynynynynynynynynynynynynynynynynynyunyyjASgMoMoMoMoJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSOrOr
+OrOrQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGMoImjrnynynynynynynynynyetnynynynyRCnynynynynynyoxELxJnynynynyRCnynynyhpnynynyXwnyRqSgadadadadadadVCTRNXnynynynynynynynynyNlnynynynynynyunjASgadMoMoMoMoMoJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSOrOr
+OrOrQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGMoImjrnynyRCnyhpnynynynynynyhpnynynyRCnynynynynyttkrCSnynynynynynynynynyetnynynyZBunyyyyyyyyyyyyyyyyNXnynynynynynynynynynynynynynynynynynyunyyjASgMoMoMoMoJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSOrOr
 OrOrQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGMoImbQbYnynynynynyethpnynynynynyhpnynynynynynynycZEEWRnynynySASASASAQTnynyoaSASASASAnyhpnynynySASASASASAnynySASASASASAhpnySASASASASAnynynynynyunjASgMoMoMoJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSOrOr
-OrOrQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGMoMoTrbQbYnynyvzvzvzmFmFmFmFmFmFmFmFmFnyuHnynynynyEbnynynynySAZCacSAQTnynyoaSAZCacSAnynynynynySAqCzgwoSAnynySAqCzgwoSAnynySAqCzgwoSAnynynynynynyunjAubMoMoJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSOrOr
-OrOrQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSISJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGMoMoMoTrbQbYnymFmFmFmFuiaKtHtZAjaKzDmFnyoxELxJnynyEbnynynynySAxPMkSAQTnynyoaSAjMxPSAnynynynynySAfWzgChSAnynySAbRzgUzSAnynySAbLzgNnSAnynynynynynynyRqubDuMoJGJGJGJGJGEaJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSOrOr
-OrOrQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGMoMoMoMoTrjrnymFtHkTmFuiQiEsEsEsQizDmFnyttNxCSEbEbEbnynynynySASAWzSAQTnynyoaSANYSASAnynynynynySAmmzgzgSAnynySAmmzgzgSAnygxSAmmzgzgSAnynynynynynynyRqlYadwzadzGadeoadJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGgsQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSOrOr
-OrOrQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGMoMoMoMoImjrnymFEshdmFuiQiEsEsEsQizDmFnycZEEWRnynyEbirnynynynyJqEbnynynynynynyEbvsnynynynynynySASATpSASAnynySASAosSASAnynySASAKwSASAnynynynynyuxVeVeVeVeuxVeVeVeVeuxWMJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSOrOr
-OrOrQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGMoMoMoMoImbQbYmFEsIimFuiycEsEssEyczDmFnynynynynynyEbEbEbEbEbEbEbEbEbEbEbEbEbEbEbEbEbEbEbEbEbEbEbEbEbEbEbEbEbEbEbEbEbEbEbEbEbEbEbEbEbnynynynyzgzgzgzgzgzgzgzgzgzgzgjfPKJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSOrOr
-OrOrQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGMoMoMoMoMoTrjrmFtImFmFmFmFmFfHmFmFmFmFnynynyhpetnyEbEbEbEbEbEbEbEbEbEbEbEbEbEbEbEbEbEbEbEbEbEbEbEbEbEbEbEbEbEbEbEbEbEbEbEbEbEbEbEbEbwCnynynyzgzgzgzgzgzgzgzgzgzgzgjflnJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSOrOr
-OrOrQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGMoMoMoMoMoMoMoImjrZZIviLLZLZLZabIvZZvnvnvnnySASASASAnyEbnySASASASAnyuwKQQQKQQQKQQQKQQQKQQQKQQQJDnySASAVZSASAnynySASABPSASAnynySASAGUSASAnynynynynyuxvCvCvCvCuxvCvCvCvCuxCAJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSOrOr
-OrOrQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGMoMoMoMoMoMoMoImjrIvIvIvIvIvIvIvIvIvIvIvIvnySATtkRSAnyEbnySAfJTtSAnynynynynynynynynynynynynynynynySAclzgzgSAnynySAmmzgzgSAnyygSAmmzgzgSAnynynynynyunjAbvJpXcWeJpJplqWeJpJGEaJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSOrOr
-OrOrQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGMoMoMoMoMoMoMoVCjrnynynynynynyEbEbnyuHnynynySAurnASAnyEbnySAkIurSAnynynynynynynynynynynynynynynynySAUezgKuSAnynySAWazgkVSAnyYmSADwzgpPSAnynynynynyKhykubyPMoMoJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGISQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSOrOr
-OrOrQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGMoMoMoMoMoMoImTRNXnynynynynynyEbEbnynynynynySASAEoSAnyEbnySAvRSASAnynynynyuHnynynynynynynynynynynySAHizgPeSAnynySAHizgPeSAIpikSAHizgPeSAnynynyKhgQykbvMoMoMoMoJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGISQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSOrOr
-OrOrQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGMoMoMoMoMoMoImjrnynynynynynynyEbEbnynynynynynynyEbnynyEbnynyEbnynynynynynynynynynynyhpnynynynynynySASASASASAnynySASASASASAnynySASASASASAnynyKhykbvJpMoMoMoMoMoJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSOrOr
-OrOrQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSISJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGadadadadadJGMoMoMoMoMoMoImbQbYnynyRCnynynyEbEbEbEbEbEbEbEbEbEbEbEbEbEbEbEbEbEbEbEbnynynynynynynynynynynynynynynynynynynynynynynynynynynynynynynynynynynyRqbvMoMoMoMoMoMoMoJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSOrOr
-OrOrQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGImTRMWMWMWjASgMoMoMoMoMoMoMoTrbQbYnynynynynyEbEbEbEbEbEbEbWfovRKEbRKyJRKEbRKrhYqEbEbnynynynynynynynynynynygxnynynynynyuHnynynynynynynynynynynynynynynynyKhykubMoMoMoMoMoMoMoJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSOrOr
-OrOrQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGVCjrFFVMfdunjAubMoMoMoMoMoMoMoTrjrnynynynynynynynynynyEbSASAHRSASACqSASASAQVSASASAEbnynyRCnyetnynynynynynynynynynynynynyetnynynynynynynynynynynynyhpnynyRqbvMoMoMoMoMoMoMoMoJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSOrOr
-OrOrQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSgsJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGImTRNXnynynyVMRqubMoMoMoMoMoMoMoImjrRCnynynynyAHnynynynyEbSAkKQXQXrZvmSAnpRXyHhWLwSAEbnynynynynynynyhpnynynynynynynynynynynynynynynynynynynynynynynynynynyRqubMoMoMoMoMoMoMoMoJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSOrOr
-OrOrQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGImjrVMLflanynyRqubMoMoMoMoMoMoadVCjrnynynynynynynynynynyEbSHkKzgzgzgxqkjzgzgzgzgLvSAEbnyEbEbEbEbEbnynynyACJsJsJsJsJsJsJsJsJsJsJsdZuHetnynynyhpnyRCnynynynyRqubMoMoMoMoMoMoMoMoJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGISQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSOrOr
-OrOrQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGImnonynynynynyRqSgadadadadadVCTRyyNXnynyuUEbuUEbuUnynynyEbSAzgzgzgzgSWSAzgTWgJzgYXSAEbEbEbGPEbGPEbnynynyzHnynynynynyrfnynynynynyJBnynynynynynynynynynynynyRqubMoMoMoMoMoMoMoMoJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGISQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSOrOr
-OrOrQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSISJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGImWULQnynyLfnyatatatatatatatatatnynynynyEbseseseEbnynynyEbDTzgzgzgzgzgnrzgldgJzgzgDTEbEbEbEbEbEbEbnyhpnyzHnynynynynyrfnynynynynyJBnynyRCnynynynyqtnynynynyRqubMoMoMoMoMoMoMoMoJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSOrOr
-OrOrQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGTrnonympVMnygFgFgFgFgFgFgFgFgFnynynynyuUsekrseuUEbEbEbEbSAtwtwGMfBdOSAzgdwGgzgHFSAEbEbEbJaEbJaEbRCnynyzHnynynynynyounynynynynyJBnynynynynynynynynyvpnynyRqubMoMoMoMoMoMoMoMoJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSOrOr
-OrOrQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGImjrmpKhgQgQykbvJpJpJpJpJpTrjruHnynynyEbseseseEbnynynyEbEbXBXBXBXBXBEMzgzgzgzgHFSAEbnyEbEbEbEbEbnynynyzHnynynynynyrfnynynynynyJBnynyuHnynynynynynynynynyRqubMoMoMoMoMoMoMoMoJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSOrOr
+OrOrQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGMoMoTrbQbYnynynynynyvvvvvvvvvvvvvvvvvvnyuHnynynynyEbnynynynySAZCacSAQTnynyoaSAZCacSAnynynynynySAqCzgwoSAnynySAqCzgwoSAnynySAqCzgwoSAnynynynynynyunjAubMoMoJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSOrOr
+OrOrQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSISJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGMoMoMoTrbQbYnyvvvvvvvvuiaKtHtZAjaKzDvvnyoxELxJnynyEbnynynynySAxPMkSAQTnynyoaSAjMxPSAnynynynynySAfWzgChSAnynySAbRzgUzSAnynySAbLzgNnSAnynynynynynynyRqubDuMoJGJGJGJGJGEaJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSOrOr
+OrOrQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGMoMoMoMoTrjrnyvvtHkTvvuiQiEsEsEsQizDvvnyttNxCSEbEbEbnynynynySASAWzSAQTnynyoaSANYSASAnynynynynySAmmzgzgSAnynySAmmzgzgSAnygxSAmmzgzgSAnynynynynynynyRqlYadwzadzGadeoadJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGgsQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSOrOr
+OrOrQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGMoMoMoMoImjrnyvvEshdvvuiQiEsEsEsQizDvvnycZEEWRnynyEbirnynynyvsJqEbnynynynynynyEbvsJqnynynynynySASATpSASAnynySASAosSASAnynySASAKwSASAnynynynynyuxVeVeVeVeuxVeVeVeVeuxWMJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSOrOr
+OrOrQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGMoMoMoMoImbQbYvvEsIivvuiycEsEssEyczDvvnynynynynynyEbEbEbEbEbEbEbEbEbEbEbEbEbEbEbEbEbEbEbEbEbEbEbEbEbEbEbEbEbEbEbEbEbEbEbEbEbEbEbEbEbnynynynyzgzgzgzgzgzgzgzgzgzgzgjfPKJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSOrOr
+OrOrQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGMoMoMoMoMoTrjrvvtIvvvvvvvvvvfHvvvvvvvvnynynyhpetnyEbEbEbEbEbEbEbEbEbEbEbEbEbEbEbEbEbEbEbEbEbEbEbEbEbEbEbEbEbEbEbEbEbEbEbEbEbEbEbEbEbwCnynynyzgzgzgzgzgzgzgzgzgzgzgjflnJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSOrOr
+OrOrQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGMoMoMoMoMoMoMoImjrZZEbiLLZLZLZabEbZZmFvnvnnySASASASAnyEbnySASASASAnyuwIvrKKQQQKQQQKQQQKQQQKQQQJDnySASAVZSASAnynySASABPSASAnynySASAGUSASAnynynynynyuxvCvCvCvCuxvCvCvCvCuxCAJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSOrOr
+OrOrQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGMoMoMoMoMoMoMoImjrEbEbEbEbEbEbEbEbEbEbEbEbnySAjbkRSAnyEbnySAfJTtSAnynynynynynynynynynynynynynynynySAclzgzgSAnynySAmmzgzgSAnyygSAmmzgzgSAnynynynynyunjAbvJpXcWeJpJplqWeJpJGEaJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSOrOr
+OrOrQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGMoMoMoMoMoMoMoVCjrvvuxuxuxuxZdEbEbnyuHnynynySAurnASAnyEbnySAkImzSAnynynynynynynynynynynynynynynynySAUezgKuSAnynySAWazgkVSAnyYmSADwzgpPSAnynynynynyKhykubyPMoMoJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGISQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSOrOr
+OrOrQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGMoMoMoMoMoMoImTRNXzgkikikikizgEbEbnynynynynySASAEoSAnyEbnySAvRSASAnynynynyuHnynynynynynynynynynynySAHizgPeSAnynySAHizgPeSAIpikSAHizgPeSAnynynyKhgQykbvMoMoMoMoJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGISQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSOrOr
+OrOrQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGMoMoMoMoMoMoImjrnyzgeOeOeOeOzgEbEbnynynynynynynyEbnynyEbnynyEbnynynynynynynynynynynyhpnynynynynynySASASASASAnynySASASASASAnynySASASASASAnynyKhykbvJpMoMoMoMoMoJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSOrOr
+OrOrQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSISJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGadadadadadJGMoMoMoMoMoMoImbQbYzggdgdgdgdzgEbEbEbEbEbEbEbEbEbEbEbEbEbEbEbEbEbEbEbEbnynynynynynynynynynynynynynynynynynynynynynynynynynynynynynynynynynynyRqbvMoMoMoMoMoMoMoJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSOrOr
+OrOrQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGImWuMWMWMWjASgMoMoMoMoMoMoMoTrbQvvuxuxuxuxvvEbEbEbEbEbEbEbWfovRKEbRKyJRKEbRKrhYqEbEbnynynynynynynynynynynygxnynynynynyuHnynynynynynynynynynynynynynynynyKhykubMoMoMoMoMoMoMoJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSOrOr
+OrOrQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGVCjrFFvzfdyCjAubMoMoMoMoMoMoMoTrjrnynynynynynynynynynyEbSASAHRSASACqSASASAQVSASASAEbnynyRCnyetnynynynynynynynynynynynynyetnynynynynynynynynynynynyhpnynyRqbvMoMoMoMoMoMoMoMoJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSOrOr
+OrOrQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSgsJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGImTRxFnyLQnyYyRqubMoMoMoMoMoMoMoImjrRCnynynynyAHnynynynyEbSAkKQXQXrZvmSAnpRXyHhWLwSAEbnynynynynynynyhpnynynynynynynynynynynynynynynynynynynynynynynynynynyRqubMoMoMoMoMoMoMoMoJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSOrOr
+OrOrQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGImjrVMLflanonyRqubMoMoMoMoMoMoadVCjrnynynynynynynynynynyEbSHkKzgzgzgxqkjzgzgzgzgLvSAEbnyEbEbEbEbEbnynynyACJsJsJsJsJsJsJsJsJsJsJsdZuHetnynynyhpnyRCnynynynyRqubMoMoMoMoMoMoMoMoJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGISQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSOrOr
+OrOrQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGImjrmpMGnynympRqSgadadadadadVCTRyyNXnynyuUEbuUEbuUnynynyEbSAzgzgzgzgSWSAzgTWgJzgYXSAEbEbEbGPEbGPEbnynynyzHnynynynynyrfnynynynynyJBnynynynynynynynynynynynyRqubMoMoMoMoMoMoMoMoJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGISQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSOrOr
+OrOrQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSISJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGImbQbYKvmpLfnyatatatatatatatatatnynynynyEbseseseEbnynynyEbDTzgzgzgzgzgnrzgldgJzgzgDTEbEbEbEbEbEbEbnyhpnyzHnynynynynyrfnynynynynyJBnynyRCnynynynyqtnynynynyRqubMoMoMoMoMoMoMoMoJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSOrOr
+OrOrQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGTrjrmpnyVMnygFgFgFgFgFgFgFgFgFnynynynyuUseseseuUEbEbEbEbSAtwtwGMfBdOSAzgdwGgzgHFSAEbEbEbJaEbJaEbRCnynyzHnynynynynyounynynynynyJBnynynynynynynynynyvpnynyRqubMoMoMoMoMoMoMoMoJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSOrOr
+OrOrQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGImjrmpKhgQXuykbvJpJpJpJpJpTrjruHnynynyEbseseseEbnynynyEbEbXBXBXBXBXBEMzgzgzgzgHFSAEbnyEbEbEbEbEbnynynyzHnynynynynyrfnynynynynyJBnynyuHnynynynynynynynynyRqubMoMoMoMoMoMoMoMoJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSOrOr
 OrOrQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGImjrVMRqbvJpJpMoMoMoMoMoMoImjrnynynynyuUEbuUEbuUnynynyEbEbEbEbEbEbEbrpzgzgzgzgXjSAEbnynynynynynynyqtnyoGJsJsJsJsJsrfJsJsJsJsJsJBnynynynynynynynynynynyKhykubMoMoMoMoMoMoMoMoJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSOrOr
-OrOrQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGImbQgQykubJGJGMoMoMoMoMoMoImjrnynyqtnynynynynyRCnynynyEbSAEbEbEbEbEbSAuvoRGMfBSASAEbnynyTmUvnyuHnynynynynynynynynynynynynynynynynynynynynynyRCnyhpnyKhykbvMoMoMoMoMoMoMoMoMoJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSOrOr
+OrOrQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGImWUgQykubJGJGMoMoMoMoMoMoImjrnynyqtnynynynynyRCnynynyEbSAEbEbEbEbEbSAuvoRGMfBSASAEbnynyTmUvnyuHnynynynynynynynynynynynynynynynynynynynynynyRCnyhpnyKhykbvMoMoMoMoMoMoMoMoMoJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSOrOr
 OrOrQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJpJpJpJGJGJGMoMoMoMoMoMoImbQbYnynynynyhpetnynynynynyEbpSEbEbEbEbEbEbYYYYYYYYNOEbEbnynyUYDUnynyetnynynynynyuHnyqtnynynynynynynynynynynynynynynyetKhykbvMoMoMoMoMoMoMoMoMoMoJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSOrOr
 OrOrQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGMoMoMoMoMoMoMoTrbQbYvpnynynynynynynynynyEbEbEbEbEbEbEbEbEbEbEbEbEbEbEbnynynynynynynynygIdzgInyKhgQgQbYqogQgQbYnygIfagIEqgITeqtnynyKhykbvMoMoMoMoMoMoMoMoMoMoMoJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGgsQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSOrOr
 OrOrQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGMoMoMoMoMoMoMoMoTrbQgQbYnynynynyxwuCnynynynynynynynynynynynynynynynynynynyxwuCnynynynynynynyKhykbvTrbQykbvTrbQbYnynynynynynynynyKhykbvMoMoMoMoMoMoMoMoMoMoMoMoJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSOrOr
@@ -427,7 +443,7 @@ OrOrQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSISJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJG
 OrOrQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGMoMoMoMoMoMoMoMoMoMoMoMoMoMoMoMoMoMoMoMoMoMoMoMoMoMoMoMoMoMoMoMoMoMoMoMoMoMoMoMoMoMoMoMoMoMoMoMoMoMoMoMoMoMoMoMoMoMoMoMoMoMoMoMoMoJGJGHbHbJGJGMoMoMoMoHbHbHbMoJGJGJGHbHbJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSOrOr
 OrOrQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGHbJGJGJGJGJGgmJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGHbHbHbJGJGJGJGHbJGHbHbHbJGJGJGJGJGJGJGJGJGJGJGJGJGJGHbHbJGJGJGJGJGJGJGJGJGJGQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSOrOr
 OrOrQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGHbHbJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGHbnyHbJGJGJGJGJGJGJGHbJGJGJGJGJGJGJGJGJGJGJGgmJGJGHbHbHbJGJGJGJGJGJGJGJGJGJGQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSOrOr
-OrOrQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGHbHbnyHbJGJGJGJGJGJGJGJGJGJGJGHbHbHbJGJGJGJGJGJGJGJGHbnyHbJGJGJGJGJGJGJGJGJGJGISQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSOrOr
+OrOrQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGHbHbnyHbJGJGJGJGJGJGJGJGJGJGJGHbHbHbJGJGJGJGJGJGJGJGHbCPHbJGJGJGJGJGJGJGJGJGJGISQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSOrOr
 OrOrQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGHbHbJGJGJGJGHbnyHbHbJGJGJGJGJGJGJGJGJGJGJGJGHbHbJGJGJGJGJGJGJGJGHbHbHbJGJGJGJGJGJGJGJGJGJGQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSOrOr
 OrOrQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSgsJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGTzJGJGJGHbHbJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGHbHbHbJGJGJGJGHbnyHbJGJGJGJGJGJGJGJGJGJGJGJGJGHbHbJGJGJGJGJGJGJGJGHbHbJGJGJGJGJGJGJGJGJGJGJGQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSOrOr
 OrOrQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGHbJGJGJGJGHbJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGHbHbHbJGJGJGJGHbHbHbHbJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSOrOr
@@ -439,7 +455,7 @@ OrOrQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJG
 OrOrQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGTzJGJGHbHbJGJGJGHbHbJGJGJGJGJGJGJGJGJGJGJGVCTRyyyyyyyyjASgadadadJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGTzTzJGJGJGJGHbHbHbHbJGJGJGJGJGJGJGJGJGHbHbJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSOrOr
 OrOrQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGgmJGJGJGJGJGImTRYuXBXBXBhpunyyyyyyjAubJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGHbnynyHbHbJGJGJGHbJGJGJGHbHbHbJGJGJGJGJGJGJGHbJGJGJGJGJGJGJGJGJGJGJGJGJGJGgsQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSOrOr
 OrOrQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSISJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGTzJGJGJGJGJGJGJGJGJGJGJGImjriRGMGMUpiRnynynyKhykubJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGHbHbHbHbHbJGJGJGJGJGJGHbHbHbHbJGJGJGJGJGHbHbHbHbJGJGJGJGJGJGJGJGJGJGJGJGJGQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSOrOr
-OrOrQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGImjreCzgzgzgzgEbnyhpRqbvJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGHbHbHbJGJGJGHbHbHbHbJGJGJGJGJGJGHbKHZnHbJGJGJGJGJGHbnynyHbHbJGJGJGJGJGJGJGJGJGJGJGJGQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSOrOr
+OrOrQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGImjreCzgzgzgwSEbnyhpRqbvJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGHbHbHbJGJGJGHbHbHbHbJGJGJGJGJGJGHbKHZnHbJGJGJGJGJGHbnynyHbHbJGJGJGJGJGJGJGJGJGJGJGJGQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSOrOr
 OrOrQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGImjrzgERzgzgzgEbRCKhykubJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGHbHbJGJGJGJGJGJGJGJGgmJGJGJGHbHbHnHbHbJGJGJGgmJGHbnynyHbJGJGJGJGJGJGJGJGJGJGJGJGJGQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSOrOr
 OrOrQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGImjrWBererJveUEbKhykbvJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGHbHbHbHbJGJGJGJGJGJGHbHbHbHbJGJGJGJGJGJGJGJGJGJGJGJGJGQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSOrOr
 OrOrQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGImjriRuxuxuxiRKhykbvJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGHbHbHbJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGJGISQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSQSOrOr
