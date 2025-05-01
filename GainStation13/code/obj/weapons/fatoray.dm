@@ -34,8 +34,8 @@
 	light_range = 2
 	light_color = LIGHT_COLOR_ORANGE
 	///How much fat is added to the target mob?
-	var/fat_added = 100
-	
+	var/fat_added = 200
+
 
 
 ////// Fatoray - cannon variant, strong but can be charged
@@ -46,7 +46,7 @@
 	icon = 'GainStation13/icons/obj/fatoray.dmi'
 	icon_state = "fatoray_cannon"
 	recoil = 3
-	can_charge = 0
+	can_charge = 1
 	slowdown = 1
 	pin = /obj/item/firing_pin
 	// charge_sections = 3
@@ -61,11 +61,11 @@
 	projectile_type = /obj/item/projectile/beam/fattening/cannon
 
 /obj/item/projectile/beam/fattening/cannon
-	name = "fat energy"            
+	name = "fat energy"
 	icon = 'GainStation13/icons/obj/fatoray.dmi'
 	icon_state = "cannon_ray"
 	///How much fat is added to the target mob?
-	fat_added = 1000
+	fat_added = 1200
 
 
 
@@ -89,11 +89,11 @@
 
 ///The base projectile used by the fatoray
 /obj/item/projectile/beam/fattening/weak
-	name = "fat energy"            
+	name = "fat energy"
 	icon = 'GainStation13/icons/obj/fatoray.dmi'
 	icon_state = "ray"
 	///How much fat is added to the target mob?
-	fat_added = 50
+	fat_added = 100
 
 ///////////////////////////////////////////////////
 
@@ -118,11 +118,11 @@
 	projectile_type = /obj/item/projectile/beam/fattening/cannon_weak
 
 /obj/item/projectile/beam/fattening/cannon_weak
-	name = "fat energy"            
+	name = "fat energy"
 	icon = 'GainStation13/icons/obj/fatoray.dmi'
 	icon_state = "cannon_ray"
 	///How much fat is added to the target mob?
-	fat_added = 500
+	fat_added = 600
 
 ///////////////////////////////////////
 //////PROJECTILE MECHANICS/////////////
@@ -131,11 +131,11 @@
 
 /obj/item/projectile/beam/fattening/on_hit(atom/target, blocked)
 	. = ..()
-	
+
 	var/mob/living/carbon/gainer = target
 	if(!iscarbon(gainer))
 		return FALSE
-	
+
 	if(!gainer.adjust_fatness(fat_added, FATTENING_TYPE_WEAPON))
 		return FALSE
 

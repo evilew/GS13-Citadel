@@ -6,7 +6,7 @@
 	id = SPECIES_MOOTANT
 	default_color = "FFFFFF"
 	species_traits = list(MUTCOLORS,EYECOLOR,LIPS,HAIR,HORNCOLOR,WINGCOLOR,HAS_FLESH,HAS_BONE)
-	inherent_traits = list(TRAIT_CHUNKYFINGERS, TRAIT_VORACIOUS, TRAIT_LIPOLICIDE_TOLERANCE, TRAIT_PACIFISM, TRAIT_MILKY) //chunky fingers because hooves!
+	inherent_traits = list(TRAIT_CHUNKYFINGERS, TRAIT_VORACIOUS, TRAIT_LIPOLICIDE_TOLERANCE, TRAIT_PACIFISM, TRAIT_MILKY, TRAIT_HEAT) //chunky fingers because hooves!
 	inherent_biotypes = MOB_ORGANIC|MOB_HUMANOID|MOB_BEAST
 	mutant_bodyparts = list("mcolor" = "FFFFFF","mcolor2" = "FFFFFF","mcolor3" = "FFFFFF", "mam_snouts" = "mootant_tertiary", "mam_tail" = "Husky", "mam_ears" = "mootant_tertiary", "deco_wings" = "None",
 						 "mam_body_markings" = list(), "taur" = "None", "horns" = "None", "legs" = "Plantigrade", "meat_type" = "Mammalian")
@@ -14,7 +14,7 @@
 	attack_sound = 'sound/weapons/slash.ogg'
 	miss_sound = 'sound/weapons/slashmiss.ogg'
 	meat = /obj/item/reagent_containers/food/snacks/meat/slab/human/mutant/mammal
-	mutant_organs = list(/obj/item/organ/genital/breasts) //moo
+	// mutant_organs = list(/obj/item/organ/genital/breasts) //moo
 	liked_food = FRIED | DAIRY
 	disliked_food = TOXIC | MEAT
 
@@ -73,4 +73,19 @@
 	description = "A milk-colored toxin."
 	color = "#ffffff"
 	race = /datum/species/mammal/mootant
-	mutationtext = "<span class='danger'>The pain subsides. You feel... milkier.</span>"
+	mutationtext = "<span class='danger'>The pain subsides. You feel... milky.</span>"
+
+/obj/item/reagent_containers/glass/beaker/mutationmootant //preset for toxin
+	list_reagents = list(/datum/reagent/mutationtoxin/mootant = 50)
+
+/datum/reagent/mutationtoxin/mootant/on_mob_life(mob/living/carbon/human/H)
+	..()
+	if(!istype(H))
+		return
+	to_chat(H, "<span class='warning'><b>You crumple in agony as your flesh wildly morphs into a new bovine form!</b></span>")
+	H.visible_message("<b>[H]</b> falls to the ground and screams as [H.p_their()] their body turns more bovine!") //'froths' sounds painful when used with SKIN.
+	H.DefaultCombatKnockdown(60)
+	H.adjust_fatness(400, FATTENING_TYPE_CHEM)
+	H.reagents.add_reagent(/datum/reagent/fermi/breast_enlarger, 30)
+	addtimer(CALLBACK(src, PROC_REF(mutate), H), 30)
+	return
