@@ -8,7 +8,7 @@
 	species_traits = list(MUTCOLORS,EYECOLOR,LIPS,HAIR,HORNCOLOR,WINGCOLOR,HAS_FLESH,HAS_BONE)
 	inherent_traits = list(TRAIT_CHUNKYFINGERS, TRAIT_VORACIOUS, TRAIT_LIPOLICIDE_TOLERANCE, TRAIT_PACIFISM, TRAIT_MILKY, TRAIT_HEAT) //chunky fingers because hooves!
 	inherent_biotypes = MOB_ORGANIC|MOB_HUMANOID|MOB_BEAST
-	mutant_bodyparts = list("mcolor" = "FFFFFF","mcolor2" = "FFFFFF","mcolor3" = "FFFFFF", "mam_snouts" = "Mootant ALT (Tertiary)", "mam_tail" = "Husky", "mam_ears" = "Mootant ALT (Tertiary)", "deco_wings" = "None",
+	mutant_bodyparts = list("mcolor" = "FFFFFF","mcolor2" = "FFFFFF","mcolor3" = "FFFFFF", "mam_snouts" = "Mootant ALT (Tertiary)", "mam_tail" = "Mootant", "mam_ears" = "Mootant ALT (Tertiary)", "deco_wings" = "None",
 						 "mam_body_markings" = list(), "taur" = "None", "horns" = "None", "legs" = "Plantigrade", "meat_type" = "Mammalian")
 	attack_verb = "claw"
 	attack_sound = 'sound/weapons/slash.ogg'
@@ -25,6 +25,7 @@
 	allowed_limb_ids = list("mammal","aquatic","avian")
 
 //mootant body parts
+//maws
 /datum/sprite_accessory/snouts/mam_snouts/mootant
 	name = "Mootant"
 	icon = 'GainStation13/icons/mob/markings/mam_snouts.dmi'
@@ -38,7 +39,7 @@
 	icon_state = "mootanttwo"
 	color_src = MATRIXED
 	matrixed_sections = MATRIX_RED_BLUE
-
+//tails
 /datum/sprite_accessory/ears/mam_ears/mootant
 	name = "Mootant"
 	icon_state = "mootantone"
@@ -66,6 +67,32 @@
 	icon = 'GainStation13/icons/mob/markings/mam_ears.dmi'
 	color_src = MATRIXED
 	matrixed_sections = MATRIX_RED_BLUE
+//tails
+/datum/sprite_accessory/tails/human/mootant
+	name = "Mootant"
+	icon_state = "mootant"
+	icon = 'GainStation13/icons/mob/markings/mam_tails.dmi'
+	color_src = MATRIXED
+	matrixed_sections = MATRIX_RED_GREEN
+
+/datum/sprite_accessory/tails_animated/human/mootant
+	name = "Mootant"
+	icon_state = "mootant"
+	icon = 'GainStation13/icons/mob/markings/mam_tails.dmi'
+	color_src = MATRIXED
+	matrixed_sections = MATRIX_RED_GREEN
+
+/datum/sprite_accessory/tails/mam_tails/mootant
+	name = "Mootant"
+	icon_state = "mootant"
+	icon = 'GainStation13/icons/mob/markings/mam_tails.dmi'
+	matrixed_sections = MATRIX_RED_GREEN
+
+/datum/sprite_accessory/tails_animated/mam_tails_animated/mootant
+	name = "Mootant"
+	icon_state = "mootant"
+	icon = 'GainStation13/icons/mob/markings/mam_tails.dmi'
+	matrixed_sections = MATRIX_RED_GREEN
 
 //mutation toxin
 
@@ -91,7 +118,8 @@
 	H.dna.features["breasts_producing"] = TRUE
 	H.dna.features["mam_ears"] = "Mootant ALT (Tertiary)"
 	H.dna.features["mam_snouts"] = "Mootant ALT (Tertiary)"
-	H.reagents.add_reagent(/datum/reagent/fermi/breast_enlarger, 30) //instead of adding breasts as a mutant organ, let's just make them grow some
+	H.dna.features["mam_tail"] = "Mootant"
+	H.reagents.add_reagent(/datum/reagent/fermi/breast_enlarger, 40) //instead of adding breasts as a mutant organ, let's just make them grow some
 	H.update_body()
 	addtimer(CALLBACK(src, PROC_REF(mutate), H), 30)
 	return
