@@ -31,6 +31,16 @@
 	crate_name = "strange seeds crate"
 	crate_type = /obj/structure/closet/crate/hydroponics
 
+/datum/supply_pack/vending/livestock
+	name = "Livestock Implant"
+	desc = "A cruel but effective method of keeping prisoners in line - turn them into docile cattle!"
+	cost = 8000
+	contains = list(/obj/item/implantcase/docile/livestock,
+					/obj/item/implanter)
+	crate_name = "livestock implant crate"
+	contraband = TRUE
+
+
 /datum/supply_pack/misc/stripperpole //oldcode port
 	name = "Stripper Pole Crate"
 	desc = "No private bar is complete without a stripper pole, show off the goods! Comes with a ready-to-assemble stripper pole, and a complementary wrench to get things set up!"

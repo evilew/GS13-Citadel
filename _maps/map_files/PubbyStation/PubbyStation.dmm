@@ -49771,6 +49771,9 @@
 	name = "Station Intercom (General)";
 	pixel_x = -27
 	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
 /turf/open/floor/plasteel/dark,
 /area/engineering/main)
 "cfd" = (
@@ -49778,12 +49781,18 @@
 	dir = 1;
 	pixel_y = -26
 	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
 /turf/open/floor/plasteel/dark,
 /area/engineering/main)
 "cff" = (
 /obj/machinery/light{
 	dir = 4;
 	light_color = "#e8eaff"
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
 /area/engineering/main)
@@ -55090,6 +55099,12 @@
 	},
 /turf/open/floor/plasteel,
 /area/science/explab)
+"cNK" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/turf/open/floor/plasteel/dark,
+/area/engineering/main)
 "cOg" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
 	dir = 5
@@ -56067,7 +56082,7 @@
 /turf/open/floor/plasteel,
 /area/construction/mining/aux_base)
 "eHO" = (
-/obj/effect/turf_decal/vg_decals/atmos/plasma,
+/obj/effect/turf_decal/vg_decals/atmos/carbon_dioxide,
 /turf/open/floor/engine/co2,
 /area/engineering/atmos)
 "eIL" = (
@@ -57479,6 +57494,9 @@
 /obj/machinery/airalarm{
 	dir = 1;
 	pixel_y = -22
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
 	},
 /turf/open/floor/plasteel/dark,
 /area/engineering/main)
@@ -61738,6 +61756,12 @@
 	},
 /turf/closed/wall,
 /area/service/theater)
+"pUJ" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/turf/open/floor/plasteel/dark,
+/area/engineering/main)
 "pUT" = (
 /turf/open/floor/plasteel/dark,
 /area/service/chapel/office)
@@ -63841,6 +63865,9 @@
 /obj/machinery/atmospherics/components/unary/vent_pump/on{
 	dir = 8
 	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
 /turf/open/floor/plasteel/dark,
 /area/engineering/main)
 "uwT" = (
@@ -64005,6 +64032,15 @@
 	dir = 8
 	},
 /turf/open/floor/engine,
+/area/engineering/main)
+"uSb" = (
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on{
+	dir = 4
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/turf/open/floor/plasteel/dark,
 /area/engineering/main)
 "uTz" = (
 /obj/structure/sign/painting/library{
@@ -96169,8 +96205,8 @@ fqS
 can
 cbj
 oge
-cWw
-cWw
+pUJ
+pUJ
 uwu
 cfa
 oge
@@ -96940,9 +96976,9 @@ bZE
 car
 sdZ
 oge
-cWw
-cWw
-cWw
+cNK
+cNK
+cNK
 cfd
 qlt
 tlN
@@ -97968,9 +98004,9 @@ fqS
 rZa
 sdZ
 oge
-cWw
-cWw
-cWw
+pUJ
+pUJ
+pUJ
 hxh
 qlt
 tlN
@@ -98739,9 +98775,9 @@ fqS
 rZa
 cbn
 oge
-cWw
-cWw
-cfP
+cNK
+cNK
+uSb
 cff
 oge
 cfX

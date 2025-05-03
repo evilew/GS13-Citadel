@@ -31,8 +31,7 @@
 			user.visible_message("<span class='userdanger'>[user] fails to crunch some of [src].</span>", "<span class='userdanger'>Your teeth feel sore when you try to crunch on some of [src].</span>")
 		else
 			M.visible_message("<span class='danger'>[user] attempts to feed some of [src] to [M].</span>", "<span class='userdanger'>[user] attempts to feed some of [src] to [M].</span>")
-	return
-	. = ..()
+	return . = ..()
 
 
 /obj/item/metal_food/Initialize(mapload)
