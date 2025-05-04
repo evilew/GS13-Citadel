@@ -31,7 +31,7 @@
 	crate_name = "strange seeds crate"
 	crate_type = /obj/structure/closet/crate/hydroponics
 
-/datum/supply_pack/vending/livestock
+/datum/supply_pack/misc/livestock
 	name = "Livestock Implant"
 	desc = "A cruel but effective method of keeping prisoners in line - turn them into docile cattle!"
 	cost = 8000

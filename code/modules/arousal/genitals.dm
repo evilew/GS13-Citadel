@@ -193,7 +193,7 @@
 		aroused_state = FALSE
 
 /obj/item/organ/genital/proc/generate_fluid(datum/reagents/R)
-	//GS13 milky trait
+	//GS13 milky trait - this code currently doesn't do anything
 	var/milky_mult = 2
 	if(owner != null && HAS_TRAIT(owner, TRAIT_MILKY))
 		milky_mult += 2
