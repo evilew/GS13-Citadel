@@ -107,6 +107,12 @@
 /obj/item/reagent_containers/glass/beaker/mutationmootant //preset for toxin
 	list_reagents = list(/datum/reagent/mutationtoxin/mootant = 50)
 
+/obj/item/reagent_containers/pill/mutationmootant //preset for pill, used in a lavalad ruin
+	name = "mootant pill"
+	desc = "A strange toxin of some sorts, made for altering one's body into a weird cow-person hybrid."
+	icon_state = "pill17"
+	list_reagents = list(/datum/reagent/mutationtoxin/mootant = 1)
+
 /datum/reagent/mutationtoxin/mootant/on_mob_life(mob/living/carbon/human/H)
 	..()
 	if(!istype(H))
