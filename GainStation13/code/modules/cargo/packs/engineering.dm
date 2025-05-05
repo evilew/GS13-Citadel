@@ -1,3 +1,7 @@
+//Reminders-
+// If you add something to this list, please group it by type and sort it alphabetically instead of just jamming it in like an animal
+// cost = 700- Minimum cost, or infinite points are possible.
+
 /datum/supply_pack/engineering/advanced_atmos_tools
 	name = "Advanced Atmospherics Tools"
 	access = ACCESS_ATMOSPHERICS
