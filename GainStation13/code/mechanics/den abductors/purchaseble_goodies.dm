@@ -86,3 +86,9 @@
 	credit_cost = 300
 	item_to_dispense = /obj/item/storage/box/syndie_kit/space
 	initial_stock = 2
+
+/datum/feeders_den_goodie/mootant_mutation_toxin
+	name = "Mootant Mutation Pill"
+	credit_cost = 200
+	item_to_dispense = /obj/item/reagent_containers/pill/mutationmootant
+	initial_stock = 5

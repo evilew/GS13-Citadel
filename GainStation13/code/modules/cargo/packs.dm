@@ -31,9 +31,55 @@
 	crate_name = "strange seeds crate"
 	crate_type = /obj/structure/closet/crate/hydroponics
 
+/datum/supply_pack/misc/livestock
+	name = "Livestock Implant"
+	desc = "A cruel but effective method of keeping prisoners in line - turn them into docile cattle!"
+	cost = 8000
+	contains = list(/obj/item/implantcase/docile/livestock,
+					/obj/item/implanter)
+	crate_name = "livestock implant crate"
+	contraband = TRUE
+
+
+/datum/supply_pack/misc/stripperpole //oldcode port
+	name = "Stripper Pole Crate"
+	desc = "No private bar is complete without a stripper pole, show off the goods! Comes with a ready-to-assemble stripper pole, and a complementary wrench to get things set up!"
+	cost = 3550
+	contains = list(/obj/item/polepack,
+					/obj/item/wrench)
+	crate_name = "stripper pole crate"
+
 /datum/supply_pack/critter/fennec //ported from CHOMPstation2
 	name = "Fennec Crate"
 	desc = "Why so ears?"
 	cost = 5000
 	contains = list(/mob/living/simple_animal/pet/fox/fennec)
 	crate_name = "fennec crate"
+
+/datum/supply_pack/vending/wardrobes/clothing //existing game item not in cargo for some reason
+	name = "ClothesMate Supply Crate"
+	desc = "ClothesMate missing your favorite outfit? Solve that issue today with this autodrobe refill."
+	cost = 1500
+	contains = list(/obj/item/vending_refill/clothing)
+	crate_name = "clothesmate supply crate"
+
+/datum/supply_pack/materials/gmushroom50 //buyable special wood planks
+	name = "50 Mushroom Planks"
+	desc = "Looks like wood AND is fire proof? Of course you need fifty mushroom planks!"
+	cost = 1700
+	crate_type = /obj/structure/closet/secure_closet/cargo
+	contains = list(/obj/item/stack/sheet/mineral/gmushroom/fifty)
+
+/datum/supply_pack/materials/plaswood50
+	name = "50 Plaswood Planks"
+	desc = "Who need metal when you can have fifty plaswood planks?"
+	cost = 6000
+	crate_type = /obj/structure/closet/secure_closet/cargo
+	contains = list(/obj/item/stack/sheet/mineral/plaswood/fifty)
+
+/datum/supply_pack/materials/shadoww50
+	name = "50 Shadow Wood Planks"
+	desc = "Time to bring the dark side with fifty shadow wooden planks!"
+	cost = 1450
+	crate_type = /obj/structure/closet/secure_closet/cargo
+	contains = list(/obj/item/stack/sheet/mineral/shadoww/fifty)

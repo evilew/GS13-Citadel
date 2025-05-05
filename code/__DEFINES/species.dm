@@ -37,6 +37,8 @@
 	#define SPECIES_VAMPIRE_WEAK	"vampire_roundstart"
 #define SPECIES_XENOHYBRID			"xeno"
 #define SPECIES_ZOMBIE				"zombie"
+//GS13
+#define SPECIES_MOOTANT				"mootant"
 
 // Species Category Defines ---------------------
 

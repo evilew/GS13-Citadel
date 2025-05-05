@@ -22141,13 +22141,14 @@
 /turf/open/floor/plating,
 /area/cargo/storage)
 "aTr" = (
-/obj/machinery/door/poddoor{
-	id = "QMLoaddoor";
-	name = "supply dock loading door"
-	},
 /obj/machinery/conveyor{
 	dir = 4;
 	id = "QMLoad"
+	},
+/obj/machinery/door/poddoor{
+	id = "QMLoaddoor";
+	name = "supply dock loading door";
+	dir = 4
 	},
 /turf/open/floor/plating,
 /area/cargo/storage)
@@ -22612,12 +22613,13 @@
 /turf/open/floor/plasteel,
 /area/cargo/storage)
 "aUy" = (
-/obj/machinery/door/airlock/external{
-	name = "Supply Dock Airlock";
-	req_access_txt = "31"
-	},
 /obj/effect/mapping_helpers/airlock/cyclelink_helper{
 	dir = 4
+	},
+/obj/machinery/door/airlock/external{
+	name = "Supply Dock Airlock";
+	req_access_txt = "31";
+	dir = 8
 	},
 /turf/open/floor/plating,
 /area/cargo/storage)
@@ -24046,13 +24048,14 @@
 /turf/open/floor/plating,
 /area/cargo/storage)
 "aXz" = (
-/obj/machinery/door/poddoor{
-	id = "QMLoaddoor2";
-	name = "supply dock loading door"
-	},
 /obj/machinery/conveyor{
 	dir = 8;
 	id = "QMLoad2"
+	},
+/obj/machinery/door/poddoor{
+	id = "QMLoaddoor2";
+	name = "supply dock loading door";
+	dir = 4
 	},
 /turf/open/floor/plating,
 /area/cargo/storage)
@@ -27719,12 +27722,14 @@
 /turf/open/floor/plasteel,
 /area/cargo/office)
 "bfI" = (
-/obj/machinery/door/airlock/external{
-	name = "Mining Dock Airlock";
-	req_access_txt = "48"
-	},
 /obj/effect/mapping_helpers/airlock/cyclelink_helper{
 	dir = 4
+	},
+/obj/machinery/door/airlock/external{
+	name = "Mining Dock Airlock";
+	req_access_txt = "48";
+	shuttledocked = 1;
+	dir = 8
 	},
 /turf/open/floor/plating,
 /area/cargo/miningdock)
@@ -49766,6 +49771,9 @@
 	name = "Station Intercom (General)";
 	pixel_x = -27
 	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
 /turf/open/floor/plasteel/dark,
 /area/engineering/main)
 "cfd" = (
@@ -49773,12 +49781,18 @@
 	dir = 1;
 	pixel_y = -26
 	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
 /turf/open/floor/plasteel/dark,
 /area/engineering/main)
 "cff" = (
 /obj/machinery/light{
 	dir = 4;
 	light_color = "#e8eaff"
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
 /area/engineering/main)
@@ -55085,6 +55099,12 @@
 	},
 /turf/open/floor/plasteel,
 /area/science/explab)
+"cNK" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/turf/open/floor/plasteel/dark,
+/area/engineering/main)
 "cOg" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
 	dir = 5
@@ -56062,7 +56082,7 @@
 /turf/open/floor/plasteel,
 /area/construction/mining/aux_base)
 "eHO" = (
-/obj/effect/turf_decal/vg_decals/atmos/plasma,
+/obj/effect/turf_decal/vg_decals/atmos/carbon_dioxide,
 /turf/open/floor/engine/co2,
 /area/engineering/atmos)
 "eIL" = (
@@ -57474,6 +57494,9 @@
 /obj/machinery/airalarm{
 	dir = 1;
 	pixel_y = -22
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
 	},
 /turf/open/floor/plasteel/dark,
 /area/engineering/main)
@@ -61157,11 +61180,13 @@
 /turf/open/floor/catwalk_floor,
 /area/maintenance/department/crew_quarters/dorms)
 "oPy" = (
+/obj/effect/mapping_helpers/airlock/cyclelink_helper{
+	dir = 8
+	},
 /obj/machinery/door/airlock/external{
 	name = "Mining Dock Airlock";
-	req_access_txt = "48"
-	},
-/obj/effect/mapping_helpers/airlock/cyclelink_helper{
+	req_access_txt = "48";
+	shuttledocked = 1;
 	dir = 8
 	},
 /turf/open/floor/plating,
@@ -61731,6 +61756,12 @@
 	},
 /turf/closed/wall,
 /area/service/theater)
+"pUJ" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/turf/open/floor/plasteel/dark,
+/area/engineering/main)
 "pUT" = (
 /turf/open/floor/plasteel/dark,
 /area/service/chapel/office)
@@ -63057,11 +63088,12 @@
 /turf/closed/wall/r_wall,
 /area/commons/lounge)
 "sQt" = (
+/obj/effect/mapping_helpers/airlock/cyclelink_helper{
+	dir = 8
+	},
 /obj/machinery/door/airlock/external{
 	name = "Supply Dock Airlock";
-	req_access_txt = "31"
-	},
-/obj/effect/mapping_helpers/airlock/cyclelink_helper{
+	req_access_txt = "31";
 	dir = 8
 	},
 /turf/open/floor/plating,
@@ -63833,6 +63865,9 @@
 /obj/machinery/atmospherics/components/unary/vent_pump/on{
 	dir = 8
 	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
 /turf/open/floor/plasteel/dark,
 /area/engineering/main)
 "uwT" = (
@@ -63997,6 +64032,15 @@
 	dir = 8
 	},
 /turf/open/floor/engine,
+/area/engineering/main)
+"uSb" = (
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on{
+	dir = 4
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/turf/open/floor/plasteel/dark,
 /area/engineering/main)
 "uTz" = (
 /obj/structure/sign/painting/library{
@@ -96161,8 +96205,8 @@ fqS
 can
 cbj
 oge
-cWw
-cWw
+pUJ
+pUJ
 uwu
 cfa
 oge
@@ -96932,9 +96976,9 @@ bZE
 car
 sdZ
 oge
-cWw
-cWw
-cWw
+cNK
+cNK
+cNK
 cfd
 qlt
 tlN
@@ -97960,9 +98004,9 @@ fqS
 rZa
 sdZ
 oge
-cWw
-cWw
-cWw
+pUJ
+pUJ
+pUJ
 hxh
 qlt
 tlN
@@ -98731,9 +98775,9 @@ fqS
 rZa
 cbn
 oge
-cWw
-cWw
-cfP
+cNK
+cNK
+uSb
 cff
 oge
 cfX

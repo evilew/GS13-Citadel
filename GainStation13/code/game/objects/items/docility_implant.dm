@@ -66,14 +66,31 @@
 		TRAIT_LIVESTOCK,
 		TRAIT_NO_MISC,
 		TRAIT_NORUNNING,
+		TRAIT_MILKY,
 	)
-
 	/// What is the name of the mob before we change it?
 	var/stored_name = ""
 	/// What name do we want to give the mob before adding the randomized number
 	var/name_to_give = "Livestock"
 	/// How much do we want to modifiy the productivity stats of the mob's current sex organs by?
 	var/productivity_mult = 4
+
+/obj/item/implant/docile/livestock/justfat //gs13 - for admin fuckery
+	name = "hacked livestock implant"
+	required_fatness = 0
+	traits_list = list(
+		TRAIT_WEIGHT_LOSS_IMMUNE,
+		TRAIT_PACIFISM,
+		TRAIT_CLUMSY,
+		TRAIT_FAT_GOOD,
+		TRAIT_HEAVY_SLEEPER,
+		TRAIT_DOCILE,
+		TRAIT_LIVESTOCK,
+		TRAIT_NO_MISC,
+		TRAIT_NORUNNING,
+		TRAIT_MILKY,
+	)
+
 
 /obj/item/implant/docile/livestock/can_be_implanted_in(mob/living/target)
 	. = ..()
@@ -132,3 +149,28 @@
 	name = "implant case - 'Livestock'"
 	desc = "A glass case containing a livestock implant. Functions similar to the docility implant, but changes the implantee's name and makes them even more helpless. cannot be combined with the docility implant."
 	imp_type = /obj/item/implant/docile/livestock
+
+/obj/item/implantcase/docile/livestock/justfat
+	name = "implant case - 'Livestock - hacked ver'"
+	desc = "A glass case containing a livestock implant. Functions similar to the docility implant, but changes the implantee's name and makes them even more helpless. cannot be combined with the docility implant. This one seems to apply to people who are just fat, rather than immobile."
+	imp_type = /obj/item/implant/docile/livestock/justfat
+
+
+//gs13 - techweb designs
+/datum/design/docility_implant //currently in nutri tech tools
+	name = "Docility Implant"
+	id = "docility_implant"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 5000, /datum/material/glass = 1500, /datum/material/calorite = 1500, /datum/material/silver = 1500)
+	build_path = /obj/item/implantcase/docile
+	category = list("Medical Designs")
+	departmental_flags = DEPARTMENTAL_FLAG_SERVICE | DEPARTMENTAL_FLAG_SCIENCE | DEPARTMENTAL_FLAG_SECURITY
+
+/datum/design/livestock_implant //currently in illegal tech web node
+	name = "Livestock Implant"
+	id = "livestock_implant"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 5000, /datum/material/glass = 3000, /datum/material/calorite = 3000, /datum/material/silver = 1500)
+	build_path = /obj/item/implantcase/docile/livestock
+	category = list("Medical Designs")
+	departmental_flags = DEPARTMENTAL_FLAG_SERVICE | DEPARTMENTAL_FLAG_SCIENCE | DEPARTMENTAL_FLAG_SECURITY

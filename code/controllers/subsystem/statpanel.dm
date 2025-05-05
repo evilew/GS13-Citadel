@@ -13,10 +13,12 @@ SUBSYSTEM_DEF(statpanels)
 	if (!resumed)
 		var/datum/map_config/cached = SSmapping.next_map_config
 		var/round_time = world.time - SSticker.round_start_time
+		var/active_players = get_active_player_count(alive_check = FALSE, afk_check = TRUE, human_check = FALSE) //GS13 Edit: Get active in round players, even those who are dead
 		var/list/global_data = list(
 			"Map: [SSmapping.config?.map_name || "Loading..."]",
 			cached ? "Next Map: [cached.map_name]" : null,
 			"Round ID: [GLOB.round_id ? GLOB.round_id : "NULL"]",
+			"Connected Players: [GLOB.clients.len] | Active Players: [active_players]", //GS13 Edit: Active & connected (and likely observing) players
 			"Server Time: [time2text(world.timeofday, "YYYY-MM-DD hh:mm:ss")]",
 			"Round Time: [GAMETIMESTAMP("hh:mm:ss", round_time)]",
 			"Station Time: [STATION_TIME_TIMESTAMP("hh:mm:ss", world.time)]",

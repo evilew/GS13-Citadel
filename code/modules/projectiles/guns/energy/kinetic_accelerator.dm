@@ -7,6 +7,7 @@
 	cell_type = /obj/item/stock_parts/cell/emproof
 	item_flags = NONE
 	obj_flags = UNIQUE_RENAME
+	resistance_flags = FIRE_PROOF //GS13: Fireproof miner equipment
 	weapon_weight = WEAPON_LIGHT
 	recoil = 0.5
 	can_flashlight = 1

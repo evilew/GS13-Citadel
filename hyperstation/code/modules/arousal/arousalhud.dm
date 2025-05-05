@@ -55,6 +55,14 @@
 			dat	+=	"(Shrink your belly down a size)<BR>"
 			dat	+= "<a href='byond://?src=[REF(src)];inflate_belly=1'>Increase belly size</A>"
 			dat	+=	"(Bloat your belly up a size)<BR>"
+	//GS13 EDIT TAUR BELLY
+	var/obj/item/organ/genital/taur_belly/TBelly = user.getorganslot("taur_belly")
+	if(TBelly)
+		if(TBelly.inflatable)
+			dat	+= "<a href='byond://?src=[REF(src)];taur_shrink_belly=1'>Decrease taur belly size</A>"
+			dat	+=	"(Shrink your taur belly down a size)<BR>"
+			dat	+= "<a href='byond://?src=[REF(src)];taur_inflate_belly=1'>Increase taur belly size</A>"
+			dat	+=	"(Bloat your taur belly up a size)<BR>"
 
 	if(user.pulling)
 		dat	+= "<a href='byond://?src=[REF(src)];climaxover=1'>Climax over [user.pulling]</A>" //you can cum on objects if you really want...
@@ -128,6 +136,11 @@
 		var/obj/item/organ/genital/belly/E = usr.getorganslot("belly")
 		var/picked_visibility = input(usr, "Choose visibility", "Expose/Hide genitals", "Hidden by clothes") in list("Always visible", "Hidden by Undies", "Hidden by clothes", "Always hidden")
 		E.toggle_visibility(picked_visibility)
+
+	if(href_list["hidetaur belly"])
+		var/obj/item/organ/genital/taur_belly/X = usr.getorganslot("taur_belly")
+		var/picked_visibility = input(usr, "Choose visibility", "Expose/Hide genitals", "Hidden by clothes") in list("Always visible", "Hidden by Undies", "Hidden by clothes", "Always hidden")
+		X.toggle_visibility(picked_visibility)
 
 	if(href_list["hidebutt"])
 		var/obj/item/organ/genital/butt/A = usr.getorganslot(ORGAN_SLOT_BUTT)
@@ -237,6 +250,26 @@
 			H.update_genitals()
 		else
 			to_chat(usr, "<span class='warning'>Your belly is already at the maximum size! </span>")
+
+//GS13 EDIT TAUR BELLY START
+	if(href_list["taur_shrink_belly"])
+		var/obj/item/organ/genital/taur_belly/X = usr.getorganslot("taur_belly")
+		if(X.size > 0)
+			to_chat(usr, "<span class='userlove'>You feel your taur belly diminish.</span>")
+			X.modify_size(-1)
+			H.update_genitals()
+		else
+			to_chat(usr, "<span class='warning'>Your taur belly is already at the minimum size! </span>")
+
+	if(href_list["taur_inflate_belly"])
+		var/obj/item/organ/genital/taur_belly/X = usr.getorganslot("taur_belly")
+		if(X.size < 11)
+			to_chat(usr, "<span class='userlove'>You feel your taur belly bloat out..</span>")
+			X.modify_size(1)
+			H.update_genitals()
+		else
+			to_chat(usr, "<span class='warning'>Your taur belly is already at the maximum size! </span>")
+//GS13 EDIT TAUR BELLY END
 
 	if(href_list["removeequipmentpenis"])
 		var/obj/item/organ/genital/penis/O = usr.getorganslot("penis")
