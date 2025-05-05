@@ -487,6 +487,9 @@ GLOBAL_LIST_INIT(cardboard_recipes, list ( \
 	// holy fuck why are there so many boxes
 	new/datum/stack_recipe_list("fancy boxes", list ( \
 		new /datum/stack_recipe("donut box", /obj/item/storage/fancy/donut_box), 				\
+		// GS13 EDIT
+		new /datum/stack_recipe("large donut box", /obj/item/storage/fancy/large_donut_box, 2), 			\
+		// GS13 END EDIT
 		new /datum/stack_recipe("egg box", /obj/item/storage/fancy/egg_box), 					\
 		new /datum/stack_recipe("donk-pockets box", /obj/item/storage/box/donkpockets), 		\
 		new /datum/stack_recipe("monkey cube box", /obj/item/storage/box/monkeycubes), 			\
