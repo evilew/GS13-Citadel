@@ -8,16 +8,16 @@
 	free = TRUE
 	products = list(
 
-				/obj/item/reagent_containers/food/snacks/fries = 4,
+	            /obj/item/reagent_containers/food/snacks/pizza/margherita = 15,
+	            /obj/item/reagent_containers/food/snacks/butterdog = 10,
+	            /obj/item/reagent_containers/food/snacks/burger/plain = 10,
+				/obj/item/reagent_containers/food/snacks/fries = 5,
 				/obj/item/reagent_containers/food/snacks/donut = 10,
 				/obj/item/reagent_containers/food/snacks/burrito = 8,
-	            /obj/item/reagent_containers/food/snacks/pizza/margherita = 4,
-	            /obj/item/reagent_containers/food/snacks/butterdog = 5,
-	            /obj/item/reagent_containers/food/snacks/burger/plain = 5,
 	            /obj/item/reagent_containers/food/snacks/pie/plump_pie = 4,
-				/obj/item/reagent_containers/food/snacks/store/cake/cheese = 2,
+				/obj/item/reagent_containers/food/snacks/store/cake/pound_cake = 20,
+				/obj/item/reagent_containers/food/snacks/store/cake/cheese = 10,
 				/obj/item/reagent_containers/food/snacks/store/cake/pumpkinspice = 2,
-				/obj/item/reagent_containers/food/snacks/store/cake/pound_cake = 2,
 				/obj/item/reagent_containers/food/snacks/cakeslice/bsvc = 3,
 				/obj/item/reagent_containers/food/snacks/cakeslice/bscc = 3,
 	            /obj/item/reagent_containers/food/drinks/bottle/orangejuice = 10,

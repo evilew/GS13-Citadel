@@ -76,6 +76,9 @@
 /datum/job/paramedic
 	alt_titles = list ("Emergency Medical Technician", "Search and Rescue Technician", "Trauma Team Responder")
 
+/datum/job/psychologist
+	alt_titles = list("Therapist", "Psychiatrist")
+
 /datum/job/junior_doctor
 	alt_titles = list("Medical Student", "Fellow", "Trainee Pharmacy Technician", "Trainee Pharmacist", "Junior Pathologist")
 

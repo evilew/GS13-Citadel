@@ -415,8 +415,8 @@
 
 /datum/map_template/shuttle/emergency/goon
 	suffix = "goon"
-	name = "NES Port"
-	description = "The GATO Emergency Shuttle Port(NES Port for short) is a shuttle used at other less known GATO facilities and has a more open inside for larger crowds, but fewer onboard shuttle facilities." //GS13 - Nanotrasen to GATO
+	name = "GES Port" //gs13 - NT to GT
+	description = "The GATO Emergency Shuttle Port(GES Port for short) is a shuttle used at other less known GATO facilities and has a more open inside for larger crowds, but fewer onboard shuttle facilities." //GS13 - Nanotrasen to GATO
 	credit_cost = 500
 
 // /datum/map_template/shuttle/emergency/rollerdome

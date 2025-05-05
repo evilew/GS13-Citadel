@@ -56,6 +56,8 @@
 	var/helplessness_clothing_jumpsuit = FALSE
 	///What fatness level prevents the user from wearing non-jumpsuit clothing
 	var/helplessness_clothing_misc = FALSE
+	// What fatness level prevents the user from wearing belts. Also affects the max weight the PBS Belt can hide
+	var/helplessness_belts = FALSE
 	///What fatness level prevents the user from wearing anything on their back
 	var/helplessness_clothing_back = FALSE
 	///What fatness level prevents the user from being buckled to anything?
