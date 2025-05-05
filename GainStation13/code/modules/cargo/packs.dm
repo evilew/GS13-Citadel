@@ -9,28 +9,6 @@
 	contains = list(/obj/item/vending_refill/mealdor)
 	crate_name = "meal vendor supply crate"
 
-/datum/supply_pack/engineering/energy_harvester_board
-	name = "Energy Harvester Board"
-	desc = "Engineering made some crazy power device that seems to be creating massive amounts of energy out of thin air? With the parts found in this crate, you'll be able to make some sweet cash out of the engineers hard labor. Half of the credits made by this machine go to the engineering budget."
-	cost = 5000
-	contains = list(/obj/item/circuitboard/machine/energy_harvester)
-	crate_name = "Energy Harvester Board supply crate"
-
-/datum/supply_pack/organic/strangeseeds
-	name = "Strange Seeds Crate"
-	desc = "After our chemical waste mysteriously disappeared we've discovered many strange and interesting species of plants, and they're yours for the taking! Contains 8 packs of strange seeds."
-	cost = 4500
-	contains = list(/obj/item/seeds/random,
-					/obj/item/seeds/random,
-					/obj/item/seeds/random,
-					/obj/item/seeds/random,
-					/obj/item/seeds/random,
-					/obj/item/seeds/random,
-					/obj/item/seeds/random,
-					/obj/item/seeds/random)
-	crate_name = "strange seeds crate"
-	crate_type = /obj/structure/closet/crate/hydroponics
-
 /datum/supply_pack/misc/livestock
 	name = "Livestock Implant"
 	desc = "A cruel but effective method of keeping prisoners in line - turn them into docile cattle!"
@@ -62,24 +40,3 @@
 	cost = 1500
 	contains = list(/obj/item/vending_refill/clothing)
 	crate_name = "clothesmate supply crate"
-
-/datum/supply_pack/materials/gmushroom50 //buyable special wood planks
-	name = "50 Mushroom Planks"
-	desc = "Looks like wood AND is fire proof? Of course you need fifty mushroom planks!"
-	cost = 1700
-	crate_type = /obj/structure/closet/secure_closet/cargo
-	contains = list(/obj/item/stack/sheet/mineral/gmushroom/fifty)
-
-/datum/supply_pack/materials/plaswood50
-	name = "50 Plaswood Planks"
-	desc = "Who need metal when you can have fifty plaswood planks?"
-	cost = 6000
-	crate_type = /obj/structure/closet/secure_closet/cargo
-	contains = list(/obj/item/stack/sheet/mineral/plaswood/fifty)
-
-/datum/supply_pack/materials/shadoww50
-	name = "50 Shadow Wood Planks"
-	desc = "Time to bring the dark side with fifty shadow wooden planks!"
-	cost = 1450
-	crate_type = /obj/structure/closet/secure_closet/cargo
-	contains = list(/obj/item/stack/sheet/mineral/shadoww/fifty)
