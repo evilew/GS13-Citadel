@@ -1,6 +1,7 @@
 /datum/supply_pack/science/T3_parts
 	name = "Super Parts Crate"
 	access = ACCESS_RESEARCH
+	crate_type = /obj/structure/closet/crate/secure/science
 	desc = "Want to upgrade the station, but don't have the materials for it? With this crate, you will be able to apply some much needed upgrades to much of the station's machinery! Contains 15 Super Matter Bins, Pico Manipulators, Super Capacitors, Phasic Scanning modules, Ultra High Power Lasers and 5 hyper capacity power cells."
 	cost = 3500
 	contains = list(/obj/item/stock_parts/matter_bin/super,

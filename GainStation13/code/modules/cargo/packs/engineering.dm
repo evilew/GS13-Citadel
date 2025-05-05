@@ -1,18 +1,20 @@
 /datum/supply_pack/engineering/advanced_atmos_tools
 	name = "Advanced Atmospherics Tools"
 	access = ACCESS_ATMOSPHERICS
+	crate_type = /obj/structure/closet/crate/secure/engineering
 	desc = "A set of tools to tackle any atmospherics challenges one may face! Contains the Long Range Analyzer, Holocombifan, atmos and firelock projector, pocket fire extinguisher and an RPD. Requires atmospherics access to open"
 	cost = 8500
 	contains = list(/obj/item/analyzer/ranged,
 					/obj/item/holosign_creator/atmos,
 					/obj/item/holosign_creator/firelock,
 					/obj/item/holosign_creator/combifan,
-					/obj/item/extinguisher/small,
+					/obj/item/extinguisher/mini,
 					/obj/item/pipe_dispenser)
 
 /datum/supply_pack/engineering/advanced_engi_tools
 	name = "Advanced Engineering Tools"
 	access = ACCESS_ENGINE_EQUIP
+	crate_type = /obj/structure/closet/crate/secure/engineering
 	desc = "A set of power tools that even the CE wouldn't be ashamed of! Contains the Hand Drill, Jaws of Life, Engineering Holobarrier Projector and an Experimental Welding Tool. Requires engineering machinery access to open"
 	cost = 10000
 	contains = list(/obj/item/screwdriver/power,
