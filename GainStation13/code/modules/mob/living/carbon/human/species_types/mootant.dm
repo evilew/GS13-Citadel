@@ -115,17 +115,21 @@
 
 /datum/reagent/mutationtoxin/mootant/on_mob_life(mob/living/carbon/human/H)
 	..()
-	if(!istype(H))
+	if(H?.client?.prefs?.transformation)
+		to_chat(H, "<span class='warning'><b>You crumple in agony as your flesh wildly morphs into a new bovine form!</b></span>")
+		H.visible_message("<b>[H]</b> falls to the ground and screams as [H.p_their()] their body turns more bovine!")
+		H.DefaultCombatKnockdown(60)
+		H.adjust_fatness(400, FATTENING_TYPE_CHEM)
+		H.dna.features["breasts_producing"] = TRUE
+		H.dna.features["mam_ears"] = "Mootant ALT (Tertiary)"
+		H.dna.features["mam_snouts"] = "Mootant ALT (Tertiary)"
+		H.dna.features["mam_tail"] = "Mootant"
+		H.reagents.add_reagent(/datum/reagent/fermi/breast_enlarger, 40) //instead of adding breasts as a mutant organ, let's just make them grow some
+		H.update_body()
+		addtimer(CALLBACK(src, PROC_REF(mutate), H), 30)
 		return
-	to_chat(H, "<span class='warning'><b>You crumple in agony as your flesh wildly morphs into a new bovine form!</b></span>")
-	H.visible_message("<b>[H]</b> falls to the ground and screams as [H.p_their()] their body turns more bovine!")
-	H.DefaultCombatKnockdown(60)
-	H.adjust_fatness(400, FATTENING_TYPE_CHEM)
-	H.dna.features["breasts_producing"] = TRUE
-	H.dna.features["mam_ears"] = "Mootant ALT (Tertiary)"
-	H.dna.features["mam_snouts"] = "Mootant ALT (Tertiary)"
-	H.dna.features["mam_tail"] = "Mootant"
-	H.reagents.add_reagent(/datum/reagent/fermi/breast_enlarger, 40) //instead of adding breasts as a mutant organ, let's just make them grow some
-	H.update_body()
-	addtimer(CALLBACK(src, PROC_REF(mutate), H), 30)
-	return
+
+	if(!H?.client?.prefs?.transformation)
+		to_chat(H, span_warning("It seems like [H] resisted the effects of the mutation toxin."))
+		return FALSE
+

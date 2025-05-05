@@ -135,6 +135,10 @@ GLOBAL_LIST_INIT(uncapped_resize_areas, list(/area/command/bridge, /area/mainten
 			if(!client?.prefs?.weight_gain_atmos)
 				return FALSE
 
+		if(TRANSFORMATION)
+			if(!client?.prefs?.transformation)
+				return FALSE
+
 		if(FATTENING_TYPE_WEIGHT_LOSS)
 			if(HAS_TRAIT(src, TRAIT_WEIGHT_LOSS_IMMUNE))
 				return FALSE
