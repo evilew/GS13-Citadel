@@ -11,6 +11,9 @@
 
 /// Called when seeing if a target can be attacked. See if the target has the pref on and return accordingly.
 /mob/living/simple_animal/hostile/proc/check_target_prefs(mob/living/carbon/target)
+	if(!istype(target))
+		return FALSE
+
 	return target?.client?.prefs?.weight_gain_weapons
 
 /mob/living/simple_animal/hostile/feed/AttackingTarget()

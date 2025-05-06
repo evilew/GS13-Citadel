@@ -524,6 +524,7 @@ GLOBAL_LIST_INIT(ballmer_windows_me_msg, list("Yo man, what if, we like, uh, put
 			if(!SSD)
 				add_status_indicator("ssd")
 				SSD = TRUE
+				lastclienttime = world.time //GS13 Editception: SSD timer
 		else
 			if(SSD)
 				remove_status_indicator("ssd")

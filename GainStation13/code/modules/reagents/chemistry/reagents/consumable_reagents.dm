@@ -8,6 +8,7 @@
 	reagent_state = LIQUID
 	color = "#e2e1b1"
 	metabolization_rate = 0.5 * REAGENTS_METABOLISM
+	chemical_flags = REAGENT_ORGANIC_PROCESS | REAGENT_BIOFUEL_PROCESS
 
 /datum/reagent/consumable/lipoifier/on_mob_life(mob/living/carbon/M)
 	M.adjust_fatness(15, FATTENING_TYPE_CHEM)
@@ -22,6 +23,7 @@
 	// GS13 tweak
 	metabolization_rate = 0.7 * REAGENTS_METABOLISM
 	overdose_threshold = 105
+	chemical_flags = REAGENT_ORGANIC_PROCESS | REAGENT_BIOFUEL_PROCESS
 
 /datum/reagent/medicine/lipolicide/overdose_process(mob/living/carbon/C)
 	. = ..()
@@ -51,6 +53,7 @@
 	reagent_state = LIQUID
 	taste_description = "fizziness"
 	metabolization_rate = 2 * REAGENTS_METABOLISM
+	chemical_flags = REAGENT_ORGANIC_PROCESS | REAGENT_BIOFUEL_PROCESS
 
 /datum/reagent/consumable/fizulphite/on_mob_life(mob/living/carbon/M)
 	if(M && M?.client?.prefs.weight_gain_chems)
@@ -69,6 +72,7 @@
 	reagent_state = LIQUID
 	taste_description = "smoothness"
 	metabolization_rate = 0.8 * REAGENTS_METABOLISM
+	chemical_flags = REAGENT_ORGANIC_PROCESS | REAGENT_BIOFUEL_PROCESS
 
 /datum/reagent/consumable/extilphite/on_mob_life(mob/living/carbon/M)
 	if(M && M?.client?.prefs.weight_gain_chems)
@@ -91,6 +95,7 @@
 	reagent_state = LIQUID
 	taste_description = "sulfury sweetness"
 	metabolization_rate = 0.5 * REAGENTS_METABOLISM //Done by Zestyspy, Jan 2023
+	chemical_flags = REAGENT_ORGANIC_PROCESS | REAGENT_BIOFUEL_PROCESS
 
 /datum/reagent/consumable/flatulose/on_mob_life(mob/living/carbon/M)
 	if(M && M?.client?.prefs.weight_gain_chems)
@@ -136,6 +141,7 @@
 	taste_description = "blueberry pie"
 	var/no_mob_color = FALSE
 	value = 10	//it sells. Make that berry factory
+	chemical_flags = REAGENT_ORGANIC_PROCESS | REAGENT_BIOFUEL_PROCESS //screw it let robots have juice why not
 
 /datum/reagent/blueberry_juice/on_mob_life(mob/living/carbon/M)
 	if(M?.client)

@@ -190,6 +190,8 @@
 #define ORGAN_SLOT_BUTT "butt"
 // GS13 EDIT
 #define ORGAN_SLOT_BELLY "belly"
+// GS13 EDIT
+#define ORGAN_SLOT_TAUR_BELLY "taur_belly"
 
 ////organ defines
 #define STANDARD_ORGAN_THRESHOLD 	100

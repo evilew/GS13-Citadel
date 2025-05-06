@@ -236,6 +236,34 @@
 	initial_gas_mix = "TEMP=2.7"
 	},
 /area/awaymission/vr/murderdome)
+"J" = (
+/obj/item/firing_pin,
+/obj/item/firing_pin,
+/obj/item/firing_pin,
+/obj/item/firing_pin,
+/obj/item/firing_pin,
+/obj/item/firing_pin,
+/obj/item/firing_pin,
+/obj/item/firing_pin,
+/obj/item/firing_pin,
+/obj/item/firing_pin,
+/obj/item/firing_pin,
+/obj/item/firing_pin,
+/obj/item/firing_pin,
+/obj/item/firing_pin,
+/obj/item/firing_pin,
+/obj/item/firing_pin,
+/obj/item/firing_pin,
+/obj/item/firing_pin,
+/obj/item/firing_pin,
+/obj/item/firing_pin,
+/obj/item/firing_pin,
+/turf/open/indestructible,
+/area/awaymission/vr/murderdome)
+"M" = (
+/obj/effect/landmark/vr_spawn/syndicate,
+/turf/open/indestructible,
+/area/awaymission/vr/murderdome)
 "R" = (
 /obj/effect/spawner/structure/window/reinforced/indestructable,
 /turf/open/indestructible,
@@ -454,7 +482,7 @@ j
 j
 j
 j
-m
+M
 j
 D
 b
@@ -506,7 +534,7 @@ j
 b
 f
 q
-n
+J
 j
 E
 b
@@ -766,7 +794,7 @@ j
 j
 j
 j
-m
+M
 j
 D
 b
@@ -818,7 +846,7 @@ j
 b
 f
 q
-n
+J
 j
 E
 b
@@ -1078,7 +1106,7 @@ j
 j
 j
 j
-m
+M
 j
 D
 b
@@ -1130,7 +1158,7 @@ j
 b
 f
 q
-n
+J
 j
 E
 b
@@ -1390,7 +1418,7 @@ j
 j
 j
 j
-m
+M
 j
 D
 b
@@ -1442,7 +1470,7 @@ j
 b
 f
 q
-n
+J
 j
 E
 b
@@ -1702,7 +1730,7 @@ j
 j
 j
 j
-m
+M
 j
 D
 b
@@ -1754,7 +1782,7 @@ j
 b
 f
 q
-n
+J
 j
 E
 b
@@ -2014,7 +2042,7 @@ j
 j
 j
 j
-m
+M
 j
 D
 b
@@ -2066,7 +2094,7 @@ j
 b
 f
 q
-n
+J
 j
 E
 b
@@ -2326,7 +2354,7 @@ j
 j
 j
 j
-m
+M
 j
 D
 b
@@ -2378,7 +2406,7 @@ j
 b
 f
 q
-n
+J
 j
 E
 b
@@ -2638,7 +2666,7 @@ j
 j
 j
 j
-m
+M
 j
 D
 b
@@ -2690,7 +2718,7 @@ j
 b
 f
 q
-n
+J
 j
 E
 b

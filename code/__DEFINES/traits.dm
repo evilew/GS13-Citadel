@@ -254,6 +254,7 @@
 #define TRAIT_NO_MOVE "no_move"
 #define TRAIT_NO_JUMPSUIT "no_jumpsuit"
 #define TRAIT_NO_MISC "no_misc"
+#define TRAIT_NO_BELT "no_belt"
 #define TRAIT_NO_BACKPACK "no_backpack"
 #define TRAIT_NO_BUCKLE "no_buckle"
 #define TRAIT_DOCILE "docile"
@@ -289,6 +290,8 @@
 #define TRAIT_METAL_CRUNCHER 	"metal_cruncher"
 #define TRAIT_WATER_SPONGE 		"water_sponge"
 #define TRAIT_FATROUSAL         "fatrousal"
+#define TRAIT_MILKY				"milky" //basically faster milk production
+#define TRAIT_BIOFUEL			"biofuel_processor"
 
 //GS13 Port
 #define TRAIT_HEADPAT_SLUT		"headpat_slut"

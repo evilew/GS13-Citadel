@@ -112,6 +112,17 @@
 	category = list("Misc", "Medical Designs")
 	departmental_flags = DEPARTMENTAL_FLAG_MEDICAL | DEPARTMENTAL_FLAG_SCIENCE
 
+/datum/design/primitive_bluespace_belt
+	name = "Primitive Bluespace Belt"
+	desc = "A primitive belt made using bluespace technology. The power of space and time, used to hide the fact you are fat. This one requires cells to continue operating, and may suffer from random failures."
+	id = "primitive_bluespace_belt"
+	build_type = PROTOLATHE
+	construction_time = 100
+	materials = list(/datum/material/iron = 4000, /datum/material/silver = 2000, )
+	build_path = /obj/item/bluespace_belt/primitive
+	category = list("Misc", "Medical Designs")
+	departmental_flags = DEPARTMENTAL_FLAG_MEDICAL | DEPARTMENTAL_FLAG_SCIENCE
+
 /datum/design/cookie_synthesizer
 	name = "Cookie Synthesizer"
 	desc = "A self-charging miraculous device that's able to produce cookies."
