@@ -17,6 +17,8 @@
 	var/weight_gain_nanites = FALSE
 	//Weight gain from atmos gasses
 	var/weight_gain_atmos = FALSE
+	///content related to transformation
+	var/transformation = FALSE
 	///Blueberry Inflation
 	var/blueberry_inflation = FALSE
 	///Extreme weight gain
