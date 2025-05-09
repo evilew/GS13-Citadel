@@ -49,4 +49,5 @@
 	satchel = /obj/item/storage/backpack/satchel/gen
 	duffelbag = /obj/item/storage/backpack/duffelbag/med
 	l_pocket = /obj/item/sequence_scanner
+	backpack_contents = list(/obj/item/book/manual/med_SOP)
 

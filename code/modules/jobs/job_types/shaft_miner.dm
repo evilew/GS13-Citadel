@@ -47,7 +47,8 @@
 		/obj/item/kitchen/knife/combat/survival=1,\
 		/obj/item/mining_voucher=1,\
 		/obj/item/suit_voucher=1,\
-		/obj/item/stack/marker_beacon/ten=1)
+		/obj/item/stack/marker_beacon/ten=1,
+		/obj/item/book/manual/supply_SOP)
 
 	backpack = /obj/item/storage/backpack/explorer
 	satchel = /obj/item/storage/backpack/satchel/explorer

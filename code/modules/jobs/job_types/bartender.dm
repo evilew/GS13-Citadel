@@ -44,7 +44,7 @@
 	ears = /obj/item/radio/headset/headset_srv
 	uniform = /obj/item/clothing/under/rank/civilian/bartender
 	suit = /obj/item/clothing/suit/armor/vest
-	backpack_contents = list(/obj/item/storage/box/beanbag=1,/obj/item/book/granter/action/drink_fling=1)
+	backpack_contents = list(/obj/item/storage/box/beanbag=1,/obj/item/book/granter/action/drink_fling=1,/obj/item/book/manual/service_SOP)
 	shoes = /obj/item/clothing/shoes/laceup
 
 /datum/job/bartender/after_spawn(mob/living/H, client/C, latejoin = FALSE)
