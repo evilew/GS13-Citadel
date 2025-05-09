@@ -99,6 +99,11 @@
 	var/list/L = GLOB.barefootstep
 	var/turf_footstep = T.barefootstep
 	var/special = FALSE
+	//GS13 Edit: for big characters, add a boom sound to their stepping
+	if(H.size_multiplier > 1.5)
+		var/stompsound = pick( 'GainStation13/sound/effects/footstep/giant1.ogg','GainStation13/sound/effects/footstep/giant2.ogg')
+		var/giantvolume = H.size_multiplier * 9
+		playsound(T, stompsound, giantvolume)
 	if(H.physiology.footstep_type)
 		switch(H.physiology.footstep_type)
 			if(FOOTSTEP_MOB_CLAW)
