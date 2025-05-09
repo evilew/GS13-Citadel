@@ -41,9 +41,7 @@
 	backpack_contents = list(
 		/obj/item/choice_beacon/hero = 1,
 		/obj/item/soapstone = 1,
-		/obj/item/barcodescanner = 1,
-		/obj/item/book/manual/service_SOP=1
-	)
+		/obj/item/barcodescanner = 1)
 
 /datum/outfit/job/curator/post_equip(mob/living/carbon/human/H, visualsOnly = FALSE, client/preference_source)
 	..()
