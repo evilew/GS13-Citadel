@@ -389,36 +389,36 @@
 	author = "John GATO"
 	title = "GATO Corps of Engineers OSHA Handbook"
 	dat={"<html>
-		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bruno+Ace+SC|Orbitron">
-		<body style= "background-color: darkgoldenrod">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bruno+Ace+SC|Quantico">
+		<body style= "background-color: rgb(230,194,14)">
 		<h1 style= "text-align:center; color: orangered; font-family:Bruno Ace SC;font-size: 400%"><b>Engineering SOP</b></h1>
-		<p style= "text-align:center;font-family:Orbitron;font-size: 90%">
+		<p style= "text-align:center;font-family:Quantico;font-size: 115%">
 		Engineers are the backbone of every station, ensuring that the station stays powered, livable, and functional. As an engineer, you are the glue that holds the station together, <em>sometimes literally</em>. You are also the most likely of any crewmember to cause a catastrophic early death for the station and her inhabitants. </p>
 		<hr style= "color: midnightblue">
-		<p style= "text-align:left; color: orangered;font-family:Bruno Ace SC"><b>Station Engineer</b><p>
-		<p style= "text-align:left;font-family:Orbitron;font-size: 90%">
+		<p style= "text-align:left; color: orangered;font-family:Bruno Ace SC;font-size: 125%"><b>Station Engineer</b><p>
+		<p style= "text-align:left;font-family:Quantico;">
 		1. You are responsible for the structural integrity of the station.<p>
-		<p style= "text-align:left;font-family:Orbitron;font-size: 90%">2. You are responsible for the activation and maintenance of the station power supply and engine.<p>
-		<p style= "text-align:left;font-family:Orbitron;font-size: 90%">3. If you are unable to operate the provided engine for whatever reason, solars must be set up at the bare minimum.<p>
-		<p style= "text-align:left;font-family:Orbitron;font-size: 90%">4. You are responsible for monitoring the station power and promptly responding to outages as they are discovered or reported.<p>
-		<p style= "text-align:left;font-family:Orbitron;font-size: 90%">5. You are responsible for the containment and repair of hull breaches.<p>
-		<p style= "text-align:left;font-family:Orbitron;font-size: 90%">6. In the case that you are unable to access areas which have sustained a breach, or otherwise require immediate attention, you are permitted to break into and enter into other departments to repair the damage.<p>
-		<p style= "text-align:left;font-family:Orbitron;font-size: 90%">7. Ancillary engines, remodeling, etc, should only be done once the stations power needs and integrity have been addressed.<p>
-		<p style= "text-align:left;font-family:Orbitron;font-size: 90%">8. Be prepared to take on the SOP for an atmospheric technician if an atmospheric technician is not present.<p><hr style= "color: midnightblue">
-		<p style= "text-align:left; color: lightseagreen;font-family:Bruno Ace SC"><b>Atmospheric Technician</b><p>
-		<p style= "text-align:left;font-family:Orbitron;font-size: 90%">1. You are responsible for keeping the stations air breathable and free of deadly plasma.<p>
-		<p style= "text-align:left;font-family:Orbitron;font-size: 90%">2. You are responsible for returning rooms to habitable temperatures.<p>
-		<p style= "text-align:left;font-family:Orbitron;font-size: 90%">3. You are responsible for fighting fires that break out.<p>
-		<p style= "text-align:left;font-family:Orbitron;font-size: 90%">4. You are responsible for restoring breached rooms air to life-supporting quality.<p>
-		<p style= "text-align:left;font-family:Orbitron;font-size: 90%">5. You are responsible for fulfilling the rare request for gas canisters from outside of your department.<p>
-		<p style= "text-align:left;font-family:Orbitron;font-size: 90%">6. Be prepared to take on the SOP for a station engineer if a station engineer is not present.<p><hr style= "color: midnightblue">
-		<p style= "text-align:left; color: navy;font-family:Bruno Ace SC"><b>Chief Engineer</b><p>
-		<p style= "text-align:left;font-family:Orbitron;font-size: 90%">1. You are responsible for managing all aspects of the engineering department, including all roles listed above.<p>
-		<p style= "text-align:left;font-family:Orbitron;font-size: 90%">2. You are the engine czar, the engine will be run as you dictate it.<p>
-		<p style= "text-align:left;font-family:Orbitron;font-size: 90%">3. Protect Polly from those who would do her harm.<p>
-		<p style= "text-align:left;font-family:Orbitron;font-size: 90%">4. You are expected to have broad knowledge of <b>every role listed above</b> and to be able to fulfill SOP for each one as needed.<p>
-		<p style= "text-align:left;font-family:Orbitron;font-size: 90%">5. You are expected to teach new and existing engineering personnel as needed and requested.<p>
-		<p style= "text-align:left;font-family:Orbitron;font-size: 90%">6. Refer to <b>Command SOP</b> for a broader list of duties as a member of command.<p>
+		<p style= "text-align:left;font-family:Quantico;">2. You are responsible for the activation and maintenance of the station power supply and engine.<p>
+		<p style= "text-align:left;font-family:Quantico;">3. If you are unable to operate the provided engine for whatever reason, solars must be set up at the bare minimum.<p>
+		<p style= "text-align:left;font-family:Quantico;">4. You are responsible for monitoring the station power and promptly responding to outages as they are discovered or reported.<p>
+		<p style= "text-align:left;font-family:Quantico;">5. You are responsible for the containment and repair of hull breaches.<p>
+		<p style= "text-align:left;font-family:Quantico;">6. In the case that you are unable to access areas which have sustained a breach, or otherwise require immediate attention, you are permitted to break into and enter into other departments to repair the damage.<p>
+		<p style= "text-align:left;font-family:Quantico;">7. Ancillary engines, remodeling, etc, should only be done once the stations power needs and integrity have been addressed.<p>
+		<p style= "text-align:left;font-family:Quantico;">8. Be prepared to take on the SOP for an atmospheric technician if an atmospheric technician is not present.<p><hr style= "color: midnightblue">
+		<p style= "text-align:left; color: rgb(0,140,175);font-family:Bruno Ace SC;font-size: 125%"><b>Atmospheric Technician</b><p>
+		<p style= "text-align:left;font-family:Quantico;">1. You are responsible for keeping the stations air breathable and free of deadly plasma.<p>
+		<p style= "text-align:left;font-family:Quantico;">2. You are responsible for returning rooms to habitable temperatures.<p>
+		<p style= "text-align:left;font-family:Quantico;">3. You are responsible for fighting fires that break out.<p>
+		<p style= "text-align:left;font-family:Quantico;">4. You are responsible for restoring breached rooms air to life-supporting quality.<p>
+		<p style= "text-align:left;font-family:Quantico;">5. You are responsible for fulfilling the rare request for gas canisters from outside of your department.<p>
+		<p style= "text-align:left;font-family:Quantico;">6. Be prepared to take on the SOP for a station engineer if a station engineer is not present.<p><hr style= "color: midnightblue">
+		<p style= "text-align:left; color: navy;font-family:Bruno Ace SC;font-size: 125%"><b>Chief Engineer</b><p>
+		<p style= "text-align:left;font-family:Quantico;">1. You are responsible for managing all aspects of the engineering department, including all roles listed above.<p>
+		<p style= "text-align:left;font-family:Quantico;">2. You are the engine czar, the engine will be run as you dictate it.<p>
+		<p style= "text-align:left;font-family:Quantico;">3. Protect Polly from those who would do her harm.<p>
+		<p style= "text-align:left;font-family:Quantico;">4. You are expected to have broad knowledge of <b>every role listed above</b> and to be able to fulfill SOP for each one as needed.<p>
+		<p style= "text-align:left;font-family:Quantico;">5. You are expected to teach new and existing engineering personnel as needed and requested.<p>
+		<p style= "text-align:left;font-family:Quantico;">6. Refer to <b>Command SOP</b> for a broader list of duties as a member of command.<p>
         </body>
 		</html>"}
 
