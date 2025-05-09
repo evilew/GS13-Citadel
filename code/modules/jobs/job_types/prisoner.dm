@@ -46,4 +46,3 @@
 	id = /obj/item/card/id/prisoner
 	ears = /obj/item/radio/headset/headset_prisoner
 	belt = null
-	backpack_contents = list(/obj/item/book/manual/prisoner_SOP)
