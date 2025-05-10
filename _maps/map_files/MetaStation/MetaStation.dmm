@@ -1003,6 +1003,7 @@
 	network = list("ss13","prison")
 	},
 /obj/structure/bed,
+/obj/item/book/manual/prisoner_SOP,
 /turf/open/floor/plasteel,
 /area/security/prison)
 "adu" = (
@@ -1011,6 +1012,7 @@
 	network = list("ss13","prison")
 	},
 /obj/structure/bed,
+/obj/item/book/manual/prisoner_SOP,
 /turf/open/floor/plasteel,
 /area/security/prison)
 "adv" = (
@@ -1044,6 +1046,7 @@
 	network = list("ss13","prison")
 	},
 /obj/structure/bed,
+/obj/item/book/manual/prisoner_SOP,
 /turf/open/floor/plasteel,
 /area/security/prison)
 "ady" = (
@@ -8320,6 +8323,7 @@
 	id = "Cell 1";
 	name = "Cell 1 Locker"
 	},
+/obj/item/book/manual/prisoner_SOP,
 /turf/open/floor/plasteel,
 /area/security/brig)
 "aBa" = (
@@ -8327,6 +8331,7 @@
 	id = "Cell 2";
 	name = "Cell 2 Locker"
 	},
+/obj/item/book/manual/prisoner_SOP,
 /turf/open/floor/plasteel,
 /area/security/brig)
 "aBb" = (
@@ -8334,6 +8339,7 @@
 	id = "Cell 3";
 	name = "Cell 3 Locker"
 	},
+/obj/item/book/manual/prisoner_SOP,
 /turf/open/floor/plasteel,
 /area/security/brig)
 "aBc" = (
@@ -8425,6 +8431,7 @@
 	c_tag = "Detective's Office";
 	dir = 4
 	},
+/obj/item/book/manual/sec_SOP,
 /turf/open/floor/plasteel/grimy,
 /area/security/detectives_office)
 "aBl" = (
@@ -11213,6 +11220,7 @@
 /obj/effect/turf_decal/tile/red{
 	dir = 8
 	},
+/obj/item/book/manual/sec_SOP,
 /turf/open/floor/plasteel,
 /area/security/checkpoint/supply)
 "aUl" = (
@@ -14160,6 +14168,7 @@
 /obj/effect/turf_decal/tile/red{
 	dir = 4
 	},
+/obj/item/book/manual/sec_SOP,
 /turf/open/floor/plasteel,
 /area/security/checkpoint/customs)
 "bdd" = (
@@ -14373,6 +14382,7 @@
 /obj/effect/turf_decal/tile/red{
 	dir = 8
 	},
+/obj/item/book/manual/sec_SOP,
 /turf/open/floor/plasteel,
 /area/security/checkpoint/engineering)
 "beq" = (
@@ -23772,6 +23782,7 @@
 /obj/effect/turf_decal/tile/blue{
 	dir = 4
 	},
+/obj/item/book/manual/med_SOP,
 /turf/open/floor/plasteel/white,
 /area/medical/storage)
 "bYU" = (
@@ -23795,6 +23806,7 @@
 /obj/effect/turf_decal/tile/blue{
 	dir = 4
 	},
+/obj/item/book/manual/med_SOP,
 /turf/open/floor/plasteel/white,
 /area/medical/storage)
 "bYV" = (
@@ -25170,6 +25182,7 @@
 /obj/machinery/light{
 	dir = 4
 	},
+/obj/item/book/manual/sec_SOP,
 /turf/open/floor/carpet/black,
 /area/security/checkpoint/science/research)
 "ccq" = (
@@ -29103,6 +29116,7 @@
 	dir = 4;
 	pixel_y = 16
 	},
+/obj/item/book/manual/service_SOP,
 /turf/open/floor/carpet/black,
 /area/service/hydroponics)
 "clT" = (
@@ -29357,6 +29371,9 @@
 	pixel_y = 6
 	},
 /obj/structure/table,
+/obj/item/book/manual/science_SOP{
+	pixel_x = 16
+	},
 /turf/open/floor/plasteel/white,
 /area/science/lab)
 "cmH" = (
@@ -34900,6 +34917,9 @@
 	},
 /obj/structure/table,
 /obj/item/storage/box/donkpockets/donkpocketteriyaki,
+/obj/item/book/manual/med_SOP{
+	pixel_x = -10
+	},
 /turf/open/floor/plasteel/white/side,
 /area/medical/medbay/aft)
 "cyQ" = (
@@ -42179,6 +42199,7 @@
 /obj/effect/turf_decal/tile/red{
 	dir = 4
 	},
+/obj/item/book/manual/sec_SOP,
 /turf/open/floor/plasteel,
 /area/hallway/secondary/exit/departure_lounge)
 "cNd" = (
@@ -46477,6 +46498,7 @@
 /area/hallway/secondary/entry)
 "dig" = (
 /obj/structure/table/wood,
+/obj/item/book/manual/greytide_SOP,
 /turf/open/floor/plasteel/grimy,
 /area/hallway/primary/port)
 "dio" = (
@@ -50755,6 +50777,7 @@
 /obj/machinery/keycard_auth{
 	pixel_y = -24
 	},
+/obj/item/book/manual/science_SOP,
 /turf/open/floor/plasteel/cafeteria{
 	dir = 5
 	},
@@ -50848,6 +50871,9 @@
 /obj/item/flashlight/lamp/green{
 	pixel_x = 1;
 	pixel_y = 5
+	},
+/obj/item/book/manual/command_SOP{
+	pixel_x = 8
 	},
 /turf/open/floor/plasteel/dark,
 /area/command/bridge)
@@ -51106,6 +51132,7 @@
 	dir = 4
 	},
 /obj/item/mop,
+/obj/item/book/manual/service_SOP,
 /turf/open/floor/plasteel/cafeteria{
 	dir = 5
 	},
@@ -51515,6 +51542,13 @@
 	},
 /turf/open/floor/engine,
 /area/science/mixing)
+"fcu" = (
+/obj/structure/chair{
+	dir = 8
+	},
+/obj/item/pen/red,
+/turf/open/floor/wood,
+/area/service/lawoffice)
 "fcO" = (
 /obj/machinery/atmospherics/pipe/manifold/supply/hidden{
 	dir = 4
@@ -52190,6 +52224,9 @@
 	},
 /obj/effect/turf_decal/tile/blue{
 	dir = 8
+	},
+/obj/item/book/manual/med_SOP{
+	pixel_y = 16
 	},
 /turf/open/floor/plasteel/cafeteria,
 /area/command/heads_quarters/cmo)
@@ -54143,6 +54180,9 @@
 	},
 /obj/machinery/computer/security/telescreen/entertainment{
 	pixel_y = 32
+	},
+/obj/item/book/manual/command_SOP{
+	pixel_x = 16
 	},
 /turf/open/floor/carpet,
 /area/command/heads_quarters/captain/private)
@@ -56739,6 +56779,7 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
 	dir = 6
 	},
+/obj/item/book/manual/service_SOP,
 /turf/open/floor/plasteel,
 /area/command/heads_quarters/hop)
 "hXP" = (
@@ -61791,6 +61832,9 @@
 	req_access_txt = "28"
 	},
 /obj/structure/table/wood,
+/obj/item/book/manual/command_SOP{
+	pixel_x = 16
+	},
 /turf/open/floor/wood,
 /area/command/heads_quarters/hop)
 "kHw" = (
@@ -62773,6 +62817,10 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
 /obj/effect/turf_decal/tile/brown{
 	dir = 4
+	},
+/obj/item/book/manual/greytide_SOP{
+	pixel_y = 16;
+	pixel_x = 16
 	},
 /turf/open/floor/plasteel,
 /area/commons/storage/primary)
@@ -64647,6 +64695,7 @@
 	dir = 8
 	},
 /obj/item/book/manual/gato_spacelaw,
+/obj/item/book/manual/sec_SOP,
 /turf/open/floor/plasteel,
 /area/security/checkpoint/medical)
 "mgJ" = (
@@ -65887,6 +65936,7 @@
 /obj/machinery/atmospherics/components/unary/vent_pump/on{
 	dir = 8
 	},
+/obj/item/book/manual/supply_SOP,
 /turf/open/floor/plasteel,
 /area/cargo/qm)
 "mSd" = (
@@ -65998,6 +66048,9 @@
 /obj/effect/turf_decal/tile/neutral,
 /obj/effect/turf_decal/tile/neutral{
 	dir = 8
+	},
+/obj/item/book/manual/engi_SOP{
+	pixel_x = 16
 	},
 /turf/open/floor/plasteel,
 /area/command/heads_quarters/ce)
@@ -66824,6 +66877,7 @@
 	icon_state = "drain";
 	name = "drain"
 	},
+/obj/item/book/manual/service_SOP,
 /turf/open/floor/carpet/black,
 /area/service/hydroponics)
 "nyA" = (
@@ -69758,6 +69812,7 @@
 /area/engineering/atmos)
 "paQ" = (
 /obj/structure/closet/secure_closet/personal/cabinet,
+/obj/item/book/manual/greytide_SOP,
 /turf/open/floor/carpet/gato,
 /area/commons/dorms)
 "paS" = (
@@ -69787,6 +69842,9 @@
 /obj/item/kitchen/fork{
 	pixel_x = -8;
 	pixel_y = 3
+	},
+/obj/item/book/manual/science_SOP{
+	pixel_x = 16
 	},
 /turf/open/floor/carpet/black,
 /area/science/research)
@@ -70470,6 +70528,7 @@
 	icon_state = "4-8"
 	},
 /obj/structure/table/wood/poker,
+/obj/item/book/manual/greytide_SOP,
 /turf/open/floor/carpet/orange,
 /area/commons/locker)
 "pse" = (
@@ -71150,6 +71209,9 @@
 /obj/structure/table/glass,
 /obj/effect/turf_decal/tile/red{
 	dir = 4
+	},
+/obj/item/book/manual/command_SOP{
+	pixel_y = 16
 	},
 /turf/open/floor/plasteel/dark,
 /area/command/bridge)
@@ -72087,6 +72149,9 @@
 /obj/structure/cable/yellow{
 	icon_state = "2-8"
 	},
+/obj/item/book/manual/engi_SOP{
+	pixel_x = 16
+	},
 /turf/open/floor/plasteel,
 /area/engineering/break_room)
 "qmj" = (
@@ -72987,6 +73052,10 @@
 	},
 /obj/item/book/manual/gato_spacelaw,
 /obj/item/cartridge/detective,
+/obj/item/book/manual/sec_SOP{
+	pixel_y = 8;
+	pixel_x = 8
+	},
 /turf/open/floor/plasteel/dark,
 /area/command/heads_quarters/hos)
 "qJk" = (
@@ -73100,6 +73169,7 @@
 	dir = 8
 	},
 /obj/structure/table/wood,
+/obj/item/book/manual/service_SOP,
 /turf/open/floor/wood,
 /area/service/bar)
 "qNe" = (
@@ -73213,6 +73283,9 @@
 	},
 /obj/effect/turf_decal/tile/brown{
 	dir = 1
+	},
+/obj/item/book/manual/supply_SOP{
+	pixel_x = -6
 	},
 /turf/open/floor/plasteel/dark/side{
 	dir = 8
@@ -75494,6 +75567,7 @@
 /obj/machinery/airalarm{
 	pixel_y = 23
 	},
+/obj/item/book/manual/greytide_SOP,
 /turf/open/floor/wood,
 /area/commons/dorms)
 "sbt" = (
@@ -75682,6 +75756,9 @@
 /obj/effect/turf_decal/tile/yellow{
 	dir = 4
 	},
+/obj/item/book/manual/engi_SOP{
+	pixel_x = 16
+	},
 /turf/open/floor/plasteel,
 /area/engineering/break_room)
 "sfb" = (
@@ -75826,11 +75903,17 @@
 	dir = 1
 	},
 /area/command/gateway)
+"siV" = (
+/obj/structure/chair/stool,
+/obj/item/book/manual/greytide_SOP,
+/turf/open/floor/wood,
+/area/maintenance/port/aft)
 "siX" = (
 /obj/structure/closet/secure_closet/personal/cabinet,
 /obj/machinery/airalarm{
 	pixel_y = 23
 	},
+/obj/item/book/manual/greytide_SOP,
 /turf/open/floor/carpet,
 /area/commons/dorms)
 "sjK" = (
@@ -78523,7 +78606,8 @@
 /area/engineering/atmos)
 "tNG" = (
 /obj/structure/table/reinforced,
-/obj/item/paper,
+/obj/item/book/manual/sec_SOP,
+/obj/item/book/manual/sec_SOP,
 /turf/open/floor/plasteel/dark,
 /area/security/office)
 "tNR" = (
@@ -85481,14 +85565,19 @@
 /area/cargo/warehouse)
 "xxq" = (
 /obj/structure/table/wood,
-/obj/item/book/manual/wiki/security_space_law,
-/obj/item/book/manual/wiki/security_space_law,
-/obj/item/pen/red,
 /obj/machinery/computer/security/telescreen{
 	desc = "Used for watching Prison Wing holding areas.";
 	name = "Prison Monitor";
 	network = list("prison");
 	pixel_y = 30
+	},
+/obj/item/book/manual/sec_SOP,
+/obj/item/book/manual/sec_SOP,
+/obj/item/book/manual/gato_spacelaw{
+	pixel_y = -8
+	},
+/obj/item/book/manual/gato_spacelaw{
+	pixel_y = -8
 	},
 /turf/open/floor/wood,
 /area/service/lawoffice)
@@ -103983,7 +104072,7 @@ dux
 cbq
 dux
 diF
-cjt
+siV
 cjt
 cjt
 ckP
@@ -118323,7 +118412,7 @@ ayJ
 ayJ
 lNc
 dPl
-jzU
+fcu
 jzU
 dgy
 rCx
