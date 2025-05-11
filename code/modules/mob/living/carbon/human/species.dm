@@ -1683,8 +1683,10 @@ GLOBAL_LIST_EMPTY(roundstart_race_names)
 		radiation = 0
 		return TRUE
 
+	// GS13 EDIT - allows for skipping negative effects of rad without removing them
 	if(HAS_TRAIT(H, TRAIT_RADRESONANCE))
 		return TRUE
+	// GS13 END EDIT
 
 	if(HAS_TRAIT(H, TRAIT_ROBOTIC_ORGANISM))
 		return //Robots are hardened against radiation, but suffer system corruption at very high levels.
