@@ -1683,6 +1683,9 @@ GLOBAL_LIST_EMPTY(roundstart_race_names)
 		radiation = 0
 		return TRUE
 
+	if(HAS_TRAIT(H, TRAIT_RADRESONANCE))
+		return TRUE
+
 	if(HAS_TRAIT(H, TRAIT_ROBOTIC_ORGANISM))
 		return //Robots are hardened against radiation, but suffer system corruption at very high levels.
 
