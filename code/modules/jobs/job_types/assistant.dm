@@ -45,6 +45,7 @@ Assistant
 /datum/outfit/job/assistant
 	name = "Assistant"
 	jobtype = /datum/job/assistant
+	
 
 /datum/outfit/job/assistant/pre_equip(mob/living/carbon/human/H, visualsOnly = FALSE, client/preference_source)
 	..()

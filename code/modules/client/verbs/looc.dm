@@ -37,12 +37,13 @@ GLOBAL_VAR_INIT(normal_looc_colour, "#6699CC")
 			to_chat(src, "<B>Advertising other servers is not allowed.</B>")
 			log_admin("[key_name(src)] has attempted to advertise in LOOC: [msg]")
 			return
-		if(mob.stat)
-			to_chat(src, "<span class='danger'>You cannot use LOOC while unconscious or dead.</span>")
-			return
-		if(isdead(mob))
-			to_chat(src, "<span class='danger'>You cannot use LOOC while ghosting.</span>")
-			return
+		//if(mob.stat)
+		//	to_chat(src, "<span class='danger'>You cannot use LOOC while unconscious or dead.</span>")
+		//	return
+		//if(isdead(mob))
+		//	to_chat(src, "<span class='danger'>You cannot use LOOC while ghosting.</span>")
+		//	return
+		//GS13 - removed LOOC limits for ghosts (paraphrased from old code)
 		if(HAS_TRAIT(mob, TRAIT_LOOC_MUTE))
 			to_chat(src, "<span class='danger'>You cannot use LOOC right now.</span>")
 			return
@@ -52,29 +53,21 @@ GLOBAL_VAR_INIT(normal_looc_colour, "#6699CC")
 
 	mob.log_talk(msg,LOG_OOC, tag="LOOC")
 
-	var/list/heard = get_hearers_in_view(7, get_top_level_mob(src.mob))
-	for(var/mob/M in heard)
-		if(!M.client)
+	// GS13 - LOOC tweaks - Observers, mobs in containers can properly hear LOOC
+	// Search everything in the view for anything that might be a mob, or contain a mob.
+	var/list/client/targets = list()
+	var/list/turf/in_view = list()
+	for(var/turf/viewed_turf in view(get_turf(mob)))
+		in_view[viewed_turf] = TRUE
+	for(var/client/client in GLOB.clients)
+		if(!client.mob || !(client.prefs.toggles & CHAT_OOC) || (client in GLOB.admins))
 			continue
-		var/client/C = M.client
-		if (C in GLOB.admins)
-			continue //they are handled after that
+		if(in_view[get_turf(client.mob)])
+			targets |= client
+			to_chat(client, "<span class='looc'><span class='prefix'>LOOC:</span> <EM>[src.mob.name]:</EM> <span class='message'>[msg]</span></b></font>")
 
-		if (isobserver(M))
-			continue //Also handled later.
-
-		if(C.prefs.chat_toggles & CHAT_OOC)
-			if(GLOB.LOOC_COLOR)
-				to_chat(C, "<font color='[GLOB.LOOC_COLOR]'><b><span class='prefix'>LOOC:</span> <EM>[src.mob.name]:</EM> <span class='message'>[msg]</span></b></font>")
-			else
-				to_chat(C, "<span class='looc'><span class='prefix'>LOOC:</span> <EM>[src.mob.name]:</EM> <span class='message'>[msg]</span></span>")
-
-	for(var/client/C in GLOB.admins)
-		if(C.prefs.chat_toggles & CHAT_OOC)
-			var/prefix = "(R)LOOC"
-			if (C.mob in heard)
-				prefix = "LOOC"
-			if(GLOB.LOOC_COLOR)
-				to_chat(C, "<font color='[GLOB.LOOC_COLOR]'><b>[ADMIN_FLW(usr)] <span class='prefix'>[prefix]:</span> <EM>[src.key]/[src.mob.name]:</EM> <span class='message'>[msg]</span></b></font>")
-			else
-				to_chat(C, "<span class='looc'>[ADMIN_FLW(usr)] <span class='prefix'>[prefix]:</span> <EM>[src.key]/[src.mob.name]:</EM> <span class='message'>[msg]</span></span>")
+	for(var/client/client in GLOB.admins)
+		if(!(client.prefs.toggles & CHAT_OOC))
+			continue
+		var/prefix = "(R)LOOC"
+		to_chat(client, "<span class='looc'><span class='prefix'>[prefix]:</span> <EM>[ADMIN_LOOKUPFLW(usr)]:</EM> <span class='message'>[msg]</span></span>", avoid_highlighting = (client == src))
