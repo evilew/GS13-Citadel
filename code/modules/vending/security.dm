@@ -14,7 +14,10 @@
 					/obj/item/storage/box/evidence = 6,
 					/obj/item/flashlight/seclite = 4,
 					/obj/item/restraints/legcuffs/bola/energy = 7,
-					/obj/item/secbat = 5)
+					/obj/item/secbat = 5,
+					/obj/item/book/manual/sec_SOP = 5,
+					/obj/item/book/manual/prisoner_SOP = 2 //GS13
+					)
 	contraband = list(/obj/item/clothing/glasses/sunglasses = 2,
 					/obj/item/storage/fancy/donut_box = 2,
 					/obj/item/storage/belt/sabre/secbelt = 1)
