@@ -439,7 +439,9 @@
 				dna.remove_mutation(HM.type)
 
 	radiation -= min(radiation, RAD_LOSS_PER_TICK)
-	if(radiation > RAD_MOB_SAFE)
+	// GS13 EDIT allows for skipping of toxic damage from rads
+	// if(radiation > RAD_MOB_SAFE)
+	if(radiation > RAD_MOB_SAFE && !HAS_TRAIT(src, TRAIT_RADRESONANCE))	// GS13 END EDIT
 		if(!HAS_TRAIT(src, TRAIT_ROBOTIC_ORGANISM))
 			adjustToxLoss(log(radiation-RAD_MOB_SAFE)*RAD_TOX_COEFFICIENT)
 		else
