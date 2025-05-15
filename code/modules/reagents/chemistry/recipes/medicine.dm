@@ -377,3 +377,11 @@
 	id = /datum/reagent/medicine/limb_regrowth
 	results = list(/datum/reagent/medicine/limb_regrowth = 2)
 	required_reagents = list(/datum/reagent/blood = 1, /datum/reagent/slime_toxin = 1)
+
+// GS13 EDIT
+/datum/chemical_reaction/prussian_blue
+	name = "Prussian Blue"
+	id = /datum/reagent/medicine/prussian_blue
+	results = list(/datum/reagent/medicine/prussian_blue = 2)
+	required_reagents = list( /datum/reagent/iron = 1, /datum/reagent/toxin/cyanide = 6)
+// GS13 END EDIT
