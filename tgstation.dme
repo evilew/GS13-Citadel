@@ -3989,6 +3989,7 @@
 #include "GainStation13\code\game\objects\structures\table_racks.dm"
 #include "GainStation13\code\game\objects\structures\beds_chairs\bed.dm"
 #include "GainStation13\code\game\objects\structures\beds_chairs\chair.dm"
+#include "GainStation13\code\game\objects\structures\crates_lockers\closets\utility_closets.dm"
 #include "GainStation13\code\game\objects\structures\crates_lockers\closets\secure\psychology.dm"
 #include "GainStation13\code\game\objects\structures\crates_lockers\crates\wooden.dm"
 #include "GainStation13\code\game\turfs\closed.dm"
