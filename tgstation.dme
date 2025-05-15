@@ -4107,6 +4107,7 @@
 #include "GainStation13\code\modules\reagents\chemistry\recipes\fatchem.dm"
 #include "GainStation13\code\modules\reagents\chemistry\recipes\fatdrinks.dm"
 #include "GainStation13\code\modules\reagents\chemistry\recipes\others.dm"
+#include "GainStation13\code\modules\reagents\chemistry\recipes\medicine.dm"
 #include "GainStation13\code\modules\reagents\chemistry\recipes\ROCKANDSTONEdrinks.dm"
 #include "GainStation13\code\modules\reagents\reagent_containers\barrel_tank.dm"
 #include "GainStation13\code\modules\reagents\reagent_containers\pill.dm"
