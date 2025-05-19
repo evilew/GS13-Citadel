@@ -64624,6 +64624,10 @@
 /obj/effect/turf_decal/delivery,
 /turf/open/floor/plasteel/dark,
 /area/engineering/main)
+"vQS" = (
+/obj/structure/pole,
+/turf/open/floor/plasteel/dark,
+/area/maintenance/department/crew_quarters/dorms)
 "vRi" = (
 /obj/structure/cable{
 	icon_state = "1-2"
@@ -102156,7 +102160,7 @@ akf
 eqD
 oMN
 vlF
-xbJ
+vQS
 aiT
 aaa
 tgv

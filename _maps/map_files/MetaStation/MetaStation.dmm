@@ -33579,6 +33579,7 @@
 	light_color = "#FF3232"
 	},
 /obj/structure/chair/sofa/corp/right,
+/obj/item/stack/spacecash/c10,
 /turf/open/floor/carpet/black,
 /area/service/bar)
 "cwd" = (
@@ -42809,13 +42810,9 @@
 /turf/closed/wall,
 /area/hallway/secondary/exit/departure_lounge)
 "cPc" = (
-/obj/structure/table/plasmaglass,
 /obj/item/clothing/under/misc/stripper,
-/obj/item/reagent_containers/pill/butt_enlargement{
-	pixel_x = 8;
-	pixel_y = 10
-	},
 /obj/effect/landmark/start/chief_engineer,
+/obj/structure/pole,
 /turf/open/floor/light/colour_cycle/dancefloor_a,
 /area/service/bar)
 "cPd" = (
@@ -42829,6 +42826,7 @@
 	light_color = "#FF3232"
 	},
 /obj/effect/landmark/start/assistant,
+/obj/item/stack/spacecash/c1,
 /turf/open/floor/carpet/black,
 /area/service/bar)
 "cPf" = (
