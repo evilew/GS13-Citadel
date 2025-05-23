@@ -40,3 +40,18 @@
 	cost = 1500
 	contains = list(/obj/item/vending_refill/clothing)
 	crate_name = "clothesmate supply crate"
+
+/datum/supply_pack/misc/sop_manuals
+	name = "Standard Operating Procedure Book Pack"
+	desc = "A pack of all SOP books released by GATO! Contains 9 releases."
+	cost = 1000
+	contains = list(/obj/item/book/manual/science_SOP,
+					/obj/item/book/manual/service_SOP,
+					/obj/item/book/manual/supply_SOP,
+					/obj/item/book/manual/engi_SOP,
+					/obj/item/book/manual/med_SOP,
+					/obj/item/book/manual/sec_SOP,
+					/obj/item/book/manual/command_SOP,
+					/obj/item/book/manual/prisoner_SOP,
+					/obj/item/book/manual/greytide_SOP)
+	crate_name = "sop books crate"

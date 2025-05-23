@@ -15,7 +15,8 @@
 					/obj/item/electronics/airalarm = 10,
 					/obj/item/electronics/firealarm = 10,
 					/obj/item/electronics/firelock = 10,
-					/obj/item/rcd_ammo = 3
+					/obj/item/rcd_ammo = 3,
+					/obj/item/book/manual/engi_SOP = 5 //GS13 edit
 					)
 	contraband = list(/obj/item/stock_parts/cell/potato = 3,
 					/obj/item/rcd_ammo = 2,

@@ -10721,7 +10721,9 @@
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
-/mob/living/simple_animal/sloth/paperwork,
+/mob/living/simple_animal/pet/fox/fennec{
+	name = "Goob"
+	},
 /turf/open/floor/plasteel{
 	dir = 1;
 	icon_state = "floor_whole"

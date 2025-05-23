@@ -1426,6 +1426,7 @@ GLOBAL_LIST_EMPTY(preferences_datums)
 					dat += "<b>Show that you want to be confronted:</b><a href='?_src_=prefs;preference=trouble_seeker'>[trouble_seeker == TRUE ? "Enabled" : "Disabled"]</a><BR>"
 					dat += "<b>Bot Feeding:</b><a href='?_src_=prefs;preference=bot_feeding'>[bot_feeding == TRUE ? "Enabled" : "Disabled"]</a><BR>"
 					dat += "<b>Blueberry Inflation:</b><a href='?_src_=prefs;preference=blueberry_inflation'>[blueberry_inflation == TRUE ? "Enabled" : "Disabled"]</a><BR>"
+
 					dat += "<b>Hear Burping Noises:</b> <a href='?_src_=prefs;preference=burping_noises'>[(cit_toggles & BURPING_NOISES) ? "Allowed" : "Disallowed"]</a><br>"
 					dat += "<b>Hear Farting Noises:</b> <a href='?_src_=prefs;preference=farting_noises'>[(cit_toggles & FARTING_NOISES) ? "Allowed" : "Disallowed"]</a><br>"
 
@@ -1454,6 +1455,8 @@ GLOBAL_LIST_EMPTY(preferences_datums)
 					dat += "<b>Extreme Fatness Vulnerability:</b><a href='?_src_=prefs;preference=extreme_fatness_vulnerable'>[extreme_fatness_vulnerable == TRUE ? "Enabled" : "Disabled"]</a><BR>"
 					dat += "<br></br>"
 					dat += "<b>Object TF:</b><a href='?_src_=prefs;preference=object_tf'>[object_tf == TRUE ? "Enabled" : "Disabled"]</a><BR>"
+					dat += "<br></br>"
+					dat += "<b>Transformation:</b><a href='?_src_=prefs;preference=transformation'>[transformation == TRUE ? "Enabled" : "Disabled"]</a><BR>"
 					dat += "<br></br>"
 					dat += "<b>Extreme Weight Gain (Sprite Size scales with weight):</b><a href='?_src_=prefs;preference=weight_gain_extreme'>[weight_gain_extreme == TRUE ? "Enabled" : "Disabled"]</a><BR>"
 					dat += "<b>Persistent Fat (endround/cryo weight becomes your new start weight):</b><a href='?_src_=prefs;preference=weight_gain_persistent'>[weight_gain_persistent == TRUE ? "Enabled" : "Disabled"]</a><BR>"
@@ -3575,6 +3578,8 @@ GLOBAL_LIST_EMPTY(preferences_datums)
 
 				if("object_tf")
 					object_tf = !object_tf
+				if("transformation")
+					transformation = !transformation
 
 				if("blueberry_inflation")
 					blueberry_inflation = !blueberry_inflation

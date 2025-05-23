@@ -160,7 +160,8 @@
 		/obj/item/clothing/shoes/sneakers/black = 3,
 		/obj/item/clothing/gloves/fingerless = 3,
 		/obj/item/clothing/head/soft = 3,
-		/obj/item/radio/headset/headset_cargo = 3
+		/obj/item/radio/headset/headset_cargo = 3,
+		/obj/item/book/manual/supply_SOP = 5 //GS13 edit
 	)
 	premium = list(
 		/obj/item/clothing/under/rank/cargo/miner = 3,
@@ -222,7 +223,9 @@
 					/obj/item/clothing/suit/toggle/labcoat/depjacket/sci = 4,
 					/obj/item/clothing/shoes/sneakers/white = 4,
 					/obj/item/radio/headset/headset_sci = 4,
-					/obj/item/clothing/mask/gas = 5)
+					/obj/item/clothing/mask/gas = 5,
+					/obj/item/book/manual/science_SOP = 4 //GS13
+					)
 	refill_canister = /obj/item/vending_refill/wardrobe/science_wardrobe
 	payment_department = ACCOUNT_SCI
 /obj/item/vending_refill/wardrobe/science_wardrobe
@@ -244,7 +247,9 @@
 					/obj/item/clothing/suit/apron/overalls = 5,
 					/obj/item/clothing/under/rank/civilian/hydroponics = 5,
 					/obj/item/clothing/under/rank/civilian/hydroponics/skirt = 5,
-					/obj/item/clothing/mask/bandana = 4)
+					/obj/item/clothing/mask/bandana = 4,
+					/obj/item/book/manual/service_SOP = 1 //GS13
+					)
 	refill_canister = /obj/item/vending_refill/wardrobe/hydro_wardrobe
 	payment_department = ACCOUNT_SRV
 	light_color = LIGHT_COLOR_ELECTRIC_GREEN
@@ -270,7 +275,9 @@
 					/obj/item/storage/backpack/satchel/explorer = 1,
 					/obj/item/clothing/glasses/regular = 2,
 					/obj/item/clothing/glasses/regular/jamjar = 1,
-					/obj/item/storage/bag/books = 1)
+					/obj/item/storage/bag/books = 1,
+					/obj/item/book/manual/service_SOP = 3 //GS13
+					)
 	refill_canister = /obj/item/vending_refill/wardrobe/curator_wardrobe
 	payment_department = ACCOUNT_SRV
 /obj/item/vending_refill/wardrobe/curator_wardrobe
@@ -300,7 +307,9 @@
 					/obj/item/circuitboard/machine/dish_drive = 1,
 					/obj/item/clothing/glasses/sunglasses/reagent = 1,
 					/obj/item/clothing/neck/petcollar = 3,
-					/obj/item/storage/belt/bandolier = 1)
+					/obj/item/storage/belt/bandolier = 1,
+					/obj/item/book/manual/service_SOP = 1//GS13
+					)
 	refill_canister = /obj/item/vending_refill/wardrobe/bar_wardrobe
 	payment_department = ACCOUNT_SRV
 /obj/item/vending_refill/wardrobe/bar_wardrobe
@@ -326,7 +335,9 @@
 					/obj/item/clothing/head/chefhat = 2,
 					/obj/item/reagent_containers/rag = 3,
 					/obj/item/book/granter/crafting_recipe/cooking_sweets_101 = 2,
-					/obj/item/book/granter/crafting_recipe/coldcooking = 2)
+					/obj/item/book/granter/crafting_recipe/coldcooking = 2,
+					/obj/item/book/manual/service_SOP = 1 //GS13
+					)
 	refill_canister = /obj/item/vending_refill/wardrobe/chef_wardrobe
 	payment_department = ACCOUNT_SRV
 /obj/item/vending_refill/wardrobe/chef_wardrobe
@@ -358,7 +369,9 @@
 					/obj/item/watertank/janitor = 2,
 					/obj/item/storage/belt/janitor = 2,
 					/obj/item/screwdriver = 2,
-					/obj/item/stack/cable_coil/random = 4)
+					/obj/item/stack/cable_coil/random = 4,
+					/obj/item/book/manual/service_SOP = 1 //GS13
+					)
 	refill_canister = /obj/item/vending_refill/wardrobe/jani_wardrobe
 	default_price = PRICE_CHEAP
 	extra_price = PRICE_EXPENSIVE * 0.8
@@ -393,7 +406,9 @@
 					/obj/item/clothing/suit/toggle/lawyer/purple = 3,
 					/obj/item/clothing/suit/toggle/lawyer/black = 3,
 					/obj/item/clothing/shoes/laceup = 3,
-					/obj/item/clothing/accessory/lawyers_badge = 3)
+					/obj/item/clothing/accessory/lawyers_badge = 3,
+					/obj/item/book/manual/sec_SOP = 1 //GS13
+					)
 	refill_canister = /obj/item/vending_refill/wardrobe/law_wardrobe
 	payment_department = ACCOUNT_SRV
 /obj/item/vending_refill/wardrobe/law_wardrobe
@@ -417,7 +432,8 @@
 					/obj/item/clothing/suit/chaplain/pharaoh = 2,
 					/obj/item/clothing/head/nemes = 1,
 					/obj/item/clothing/head/pharaoh = 1,
-					/obj/item/storage/fancy/candle_box = 3)
+					/obj/item/storage/fancy/candle_box = 3,
+					/obj/item/book/manual/service_SOP = 1)
 	premium = list(/obj/item/toy/plush/plushvar = 1,
 					/obj/item/toy/plush/narplush = 1)
 	refill_canister = /obj/item/vending_refill/wardrobe/chap_wardrobe
@@ -516,7 +532,9 @@
 					/obj/item/clothing/gloves/color/black = 2,
 					/obj/item/clothing/gloves/color/latex = 2,
 					/obj/item/reagent_containers/food/drinks/flask/det = 2,
-					/obj/item/storage/fancy/cigarettes = 5)
+					/obj/item/storage/fancy/cigarettes = 5,
+					/obj/item/book/manual/sec_SOP = 1 //GS13
+					)
 	premium = list(/obj/item/clothing/head/flatcap = 1)
 	refill_canister = /obj/item/vending_refill/wardrobe/det_wardrobe
 	extra_price = PRICE_EXPENSIVE * 1.75
@@ -550,7 +568,9 @@
 					/obj/item/clothing/suit/captunic = 1,
 					/obj/item/clothing/under/rank/captain/femformal = 1,
 					/obj/item/clothing/glasses/sunglasses/gar/supergar = 1,
-					/obj/item/clothing/gloves/color/captain = 1)
+					/obj/item/clothing/gloves/color/captain = 1,
+					/obj/item/book/manual/command_SOP = 1 //GS13
+					)
 	refill_canister = /obj/item/vending_refill/wardrobe/cap_wardrobe
 	payment_department = ACCOUNT_SEC
 	default_price = PRICE_ALMOST_EXPENSIVE
