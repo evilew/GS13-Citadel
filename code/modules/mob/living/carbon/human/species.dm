@@ -1730,6 +1730,26 @@ GLOBAL_LIST_EMPTY(roundstart_race_names)
 	return
 
 /datum/species/proc/help(mob/living/carbon/human/user, mob/living/carbon/human/target, datum/martial_art/attacker_style)
+ 	//GS13 edit start belly rub
+	if(user.zone_selected == BODY_ZONE_PRECISE_GROIN && user.health >= 0 && target == user)
+		user.visible_message("<span class='notice'>[user] rubs their belly!</span>", \
+		"<span class='notice'>You rub your belly!</span>")
+		user.reduce_fullness(rand(4,16), FALSE)
+		if(!HAS_TRAIT(user, TRAIT_ROBOTIC_ORGANISM))
+			user.adjust_nutrition(rand(-5,-1))
+		SEND_SIGNAL(user, COMSIG_ADD_MOOD_EVENT, "bellyrub_good", /datum/mood_event/bellyrub_good)
+		if(prob(5))
+			user.visible_message("<span class='notice'>While [user] rubs their belly, the spontaneous belch comes out!</span>", \
+			"<span class='notice'>Your belly massage made you to burp!</span>")
+			user.emote(pick("belch","burp"))
+		if(prob(10))
+			user.emote("gurgle")
+		user.DelayNextAction(100)
+		playsound(user, 'sound/weapons/thudswoosh.ogg', 50, 1, -1)
+		return FALSE
+
+	//GS13 edit end belly rub
+
 	if(target.health >= 0 && !HAS_TRAIT(target, TRAIT_FAKEDEATH))
 		target.help_shake_act(user)
 		if(target != user)

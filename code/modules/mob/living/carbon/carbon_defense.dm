@@ -294,6 +294,25 @@
 				target_message = "<span class='notice'>[M] boops your nose.</span>")
 			playsound(src, 'sound/items/Nose_boop.ogg', 50, 0)
 
+		//GS13 EDIT Belly rubs start
+		else if(M.zone_selected == BODY_ZONE_PRECISE_GROIN)
+			if(ishuman(src))
+				var/mob/living/carbon/human/H = src
+				M.visible_message("<span class='notice'>[M] rubs [H]'s belly to make [p_them()] feel better!</span>", \
+				"<span class='notice'>You rub [H]'s belly to make [p_them()] feel less stuffed!</span>")
+				H.reduce_fullness(rand(4,16), FALSE)
+				if(!HAS_TRAIT(H, TRAIT_ROBOTIC_ORGANISM))
+					H.adjust_nutrition(rand(-5,-1))
+				SEND_SIGNAL(H, COMSIG_ADD_MOOD_EVENT, "bellyrub_good", /datum/mood_event/bellyrub_good)
+				if(prob(5))
+					M.visible_message("<span class='notice'> Belly rubbing causes [H] to belch!</span>", \
+					"<span class='notice'>Your belly massage made [p_them()] to burp!</span>")
+					H.emote(pick("belch","burp"))
+				if(prob(10))
+					H.emote("gurgle")
+			M.DelayNextAction(100)
+		//GS13 EDIT Belly rubs end
+
 		else if(check_zone(M.zone_selected) == BODY_ZONE_HEAD)
 			var/datum/species/S
 			S = dna.species
