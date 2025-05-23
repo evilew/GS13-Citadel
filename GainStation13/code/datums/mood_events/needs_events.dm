@@ -14,6 +14,6 @@
 
 
 /datum/mood_event/bellyrub_good
-	description = "<span class='nicegreen'>I love bellly massage so much!</span>\n"
+	description = "<span class='nicegreen'>I really enjoed that belly massage!</span>\n"
 	mood_change = 3
 	timeout = 2 MINUTES

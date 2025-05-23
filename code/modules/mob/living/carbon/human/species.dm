@@ -1739,7 +1739,7 @@ GLOBAL_LIST_EMPTY(roundstart_race_names)
 			user.adjust_nutrition(rand(-5,-1))
 		SEND_SIGNAL(user, COMSIG_ADD_MOOD_EVENT, "bellyrub_good", /datum/mood_event/bellyrub_good)
 		if(prob(5))
-			user.visible_message("<span class='notice'>While [user] rubs their belly, the spontanious belch comes out!</span>", \
+			user.visible_message("<span class='notice'>While [user] rubs their belly, the spontaneous belch comes out!</span>", \
 			"<span class='notice'>Your belly massage made you to burp!</span>")
 			user.emote(pick("belch","burp"))
 		if(prob(10))
