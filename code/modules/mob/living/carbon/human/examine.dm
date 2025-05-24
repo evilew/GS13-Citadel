@@ -7,6 +7,7 @@
 	var/t_has = p_have()
 	var/t_is = p_are()
 	var/obscure_name
+	var/dispSize = round(12*size_multiplier) //GS13: gets the character's sprite size percent and converts it to the nearest half foot
 
 	if(isliving(user))
 		var/mob/living/L = user
@@ -116,6 +117,15 @@
 	var/effects_exam = status_effect_examines()
 	if(!isnull(effects_exam))
 		. += effects_exam
+
+	//GS13: Approximate character height based on current sprite scale
+	if(dispSize % 2) // returns 1 or 0. 1 meaning the height is not exact and the code below will execute, 0 meaning the height is exact and the else will trigger.
+		dispSize = dispSize - 1 //makes it even
+		dispSize = dispSize / 2 //rounds it out
+		. += "[t_He] appears to be around [dispSize] and a half feet tall."
+	else
+		dispSize = dispSize / 2
+		. += "[t_He] appears to be around [dispSize] feet tall."
 
 	//CIT CHANGES START HERE - adds genital details to examine text
 	if(LAZYLEN(internal_organs) && (user.client?.prefs.cit_toggles & GENITAL_EXAMINE))
